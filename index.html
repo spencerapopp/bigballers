@@ -3,32 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BIG BALLERS 2026-27 &#8212; Week 1 Intelligence &amp; Week 2 Preview Dashboard</title>
+<title>BIG BALLERS 2026-27 — Week 1 Intelligence & Week 2 Preview Dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
  --field:#0E1216; --panel:#171D25; --panel2:#1E2630; --line:#2A323D;
  --chalk:#EDEBE4; --muted:#9AA3AE; --gold:#D9A441; --gold-hi:#F0C96B;
- --qb:#D95040; --rb:#3FA66A; --wr:#3E7CB1; --te:#E0A32E; --k:#8E6FB8; --dst:#8A8F98;
  --win:#2E7D32; --loss:#C62828; --win-bg:rgba(46,125,50,0.18); --loss-bg:rgba(198,40,40,0.18);
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
 body{background:var(--field);color:var(--chalk);font-family:'Source Sans 3','Segoe UI',system-ui,sans-serif;font-size:16px;line-height:1.55;
  background-image:repeating-linear-gradient(180deg,transparent 0 119px,rgba(255,255,255,.025) 119px 120px)}
 h1,h2,h3,.disp{font-family:'Oswald','Arial Narrow',sans-serif;letter-spacing:.04em;text-transform:uppercase}
-a{color:var(--gold-hi);text-decoration:none}
 .wrap{max-width:1260px;margin:0 auto;padding:0 22px}
 
-/* nav */
+/* Tab Navigation */
 nav{position:sticky;top:0;z-index:50;background:rgba(14,18,22,.95);backdrop-filter:blur(8px);border-bottom:2px solid var(--gold)}
-nav .wrap{display:flex;gap:4px;align-items:center;overflow-x:auto;padding:10px 22px}
-nav a{font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:6px 12px;border-radius:4px;white-space:nowrap}
-nav a:hover,nav a:focus-visible{color:var(--gold-hi);background:var(--panel)}
-nav a:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+nav .wrap{display:flex;gap:8px;align-items:center;overflow-x:auto;padding:12px 22px;scrollbar-width:none}
+nav .wrap::-webkit-scrollbar{display:none}
+.navPill{background:transparent;border:1px solid transparent;color:var(--muted);font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:.12em;text-transform:uppercase;padding:8px 16px;border-radius:6px;cursor:pointer;white-space:nowrap;transition:all .2s ease}
+.navPill:hover{color:var(--gold-hi);background:var(--panel)}
+.navPill.active{background:var(--panel2);color:var(--gold-hi);border-color:var(--gold)}
 
-/* hero */
+/* Panels */
+.panel{display:none;animation:fadeIn .2s ease;padding:40px 0 60px}
+.panel.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+
+/* Hero */
 header{padding:56px 0 40px;text-align:center;border-bottom:1px solid var(--line);
  background:radial-gradient(ellipse 70% 90% at 50% -10%,rgba(217,164,65,.16),transparent)}
 .bb-logo{width:210px;height:210px;filter:drop-shadow(0 10px 30px rgba(0,0,0,.6))}
@@ -42,16 +45,14 @@ header h1 span{color:var(--gold)}
 .fact b{display:block;font-family:'Oswald',sans-serif;font-size:26px;color:var(--gold-hi);letter-spacing:.03em}
 .fact span{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 
-/* sections */
-section{padding:64px 0;border-bottom:1px solid var(--line)}
+/* General Typography */
 .eyebrow{font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:.3em;color:var(--gold);text-transform:uppercase}
-section h2{font-size:clamp(26px,3.6vw,40px);margin:8px 0 10px}
+.panel h2{font-size:clamp(26px,3.6vw,40px);margin:8px 0 10px}
 .lede{color:var(--muted);max-width:860px;font-size:17px;margin-bottom:30px}
 .lede strong{color:var(--chalk)}
 
-/* scoreboard cards */
+/* Scoreboard Cards */
 .sbgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:20px}
-@media(max-width:440px){.sbgrid{grid-template-columns:1fr}}
 .scard{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
 .scard-head{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;background:var(--panel2);border-bottom:1px solid var(--line)}
 .scard-tag{font-family:'Oswald',sans-serif;font-size:11.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold)}
@@ -66,18 +67,37 @@ section h2{font-size:clamp(26px,3.6vw,40px);margin:8px 0 10px}
 .scard-team.win .sc-pts{color:var(--gold-hi)}
 .scard-team.loss .sc-pts{color:var(--muted)}
 .scard-vs{font-family:'Oswald',sans-serif;font-size:12px;color:var(--muted);background:var(--panel2);padding:4px 8px;border-radius:4px}
-.scard-highlights{margin-top:14px;font-size:13.5px;color:var(--muted);display:grid;gap:8px}
-.scard-highlights p strong{color:var(--chalk)}
 .scard-stars{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;padding-top:12px;border-top:1px dotted var(--line)}
 .star-pill{font-size:11px;background:var(--panel2);border:1px solid var(--line);padding:2px 8px;border-radius:4px;color:var(--chalk)}
 .star-pill b{color:var(--gold-hi)}
 
-/* all play matrix */
+/* Snap Audit Grid */
+.audit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.audit-card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:8px;padding:18px}
+.audit-card h3{color:var(--chalk);font-size:17px;margin-bottom:2px}
+.audit-card .pts{font-family:'Oswald',sans-serif;color:var(--gold-hi);font-size:14.5px;margin-bottom:8px;display:block}
+.audit-card p{font-size:14px;color:var(--muted)}
+
+/* Week 2 Previews */
+.w2grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(370px,1fr));gap:20px}
+.w2{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.w2-top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:10px}
+.w2-tag{font-family:'Oswald',sans-serif;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.w2-odds{font-family:'Oswald',sans-serif;font-size:12.5px;color:var(--gold-hi);background:var(--panel2);padding:2px 8px;border-radius:4px}
+.w2-vs{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:12px}
+.w2-team b{font-family:'Oswald',sans-serif;font-size:16px;display:block}
+.w2-team span{font-size:12px;color:var(--muted)}
+.w2-team.right{text-align:right}
+.w2 p{font-size:13.5px;color:var(--muted)}
+.w2-keys{background:var(--panel2);border-radius:6px;padding:10px 12px;font-size:12.5px;color:var(--muted)}
+.w2-keys b{color:var(--gold-hi);font-family:'Oswald',sans-serif;letter-spacing:.05em}
+
+/* All Play Matrix */
 .matrix-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--panel);margin-top:20px}
-table.matrix{border-collapse:collapse;width:100%;min-width:980px;font-size:12px;text-align:center}
-table.matrix th{font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.05em;padding:9px 6px;background:var(--panel2);border-bottom:2px solid var(--gold);color:var(--muted)}
-table.matrix th.teamhead{text-align:left;padding-left:14px;color:var(--chalk);min-width:140px}
-table.matrix td{border:1px solid var(--line);padding:7px 4px}
+table.matrix{border-collapse:collapse;width:100%;min-width:1100px;font-size:12px;text-align:center}
+table.matrix th{font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.05em;padding:10px 8px;background:var(--panel2);border-bottom:2px solid var(--gold);color:var(--muted);white-space:nowrap}
+table.matrix th.teamhead{text-align:left;padding-left:14px;color:var(--chalk);min-width:160px}
+table.matrix td{border:1px solid var(--line);padding:8px 6px}
 table.matrix td.tname{font-family:'Oswald',sans-serif;text-align:left;padding-left:14px;background:var(--panel2);color:var(--chalk);white-space:nowrap}
 .m-w{background:var(--win-bg);color:#81C784;font-weight:700;font-family:'Oswald',sans-serif;border-radius:3px;display:inline-block;padding:2px 6px}
 .m-l{background:var(--loss-bg);color:#E57373;font-weight:700;font-family:'Oswald',sans-serif;border-radius:3px;display:inline-block;padding:2px 6px}
@@ -88,10 +108,9 @@ table.matrix td.tname{font-family:'Oswald',sans-serif;text-align:left;padding-le
 .luck-pos{color:#81C784;font-weight:600}
 .luck-neg{color:#E57373;font-weight:600}
 
-/* rankings */
+/* Power Rankings */
 .ranklist{display:grid;gap:10px}
 .rk{display:grid;grid-template-columns:52px 1fr auto auto;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 18px}
-.rk:hover{border-color:var(--gold)}
 .rk .num{font-family:'Oswald',sans-serif;font-size:28px;font-weight:700;color:var(--gold);text-align:center}
 .rk .tt{font-family:'Oswald',sans-serif;font-size:18px;letter-spacing:.03em}
 .rk .arch{font-size:13px;color:var(--muted)}
@@ -103,36 +122,7 @@ table.matrix td.tname{font-family:'Oswald',sans-serif;text-align:left;padding-le
 .grade{font-family:'Oswald',sans-serif;font-size:19px;font-weight:600;color:#0E1216;background:var(--gold);border-radius:6px;padding:4px 12px}
 .rk.top1{border-color:var(--gold);background:linear-gradient(90deg,rgba(217,164,65,.14),var(--panel) 55%)}
 
-/* week 2 preview cards */
-.w2grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(370px,1fr));gap:20px}
-.w2{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px;display:flex;flex-direction:column;gap:12px}
-.w2-top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:10px}
-.w2-tag{font-family:'Oswald',sans-serif;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
-.w2-odds{font-family:'Oswald',sans-serif;font-size:12.5px;color:var(--gold-hi);background:var(--panel2);padding:2px 8px;border-radius:4px}
-.w2-vs{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:12px}
-.w2-team b{font-family:'Oswald',sans-serif;font-size:16px;display:block}
-.w2-team span{font-size:12px;color:var(--muted)}
-.w2-team .proj{font-family:'Oswald',sans-serif;font-size:14px;color:var(--gold-hi);margin-top:2px}
-.w2-team.right{text-align:right}
-.w2 p{font-size:13.5px;color:var(--muted)}
-.w2 p strong{color:var(--chalk)}
-.w2-keys{background:var(--panel2);border-radius:6px;padding:10px 12px;font-size:12.5px;color:var(--muted)}
-.w2-keys b{color:var(--gold-hi);font-family:'Oswald',sans-serif;letter-spacing:.05em}
-
-/* callouts & superlatives */
-.callouts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:24px}
-.co{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:8px;padding:16px 18px}
-.co b{font-family:'Oswald',sans-serif;font-size:15px;letter-spacing:.05em;color:var(--gold-hi);display:block;margin-bottom:6px;text-transform:uppercase}
-.co p{font-size:14px;color:var(--muted)}
-.co p strong{color:var(--chalk)}
-
-.supgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
-.sup{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:10px;padding:20px 22px}
-.sup h3{font-size:16px;color:var(--gold-hi);margin-bottom:8px}
-.sup p{font-size:14px;color:var(--muted)}
-.sup p strong{color:var(--chalk)}
-
-/* history */
+/* History */
 .champgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:30px}
 .champ{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
 .champ.known{border-color:var(--gold);background:linear-gradient(180deg,rgba(217,164,65,.10),var(--panel))}
@@ -142,256 +132,388 @@ table.matrix td.tname{font-family:'Oswald',sans-serif;text-align:left;padding-le
 .champ-meta{font-size:12.5px;color:var(--muted);margin-top:4px}
 .champ p{font-size:13px;color:var(--muted);margin-top:8px}
 
-footer{padding:44px 0 60px;color:var(--muted);font-size:13px}
-footer .v{font-family:'Oswald',sans-serif;color:var(--gold);letter-spacing:.15em;text-transform:uppercase;font-size:12px}
-footer p{max-width:900px;margin-top:8px}
+/* Superlatives */
+.supgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.sup{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:10px;padding:20px 22px}
+.sup h3{font-size:16px;color:var(--gold-hi);margin-bottom:8px}
+.sup p{font-size:14px;color:var(--muted)}
 
-@media(prefers-reduced-motion:no-preference){
- .rk,.scard,.w2,.co,.sup{transition:transform .15s ease,border-color .15s ease}
- .scard:hover,.w2:hover,.sup:hover{transform:translateY(-2px)}
-}
+footer{padding:44px 0 60px;color:var(--muted);font-size:13px;text-align:center;border-top:1px solid var(--line)}
 </style>
 </head>
 <body>
 
-<nav><div class="wrap">
- <a href="#scoreboard">Week 1 Scoreboard</a>
- <a href="#allplay">All-Play Matrix</a>
- <a href="#rankings">Power Rankings</a>
- <a href="#nfltrends">NFL Reality Check</a>
- <a href="#week2">Week 2 Slate</a>
- <a href="#superlatives">Superlatives</a>
- <a href="#history">Record Book</a>
-</div></nav>
+<nav>
+ <div class="wrap" id="navTrack">
+  <button class="navPill active" data-tab="overview">Overview</button>
+  <button class="navPill" data-tab="scoreboard">W1 Scoreboard</button>
+  <button class="navPill" data-tab="snapaudit">Team Snap Audit</button>
+  <button class="navPill" data-tab="week2">W2 Matchups</button>
+  <button class="navPill" data-tab="matrix">All-Play Matrix</button>
+  <button class="navPill" data-tab="rankings">Power Rankings</button>
+  <button class="navPill" data-tab="history">Record Book</button>
+ </div>
+</nav>
 
 <header><div class="wrap">
-<svg viewBox="0 0 340 360" class="bb-logo" role="img" aria-label="Big Ballers league logo">
- <defs>
-  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
-   <stop offset="0" stop-color="#F0C96B"/><stop offset="0.5" stop-color="#D9A441"/><stop offset="1" stop-color="#A8752A"/>
-  </linearGradient>
-  <linearGradient id="pig" x1="0" y1="0" x2="1" y2="1">
-   <stop offset="0" stop-color="#8A4B2D"/><stop offset="0.5" stop-color="#5E2F1B"/>
-  </linearGradient>
- </defs>
- <circle cx="170" cy="170" r="164" fill="#12161C" stroke="url(#gold)" stroke-width="7"/>
- <circle cx="170" cy="170" r="146" fill="none" stroke="#2A313B" stroke-width="2"/>
- <circle cx="170" cy="170" r="122" fill="#1A212B" stroke="url(#gold)" stroke-width="2.5"/>
- <polygon points="170.0,42.0 174.6,55.7 189.0,55.8 177.4,64.4 181.8,78.2 170.0,69.8 158.2,78.2 162.6,64.4 151.0,55.8 165.4,55.7" fill="url(#gold)"/>
- <polygon points="112.0,68.0 114.8,76.2 123.4,76.3 116.5,81.5 119.1,89.7 112.0,84.7 104.9,89.7 107.5,81.5 100.6,76.3 109.2,76.2" fill="url(#gold)"/>
- <polygon points="228.0,68.0 230.8,76.2 239.4,76.3 232.5,81.5 235.1,89.7 228.0,84.7 220.9,89.7 223.5,81.5 216.6,76.3 225.2,76.2" fill="url(#gold)"/>
- <ellipse cx="170" cy="150" rx="70" ry="43" fill="url(#pig)" stroke="#3A2013" stroke-width="3" transform="rotate(-14 170 150)"/>
- <g transform="rotate(-14 170 150)" stroke="#EDEBE4" stroke-width="4" stroke-linecap="round">
-  <line x1="143" y1="150" x2="197" y2="150"/>
-  <line x1="152" y1="142" x2="152" y2="158"/><line x1="164" y1="142" x2="164" y2="158"/>
-  <line x1="176" y1="142" x2="176" y2="158"/><line x1="188" y1="142" x2="188" y2="158"/>
- </g>
- <g>
-  <path d="M28 196 l24 -12 v58 l-24 -12 z" fill="#A8752A"/>
-  <path d="M312 196 l-24 -12 v58 l24 -12 z" fill="#A8752A"/>
-  <rect x="48" y="182" width="244" height="50" rx="5" fill="url(#gold)" stroke="#7A5518" stroke-width="2.5"/>
-  <text x="170" y="217" text-anchor="middle" font-family="Oswald, Arial Narrow, sans-serif" font-size="33" font-weight="700" letter-spacing="4" fill="#12161C">BIG BALLERS</text>
- </g>
- <g stroke="#D9A441" stroke-width="2" stroke-linecap="round">
-  <line x1="86" y1="258" x2="132" y2="258"/>
-  <line x1="208" y1="258" x2="254" y2="258"/>
- </g>
- <text x="170" y="265" text-anchor="middle" font-family="Oswald, Arial Narrow, sans-serif" font-size="19" font-weight="600" letter-spacing="3" fill="#F0C96B">EST. 2017</text>
- <g fill="#D9A441">
-  <circle cx="146" cy="284" r="2.5"/><circle cx="170" cy="284" r="2.5"/><circle cx="194" cy="284" r="2.5"/>
- </g>
-</svg>
- <div class="kicker">2026&#8211;27 Season &#8226; Week 1 Debrief &amp; Week 2 Forecast</div>
+ <svg viewBox="0 0 340 360" class="bb-logo" role="img" aria-label="Big Ballers league logo">
+  <defs>
+   <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0C96B"/><stop offset="0.5" stop-color="#D9A441"/><stop offset="1" stop-color="#A8752A"/></linearGradient>
+   <linearGradient id="pig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8A4B2D"/><stop offset="0.5" stop-color="#5E2F1B"/></linearGradient>
+  </defs>
+  <circle cx="170" cy="170" r="164" fill="#12161C" stroke="url(#gold)" stroke-width="7"/>
+  <circle cx="170" cy="170" r="146" fill="none" stroke="#2A313B" stroke-width="2"/>
+  <circle cx="170" cy="170" r="122" fill="#1A212B" stroke="url(#gold)" stroke-width="2.5"/>
+  <polygon points="170.0,42.0 174.6,55.7 189.0,55.8 177.4,64.4 181.8,78.2 170.0,69.8 158.2,78.2 162.6,64.4 151.0,55.8 165.4,55.7" fill="url(#gold)"/>
+  <polygon points="112.0,68.0 114.8,76.2 123.4,76.3 116.5,81.5 119.1,89.7 112.0,84.7 104.9,89.7 107.5,81.5 100.6,76.3 109.2,76.2" fill="url(#gold)"/>
+  <polygon points="228.0,68.0 230.8,76.2 239.4,76.3 232.5,81.5 235.1,89.7 228.0,84.7 220.9,89.7 223.5,81.5 216.6,76.3 225.2,76.2" fill="url(#gold)"/>
+  <ellipse cx="170" cy="150" rx="70" ry="43" fill="url(#pig)" stroke="#3A2013" stroke-width="3" transform="rotate(-14 170 150)"/>
+  <g transform="rotate(-14 170 150)" stroke="#EDEBE4" stroke-width="4" stroke-linecap="round">
+   <line x1="143" y1="150" x2="197" y2="150"/>
+   <line x1="152" y1="142" x2="152" y2="158"/><line x1="164" y1="142" x2="164" y2="158"/>
+   <line x1="176" y1="142" x2="176" y2="158"/><line x1="188" y1="142" x2="188" y2="158"/>
+  </g>
+  <g>
+   <path d="M28 196 l24 -12 v58 l-24 -12 z" fill="#A8752A"/>
+   <path d="M312 196 l-24 -12 v58 l24 -12 z" fill="#A8752A"/>
+   <rect x="48" y="182" width="244" height="50" rx="5" fill="url(#gold)" stroke="#7A5518" stroke-width="2.5"/>
+   <text x="170" y="217" text-anchor="middle" font-family="Oswald, Arial Narrow, sans-serif" font-size="33" font-weight="700" letter-spacing="4" fill="#12161C">BIG BALLERS</text>
+  </g>
+  <g stroke="#D9A441" stroke-width="2" stroke-linecap="round">
+   <line x1="86" y1="258" x2="132" y2="258"/>
+   <line x1="208" y1="258" x2="254" y2="258"/>
+  </g>
+  <text x="170" y="265" text-anchor="middle" font-family="Oswald, Arial Narrow, sans-serif" font-size="19" font-weight="600" letter-spacing="3" fill="#F0C96B">EST. 2017</text>
+ </svg>
+ <div class="kicker">2026–27 Season • Week 1 Debrief</div>
  <h1>BIG <span>BALLERS</span></h1>
- <p class="sub">One week down, fifteen to go. Draft day theories collided with real NFL snaps: bellcows exploded, pocket QBs hit the sack-tax, and the defending champion hit the turf.</p>
- <div class="factstrip">
-  <div class="fact"><b>146.70</b><span>High Score (BMd)</span></div>
-  <div class="fact"><b>78.60</b><span>Low Score (MAGA)</span></div>
-  <div class="fact"><b>116.58</b><span>League Median</span></div>
-  <div class="fact"><b>41.30</b><span>Max Blowout (DDT)</span></div>
-  <div class="fact"><b>10.75</b><span>Narrowest Margin (QSG)</span></div>
-  <div class="fact"><b>29.80</b><span>Top Bench Boom (Coker)</span></div>
- </div>
+ <p class="sub">Draft day theories collided with real NFL snaps. Bellcows exploded, pocket QBs hit the sack-tax, and the defending champion hit the turf.</p>
 </div></header>
 
-<section id="scoreboard"><div class="wrap">
+<!-- TAB: OVERVIEW -->
+<section class="panel active" id="overview"><div class="wrap">
+ <div class="eyebrow">League Dashboard</div>
+ <h2>Executive Summary</h2>
+ <div class="factstrip">
+  <div class="fact"><b>146.70</b><span>High Score (Honey Bijan)</span></div>
+  <div class="fact"><b>78.60</b><span>Low Score (MAGA)</span></div>
+  <div class="fact"><b>116.58</b><span>League Median</span></div>
+  <div class="fact"><b>41.30</b><span>Max Blowout (Darren's)</span></div>
+  <div class="fact"><b>10.75</b><span>Narrowest Margin (Sackgood)</span></div>
+  <div class="fact"><b>29.80</b><span>Top Bench Boom (Coker)</span></div>
+ </div>
+
+ <div class="supgrid" style="margin-top:34px;">
+  <div class="sup">
+   <h3>💎 Manager of the Week: David Mitchell</h3>
+   <p><strong>Honey Bijan Chicken</strong> put on a clinic. Dropping 146.70 points and clearing the next closest team by nearly 10 points. Kenneth Walker III (38.60) was the move of the week.</p>
+  </div>
+  <div class="sup">
+   <h3>💔 The Robbery Award: Jeffrey Bonifield</h3>
+   <p><strong>McDonkey Bhalls</strong> hung 119.15 on the board (6th highest in the league), outscored 7 other teams, and took an L because he ran straight into Caleb Williams' career day.</p>
+  </div>
+  <div class="sup">
+   <h3>🚨 Five-Alarm Panic: Make Arlington Great Again</h3>
+   <p>Garrett Ketchen put up 78.60 total points. Patrick Mahomes dominated, but not a single other player showed up. The Browns defense got zeroed out. Emergency waiver session required.</p>
+  </div>
+ </div>
+</div></section>
+
+<!-- TAB: SCOREBOARD -->
+<section class="panel" id="scoreboard"><div class="wrap">
  <div class="eyebrow">Matchup Audits</div>
- <h2>Week 1 Scoreboard &#8212; The Tape Don't Lie</h2>
- <p class="lede">Full box score breakdowns from the league ledger. Bellcows proved the rushing bonus math right, while pocket statues absorbed costly sack penalties.</p>
+ <h2>Week 1 Scoreboard</h2>
+ <p class="lede">Six games, no mercy. The official opening weekend tape.</p>
  <div class="sbgrid">
+  
+  <article class="scard">
+   <div class="scard-head"><span class="scard-tag">Game of the Week</span><span class="scard-margin">Margin: +36.15</span></div>
+   <div class="scard-body">
+    <div class="scard-match">
+     <div class="scard-team win"><b>Honey Bijan Chicken</b><span>David Mitchell</span><div class="sc-pts">146.70</div></div>
+     <div class="scard-vs">DEF</div>
+     <div class="scard-team right loss"><b>Won't You Be My Nabers?</b><span>Sean Kramer</span><div class="sc-pts">110.55</div></div>
+    </div>
+    <div class="scard-stars">
+     <span class="star-pill">KW3: <b>38.60 pts</b></span><span class="star-pill">Lamar: <b>32.20 pts</b></span><span class="star-pill">CMC: <b>9.90 pts</b></span>
+    </div>
+   </div>
+  </article>
 
-<article class="scard">
- <div class="scard-head"><span class="scard-tag">Game of the Week</span><span class="scard-margin">Margin: +36.15</span></div>
- <div class="scard-body">
-  <div class="scard-match">
-   <div class="scard-team win"><b>Honey Bijan Chicken</b><span>David Mitchell</span><div class="sc-pts">146.70</div></div>
-   <div class="scard-vs">DEF</div>
-   <div class="scard-team right loss"><b>Won't You Be My Nabers?</b><span>Sean Kramer</span><div class="sc-pts">110.55</div></div>
-  </div>
-  <div class="scard-highlights">
-   <p><strong>The Breakdown:</strong> Mitchell delivered a statement 146.70-point barrage behind Kenneth Walker III's 38.6-point clinic and Lamar Jackson's 32.2. Walker commanded the Chiefs' ground work with Patrick Mahomes sidelined, cashing +1 100-yard and TD bonuses.</p>
-   <p><strong>The Turning Point:</strong> Kramer's pre-draft #1 roster sputtered when Christian McCaffrey posted just 9.9 points. Kramer left 48.35 combined points on his bench from Brock Purdy and Chuba Hubbard.</p>
-  </div>
-  <div class="scard-stars">
-   <span class="star-pill">KW3: <b>38.60 pts</b></span><span class="star-pill">Lamar: <b>32.20 pts</b></span><span class="star-pill">Hurts: <b>30.25 pts</b></span><span class="star-pill">Goedert: <b>21.70 pts</b></span>
-  </div>
- </div>
-</article>
+  <article class="scard">
+   <div class="scard-head"><span class="scard-tag">The Shootout</span><span class="scard-margin">Margin: +16.60</span></div>
+   <div class="scard-body">
+    <div class="scard-match">
+     <div class="scard-team win"><b>Roddy Riccchh</b><span>Rodrick Johnson</span><div class="sc-pts">135.75</div></div>
+     <div class="scard-vs">DEF</div>
+     <div class="scard-team right loss"><b>McDonkey Bhalls</b><span>Jeffrey Bonifield</span><div class="sc-pts">119.15</div></div>
+    </div>
+    <div class="scard-stars">
+     <span class="star-pill">Caleb: <b>40.95 pts</b></span><span class="star-pill">Gibbs: <b>31.10 pts</b></span><span class="star-pill">J-Jeff: <b>27.20 pts</b></span>
+    </div>
+   </div>
+  </article>
 
-<article class="scard">
- <div class="scard-head"><span class="scard-tag">The Shootout</span><span class="scard-margin">Margin: +16.60</span></div>
- <div class="scard-body">
-  <div class="scard-match">
-   <div class="scard-team win"><b>Roddy Riccchh</b><span>Rodrick Johnson</span><div class="sc-pts">135.75</div></div>
-   <div class="scard-vs">DEF</div>
-   <div class="scard-team right loss"><b>McDonkey Bhalls</b><span>Jeffrey Bonifield</span><div class="sc-pts">119.15</div></div>
-  </div>
-  <div class="scard-highlights">
-   <p><strong>The Breakdown:</strong> Caleb Williams went scorched-earth in Carolina (59-37 Bears win), dropping 40.95 fantasy points on 5 total touchdowns. Justin Jefferson (27.2) and Chris Olave (23.2) both cleared 100 yards.</p>
-   <p><strong>The Turning Point:</strong> Bonifield suffered the ultimate bad beat: his 119.15 beat 7 of 11 opponents, but Jahmyr Gibbs (31.1) and Breece Hall (19.8) couldn't compensate for A.J. Brown's zero and Matthew Stafford's pocket struggles.</p>
-  </div>
-  <div class="scard-stars">
-   <span class="star-pill">Caleb: <b>40.95 pts</b></span><span class="star-pill">Gibbs: <b>31.10 pts</b></span><span class="star-pill">J-劝eff: <b>27.20 pts</b></span><span class="star-pill">Olave: <b>23.20 pts</b></span>
-  </div>
- </div>
-</article>
+  <article class="scard">
+   <div class="scard-head"><span class="scard-tag">The Champ Toppled</span><span class="scard-margin">Margin: +32.60</span></div>
+   <div class="scard-body">
+    <div class="scard-match">
+     <div class="scard-team win"><b>Delhi Belly</b><span>Rohan Sarode</span><div class="sc-pts">137.10</div></div>
+     <div class="scard-vs">DEF</div>
+     <div class="scard-team right loss"><b>-- Eating W's</b><span>Jeff Verber</span><div class="sc-pts">104.50</div></div>
+    </div>
+    <div class="scard-stars">
+     <span class="star-pill">Swift: <b>32.90 pts</b></span><span class="star-pill">Steelers D: <b>26.0 pts</b></span><span class="star-pill">Javonte: <b>21.70 pts</b></span>
+    </div>
+   </div>
+  </article>
 
-<article class="scard">
- <div class="scard-head"><span class="scard-tag">The Champ Toppled</span><span class="scard-margin">Margin: +32.60</span></div>
- <div class="scard-body">
-  <div class="scard-match">
-   <div class="scard-team win"><b>Delhi Belly</b><span>Rohan Sarode</span><div class="sc-pts">137.10</div></div>
-   <div class="scard-vs">DEF</div>
-   <div class="scard-team right loss"><b>-- Eating W's</b><span>Jeff Verber</span><div class="sc-pts">104.50</div></div>
-  </div>
-  <div class="scard-highlights">
-   <p><strong>The Breakdown:</strong> Sarode gave the back-to-back champ a rude wake-up call. D'Andre Swift exploded for 32.90 points in Chicago's shootout, while Javonte Williams tallied 21.7 in Dallas. The Jaguars D/ST chipped in 21.0 points.</p>
-   <p><strong>The Turning Point:</strong> Verber's zero-RB gamble backfired immediately. Starting Quinshon Judkins (6.0) and emergency sub MarShawn Lloyd (3.7) produced 9.7 total rushing points. Even a 26.0-point showing from the Steelers D/ST couldn't save them.</p>
-  </div>
-  <div class="scard-stars">
-   <span class="star-pill">Swift: <b>32.90 pts</b></span><span class="star-pill">Steelers D: <b>26.0 pts</b></span><span class="star-pill">JSN: <b>22.20 pts</b></span><span class="star-pill">Javonte: <b>21.70 pts</b></span>
-  </div>
- </div>
-</article>
+  <article class="scard">
+   <div class="scard-head"><span class="scard-tag">The Nailbiter</span><span class="scard-margin">Margin: +10.75</span></div>
+   <div class="scard-body">
+    <div class="scard-match">
+     <div class="scard-team win"><b>Quarterback Sackgood</b><span>Jonathan Bagwell</span><div class="sc-pts">123.20</div></div>
+     <div class="scard-vs">DEF</div>
+     <div class="scard-team right loss"><b>Phil ntheblanks</b><span>Phil Wilkinson</span><div class="sc-pts">112.45</div></div>
+    </div>
+    <div class="scard-stars">
+     <span class="star-pill">Josh Allen: <b>41.00 pts</b></span><span class="star-pill">Henry: <b>35.80 pts</b></span><span class="star-pill">Jeanty: <b>30.70 pts</b></span>
+    </div>
+   </div>
+  </article>
 
-<article class="scard">
- <div class="scard-head"><span class="scard-tag">The Nailbiter</span><span class="scard-margin">Margin: +10.75</span></div>
- <div class="scard-body">
-  <div class="scard-match">
-   <div class="scard-team win"><b>Quarterback Sackgood</b><span>Jonathan Bagwell</span><div class="sc-pts">123.20</div></div>
-   <div class="scard-vs">DEF</div>
-   <div class="scard-team right loss"><b>Phil ntheblanks</b><span>Phil Wilkinson</span><div class="sc-pts">112.45</div></div>
-  </div>
-  <div class="scard-highlights">
-   <p><strong>The Breakdown:</strong> Josh Allen (41.00) and Derrick Henry (35.80) carried Bagwell to victory, combining for 76.80 points. Henry punished Indy for 140+ yards and two scores, hitting both the 100-yard and long-TD bonuses.</p>
-   <p><strong>The Turning Point:</strong> Bagwell's Round 7-8 investments (Aubrey 1.0, Broncos D/ST 3.0) were duds, but Phil Wilkinson couldn't capitalize despite Ashton Jeanty's 30.70-point NFL debut for the Raiders.</p>
-  </div>
-  <div class="scard-stars">
-   <span class="star-pill">Josh Allen: <b>41.00 pts</b></span><span class="star-pill">Henry: <b>35.80 pts</b></span><span class="star-pill">Jeanty: <b>30.70 pts</b></span><span class="star-pill">Coker (Bench): <b>29.80 pts</b></span>
-  </div>
- </div>
-</article>
+  <article class="scard">
+   <div class="scard-head"><span class="scard-tag">The Trench Battle</span><span class="scard-margin">Margin: +19.40</span></div>
+   <div class="scard-body">
+    <div class="scard-match">
+     <div class="scard-team win"><b>Let HIM Cook</b><span>Kyle Henderson</span><div class="sc-pts">115.25</div></div>
+     <div class="scard-vs">DEF</div>
+     <div class="scard-team right loss"><b>Saquon my Dak</b><span>Spencer Popp</span><div class="sc-pts">95.85</div></div>
+    </div>
+    <div class="scard-stars">
+     <span class="star-pill">T-Law: <b>32.05 pts</b></span><span class="star-pill">Flowers: <b>23.50 pts</b></span><span class="star-pill">J-Taylor: <b>22.60 pts</b></span>
+    </div>
+   </div>
+  </article>
 
-<article class="scard">
- <div class="scard-head"><span class="scard-tag">The Trench Battle</span><span class="scard-margin">Margin: +19.40</span></div>
- <div class="scard-body">
-  <div class="scard-match">
-   <div class="scard-team win"><b>Let HIM Cook</b><span>Kyle Henderson</span><div class="sc-pts">115.25</div></div>
-   <div class="scard-vs">DEF</div>
-   <div class="scard-team right loss"><b>Saquon my Dak</b><span>Spencer Popp</span><div class="sc-pts">95.85</div></div>
-  </div>
-  <div class="scard-highlights">
-   <p><strong>The Breakdown:</strong> Trevor Lawrence threw for 34 points in Cleveland, posting 32.05 fantasy points, while Zay Flowers (23.5) and the Seahawks D/ST (20.0) suffocated New England in a 13-10 defensive grind.</p>
-   <p><strong>The Turning Point:</strong> Spencer's rushing anchor Jonathan Taylor delivered (22.6), but Saquon Barkley was held to 8.5 by Washington, Davante Adams managed only 4.1 in an ugly Rams loss, and the Chargers D/ST posted a goose egg (0.0).</p>
-  </div>
-  <div class="scard-stars">
-   <span class="star-pill">T-Law: <b>32.05 pts</b></span><span class="star-pill">Flowers: <b>23.50 pts</b></span><span class="star-pill">J-Taylor: <b>22.60 pts</b></span><span class="star-pill">Seattle D: <b>20.0 pts</b></span>
-  </div>
- </div>
-</article>
-
-<article class="scard">
- <div class="scard-head"><span class="scard-tag">The Route</span><span class="scard-margin">Margin: +41.30</span></div>
- <div class="scard-body">
-  <div class="scard-match">
-   <div class="scard-team win"><b>Darren's Driven Team</b><span>Darren Deng</span><div class="sc-pts">119.90</div></div>
-   <div class="scard-vs">DEF</div>
-   <div class="scard-team right loss"><b>Make Arlington Great Again</b><span>Garrett Ketchen</span><div class="sc-pts">78.60</div></div>
-  </div>
-  <div class="scard-highlights">
-   <p><strong>The Breakdown:</strong> Darren Deng notched a 41-point blowout. David Montgomery scored twice in Houston (27.4), Amon-Ra St. Brown handled New Orleans (23.7), and Isaiah Likely delivered 22.8 points at TE.</p>
-   <p><strong>The Turning Point:</strong> Ketchen's squad endured catastrophic variance: Browns D/ST scored 0.0, Harold Fannin managed 3.1, Tre Tucker 3.7, and Puka Nacua was bottled up by San Francisco (10.4). 78.6 points sets the early floor for the season.</p>
-  </div>
-  <div class="scard-stars">
-   <span class="star-pill">Monty: <b>27.40 pts</b></span><span class="star-pill">Amon-Ra: <b>23.70 pts</b></span><span class="star-pill">Likely: <b>22.80 pts</b></span><span class="star-pill">Daniels: <b>20.80 pts</b></span>
-  </div>
- </div>
-</article>
+  <article class="scard">
+   <div class="scard-head"><span class="scard-tag">The Route</span><span class="scard-margin">Margin: +41.30</span></div>
+   <div class="scard-body">
+    <div class="scard-match">
+     <div class="scard-team win"><b>Darren's Driven Team</b><span>Darren Deng</span><div class="sc-pts">119.90</div></div>
+     <div class="scard-vs">DEF</div>
+     <div class="scard-team right loss"><b>Make Arlington Great Again</b><span>Garrett Ketchen</span><div class="sc-pts">78.60</div></div>
+    </div>
+    <div class="scard-stars">
+     <span class="star-pill">Monty: <b>27.40 pts</b></span><span class="star-pill">Amon-Ra: <b>23.70 pts</b></span><span class="star-pill">Likely: <b>22.80 pts</b></span>
+    </div>
+   </div>
+  </article>
 
  </div>
 </div></section>
 
-<section id="allplay"><div class="wrap">
+<!-- TAB: SNAP AUDIT -->
+<section class="panel" id="snapaudit"><div class="wrap">
+ <div class="eyebrow">Real NFL Intelligence</div>
+ <h2>12-Team Snap & Production Breakdown</h2>
+ <p class="lede">How the Week 1 rosters actually performed based on usage, touches, and bench errors.</p>
+ 
+ <div class="audit-grid">
+  <div class="audit-card">
+   <h3>Honey Bijan Chicken</h3>
+   <span class="pts">146.70 Points (1-0)</span>
+   <p>Dominated the week. Kenneth Walker III (38.6) and Lamar Jackson (32.2) combined for 70+ points. Walker feasted in the red zone to easily command the league's high score.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Delhi Belly</h3>
+   <span class="pts">137.10 Points (1-0)</span>
+   <p>D'Andre Swift exploded for 32.9 points, paired with Javonte Williams (21.7). Add in 21 points from the Jags D/ST, and Rohan easily cleared the defending champ.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Roddy Riccchh</h3>
+   <span class="pts">135.75 Points (1-0)</span>
+   <p>Caleb Williams went absolutely ballistic for 40.95 points. With Justin Jefferson (27.2) and Chris Olave (23.2) vacuuming up targets, this WR/QB stack looks incredibly dangerous.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Quarterback Sackgood</h3>
+   <span class="pts">123.20 Points (1-0)</span>
+   <p>Josh Allen (41.0) and Derrick Henry (35.8) are a bruising two-headed monster. Bagwell survived despite leaving a massive 29.8 points from Jalen Coker stranded on the bench.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Darren's Driven Team</h3>
+   <span class="pts">119.90 Points (1-0)</span>
+   <p>Darren's debut was flawless. David Montgomery (27.4) and Amon-Ra St. Brown (23.7) capitalized on heavy Lion snap counts, while Isaiah Likely (22.8) proved to be an elite TE play.</p>
+  </div>
+  <div class="audit-card">
+   <h3>McDonkey Bhalls</h3>
+   <span class="pts">119.15 Points (0-1)</span>
+   <p>Heartbreak for Jeffrey. Jahmyr Gibbs (31.1) and Breece Hall (19.8) proved to be the best RB duo in the league, but A.J. Brown put up a zero and Matt Stafford struggled against the rush.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Let HIM Cook</h3>
+   <span class="pts">115.25 Points (1-0)</span>
+   <p>Trevor Lawrence found his rhythm (32.05), and Zay Flowers (23.5) was the primary read all day. A 20-point showing from the Seahawks D/ST sealed the win over the LM.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Phil ntheblanks</h3>
+   <span class="pts">112.45 Points (0-1)</span>
+   <p>Ashton Jeanty (30.7) looked like a generational rookie running back. However, Phil's WRs lacked separation, and he left Baker Mayfield's 19.3 point outing rotting on the pine.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Won't You Be My Nabers?</h3>
+   <span class="pts">110.55 Points (0-1)</span>
+   <p>A sluggish start for the preseason #1. CMC was severely limited (9.9). Sean Kramer's real blunder was benching Jameson Williams (26.15) and J.K. Dobbins (22.2).</p>
+  </div>
+  <div class="audit-card">
+   <h3>-- Eating W's</h3>
+   <span class="pts">104.50 Points (0-1)</span>
+   <p>The champ is mortal. Zero-RB hurt immediately as Quinshon Judkins (6.0) and MarShawn Lloyd (3.7) were non-factors. A 26-point Steelers D/ST was the only saving grace.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Saquon my Dak</h3>
+   <span class="pts">95.85 Points (0-1)</span>
+   <p>Spencer's veterans looked old. Davante Adams (4.1) barely saw targets, and the Chargers D/ST (0.0) collapsed. Jonathan Taylor (22.6) was the lone bright spot as Saquon was held to 8.5.</p>
+  </div>
+  <div class="audit-card">
+   <h3>Make Arlington Great Again</h3>
+   <span class="pts">78.60 Points (0-1)</span>
+   <p>Patrick Mahomes dominated and carried this squad, but he was a one-man army. Garrett Ketchen's roster completely imploded around him: Puka Nacua (10.4), Harold Fannin (8.6), Tre Tucker (3.1), and Browns D/ST (0.0).</p>
+  </div>
+ </div>
+</div></section>
+
+<!-- TAB: WEEK 2 PREVIEWS -->
+<section class="panel" id="week2"><div class="wrap">
+ <div class="eyebrow">Looking Ahead</div>
+ <h2>Week 2 Intelligence & Matchups</h2>
+ <p class="lede">Early desperation games meet heavy-hitting clashes of unbeatens.</p>
+
+ <div class="w2grid">
+  <div class="w2">
+   <div class="w2-top"><span class="w2-tag">The Heavyweights</span></div>
+   <div class="w2-vs">
+    <div class="w2-team"><b>Honey Bijan Chicken</b><span>David Mitchell (1-0)</span></div>
+    <div class="w2-vs-at">@</div>
+    <div class="w2-team right"><b>Roddy Riccchh</b><span>Rodrick Johnson (1-0)</span></div>
+   </div>
+   <p>Week 1's highest scorers clash. Mitchell has Kenneth Walker and Lamar Jackson driving a massive rushing floor. Rodrick counters with a nuclear Caleb Williams and Justin Jefferson. Rodrick's zero-RB build held up in Week 1, but matching Bijan Robinson's volume will be the real test.</p>
+  </div>
+
+  <div class="w2">
+   <div class="w2-top"><span class="w2-tag">Commissioner's Crisis</span></div>
+   <div class="w2-vs">
+    <div class="w2-team"><b>Delhi Belly</b><span>Rohan Sarode (1-0)</span></div>
+    <div class="w2-vs-at">@</div>
+    <div class="w2-team right"><b>Saquon my Dak</b><span>Spencer Popp (0-1)</span></div>
+   </div>
+   <p>Spencer needs a massive rebound after his veterans stalled out. Dak Prescott and Jonathan Taylor provide the floor, but they're walking into a buzzsaw against Rohan's backfield of D'Andre Swift and Javonte Williams. Spencer can't afford another goose egg from his D/ST.</p>
+  </div>
+
+  <div class="w2">
+   <div class="w2-top"><span class="w2-tag">The Desperation Bowl</span></div>
+   <div class="w2-vs">
+    <div class="w2-team"><b>Won't You Be My Nabers?</b><span>Sean Kramer (0-1)</span></div>
+    <div class="w2-vs-at">@</div>
+    <div class="w2-team right"><b>-- Eating W's</b><span>Jeff Verber (0-1)</span></div>
+   </div>
+   <p>The preseason #1 roster against the defending back-to-back champ, and one of them is going 0-2. Kramer needs CMC to return to form, and he can't leave 48 bench points rotting again. Verber's zero-RB strategy is in crisis mode with Judkins and Lloyd combining for under 10 points.</p>
+  </div>
+
+  <div class="w2">
+   <div class="w2-top"><span class="w2-tag">Battle of the Turn</span></div>
+   <div class="w2-vs">
+    <div class="w2-team"><b>McDonkey Bhalls</b><span>Jeffrey Bonifield (0-1)</span></div>
+    <div class="w2-vs-at">@</div>
+    <div class="w2-team right"><b>Quarterback Sackgood</b><span>Jonathan Bagwell (1-0)</span></div>
+   </div>
+   <p>Bonifield got robbed in Week 1, posting 119 points in a loss. His Gibbs/Hall backfield is the best in the league, but he needs Stafford to wake up. Bagwell rides the massive dual-threat upside of Josh Allen and Derrick Henry, though his Round 7 Kicker gamble looks highly suspect.</p>
+  </div>
+
+  <div class="w2">
+   <div class="w2-top"><span class="w2-tag">Trench War</span></div>
+   <div class="w2-vs">
+    <div class="w2-team"><b>Darren's Driven Team</b><span>Darren Deng (1-0)</span></div>
+    <div class="w2-vs-at">@</div>
+    <div class="w2-team right"><b>Let HIM Cook</b><span>Kyle Henderson (1-0)</span></div>
+   </div>
+   <p>Two surprising 1-0 starts. Darren brings a balanced attack with David Montgomery and Amon-Ra St. Brown. Henderson's waiver wire magic worked with Trevor Lawrence and Zay Flowers, but relying on a 20-point defensive score from Seattle every week is a dangerous game.</p>
+  </div>
+
+  <div class="w2">
+   <div class="w2-top"><span class="w2-tag">The Rebound Game</span></div>
+   <div class="w2-vs">
+    <div class="w2-team"><b>Phil ntheblanks</b><span>Phil Wilkinson (0-1)</span></div>
+    <div class="w2-vs-at">@</div>
+    <div class="w2-team right"><b>Make Arlington Great Again</b><span>Garrett Ketchen (0-1)</span></div>
+   </div>
+   <p>Ketchen’s squad put up a league-worst 78.6 points. Mahomes dominated, but Puka Nacua and his supporting cast vanished. Phil brings Ashton Jeanty and a very stable rushing floor. Ketchen desperately needs his Browns D/ST and Tre Tucker to bounce back to avoid 0-2.</p>
+  </div>
+ </div>
+</div></section>
+
+<!-- TAB: ALL-PLAY MATRIX -->
+<section class="panel" id="matrix"><div class="wrap">
  <div class="eyebrow">The Equalizer</div>
- <h2>The All-Play Matrix &#8212; Head-to-Head Against Every Team</h2>
- <p class="lede">Fantasy schedules are inherently unfair. This 12&times;12 matrix simulates what would happen if every team played every other team in Week 1. <strong>Read rows across:</strong> a green W means the row team outscored the column team; red L means they lost.</p>
+ <h2>The All-Play Matrix</h2>
+ <p class="lede">This 12x12 matrix simulates what would happen if every team played every other team in Week 1.</p>
  
  <div class="matrix-wrap">
   <table class="matrix">
    <thead>
     <tr>
      <th class="teamhead">Team (Pts)</th>
-     <th>BMd</th><th>DB</th><th>RR</th><th>QSG</th><th>DDT</th><th>McD</th><th>LHC</th><th>Pnb</th><th>WYB</th><th>EW</th><th>SmD</th><th>MAGA</th>
+     <th>Honey Bijan</th><th>Delhi Belly</th><th>Roddy Riccchh</th><th>QB Sackgood</th><th>Darren's Driven</th><th>McDonkey Bhalls</th><th>Let HIM Cook</th><th>Phil ntheblanks</th><th>Be My Nabers?</th><th>-- Eating W's</th><th>Saquon my Dak</th><th>MAGA Arlington</th>
     </tr>
    </thead>
    <tbody>
     <tr>
      <td class="tname"><b>Honey Bijan (146.70)</b></td>
-     <td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>Delhi Belly (137.10)</b></td>
-     <td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>Roddy Riccchh (135.75)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>QB Sackgood (123.20)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>Darren's Driven (119.90)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>McDonkey Bhalls (119.15)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>Let HIM Cook (115.25)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>Phil ntheblanks (112.45)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
-     <td class="tname"><b>Won't You Be My Nabers (110.55)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td class="tname"><b>Be My Nabers? (110.55)</b></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>-- Eating W's (104.50)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
      <td class="tname"><b>Saquon my Dak (95.85)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td><td><span class="m-w">W</span></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td><td><span class="m-w">W</span></td>
     </tr>
     <tr>
-     <td class="tname"><b>Make Arlington Great (78.60)</b></td>
-     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">&#8212;</td>
+     <td class="tname"><b>MAGA Arlington (78.60)</b></td>
+     <td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td><span class="m-l">L</span></td><td class="m-self">—</td>
     </tr>
    </tbody>
   </table>
@@ -413,7 +535,7 @@ footer p{max-width:900px;margin-top:8px}
    <tr><td><b>Honey Bijan Chicken</b></td><td>1-0</td><td>11-0</td><td>1.000</td><td>146.70</td><td class="luck-pos">+0.00</td><td>Pure, unadulterated dominance.</td></tr>
    <tr><td><b>Delhi Belly</b></td><td>1-0</td><td>10-1</td><td>.909</td><td>137.10</td><td class="luck-pos">+0.09</td><td>Deserved blowout win over champ.</td></tr>
    <tr><td><b>Roddy Riccchh</b></td><td>1-0</td><td>9-2</td><td>.818</td><td>135.75</td><td class="luck-pos">+0.18</td><td>Caleb nuclear game converts win.</td></tr>
-   <tr><td><b>Quarterback Sackgood</b></td><td>1-0</td><td>8-3</td><td>.727</td><td>123.20</td><td class="luck-pos">+0.27</td><td>Allen &amp; Henry heavy lifting worked.</td></tr>
+   <tr><td><b>Quarterback Sackgood</b></td><td>1-0</td><td>8-3</td><td>.727</td><td>123.20</td><td class="luck-pos">+0.27</td><td>Allen & Henry heavy lifting worked.</td></tr>
    <tr><td><b>Darren's Driven Team</b></td><td>1-0</td><td>7-4</td><td>.636</td><td>119.90</td><td class="luck-pos">+0.36</td><td>Played the lowest scorer, did job.</td></tr>
    <tr style="background:rgba(198,40,40,0.08)"><td><b>McDonkey Bhalls</b></td><td>0-1</td><td>6-5</td><td>.545</td><td>119.15</td><td class="luck-neg">-0.55</td><td><b>ROBBED:</b> 6th highest score, 0-1 record.</td></tr>
    <tr style="background:rgba(46,125,50,0.08)"><td><b>Let HIM Cook</b></td><td>1-0</td><td>5-6</td><td>.455</td><td>115.25</td><td class="luck-pos">+0.55</td><td><b>LUCKY:</b> Won with sub-median score.</td></tr>
@@ -426,250 +548,134 @@ footer p{max-width:900px;margin-top:8px}
  </table>
 </div></section>
 
-<section id="rankings"><div class="wrap">
+<!-- TAB: POWER RANKINGS -->
+<section class="panel" id="rankings"><div class="wrap">
  <div class="eyebrow">The Hierarchy</div>
- <h2>Week 1 Power Rankings &#8212; The Market Re-Calibrates</h2>
- <p class="lede">Draft pedigree is dead; weekly production reigns. Rankings combine Week 1 scoring output, underlying target/touch share, and injury risk.</p>
+ <h2>Power Rankings</h2>
  
  <div class="ranklist">
   <div class="rk top1">
    <span class="num">1</span>
-   <span><span class="tt">Honey Bijan Chicken</span> <span class="mgr">&#8212; David Mitchell (1-0)</span><br><span class="arch">High Watermark: 146.70 pts &#8226; RBs scored 63.9 pts</span></span>
+   <span><span class="tt">Honey Bijan Chicken</span> <span class="mgr">— David Mitchell (1-0)</span><br><span class="arch">High Watermark: 146.70 pts • KW3/Lamar stack</span></span>
    <span class="mov up">&uarr; 3</span><span class="grade">A+</span>
   </div>
   <div class="rk">
    <span class="num">2</span>
-   <span><span class="tt">Delhi Belly</span> <span class="mgr">&#8212; Rohan Sarode (1-0)</span><br><span class="arch">Committee Masterclass: 137.10 pts &#8226; Swift &amp; Javonte running hot</span></span>
+   <span><span class="tt">Delhi Belly</span> <span class="mgr">— Rohan Sarode (1-0)</span><br><span class="arch">Committee Masterclass: 137.10 pts • Swift & Javonte running hot</span></span>
    <span class="mov up">&uarr; 8</span><span class="grade">A</span>
   </div>
   <div class="rk">
    <span class="num">3</span>
-   <span><span class="tt">Roddy Riccchh</span> <span class="mgr">&#8212; Rodrick Johnson (1-0)</span><br><span class="arch">Caleb Air Show: 135.75 pts &#8226; Elite Jefferson/Olave tandem</span></span>
+   <span><span class="tt">Roddy Riccchh</span> <span class="mgr">— Rodrick Johnson (1-0)</span><br><span class="arch">Caleb Air Show: 135.75 pts • Elite Jefferson/Olave tandem</span></span>
    <span class="mov up">&uarr; 8</span><span class="grade">A-</span>
   </div>
   <div class="rk">
    <span class="num">4</span>
-   <span><span class="tt">Quarterback Sackgood</span> <span class="mgr">&#8212; Jonathan Bagwell (1-0)</span><br><span class="arch">The Two-Headed Monster: 123.20 pts &#8226; Allen (41) + Henry (35.8)</span></span>
+   <span><span class="tt">Quarterback Sackgood</span> <span class="mgr">— Jonathan Bagwell (1-0)</span><br><span class="arch">The Two-Headed Monster: 123.20 pts • Allen (41) + Henry (35.8)</span></span>
    <span class="mov up">&uarr; 5</span><span class="grade">B+</span>
   </div>
   <div class="rk">
    <span class="num">5</span>
-   <span><span class="tt">Darren's Driven Team</span> <span class="mgr">&#8212; Darren Deng (1-0)</span><br><span class="arch">Balanced Attack: 119.90 pts &#8226; Likely at TE &amp; Monty TD vulture</span></span>
+   <span><span class="tt">Darren's Driven Team</span> <span class="mgr">— Darren Deng (1-0)</span><br><span class="arch">Balanced Attack: 119.90 pts • Likely at TE & Monty TD vulture</span></span>
    <span class="mov up">&uarr; 7</span><span class="grade">B</span>
   </div>
   <div class="rk">
    <span class="num">6</span>
-   <span><span class="tt">McDonkey Bhalls</span> <span class="mgr">&#8212; Jeffrey Bonifield (0-1)</span><br><span class="arch">The Heartbreak Kid: 119.15 pts &#8226; Gibbs + Hall elite, zero Stafford backup</span></span>
+   <span><span class="tt">McDonkey Bhalls</span> <span class="mgr">— Jeffrey Bonifield (0-1)</span><br><span class="arch">The Heartbreak Kid: 119.15 pts • Gibbs + Hall elite, Stafford struggled</span></span>
    <span class="mov down">&darr; 1</span><span class="grade">B</span>
   </div>
   <div class="rk">
    <span class="num">7</span>
-   <span><span class="tt">Won't You Be My Nabers?</span> <span class="mgr">&#8212; Sean Kramer (0-1)</span><br><span class="arch">The Slumbering Giant: 110.55 pts &#8226; CMC quiet, but starting 9 is loaded</span></span>
+   <span><span class="tt">Won't You Be My Nabers?</span> <span class="mgr">— Sean Kramer (0-1)</span><br><span class="arch">The Slumbering Giant: 110.55 pts • CMC quiet, but starting 9 is loaded</span></span>
    <span class="mov down">&darr; 6</span><span class="grade">B-</span>
   </div>
   <div class="rk">
    <span class="num">8</span>
-   <span><span class="tt">Phil ntheblanks</span> <span class="mgr">&#8212; Phil Wilkinson (0-1)</span><br><span class="arch">The Jeanty Show: 112.45 pts &#8226; Rookie looks legit, WR ceiling limited</span></span>
-   <span class="mov even">&#8212;</span><span class="grade">B-</span>
+   <span><span class="tt">Phil ntheblanks</span> <span class="mgr">— Phil Wilkinson (0-1)</span><br><span class="arch">The Jeanty Show: 112.45 pts • Rookie looks legit, WR ceiling limited</span></span>
+   <span class="mov even">—</span><span class="grade">B-</span>
   </div>
   <div class="rk">
    <span class="num">9</span>
-   <span><span class="tt">Let HIM Cook</span> <span class="mgr">&#8212; Kyle Henderson (1-0)</span><br><span class="arch">Waiver Wire Beneficiary: 115.25 pts &#8226; Lawrence &amp; Flowers over-performed</span></span>
+   <span><span class="tt">Let HIM Cook</span> <span class="mgr">— Kyle Henderson (1-0)</span><br><span class="arch">Waiver Wire Beneficiary: 115.25 pts • Lawrence & Flowers over-performed</span></span>
    <span class="mov down">&darr; 2</span><span class="grade">C+</span>
   </div>
   <div class="rk">
    <span class="num">10</span>
-   <span><span class="tt">-- Eating W's</span> <span class="mgr">&#8212; Jeff Verber (0-1)</span><br><span class="arch">The High-Wire Snapped: 104.50 pts &#8226; RB crisis is immediate reality</span></span>
+   <span><span class="tt">-- Eating W's</span> <span class="mgr">— Jeff Verber (0-1)</span><br><span class="arch">The High-Wire Snapped: 104.50 pts • RB crisis is immediate reality</span></span>
    <span class="mov down">&darr; 7</span><span class="grade">C+</span>
   </div>
   <div class="rk">
    <span class="num">11</span>
-   <span><span class="tt">Saquon my Dak</span> <span class="mgr">&#8212; Spencer Popp (0-1)</span><br><span class="arch">The Veteran Hangover: 95.85 pts &#8226; Adams (4.1), McLaurin (2.4), Chargers D (0)</span></span>
+   <span><span class="tt">Saquon my Dak</span> <span class="mgr">— Spencer Popp (0-1)</span><br><span class="arch">The Veteran Hangover: 95.85 pts • Adams (4.1), Chargers D (0)</span></span>
    <span class="mov down">&darr; 9</span><span class="grade">C</span>
   </div>
   <div class="rk">
    <span class="num">12</span>
-   <span><span class="tt">Make Arlington Great Again</span> <span class="mgr">&#8212; Garrett Ketchen (0-1)</span><br><span class="arch">Total Structural Collapse: 78.60 pts &#8226; Love injured, 0 double-digit WRs</span></span>
+   <span><span class="tt">Make Arlington Great Again</span> <span class="mgr">— Garrett Ketchen (0-1)</span><br><span class="arch">Total Structural Collapse: 78.60 pts • Mahomes played well, team failed him</span></span>
    <span class="mov down">&darr; 6</span><span class="grade">D</span>
   </div>
  </div>
 </div></section>
 
-<section id="nfltrends"><div class="wrap">
- <div class="eyebrow">Tactical Audit</div>
- <h2>Real NFL Intelligence &#8212; How Week 1 Snaps Broke</h2>
- <p class="lede">Connecting real NFL coaching schemes, snap rates, and game scripts back to our scoring configuration.</p>
- 
- <div class="callouts" style="margin-top:0">
-  <div class="co">
-   <b>The Mahomes-Less Chiefs Feed KW3</b>
-   <p>With Patrick Mahomes sidelined recovering from his knee injury, Kansas City ran the ball on <strong>58% of first downs</strong> against Denver. Kenneth Walker III logged 21 carries, 86 yards, 2 TDs, and 4 targets. He generated 38.6 fantasy points in this format, validating David Mitchell's Round 2 pick.</p>
-  </div>
-  <div class="co">
-   <b>Caleb Williams in the Ben Johnson Scheme</b>
-   <p>Chicago's 59-point explosion in Carolina confirmed Caleb Williams is in an up-tempo air raid. He threw for 380 yards and 4 touchdowns while adding 35 yards on the ground. When your QB doesn't take sacks (-0.5 tax) and throws 50+ yard TDs (+3 bonus), he scores 40.95 points.</p>
-  </div>
-  <div class="co">
-   <b>Derrick Henry's Red-Zone Monopolization</b>
-   <p>Baltimore dismantled Indy 41-23. Derrick Henry carried the rock 24 times for 142 yards and 2 scores. In Big Ballers scoring, the 100-yard bonus (+1) and multiple long touchdowns turned him into the RB2 on the week at age 32. Father Time took an L in Week 1.</p>
-  </div>
-  <div class="co">
-   <b>The Spencer Popp Veteran Alarm</b>
-   <p>Davante Adams drew just 4 targets against San Francisco's secondary (4.1 pts). Terry McLaurin was blanketed in Philly (2.4 pts). When your aging WR room fails to create separation, Jonathan Taylor (22.6 pts) can't carry the squad alone.</p>
-  </div>
- </div>
-</div></section>
-
-<section id="week2"><div class="wrap">
- <div class="eyebrow">Looking Ahead</div>
- <h2>Week 2 Slate &#8212; Lines, Spreads &amp; Storylines</h2>
- <p class="lede">Projected spreads and odds from the official league lines. Early desperation games meet heavy-hitting clashes of unbeatens.</p>
- 
- <div class="w2grid">
-
-<div class="w2">
- <div class="w2-top"><span class="w2-tag">The Headliner &#8226; 1-0 Heavyweights</span><span class="w2-odds">BMd -22.8 &#8226; O/U 232.2</span></div>
- <div class="w2-vs">
-  <div class="w2-team"><b>Honey Bijan Chicken</b><span>David Mitchell (1-0)</span><div class="proj">127.5 Proj</div></div>
-  <div class="w2-vs-at">@</div>
-  <div class="w2-team right"><b>Roddy Riccchh</b><span>Rodrick Johnson (1-0)</span><div class="proj">104.7 Proj</div></div>
- </div>
- <p>Week 1's #1 and #3 scoring teams square off early. Mitchell boasts a 62% win probability backed by Lamar Jackson and Bijan Robinson facing vulnerable defenses. Rodrick counters with Caleb Williams and Justin Jefferson.</p>
- <div class="w2-keys"><b>Key Battle:</b> Can Johnson's zero-RB backfield (Bhayshul Tuten &amp; Jaylen Warren) survive against the Bijan/Walker juggernaut?</div>
-</div>
-
-<div class="w2">
- <div class="w2-top"><span class="w2-tag">Commissioner's Grudge Match</span><span class="w2-odds">SmD -3.0 &#8226; O/U 229.6</span></div>
- <div class="w2-vs">
-  <div class="w2-team"><b>Delhi Belly</b><span>Rohan Sarode (1-0)</span><div class="proj">113.3 Proj</div></div>
-  <div class="w2-vs-at">@</div>
-  <div class="w2-team right"><b>Saquon my Dak</b><span>Spencer Popp (0-1)</span><div class="proj">116.3 Proj</div></div>
- </div>
- <p>Spencer faces a potential 0-2 start against Rohan's high-flying Delhi Belly. Projections give Spencer a slight 51% edge at home. Dak Prescott draws a reeling Giants defense on Sunday afternoon, while Jonathan Taylor and Saquon Barkley must capitalize on favorable run setups.</p>
- <div class="w2-keys"><b>Key Battle:</b> DJ Moore (Buffalo) vs Detroit's secondary on Thursday Night. Spencer needs a Thursday boom to set the tone.</div>
-</div>
-
-<div class="w2">
- <div class="w2-top"><span class="w2-tag">The Desperation Bowl</span><span class="w2-odds">WYBMN -10.9 &#8226; O/U 232.1</span></div>
- <div class="w2-vs">
-  <div class="w2-team"><b>Won't You Be My Nabers?</b><span>Sean Kramer (0-1)</span><div class="proj">121.5 Proj</div></div>
-  <div class="w2-vs-at">@</div>
-  <div class="w2-team right"><b>-- Eating W's</b><span>Jeff Verber (0-1)</span><div class="proj">110.6 Proj</div></div>
- </div>
- <p>One of these preseason title favorites will start 0-2. Kramer is favored at 56% win probability with CeeDee Lamb, Kyren Williams, and Christian McCaffrey expected to rebound against the Dolphins. Jeff Verber's three-peat campaign is already on life support.</p>
- <div class="w2-keys"><b>Key Battle:</b> Verber is forced to start rookie MarShawn Lloyd again with TreVeyon Henderson banged up. If Lloyd busts, Verber is 0-2.</div>
-</div>
-
-<div class="w2">
- <div class="w2-top"><span class="w2-tag">Battle of the Turn</span><span class="w2-odds">McD -3.1 &#8226; O/U 232.7</span></div>
- <div class="w2-vs">
-  <div class="w2-team"><b>McDonkey Bhalls</b><span>Jeffrey Bonifield (0-1)</span><div class="proj">117.9 Proj</div></div>
-  <div class="w2-vs-at">@</div>
-  <div class="w2-team right"><b>Quarterback Sackgood</b><span>Jonathan Bagwell (1-0)</span><div class="proj">114.8 Proj</div></div>
- </div>
- <p>Bonifield looks to shake off his Week 1 heartbreak against Bagwell's stars-and-scrubs outfit. Gibbs and Breece Hall represent the league's best RB duo, while Bagwell rides Josh Allen and Derrick Henry.</p>
- <div class="w2-keys"><b>Key Battle:</b> Brandon Aubrey and Broncos D/ST. Can Bagwell's Round 7-8 special teams gamble produce more than 4 combined points this week?</div>
-</div>
-
-<div class="w2">
- <div class="w2-top"><span class="w2-tag">Trench War</span><span class="w2-odds">DDT -5.5 &#8226; O/U 228.5</span></div>
- <div class="w2-vs">
-  <div class="w2-team"><b>Darren's Driven Team</b><span>Darren Deng (1-0)</span><div class="proj">117.0 Proj</div></div>
-  <div class="w2-vs-at">@</div>
-  <div class="w2-team right"><b>Let HIM Cook</b><span>Kyle Henderson (1-0)</span><div class="proj">111.5 Proj</div></div>
- </div>
- <p>A matchup between two surprising 1-0 squads. Darren brings Joe Burrow, De'Von Achane, and Amon-Ra St. Brown. Henderson counters with Trevor Lawrence and James Cook III on Thursday Night.</p>
- <div class="w2-keys"><b>Key Battle:</b> Achane vs the Patriots front seven. If Miami's speed hits the edge, Darren moves to 2-0 in his rookie campaign.</div>
-</div>
-
-<div class="w2">
- <div class="w2-top"><span class="w2-tag">The Rebound Game</span><span class="w2-odds">Pnb -5.4 &#8226; O/U 214.2</span></div>
- <div class="w2-vs">
-  <div class="w2-team"><b>Phil ntheblanks</b><span>Phil Wilkinson (0-1)</span><div class="proj">109.8 Proj</div></div>
-  <div class="w2-vs-at">@</div>
-  <div class="w2-team right"><b>Make Arlington Great Again</b><span>Garrett Ketchen (0-1)</span><div class="proj">104.4 Proj</div></div>
- </div>
- <p>Both franchises enter desperate for offensive rhythm. Phil's backfield behind Ashton Jeanty and Chase Brown carries a stable floor, while Ketchen desperately needs Puka Nacua to see 12+ targets with Jeremiyah Love nursing an ankle injury.</p>
- <div class="w2-keys"><b>Key Battle:</b> Jayden Daniels vs the Ravens defense. If Daniels is pressured into multiple sacks (-0.5) and turnovers (-2), Ketchen falls to 0-2.</div>
-</div>
-
- </div>
-</div></section>
-
-<section id="superlatives"><div class="wrap">
- <div class="eyebrow">Weekly Honors</div>
- <h2>Week 1 Superlatives &#8212; The Good, The Bad &amp; The Ugly</h2>
- 
- <div class="supgrid">
-  <div class="sup">
-   <h3>&#128142; Manager of the Week: David Mitchell</h3>
-   <p><strong>Honey Bijan Chicken</strong> put on a clinic. Dropping 146.70 points and clearing the next closest team by nearly 10 points. Starting Kenneth Walker III (38.60) in Kansas City was the move of the week.</p>
-  </div>
-  <div class="sup">
-   <h3>&#129504; Nuclear Boom: Caleb Williams (40.95 pts)</h3>
-   <p>Rodrick Johnson's faith in the second-year passer paid off in spades. 5 total touchdowns against Carolina proved Chicago's offense can support a fantasy QB1 in a rushing-bonus format.</p>
-  </div>
-  <div class="sup">
-   <h3>&#128148; The Robbery Award: Jeffrey Bonifield</h3>
-   <p>Bonifield's <strong>McDonkey Bhalls</strong> hung 119.15 on the board (6th highest in the league), outscored 7 other teams, and took an L because he ran straight into Caleb Williams' career day.</p>
-  </div>
-  <div class="sup">
-   <h3>&#127827; Pine Meat of the Week: Jalen Coker (29.80 pts)</h3>
-   <p>Jonathan Bagwell won his matchup, but left a monstrous 29.80 points on his bench from Carolina receiver Jalen Coker. Honorable mention: Sean Kramer benching Jameson Williams (26.15).</p>
-  </div>
-  <div class="sup">
-   <h3>&#128680; Five-Alarm Panic: Make Arlington Great Again</h3>
-   <p>Garrett Ketchen put up 78.60 total points. Not a single player reached 21 points, his defense got zeroed out, and his Round 2 pick (Jeremiyah Love) is limping. Emergency waiver session required.</p>
-  </div>
-  <div class="sup">
-   <h3>&#128064; Aubrey Watch: Pick 79 Returns 1.0 Point</h3>
-   <p>The league roasted Jonathan Bagwell for drafting Brandon Aubrey in Round 7. Aubrey kicked one extra point and zero field goals in Dallas' 28-20 loss at MetLife. Bagwell survived, but the math didn't.</p>
-  </div>
- </div>
-</div></section>
-
-<section id="history"><div class="wrap">
+<!-- TAB: HISTORY -->
+<section class="panel" id="history"><div class="wrap">
  <div class="eyebrow">The Record Book</div>
- <h2>The Champions Scorecard &#8212; Nine Titles, Seven Names</h2>
- <p class="lede">Every ring since 2017 confirmed. Jeff Verber and Keith Gardiner lead with two trophies each; five active managers possess hardware.</p>
+ <h2>The Champions Scorecard</h2>
  
  <div class="champgrid">
   <div class="champ known">
-   <div class="champ-top"><div class="champ-name">Jeff Verber</div><div class="champ-rings">&#127942;&#127942;</div></div>
-   <div class="champ-meta">2 titles &#183; 2024, 2025 &#183; -- Eating W's</div>
+   <div class="champ-top"><div class="champ-name">Jeff Verber</div><div class="champ-rings">🏆🏆</div></div>
+   <div class="champ-meta">2 titles • 2024, 2025 • -- Eating W's</div>
    <p>Chasing the league's first three-peat. Career .663 win percentage leads all managers in league history.</p>
   </div>
   <div class="champ known">
-   <div class="champ-top"><div class="champ-name">Keith Gardiner</div><div class="champ-rings">&#127942;&#127942;</div></div>
-   <div class="champ-meta">2 titles &#183; 2020, 2022 &#183; NY Paper Airplanes</div>
-   <p>Departed after 2025 as co-holder of the most titles ever, despite a losing career regular-season record (58-64).</p>
+   <div class="champ-top"><div class="champ-name">Keith Gardiner</div><div class="champ-rings">🏆🏆</div></div>
+   <div class="champ-meta">2 titles • 2020, 2022 • NY Paper Airplanes</div>
+   <p>Departed after 2025 as co-holder of the most titles ever, despite a losing career regular-season record.</p>
   </div>
   <div class="champ known">
-   <div class="champ-top"><div class="champ-name">Spencer Popp</div><div class="champ-rings">&#127942;</div></div>
-   <div class="champ-meta">1 title &#183; 2019 &#183; Thomas and Friends</div>
+   <div class="champ-top"><div class="champ-name">Spencer Popp</div><div class="champ-rings">🏆</div></div>
+   <div class="champ-meta">1 title • 2019 • Thomas and Friends</div>
    <p>The iron man: all 9 seasons played, 8 consecutive winning campaigns, 71-51 all-time. Overdue for ring #2.</p>
   </div>
   <div class="champ known">
-   <div class="champ-top"><div class="champ-name">Sean Kramer</div><div class="champ-rings">&#127942;</div></div>
-   <div class="champ-meta">1 title &#183; 2021 &#183; Bedford Kramers</div>
+   <div class="champ-top"><div class="champ-name">Sean Kramer</div><div class="champ-rings">🏆</div></div>
+   <div class="champ-meta">1 title • 2021 • Bedford Kramers</div>
    <p>From 1-12 in 2019 to champion in 2021. The widest historical variance belongs to a founding father.</p>
   </div>
   <div class="champ known">
-   <div class="champ-top"><div class="champ-name">Rohan Sarode</div><div class="champ-rings">&#127942;</div></div>
-   <div class="champ-meta">1 title &#183; 2018 &#183; Delhi Belly</div>
+   <div class="champ-top"><div class="champ-name">Rohan Sarode</div><div class="champ-rings">🏆</div></div>
+   <div class="champ-meta">1 title • 2018 • Delhi Belly</div>
    <p>Founding member who reclaimed his original banner name after six moniker changes in nine years.</p>
   </div>
   <div class="champ known">
-   <div class="champ-top"><div class="champ-name">Kyle Henderson</div><div class="champ-rings">&#127942;</div></div>
-   <div class="champ-meta">1 title &#183; 2023 &#183; Do it for Damar</div>
+   <div class="champ-top"><div class="champ-name">Kyle Henderson</div><div class="champ-rings">🏆</div></div>
+   <div class="champ-meta">1 title • 2023 • Do it for Damar</div>
    <p>Won the championship in just his second season in the league. Efficient .518 career win clip.</p>
   </div>
  </div>
 </div></section>
 
 <footer><div class="wrap">
- <div class="v">Big Ballers Weekly Intelligence Dashboard &#8226; Week 1 Recap &amp; Week 2 Forecast</div>
- <p>Data confirmed via official ESPN exports. Scoring calibrated to Big Ballers custom specifications (0.1/yd rush, milestone bonuses, -0.5 sack tax). Published Tuesday, September 15, 2026.</p>
+ <p>Big Ballers Weekly Intelligence Dashboard • Week 1 Recap & Week 2 Forecast • Published September 2026</p>
 </div></footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const pills = document.querySelectorAll('.navPill');
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      pills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      const target = pill.getAttribute('data-tab');
+      document.querySelectorAll('.panel').forEach(panel => {
+        panel.classList.remove('active');
+      });
+      document.getElementById(target).classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+});
+</script>
 
 </body></html>
