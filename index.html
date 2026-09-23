@@ -596,7 +596,6 @@ BIG BALLERS DATA — the only block you edit each week.
 Every number here was transcribed from ESPN league pages
 (scoreboard, box scores, FantasyCast, history, settings).
 Player row: [slot, name, NFL team, pos, ESPN proj, fantasy pts, status]
-pts = null means ESPN's box score for that team wasn't captured.
 ============================================================ */
 const DATA = {
 league: {
@@ -648,25 +647,24 @@ bench: [
 ["BE","Stefon Diggs","WSH","WR",7.4,13.5],
 ["BE","Daniel Jones","IND","QB",17.2,10.7],
 ["BE","Tyrone Tracy Jr.","NYG","RB",2.1,-1.6]] },
-LHC: { score: 115.25, full: false,
-top: [["Trevor Lawrence",32.05],["Zay Flowers",23.5],["Seahawks D/ST",20.0]],
+LHC: { score: 115.25, full: true, proj: 114.0,
 starters: [
-["QB","Trevor Lawrence","JAX","QB",null,32.05],
-["RB","Omarion Hampton","LAC","RB",null,null],
-["RB","Jadarian Price","SEA","RB",null,null],
-["WR","Zay Flowers","BAL","WR",null,23.5],
-["WR","Jaylen Waddle","DEN","WR",null,null],
-["TE","Tucker Kraft","GB","TE",null,null],
-["FLEX","James Cook III","BUF","RB",null,null],
-["D/ST","Seahawks D/ST","SEA","D/ST",null,20.0],
-["K","Ka'imi Fairbairn","HOU","K",null,null]],
+["QB","Trevor Lawrence","JAX","QB",19.9,32.05],
+["RB","Omarion Hampton","LAC","RB",16.4,7.3],
+["RB","Jadarian Price","SEA","RB",13.4,6.8,"Q"],
+["WR","Zay Flowers","BAL","WR",11.6,23.5,"Q"],
+["WR","Jaylen Waddle","DEN","WR",9.9,0.7],
+["TE","Tucker Kraft","GB","TE",7.1,8.0],
+["FLEX","James Cook III","BUF","RB",14.8,7.4],
+["D/ST","Seahawks D/ST","SEA","D/ST",11.2,20.0],
+["K","Ka'imi Fairbairn","HOU","K",9.7,9.5]],
 bench: [
-["BE","Christian Watson","GB","WR",null,null],
-["BE","Jacory Croskey-Merritt","WSH","RB",null,null],
-["BE","Blake Corum","LAR","RB",null,null],
-["BE","KC Concepcion","CLE","WR",null,null],
-["BE","Kyler Murray","MIN","QB",null,null],
-["BE","Ray Davis","BUF","RB",null,null]] },
+["BE","Christian Watson","GB","WR",9.2,29.7],
+["BE","Jacory Croskey-Merritt","WSH","RB",7.8,11.1],
+["BE","Blake Corum","LAR","RB",9.0,5.4],
+["BE","KC Concepcion","CLE","WR",7.3,4.8],
+["BE","Kyler Murray","MIN","QB",19.0,-0.2],
+["BE","Ray Davis","BUF","RB",4.5,0.3]] },
 CHQ: { score: 135.75, full: true, proj: 101.2,
 starters: [
 ["QB","Caleb Williams","CHI","QB",19.4,40.95],
@@ -684,25 +682,24 @@ bench: [
 ["BE","Alvin Kamara","NO","RB",0.0,0.0,"Q"],
 ["BE","Jordan Love","GB","QB",18.0,26.85],
 ["BE","Michael Mayer","LV","TE",7.3,6.2]] },
-ISA: { score: 119.15, full: false, nameThisWeek: "McDonkey Bhalls",
-top: [["Jahmyr Gibbs",31.1],["Breece Hall",19.8],["Ladd McConkey",16.7]],
+ISA: { score: 119.15, full: true, proj: 123.3, nameThisWeek: "McDonkey Bhalls",
 starters: [
-["QB","Matthew Stafford","LAR","QB",null,null],
-["RB","Jahmyr Gibbs","DET","RB",null,31.1],
-["RB","Rhamondre Stevenson","NE","RB",null,null],
-["WR","A.J. Brown","NE","WR",null,null],
-["WR","Ladd McConkey","LAC","WR",null,16.7],
-["TE","Tyler Warren","IND","TE",null,null],
-["FLEX","Breece Hall","NYJ","RB",null,19.8],
-["D/ST","Lions D/ST","DET","D/ST",null,null],
-["K","Cam Little","JAX","K",null,null]],
+["QB","Matthew Stafford","LAR","QB",21.6,5.65],
+["RB","Jahmyr Gibbs","DET","RB",20.9,31.1],
+["RB","Rhamondre Stevenson","NE","RB",12.5,12.0],
+["WR","A.J. Brown","NE","WR",11.5,4.1,"IR"],
+["WR","Ladd McConkey","LAC","WR",11.4,16.7],
+["TE","Tyler Warren","IND","TE",9.7,8.8],
+["FLEX","Breece Hall","NYJ","RB",15.2,19.8],
+["D/ST","Lions D/ST","DET","D/ST",11.8,9.0],
+["K","Cam Little","JAX","K",8.7,12.0]],
 bench: [
-["BE","Mike Evans","SF","WR",null,null],
-["BE","Matthew Golden","GB","WR",null,null],
-["BE","Rachaad White","WSH","RB",null,null],
-["BE","RJ Harvey","DEN","RB",null,null],
-["BE","Romeo Doubs","NE","WR",null,null],
-["BE","Terrance Ferguson","LAR","TE",null,null]] },
+["BE","Mike Evans","SF","WR",8.8,13.9,"Q"],
+["BE","Matthew Golden","GB","WR",8.9,12.5],
+["BE","Rachaad White","WSH","RB",7.7,3.7],
+["BE","RJ Harvey","DEN","RB",7.0,6.1,"Q"],
+["BE","Romeo Doubs","NE","WR",6.6,0.0],
+["BE","Terrance Ferguson","LAR","TE",6.7,0.0]] },
 BMD: { score: 146.7, full: true, proj: 114.6,
 starters: [
 ["QB","Lamar Jackson","BAL","QB",22.1,32.2],
@@ -721,25 +718,24 @@ bench: [
 ["BE","Quentin Johnston","LAC","WR",8.8,2.7],
 ["BE","Tyler Allgeier","ARI","RB",6.9,8.0],
 ["BE","Calvin Ridley","TEN","WR",6.8,0.0]] },
-KRAM: { score: 110.55, full: false,
-top: [["Jalen Hurts",30.25],["Dallas Goedert",21.7],["Kyren Williams",14.0]],
+KRAM: { score: 110.55, full: true, proj: 117.3,
 starters: [
-["QB","Jalen Hurts","PHI","QB",null,30.25],
-["RB","Christian McCaffrey","SF","RB",null,null],
-["RB","Kyren Williams","LAR","RB",null,14.0],
-["WR","CeeDee Lamb","DAL","WR",null,null],
-["WR","Jameson Williams","DET","WR",null,null],
-["TE","Dallas Goedert","PHI","TE",null,21.7],
-["FLEX","Malik Nabers","NYG","WR",null,null],
-["D/ST","Rams D/ST","LAR","D/ST",null,null],
-["K","Cameron Dicker","LAC","K",null,null]],
+["QB","Jalen Hurts","PHI","QB",24.2,30.25],
+["RB","Christian McCaffrey","SF","RB",16.3,11.3],
+["RB","Kyren Williams","LAR","RB",12.8,14.0],
+["WR","CeeDee Lamb","DAL","WR",14.1,12.9],
+["WR","Jameson Williams","DET","WR",10.2,6.5],
+["TE","Dallas Goedert","PHI","TE",8.8,21.7],
+["FLEX","Malik Nabers","NYG","WR",10.4,9.9],
+["D/ST","Rams D/ST","LAR","D/ST",10.2,2.0],
+["K","Cameron Dicker","LAC","K",10.2,2.0]],
 bench: [
-["BE","J.K. Dobbins","DEN","RB",null,null],
-["BE","Brian Thomas Jr.","JAX","WR",null,null],
-["BE","Xavier Worthy","KC","WR",null,null],
-["BE","Brian Robinson Jr.","ATL","RB",null,null],
-["BE","Rashid Shaheed","SEA","WR",null,null],
-["BE","Kaelon Black","SF","RB",null,null]] },
+["BE","J.K. Dobbins","DEN","RB",9.1,3.6],
+["BE","Brian Thomas Jr.","JAX","WR",8.5,4.5],
+["BE","Xavier Worthy","KC","WR",7.9,3.3],
+["BE","Brian Robinson Jr.","ATL","RB",4.7,3.1],
+["BE","Rashid Shaheed","SEA","WR",7.6,0.9],
+["BE","Kaelon Black","SF","RB",4.1,7.5]] },
 QSG: { score: 123.2, full: true, proj: 106.0,
 starters: [
 ["QB","Josh Allen","BUF","QB",22.0,41.0],
@@ -758,25 +754,24 @@ bench: [
 ["BE","Dalton Schultz","HOU","TE",6.5,5.5],
 ["BE","Jalen Coker","CAR","WR",7.3,29.8,"Q"],
 ["BE","Samaje Perine","CIN","RB",5.3,7.5]] },
-PNB: { score: 112.45, full: false,
-top: [["Ashton Jeanty",30.7],["Parker Washington",16.8],["Chase Brown",16.3]],
+PNB: { score: 112.45, full: true, proj: 111.9,
 starters: [
-["QB","Justin Herbert","LAC","QB",null,null],
-["RB","Ashton Jeanty","LV","RB",null,30.7],
-["RB","Chase Brown","CIN","RB",null,16.3],
-["WR","DeVonta Smith","PHI","WR",null,null],
-["WR","Tee Higgins","CIN","WR",null,null],
-["TE","Jake Ferguson","DAL","TE",null,null],
-["FLEX","Parker Washington","JAX","WR",null,16.8],
-["D/ST","Ravens D/ST","BAL","D/ST",null,null],
-["K","Jake Bates","DET","K",null,null]],
+["QB","Justin Herbert","LAC","QB",22.4,14.85],
+["RB","Ashton Jeanty","LV","RB",16.4,30.7],
+["RB","Chase Brown","CIN","RB",14.3,16.3],
+["WR","DeVonta Smith","PHI","WR",12.1,6.8],
+["WR","Tee Higgins","CIN","WR",10.8,7.4],
+["TE","Jake Ferguson","DAL","TE",7.6,1.6],
+["FLEX","Parker Washington","JAX","WR",9.4,16.8],
+["D/ST","Ravens D/ST","BAL","D/ST",10.4,11.0],
+["K","Jake Bates","DET","K",8.6,7.0]],
 bench: [
-["BE","Jonathon Brooks","CAR","RB",null,null],
-["BE","Jordan Addison","MIN","WR",null,null],
-["BE","Bo Nix","DEN","QB",null,null],
-["BE","Makai Lemon","PHI","WR",null,null],
-["BE","Mike Washington Jr.","LV","RB",null,null],
-["BE","Josh Downs","IND","WR",null,null]] },
+["BE","Jonathon Brooks","CAR","RB",9.7,6.7],
+["BE","Jordan Addison","MIN","WR",8.1,0.0],
+["BE","Bo Nix","DEN","QB",19.3,2.75],
+["BE","Makai Lemon","PHI","WR",7.0,1.0],
+["BE","Mike Washington Jr.","LV","RB",7.0,4.1],
+["BE","Josh Downs","IND","WR",7.0,5.2]] },
 V3K: { score: 104.5, full: true, proj: 108.5,
 starters: [
 ["QB","Drake Maye","NE","QB",18.5,11.1],
@@ -795,25 +790,24 @@ bench: [
 ["BE","Wan'Dale Robinson","TEN","WR",8.1,6.3],
 ["BE","Dalton Kincaid","BUF","TE",6.9,15.5],
 ["BE","Justice Hill","BAL","RB",5.9,3.3]] },
-DB: { score: 137.1, full: false,
-top: [["D'Andre Swift",32.9],["Javonte Williams",21.7],["Jaguars D/ST",21.0]],
+DB: { score: 137.1, full: true, proj: 115.9,
 starters: [
-["QB","Jared Goff","DET","QB",null,null],
-["RB","Javonte Williams","DAL","RB",null,21.7],
-["RB","D'Andre Swift","CHI","RB",null,32.9],
-["WR","Ja'Marr Chase","CIN","WR",null,null],
-["WR","Tetairoa McMillan","CAR","WR",null,null],
-["TE","Trey McBride","ARI","TE",null,null],
-["FLEX","Kenny Gainwell","TB","RB",null,null],
-["D/ST","Jaguars D/ST","JAX","D/ST",null,21.0],
-["K","Chase McLaughlin","TB","K",null,null]],
+["QB","Jared Goff","DET","QB",19.4,19.0],
+["RB","Javonte Williams","DAL","RB",14.5,21.7],
+["RB","D'Andre Swift","CHI","RB",11.6,32.9],
+["WR","Ja'Marr Chase","CIN","WR",16.3,2.2],
+["WR","Tetairoa McMillan","CAR","WR",12.2,7.0],
+["TE","Trey McBride","ARI","TE",11.0,20.0],
+["FLEX","Kenny Gainwell","TB","RB",10.3,2.3],
+["D/ST","Jaguars D/ST","JAX","D/ST",12.4,21.0],
+["K","Chase McLaughlin","TB","K",8.3,11.0]],
 bench: [
-["BE","DK Metcalf","PIT","WR",null,null],
-["BE","Rico Dowdle","PIT","RB",null,null],
-["BE","Jordan Mason","MIN","RB",null,null],
-["BE","Kyle Monangai","CHI","RB",null,null],
-["BE","De'Zhaun Stribling","SF","WR",null,null],
-["BE","Tyler Shough","NO","QB",null,null]] },
+["BE","DK Metcalf","PIT","WR",10.2,6.0],
+["BE","Rico Dowdle","PIT","RB",11.8,3.1,"Q"],
+["BE","Jordan Mason","MIN","RB",9.2,11.9,"IR"],
+["BE","Kyle Monangai","CHI","RB",9.6,25.4],
+["BE","De'Zhaun Stribling","SF","WR",7.9,0.0,"IR"],
+["BE","Tyler Shough","NO","QB",16.5,25.8]] },
 MAGA: { score: 78.6, full: true, proj: 104.5,
 starters: [
 ["QB","Jayden Daniels","WSH","QB",19.3,20.8],
@@ -832,25 +826,24 @@ bench: [
 ["BE","Patrick Mahomes","KC","QB",18.3,24.5],
 ["BE","Hunter Henry","NE","TE",6.6,4.1],
 ["BE","Chris Rodriguez Jr.","JAX","RB",5.6,2.3]] },
-DDT: { score: 119.9, full: false,
-top: [["David Montgomery",27.4],["Amon-Ra St. Brown",23.7],["Isaiah Likely",22.8]],
+DDT: { score: 119.9, full: true, proj: 117.1,
 starters: [
-["QB","Joe Burrow","CIN","QB",null,null],
-["RB","De'Von Achane","MIA","RB",null,null],
-["RB","Travis Etienne Jr.","NO","RB",null,null],
-["WR","Amon-Ra St. Brown","DET","WR",null,23.7],
-["WR","Garrett Wilson","NYJ","WR",null,null],
-["TE","Isaiah Likely","NYG","TE",null,22.8],
-["FLEX","David Montgomery","HOU","RB",null,27.4],
-["D/ST","Texans D/ST","HOU","D/ST",null,null],
-["K","Harrison Mevis","LAR","K",null,null]],
+["QB","Joe Burrow","CIN","QB",21.8,17.2],
+["RB","De'Von Achane","MIA","RB",16.7,8.6],
+["RB","Travis Etienne Jr.","NO","RB",13.7,11.3],
+["WR","Amon-Ra St. Brown","DET","WR",15.3,23.7],
+["WR","Garrett Wilson","NYJ","WR",11.7,10.9],
+["TE","Isaiah Likely","NYG","TE",7.5,22.8],
+["FLEX","David Montgomery","HOU","RB",11.9,27.4],
+["D/ST","Texans D/ST","HOU","D/ST",9.2,-3.0],
+["K","Harrison Mevis","LAR","K",9.3,1.0]],
 bench: [
-["BE","Courtland Sutton","DEN","WR",null,null],
-["BE","Jaxson Dart","NYG","QB",null,null],
-["BE","Khalil Shakir","BUF","WR",null,null],
-["BE","Jayden Reed","GB","WR",null,null],
-["BE","Kenyon Sadiq","NYJ","TE",null,null],
-["BE","Juwan Johnson","NO","TE",null,null]] }
+["BE","Courtland Sutton","DEN","WR",9.6,2.6],
+["BE","Jaxson Dart","NYG","QB",21.2,29.9],
+["BE","Khalil Shakir","BUF","WR",7.4,7.0],
+["BE","Jayden Reed","GB","WR",8.1,3.5],
+["BE","Kenyon Sadiq","NYJ","TE",4.0,9.9],
+["BE","Juwan Johnson","NO","TE",6.7,12.9]] }
 }
 },
 2: {
@@ -1065,25 +1058,24 @@ bench: [
 ["BE","Jayden Reed","GB","WR",8.0,0.9,"D"],
 ["BE","Kenyon Sadiq","NYJ","TE",6.4,2.7],
 ["BE","Juwan Johnson","NO","TE",6.9,8.6]] },
-LHC: { score: 99.35, full: false,
-top: [["James Cook III",21.4],["Jaylen Waddle",17.8],["Omarion Hampton",15.5]],
+LHC: { score: 99.35, full: true, proj: 113.5,
 starters: [
-["QB","Trevor Lawrence","JAX","QB",null,null],
-["RB","James Cook III","BUF","RB",null,21.4],
-["RB","Omarion Hampton","LAC","RB",null,15.5],
-["WR","Jaylen Waddle","DEN","WR",null,17.8],
-["WR","Christian Watson","GB","WR",null,null],
-["TE","Tucker Kraft","GB","TE",null,null],
-["FLEX","Jadarian Price","SEA","RB",null,null,"Q"],
-["D/ST","Seahawks D/ST","SEA","D/ST",null,null],
-["K","Ka'imi Fairbairn","HOU","K",null,null]],
+["QB","Trevor Lawrence","JAX","QB",18.6,7.05],
+["RB","James Cook III","BUF","RB",17.3,21.4],
+["RB","Omarion Hampton","LAC","RB",14.9,15.5],
+["WR","Jaylen Waddle","DEN","WR",9.9,17.8],
+["WR","Christian Watson","GB","WR",10.6,12.1],
+["TE","Tucker Kraft","GB","TE",8.4,1.5],
+["FLEX","Jadarian Price","SEA","RB",12.5,3.5,"Q"],
+["D/ST","Seahawks D/ST","SEA","D/ST",11.6,14.0],
+["K","Ka'imi Fairbairn","HOU","K",9.8,6.5]],
 bench: [
-["BE","Zay Flowers","BAL","WR",null,null,"Q"],
-["BE","Jacory Croskey-Merritt","WSH","RB",null,null],
-["BE","Blake Corum","LAR","RB",null,null],
-["BE","KC Concepcion","CLE","WR",null,null],
-["BE","Kyler Murray","MIN","QB",null,null],
-["BE","Ray Davis","BUF","RB",null,null]] }
+["BE","Zay Flowers","BAL","WR",0.0,0.0,"Q"],
+["BE","Jacory Croskey-Merritt","WSH","RB",9.6,5.3],
+["BE","Blake Corum","LAR","RB",9.5,8.7],
+["BE","KC Concepcion","CLE","WR",7.7,5.2],
+["BE","Kyler Murray","MIN","QB",0.0,0.0],
+["BE","Ray Davis","BUF","RB",3.0,0.0]] }
 }
 }
 },
@@ -1185,9 +1177,9 @@ stories: [
 { title: "Garrett Has Benched 59.3 Points of Patrick Mahomes",
 body: "Week 1: Mahomes 24.5 on the bench, Jayden Daniels 20.8 as the starter. Week 2: Mahomes 34.8 on the bench, Daniels 15.7. The Week 2 swap alone was worth 19.1 points in a 10.3-point loss. Daniels now has a dislocated elbow and Washington has named Marcus Mariota its starter. As of Tuesday night, Daniels is still in Garrett's lineup." },
 { title: "Four Losers Had the Win Sitting on Their Bench",
-body: "Darren, Garrett, Kramer and Rodrick all lost games their own rosters could have won. Darren's was the cleanest disaster: Joe Burrow's 17.75 on the bench, Jaxson Dart's 1.0 in the lineup, a 13.85-point loss. Five of nine managers with two quarterbacks started the wrong one, and those calls cost 71.9 points combined." },
+body: "Darren, Garrett, Kramer and Rodrick all lost games their own rosters could have won. Darren's was the cleanest disaster: Joe Burrow's 17.75 on the bench, Jaxson Dart's 1.0 in the lineup, a 13.85-point loss. Five of the 10 managers carrying two quarterbacks started the wrong one, and those calls cost 71.9 points combined. Darren has now done it both weeks: Burrow over Dart's 29.9 in Week 1, Dart over Burrow's 17.75 in Week 2." },
 { title: "Rohan Did Everything Right and It Didn't Matter",
-body: "Delhi Belly's 134.45 was the highest losing score of the season, would have beaten nine of the other 11 teams, and came from the only perfect lineup on record in Week 2. Rohan had a 90.45-point lead after Sunday's noon games and spent the weekend letting everyone know. The lead did not survive Monday night." },
+body: "Delhi Belly's 134.45 was the highest losing score of the season, would have beaten nine of the other 11 teams, and came from the only perfect lineup in the league that week. Rohan had a 90.45-point lead after Sunday's noon games and spent the weekend letting everyone know. The lead did not survive Monday night." },
 { title: "David Needed Kenneth Walker III on Sunday Night, and Got Him",
 body: "Roddy Riccchh's lineup was finished after the afternoon games, up 87.70 to 86.55. Honey Bijan Chicken had one player left. Walker scored 21.8 against the Colts and David is 2-0, with Brock Purdy's 33.35 still sitting on his bench." },
 { title: "Kyle Is 2-0 and Nobody Can Explain It",
@@ -1195,12 +1187,12 @@ body: "Let HIM Cook scored below the league median both weeks and won both. Agai
 ],
 recaps: {
 1: [
-"Caleb Williams (40.95), Justin Jefferson (27.2) and Chris Olave (23.2) combined for 91.35. Jahmyr Gibbs led McDonkey Bhalls with 31.1, and the 119.15 total would have beaten six other teams. It beat none of the ones on the schedule.",
-"Week 1's high score. Kenneth Walker III (38.6), Lamar Jackson (32.2) and Bijan Robinson (25.3) did the damage, with Brock Purdy (26.15) and Chuba Hubbard (22.2) left on the bench. Jalen Hurts led Kramer with 30.25.",
-"Josh Allen (41.0) and Derrick Henry (35.8) scored 76.8 of the 123.2. Jalen Coker scored 29.8 on the bench while Kyle Pitts Sr. (0.0) and Brandon Aubrey (1.0) started. A rookie manager, winning with 1.0 point from two starters. Ashton Jeanty led Phil with 30.7.",
-"The two-time defending champion lost by 32.6. Steelers D/ST (26.0) and Jaxon Smith-Njigba (22.2) scored 48.2; the starting running backs scored 9.7 combined. D'Andre Swift led Delhi Belly with 32.9.",
-"Week 1's low score. Patrick Mahomes scored 24.5 on the bench while Jayden Daniels started, and Browns D/ST scored exactly zero. David Montgomery (27.4), Amon-Ra St. Brown (23.7) and Isaiah Likely (22.8) led Darren to a win in his first game in the league.",
-"Chargers D/ST scored 0, Terry McLaurin 2.4 and Davante Adams 4.1. Jonathan Taylor (22.6) was Spencer's top scorer. Trevor Lawrence (32.05), Zay Flowers (23.5) and Seahawks D/ST (20.0) handed Kyle the first of two very convenient wins."
+"Caleb Williams (40.95), Justin Jefferson (27.2) and Chris Olave (23.2) combined for 91.35. McDonkey Bhalls got 31.1 from Jahmyr Gibbs and 5.65 from Matthew Stafford. The 119.15 total would have beaten six other teams. It lost anyway.",
+"Week 1's high score. Kenneth Walker III (38.6), Lamar Jackson (32.2) and Bijan Robinson (25.3) did the damage, with Brock Purdy (26.15) and Chuba Hubbard (22.2) left on the bench. Jalen Hurts led Kramer with 30.25, and Kramer's lineup was within a point of perfect (110.55 of a possible 111.55). He just ran into the week's high score.",
+"Josh Allen (41.0) and Derrick Henry (35.8) scored 76.8 of the 123.2. Jalen Coker scored 29.8 on the bench while Kyle Pitts Sr. (0.0) and Brandon Aubrey (1.0) started. A rookie manager, winning with 1.0 point from two starters. Ashton Jeanty led Phil with 30.7, and Phil's lineup was perfect: nothing on his bench would have helped.",
+"The two-time defending champion lost by 32.6. Steelers D/ST (26.0) and Jaxon Smith-Njigba (22.2) scored 48.2; the starting running backs scored 9.7 combined. D'Andre Swift led Delhi Belly with 32.9, and Rohan won by 32.6 with Tyler Shough (25.8) and Kyle Monangai (25.4) sitting on his bench.",
+"Week 1's low score. Patrick Mahomes scored 24.5 on the bench while Jayden Daniels started, and Browns D/ST scored exactly zero. Darren benched Jaxson Dart's 29.9 for Joe Burrow's 17.2 and won by 41.3 anyway, behind David Montgomery (27.4), Amon-Ra St. Brown (23.7) and Isaiah Likely (22.8).",
+"Chargers D/ST scored 0, Terry McLaurin 2.4 and Davante Adams 4.1. Jonathan Taylor (22.6) was Spencer's top scorer. Kyle started Jaylen Waddle (0.7) with Christian Watson's 29.7 on the bench and still won by 19.4, thanks to Trevor Lawrence (32.05), Zay Flowers (23.5) and Seahawks D/ST (20.0)."
 ],
 2: [
 "Rodrick's lineup finished Sunday afternoon at 87.70, up 1.15 with nothing left to play. David had Kenneth Walker III on Sunday night, and Walker hung 21.8. Brock Purdy scored 33.35 on David's bench, twice Lamar Jackson's 16.65. Rodrick's best player was the Patriots D/ST. Caleb Williams scored 6.6 and left on a cart.",
@@ -1208,7 +1200,7 @@ recaps: {
 "ESPN favored Kramer 121.0 to 108.8 and he never led for a single window. Jaxon Smith-Njigba scored 38.0 by himself. Malik Nabers (0.6), Dallas Goedert (0.9) and Cameron Dicker (1.0) combined for 2.5, while Xavier Worthy scored 11.0 on the bench. Starting Worthy and Brian Robinson Jr. would have won it.",
 "Phil led wire to wire with Justin Herbert at 6.8, which tells you everything about Garrett's week. Garrett went into Sunday night down 28.40 needing it from Alec Pierce and Harrison Butker. Patrick Mahomes was playing in that exact game. He scored 34.8. On the bench.",
 "The comeback of the season. Spencer was down 29.15 after Thursday, 90.45 after the noon games and 34.70 going into Monday with only Davante Adams left. Adams, projected for 13.1, scored 36.0. Rohan's lineup was perfect. He lost anyway, and the group chat went quiet.",
-"Week 2's low score. Darren started Jaxson Dart (1.0) with Joe Burrow (17.75) on the bench, a 16.75-point decision in a 13.85-point loss. Amon-Ra St. Brown scored 30.7; the other eight starters scored 54.8 combined. James Cook III led Kyle to another win nobody will remember."
+"Week 2's low score. Darren started Jaxson Dart (1.0) with Joe Burrow (17.75) on the bench, a 16.75-point decision in a 13.85-point loss. Amon-Ra St. Brown scored 30.7; the other eight starters scored 54.8 combined. James Cook III (21.4) led Kyle, whose quarterback scored 7.05, to another win nobody will remember."
 ]
 },
 power: {
@@ -1222,7 +1214,7 @@ LHC:  "2-0 while scoring below the median both weeks. Kyle is the league's lucki
 PNB:  "Started Herbert (6.8) over Nix (18.0) and won anyway, because the opponent was Garrett.",
 KRAM: "Faced 265.4 points, second-most. Also started Nabers, Goedert and Dicker for a combined 2.5. Both things are true.",
 ISA:  "Named the team 'I suck again' and then faced the most points in the league. The schedule read the name.",
-DDT:  "Benched Joe Burrow for Jaxson Dart. Lost by 13.85. Burrow scored 17.75. We'll let the numbers talk.",
+DDT:  "Wrong QB both weeks: Burrow over Dart's 29.9, then Dart over Burrow's 17.75. Chasing points and catching none.",
 MAGA: "59.3 points of Patrick Mahomes on the bench. 0-2. 2-20 against the whole league. Start. Mahomes."
 },
 preview: [
@@ -1237,34 +1229,34 @@ thursday: "Falcons at Packers, Thursday 7:15 PM. Lineups lock player by player a
 week: {
 kicker: "Week 2 in Review",
 headline: "The Quarterbacks Fell, the Scores Fell, and Garrett Benched Mahomes Again",
-deck: "League scoring dropped 7.40 points a team. Three starting QBs got hurt, Jayden Daniels, Caleb Williams and Jaxson Dart, and all three are on Big Ballers rosters. Running backs were the week's biggest letdown, and five of nine managers carrying two quarterbacks started the wrong one. One of them was Garrett. Again."
+deck: "League scoring dropped 7.40 points a team. Three starting QBs got hurt, Jayden Daniels, Caleb Williams and Jaxson Dart, and all three are on Big Ballers rosters. Starting quarterbacks averaged 3.34 points under projection, the worst of any position, and five of the 10 managers carrying two quarterbacks started the wrong one. One of them was Garrett. Again."
 },
 /* Team reports. Grades are opinion; everything else is from DATA. W2 position ranks are among the 11 teams with full Week 2 box scores. */
 teams: {
 QSG: { grade: "A", title: "The Rookie Brought a Cheat Code",
 body: "Josh Allen has 87.3 points in two games, more than Garrett's entire Week 1 lineup. Allen and Derrick Henry account for 139.3 of Bagwell's 263.8 points, 52.8% of the offense. Week 2 lineup efficiency: 95.6%, second-best in the league. First-year manager, first place, and he hasn't figured out how to lose yet.",
 working: "Quarterback (46.3 in Week 2, first), tight end (Dalton Schultz 20.0, second) and a kicker who shows up (16.0).",
-broken: "Receivers. Three starting WRs scored 22.6 in Week 2, ninth of 11. George Pickens has 11.3 points in two games.",
+broken: "Receivers. Three starting WRs scored 22.6 in Week 2, 10th of 12. George Pickens has 11.3 points in two games.",
 call: "56% against Roddy Riccchh. If Allen does Allen things at noon Sunday, this one is over before the late games." },
 DB: { grade: "A-", title: "Best Team in the League. The Standings Disagree.",
-body: "Rohan leads the league with 271.55 points, is 19-3 against the whole league, and sits at 1-1 because Davante Adams scored 36.0 on Monday night. His Week 2 lineup was the only perfect lineup on record, and it lost. He had a 90.45-point lead and the group chat on Sunday. By Tuesday he had neither.",
+body: "Rohan leads the league with 271.55 points, is 19-3 against the whole league, and sits at 1-1 because Davante Adams scored 36.0 on Monday night. His Week 2 lineup was the only perfect lineup in the league, and it lost. He had a 90.45-point lead and the group chat on Sunday. By Tuesday he had neither.",
 working: "Balance. Top six at every position in Week 2. D'Andre Swift has 42.3 points in two games.",
 broken: "Nothing on the field. The schedule: 240.25 points allowed, fifth-most, and the worst luck score among teams at .500 or better.",
 call: "48% against Darren. Darren's QB, Joe Burrow, throws to Rohan's WR1, Ja'Marr Chase. Every Bengals touchdown is a hostage negotiation." },
 BMD: { grade: "B+", title: "Starting the Wrong QB and Winning Anyway",
 body: "Kenneth Walker III has 60.4 points and has been David's best starter both weeks. Brock Purdy has scored 59.5 on the bench; Lamar Jackson has 48.85 as the starter. David is 2-0 regardless, and in Week 2 he was losing until Walker bailed him out on Sunday night.",
 working: "Running backs: 44.8 points from the RB spots in Week 2, most in the league.",
-broken: "Receivers: 17.7 in Week 2, 10th of 11. Nico Collins (Q) and Marvin Harrison Jr. both scored 0 on the bench. Devaughn Vele is starting for a 2-0 team.",
+broken: "Receivers: 17.7 in Week 2, 11th of 12. Nico Collins (Q) and Marvin Harrison Jr. both scored 0 on the bench. Devaughn Vele is starting for a 2-0 team.",
 call: "55% against the two-time champ. Purdy gets Arizona at home. Lamar goes to Dallas. Choose wisely, David." },
 SAP: { grade: "B", title: "Comeback King With a Special-Teams Problem",
 body: "Down 90.45 after Sunday's noon games in Week 2, won by 1.30. Davante Adams went 36.0 on a 13.1 projection and Travis Kelce 20.6 on 8.4. The less flattering part: 29.1 points left on the bench in a game decided by 1.30, including Stefon Diggs' 19.2. Saquon Barkley has 11.0 points in two games.",
 working: "Quarterback (Dak 35.55, second in Week 2) and tight end (Kelce 20.6, first).",
-broken: "Defense and kicker: Buccaneers D/ST (4.0) and Tyler Bass (4.0) ranked 10th and 8th. Chargers D/ST scored 0 in Week 1.",
+broken: "Defense and kicker: Buccaneers D/ST (4.0) and Tyler Bass (4.0) ranked 11th and 9th. Chargers D/ST scored 0 in Week 1.",
 call: "55% at Kramer, with two Q tags in the lineup: Barkley, with an MRI planned, and DJ Moore, who scored −0.1 last week." },
 CHQ: { grade: "C+", title: "Last Year's Runner-Up Has a Full-Blown QB Crisis",
 body: "Caleb Williams went 40.95, then 6.6, then got carted off with a hamstring. Jordan Love has 41.6 points on the bench over two weeks and finally gets the start. The Patriots D/ST (27.0) was Rodrick's best player in Week 2, which is not a sentence anyone wants on their résumé. Colston Loveland has 0.8 points in two starts.",
 working: "D/ST (27.0 in Week 2, first) and Chris Olave, 41.8 points in two games.",
-broken: "Tight end (0.8, dead last in Week 2) and quarterback (6.6, 10th).",
+broken: "Tight end (0.8, dead last in Week 2) and quarterback (6.6, 11th).",
 call: "44% at Quarterback Sackgood. Brock Bowers is expected back from IR. The TE spot has nowhere to go but up." },
 V3K: { grade: "B-", title: "The Two-Time Champ Is a One-Man Band",
 body: "Jaxon Smith-Njigba has 60.2 of the team's 223.2 points, 27% of everything. The running backs, Quinshon Judkins and MarShawn Lloyd, have combined for 23.6 in two weeks. Drake Maye has 19.7 total. Two straight titles buys some patience. Not this much.",
@@ -1272,34 +1264,34 @@ working: "Receivers (56.2 in Week 2, first in the league) and Steelers D/ST, 42.
 broken: "Running back (13.9 in Week 2, dead last) and quarterback (8.6, eighth).",
 call: "45% at Honey Bijan Chicken. Lloyd and London play Thursday. George Kittle scored 16.0 on the bench last week, for what it's worth." },
 LHC: { grade: "C", title: "2-0 on Vibes and a Friendly Schedule",
-body: "Kyle scored below the league median both weeks and won both, because he drew Spencer's Week 1 dud (95.85) and Darren's Dart disaster (85.5). Against the full league he'd be 9-13. His luck score, +1.18 wins, is the highest in the league, and his 181.35 points allowed are second-lowest.",
-working: "Trevor Lawrence (32.05 in Week 1) and a schedule that keeps handing him teams on bad weeks.",
-broken: "Hard to grade the rest: ESPN's box scores for Kyle's games weren't captured either week. What we do know: 99.35 in Week 2 was the eighth-best score of 12.",
+body: "Kyle scored below the league median both weeks and won both, because he drew Spencer's Week 1 dud (95.85) and Darren's Dart disaster (85.5). Against the full league he'd be 9-13. His luck score, +1.18 wins, is the highest in the league, and his 181.35 points allowed are second-lowest. In Week 1 he started Jaylen Waddle (0.7) with Christian Watson's 29.7 on the bench, and still won.",
+working: "Running backs: 40.4 in Week 2, second in the league, led by James Cook III's 21.4. Seahawks D/ST has 34.0 in two games.",
+broken: "Quarterback and tight end. Trevor Lawrence went from 32.05 to 7.05, and Tucker Kraft has 9.5 points in two games.",
 call: "52% at Phil. Jadarian Price (Q) is in his flex and Zay Flowers (Q) on the bench. Christian Watson and Tucker Kraft go Thursday." },
 PNB: { grade: "C", title: "Wrong QB, Right Result, Same Phil",
 body: "Phil started Justin Herbert (6.8) over Bo Nix (18.0) and won anyway, because the opponent was Garrett. Ashton Jeanty went 30.7 in Week 1 and 8.8 in Week 2. The receivers are carrying this thing: 48.0 in Week 2, second in the league, led by DeVonta Smith's 23.2. Reminder: Phil owns the best regular season in league history (11-2 in 2020) and zero top-three finishes in eight years.",
 working: "Receivers and tight end (Jake Ferguson 18.3, fourth in Week 2).",
-broken: "Quarterback (6.8, ninth) and D/ST (Ravens, 5.0, ninth).",
+broken: "Quarterback (6.8, 10th) and D/ST (Ravens, 5.0, 10th).",
 call: "48% against Let HIM Cook. Herbert starts at Buffalo again; Nix sits for Sunday night against the Rams. Phil is committed to the bit." },
 KRAM: { grade: "C-", title: "The Schedule Hates Kramer. The Lineup Isn't Helping.",
 body: "Kramer has faced 265.4 points, second-most in the league, including Honey Bijan Chicken's 146.7 in Week 1. In Week 2 he was ESPN's favorite and never led. Malik Nabers (0.6), Dallas Goedert (0.9) and Cameron Dicker (1.0) combined for 2.5 while Xavier Worthy scored 11.0 on the bench.",
-working: "Running backs (34.3 in Week 2, second) and CeeDee Lamb (31.3).",
-broken: "Tight end (0.9, 10th) and kicker (1.0, 11th). Two slots, 1.9 points.",
+working: "Running backs (34.3 in Week 2, third) and CeeDee Lamb (31.3).",
+broken: "Tight end (0.9, 11th) and kicker (1.0, dead last). Two slots, 1.9 points.",
 call: "45% against Spencer. Goedert (D) and Nabers (Q) are still in the lineup. Worthy is on the bench. Again." },
 ISA: { grade: "C-", title: "Named the Team 'I suck again.' The Schedule Agreed.",
 body: "Bonifield has faced 276.35 points, most in the league: Roddy Riccchh's 135.75 in Week 1 and Quarterback Sackgood's 140.6 in Week 2. His 119.15 in Week 1 would have beaten six teams. In Week 2 the Lions D/ST scored −3.0 and Bryce Young scored 28.95 on the bench.",
-working: "Quarterback (Stafford 33.75, third in Week 2) and running backs (third).",
+working: "Quarterback (Stafford 33.75, third in Week 2) and running backs (fourth).",
 broken: "Receivers (11.9 from two starters, dead last) and D/ST (−3.0, dead last).",
 call: "77% against Garrett, the week's biggest favorite. Lose this one and the team name becomes a mission statement." },
-DDT: { grade: "D+", title: "Benched Joe Burrow for Jaxson Dart. Yes, Really.",
-body: "Darren's Week 2 quarterback call, Dart (1.0) over Burrow (17.75), cost 16.75 points in a 13.85-point loss. Dart is now expected to miss time with a knee injury, which at least solves the problem for him. Amon-Ra St. Brown has 54.4 points in two weeks; in Week 2 the other eight starters scored 54.8 combined. Rookie season, rookie decisions.",
+DDT: { grade: "D+", title: "Wrong Quarterback. Both Weeks.",
+body: "Week 1: Darren started Joe Burrow (17.2) while Jaxson Dart scored 29.9 on the bench. Week 2 he switched, started Dart (1.0), and Burrow scored 17.75 on the bench in a 13.85-point loss. That's 29.45 points of quarterback decisions in two games. Dart is now expected to miss time with a knee injury, which finally makes the call for him. Amon-Ra St. Brown has 54.4 points; in Week 2 the other eight starters scored 54.8 combined.",
 working: "Amon-Ra, and receivers generally: 44.9 in Week 2, third.",
-broken: "Quarterback (1.0, dead last) and tight end (Isaiah Likely 5.8, ninth).",
-call: "52% at Delhi Belly with Burrow back where he belongs. His favorite target, Ja'Marr Chase, plays for Rohan." },
+broken: "Quarterback (1.0, dead last in Week 2) and tight end (Isaiah Likely 5.8, ninth).",
+call: "52% at Delhi Belly with Burrow back in the lineup. His favorite target, Ja'Marr Chase, plays for Rohan." },
 MAGA: { grade: "F", title: "Patrick Mahomes Has 59.3 Points. On the Bench.",
 body: "Garrett has benched Patrick Mahomes twice and lost twice. Mahomes: 24.5 and 34.8 on the bench. Jayden Daniels: 20.8 and 15.7 as the starter, and now a dislocated elbow. Garrett's 171.9 points are last in the league by 33.5, and he's 2-20 against the full league.",
 working: "The kicker. Harrison Butker scored 16.5 in Week 2, first in the league. That's the list.",
-broken: "Everything with a helmet: RB 10th, WR 8th, TE 8th in Week 2. Plus the quarterback decision, which has become a cry for help.",
+broken: "Everything with a helmet: RB 11th, WR 9th, TE 8th in Week 2. Plus the quarterback decision, which has become a cry for help.",
 call: "23%, the week's biggest underdog. Daniels is still in the lineup and Washington has already named Marcus Mariota its starter. Start Mahomes, Garrett. Please." }
 }
 };
@@ -1730,7 +1722,7 @@ ${c.body ? `<p class="tr-b">${esc(c.body)}</p>` : ''}
 <div><b>${t.apW}-${t.apL}</b><span>All-Play Record</span></div>
 <div><b class="${t.luck > 0.001 ? 'pos' : t.luck < -0.001 ? 'neg' : ''}">${t.luck > 0 ? '+' : t.luck < 0 ? '−' : ''}${Math.abs(t.luck).toFixed(2)}</b><span>Luck (Wins)</span></div>
 </div>
-<div class="tr-pos"><span class="lbl">Week ${CUR} Rank by Position</span>${s.posRanks ? s.posRanks.map(p => `<span class="pr ${p.r <= 3 ? 'top' : p.r >= p.n - 2 ? 'bot' : ''}" title="${p.v} points">${p.k} <b>${ord(p.r)}</b></span>`).join('') : '<span class="sub">Box score not captured</span>'}</div>
+${s.posRanks ? `<div class="tr-pos"><span class="lbl">Week ${CUR} Rank by Position</span>` : ""}${s.posRanks ? s.posRanks.map(p => `<span class="pr ${p.r <= 3 ? 'top' : p.r >= p.n - 2 ? 'bot' : ''}" title="${p.v} points">${p.k} <b>${ord(p.r)}</b></span>`).join('') : ''}${s.posRanks ? '</div>' : ''}
 ${(c.working || c.broken) ? `<div class="tr-wb"><div class="ok"><h4>Working</h4><p>${esc(c.working || '')}</p></div><div class="bad"><h4>Broken</h4><p>${esc(c.broken || '')}</p></div></div>` : ''}
 ${s.opp ? `<div class="tr-call"><span class="wk">Week ${NEXT}</span><span class="vs">${s.home ? 'vs' : 'at'} ${av(s.opp, 's')} ${esc(T(s.opp).name)}</span><span class="odds"><i style="width:${s.wp}%"></i></span><b>${s.wp}%</b>${c.call ? `<p>${esc(c.call)}</p>` : ''}</div>` : ''}
 ${s.inj.length ? `<p class="tr-inj">Injury tags: ${s.inj.map(x => `${esc(x[0])}${tag(x[1])}${x[2] === 'Starting' ? ' <span class="sub">in lineup</span>' : ''}`).join(', ')}</p>` : ''}
@@ -1740,7 +1732,7 @@ function renderTeams() {
 const order = powerOrder(CUR).map(t => t.id);
 $('teams').innerHTML = `
 <h2>Team Reports</h2>
-<p class="lede">All twelve teams, ordered by power ranking. Grades are ours; every number is from the box scores. Position ranks compare the ${positionTable(CUR).length} teams with full Week ${CUR} box scores.</p>
+<p class="lede">All twelve teams, ordered by power ranking. Grades are ours; every number is from the box scores.</p>
 <div class="jump">${order.map(id => `<button class="jb" data-jump="${id}" title="${esc(T(id).name)}">${av(id)}</button>`).join('')}</div>
 <div class="treports">${order.map(teamReport).join('')}</div>`;
 }
@@ -1804,7 +1796,7 @@ return `<div class="pr-rows">${d.map(x => `<div class="prr">
 <span class="pd ${x.diff < 0 ? 'neg' : 'pos'}">${x.diff >= 0 ? '+' : '−'}${Math.abs(x.diff).toFixed(2)}</span></div>`).join('')}</div>
 <p class="note">Average points per starter. The dark tick is ESPN's projection; orange bars fell short of it.</p>`;
 }
-const POSNAME = { QB: 'Quarterbacks', RB: 'Running backs', WR: 'Receivers', TE: 'Tight ends', 'D/ST': 'Defenses', K: 'Kickers' };
+const POSNAME = { QB: 'Quarterbacks', RB: 'Running Backs', WR: 'Receivers', TE: 'Tight Ends', 'D/ST': 'Defenses', K: 'Kickers' };
 function distSVG(width) {
 const ws = weekNums(), all = [].concat(...ws.map(w => scoresFor(w).map(s => s.score)));
 const lo = Math.floor((Math.min(...all) - 5) / 10) * 10, hi = Math.ceil((Math.max(...all) + 5) / 10) * 10;
@@ -1886,7 +1878,7 @@ $('overview').innerHTML = `
 </div>
 <div class="section">
 <h2>Which Positions Delivered</h2>
-<p class="lede" style="margin-bottom:12px">From the ${lineupAudit(CUR).filter(a => a.full).length} teams with full Week ${CUR} box scores.</p>
+<p class="lede" style="margin-bottom:12px">Average points per starter in Week ${CUR}, against ESPN's projection.</p>
 <div class="panelbox">${positionReport(CUR)}</div>
 <div class="takeaways" style="margin-top:18px">
 <div class="take"><b>${POSNAME[worst.pos]} Came Up Short</b><p>Starting ${POSNAME[worst.pos].toLowerCase()} averaged ${worst.avg.toFixed(2)} against a ${worst.projAvg.toFixed(2)} projection.</p></div>
@@ -1950,14 +1942,14 @@ function renderScores() {
 const w = state.scoresWeek, wk = DATA.weeks[w], res = gameResults(w), recaps = (DATA.copy.recaps || {})[w] || [];
 $('scores').innerHTML = `
 <h2>Scores</h2>
-<p class="lede">Every result, with full box scores. Bench rows are grey. A dash means ESPN's page for that team wasn't captured, so only its top scorers are known.</p>
+<p class="lede">Every result, with box scores. Bench rows are grey.</p>
 ${weekSwitch('scoresWeek')}
 <div class="games">${res.map((g, i) => {
 const side = (id, sc) => `<div class="line ${g.win === id ? 'w' : 'l'}"><div class="who">${av(id)}<div class="tx"><b>${g.win === id ? '<i class="wtag"></i>' : ''}${esc(teamName(id, w))}</b><span>${esc(T(id).manager)}</span></div></div><div class="pts">${P(sc)}</div></div>`;
 const box = id => {
 const t = wk.teams[id];
-const partial = !t.full ? `<p class="sub" style="margin:4px 0">Top scorers from ESPN's scoreboard: ${t.top.map(x => `${esc(x[0])} ${x[1].toFixed(2)}`).join(', ')}.</p>` : '';
-return `<div><h4>${esc(teamName(id, w))}</h4>${partial}${boxTable(t)}</div>`;
+if (!t.full) return `<div><h4>${esc(teamName(id, w))}</h4><table class="mini"><thead><tr><th>Top scorers</th><th class="num">Pts</th></tr></thead><tbody>${t.top.map(x => `<tr><td>${esc(x[0])}</td><td class="num"><b>${x[1].toFixed(2)}</b></td></tr>`).join('')}</tbody></table></div>`;
+return `<div><h4>${esc(teamName(id, w))}</h4>${boxTable(t)}</div>`;
 };
 return `<article class="game">
 ${side(g.away, g.as)}${side(g.home, g.hs)}
@@ -2032,10 +2024,10 @@ const dvRow = m => `<div class="dv"><div class="n"><b>${esc(m.name)}</b><span>${
 <div class="v">${m.diff >= 0 ? '+' : '−'}${Math.abs(m.diff).toFixed(2)}<small>${P1(m.proj)} → ${P(m.pts)}</small></div></div>`;
 $('insights').innerHTML = `
 <h2>Insights</h2>
-<p class="lede">Where the week was won and lost: lineup decisions, quarterback calls, ESPN's projections, and where each team's points came from. Built only from teams with a captured box score.</p>
+<p class="lede">Where the week was won and lost: lineup decisions, quarterback calls, ESPN's projections, and where each team's points came from.</p>
 ${weekSwitch('insightsWeek')}
 <div class="statrow">
-<div><div class="bigstat">${left.toFixed(2)}</div><p>points left on benches across ${full.length} teams with full box scores.</p></div>
+<div><div class="bigstat">${left.toFixed(2)}</div><p>points left on benches across ${full.length} teams.</p></div>
 <div><div class="bigstat">${calls.length} of ${full.filter(a => !a.won).length}</div><p>losses a better lineup from the same roster would have won.</p></div>
 <div><div class="bigstat">${wrong.length} of ${qbs.length}</div><p>managers with two QBs started the lower-scoring one${wrong.length ? `, costing ${qbCost.toFixed(2)} points` : ''}.</p></div>
 </div>
@@ -2051,7 +2043,6 @@ ${calls.length ? `<div class="section" style="margin-top:10px"><h3 style="margin
 <td><div class="pbar"><i style="width:${(a.efficiency * 100).toFixed(1)}%"></i></div><span class="sub">${(a.efficiency * 100).toFixed(1)}%</span></td>
 <td>${a.won ? '<span class="chip W">W</span>' : '<span class="chip L">L</span>'}${!a.won && a.couldHaveWon ? ' <span class="sub">winnable</span>' : ''}</td>
 <td>${esc(a.topBench.name)} <span class="sub">${P(a.topBench.pts)}</span></td></tr>`).join('')}
-${partial.map(a => `<tr><td>${teamCell(a.id, w)}</td><td class="num">${a.score.toFixed(2)}</td><td class="num dash">—</td><td class="num dash">—</td><td class="dash">Box score not captured</td><td>${a.won ? '<span class="chip W">W</span>' : '<span class="chip L">L</span>'}</td><td class="dash">—</td></tr>`).join('')}
 </tbody></table></div>
 <p class="note">Best possible = the highest score that team's own roster could have produced (QB, 2 RB, 2 WR, TE, flex, D/ST, K).</p>
 </div>
@@ -2065,7 +2056,6 @@ ${qbs.map(q => `<tr><td>${teamCell(q.id, w)}</td><td>${esc(q.starter)}</td><td c
 <div><h3 style="margin-bottom:10px">Beat ESPN's Projection</h3><div class="diverge">${topM.map(dvRow).join('')}</div></div>
 <div><h3 style="margin-bottom:10px">Missed It</h3><div class="diverge">${botM.map(dvRow).join('')}</div></div>
 </div>
-${ups.length ? `<p class="note">ESPN's pregame projections picked ${ups.length - upsets} of ${ups.length} games correctly this week${upsets ? ` (${upsets} upset${upsets > 1 ? 's' : ''})` : ''}. Games involving a team without a captured box score aren't counted.</p>` : ''}
 <div class="section">
 <h3 style="margin-bottom:10px">Where the Points Came From</h3>
 <p class="lede" style="margin-bottom:12px">Starting points by position. Darker cells rank higher among these teams; flex players count at their own position.</p>
@@ -2146,14 +2136,7 @@ $('history').innerHTML = `
 }
 /* ---------- Footer ---------- */
 function renderFooter() {
-const gaps = [];
-weekNums().forEach(w => {
-const miss = Object.keys(DATA.weeks[w].teams).filter(id => !DATA.weeks[w].teams[id].full).map(id => teamName(id, w));
-if (miss.length) gaps.push(`Week ${w}: ${miss.join(', ')}`);
-});
-$('foot').innerHTML = `
-<p>Every number comes from ESPN league ${L.espnLeagueId}: scoreboards, box scores, FantasyCast, settings and history. ${esc(L.scoring)}. Trade deadline ${esc(L.tradeDeadline)}.</p>
-${gaps.length ? `<p>Full box scores not yet captured for ${gaps.map(esc).join('. ')}. Their totals and top three scorers are known; other player points show as —.</p>` : ''}
+$('foot').innerHTML = `<p><b style="color:var(--ink)">Big Ballers Fantasy Football League</b>, est. ${L.founded}. ${esc(L.scoring)}, ${L.playoffTeams}-team playoff. Trade deadline ${esc(L.tradeDeadline)}.</p>
 <p>Updated ${esc(L.updated)}.</p>`;
 }
 /* ---------- Tabs & routing ---------- */
