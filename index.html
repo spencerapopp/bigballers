@@ -117,7 +117,7 @@ tr.playoffline td span{position:relative;background:var(--chalk);padding:0 8px 0
 .chip{display:inline-block;min-width:20px;text-align:center;font-size:12px;font-weight:700;border-radius:3px;padding:1px 4px;margin-right:2px;color:#fff}
 .chip.W{background:var(--win)}.chip.L{background:var(--loss)}
 .tag{display:inline-block;font-size:11px;font-weight:700;border-radius:3px;padding:0 4px;margin-left:5px;vertical-align:1px;border:1px solid currentColor}
-.tag.Q,.tag.DTD{color:var(--amber)}.tag.D,.tag.O,.tag.IR{color:var(--loss)}
+.tag.Q,.tag.DTD{color:var(--amber)}.tag.D,.tag.O,.tag.IR,.tag.BYE{color:var(--loss)}
 .pbar{height:8px;background:var(--line-2);border-radius:4px;overflow:hidden;min-width:80px}
 .pbar i{display:block;height:100%;background:var(--turf)}
 .dash{color:var(--faint)}
@@ -615,8 +615,8 @@ playoffTeams: 6,
 regularSeasonWeeks: 14,
 tiebreaker: "Total points for",
 tradeDeadline: "Dec 4",
-currentWeek: 3,
-updated: "Tuesday, Sept 29, 2026"
+currentWeek: 4,
+updated: "Tuesday, Oct 6, 2026"
 },
 teams: {
 SAP:  { name: "Saquon my Dak",              manager: "Spencer Popp", abbr: "SAP", color: "#2F6BCB",     note: "League manager" },
@@ -1316,64 +1316,291 @@ bench: [
 ["BE","49ers D/ST","SF","D/ST",11.41,0],
 ["BE","Antonio Williams","WSH","WR",4.1,2.5]] }
 }
+},
+4: {
+games: [["V3K", "CHQ"], ["QSG", "MAGA"], ["BMD", "SAP"], ["ISA", "LHC"], ["KRAM", "DDT"], ["PNB", "DB"]],
+/* NFL kickoff windows (Central time). Source: ESPN pro schedule, Week 4. */
+windows: {
+order: ["THU","SUN0","SUN1","SUN2","SNF","MNF"],
+labels: { THU: "Thu night", SUN0: "Sun morning", SUN1: "Sun noon", SUN2: "Sun afternoon", SNF: "Sun night", MNF: "Mon night" },
+detail: { THU: "Steelers at Browns", SUN0: "Colts at Commanders, 8:30 AM", SUN1: "8 games, 12:00 PM", SUN2: "4 games, 3:05 and 3:25 PM", SNF: "Lions at Panthers", MNF: "Falcons at Saints" },
+nfl: { PIT:"THU", CLE:"THU", IND:"SUN0", WSH:"SUN0",
+LAR:"SUN1", PHI:"SUN1", NE:"SUN1", BUF:"SUN1", ARI:"SUN1", NYG:"SUN1", NYJ:"SUN1", CHI:"SUN1",
+GB:"SUN1", TB:"SUN1", JAX:"SUN1", CIN:"SUN1", TEN:"SUN1", BAL:"SUN1", DAL:"SUN1", HOU:"SUN1",
+KC:"SUN2", LV:"SUN2", MIA:"SUN2", MIN:"SUN2", LAC:"SUN2", SEA:"SUN2", DEN:"SUN2", SF:"SUN2",
+DET:"SNF", CAR:"SNF", ATL:"MNF", NO:"MNF" }
+},
+teams: {
+V3K: { score: 79.8, full: true, proj: 118.51,
+starters: [
+["WR", "Jaxon Smith-Njigba", "SEA", "WR", 18.1, 10.1],
+["WR", "Drake London", "ATL", "WR", 13.62, 12.1],
+["FLEX", "Rashee Rice", "KC", "WR", 12.02, 0],
+["RB", "Quinshon Judkins", "CLE", "RB", 11.68, 18.6],
+["RB", "TreVeyon Henderson", "NE", "RB", 8.88, 4.2],
+["TE", "George Kittle", "SF", "TE", 11.25, 15],
+["D/ST", "Steelers D/ST", "PIT", "D/ST", 12.85, 9],
+["K", "Evan McPherson", "CIN", "K", 8.36, 5.5],
+["QB", "Marcus Mariota", "WSH", "QB", 21.75, 5.3]],
+bench: [
+["BE", "Drake Maye", "NE", "QB", 20.24, 28.35],
+["BE", "Luther Burden III", "CHI", "WR", 9.95, 9.4],
+["BE", "Michael Pittman Jr.", "PIT", "WR", 7.49, 3],
+["BE", "Dalton Kincaid", "BUF", "TE", 8.56, 1.2],
+["BE", "Mike Washington Jr.", "LV", "RB", 3.09, 2.2],
+["BE", "Brian Robinson Jr.", "ATL", "RB", 5.86, 25.2]] },
+CHQ: { score: 129.2, full: true, proj: 114.6,
+starters: [
+["TE", "Brock Bowers", "LV", "TE", 12.6, 17.6],
+["WR", "Chris Olave", "NO", "WR", 14.95, 15.6],
+["RB", "Bhayshul Tuten", "JAX", "RB", 12, 10.1],
+["RB", "Jaylen Warren", "PIT", "RB", 15.66, 14.1],
+["WR", "Michael Wilson", "ARI", "WR", 10.77, 13],
+["FLEX", "Alvin Kamara", "NO", "RB", 9.24, 20.3],
+["K", "Cairo Santos", "CHI", "K", 8.36, 11],
+["QB", "Sam Darnold", "SEA", "QB", 20.63, 15.5],
+["D/ST", "Bears D/ST", "CHI", "D/ST", 10.39, 12]],
+bench: [
+["BE", "Justin Jefferson", "MIN", "WR", 0, 0],
+["BE", "Colston Loveland", "CHI", "TE", 6.96, 8.7],
+["BE", "Caleb Williams", "CHI", "QB", 0, 0],
+["BE", "Woody Marks", "HOU", "RB", 7.65, 8.2],
+["BE", "Patriots D/ST", "NE", "D/ST", 5.53, 8],
+["BE", "Jordan Love", "GB", "QB", 17.91, 17.05]] },
+QSG: { score: 93.25, full: true, proj: 120.32,
+starters: [
+["QB", "Josh Allen", "BUF", "QB", 25.38, 20.55],
+["RB", "Derrick Henry", "BAL", "RB", 20.15, 14.9],
+["WR", "George Pickens", "DAL", "WR", 11.15, 8.5],
+["RB", "Cam Skattebo", "NYG", "RB", 14.95, 7.1],
+["K", "Brandon Aubrey", "DAL", "K", 9.49, 10],
+["D/ST", "Broncos D/ST", "DEN", "D/ST", 6.31, 2],
+["WR", "Deebo Samuel Sr.", "SF", "WR", 8.98, 14.5],
+["FLEX", "Aaron Jones Sr.", "MIN", "RB", 16.96, 13.8],
+["TE", "Dalton Schultz", "HOU", "TE", 6.95, 1.9]],
+bench: [
+["BE", "Rome Odunze", "CHI", "WR", 8.33, 12.4],
+["BE", "Kyle Pitts Sr.", "ATL", "TE", 5.85, 6.2],
+["BE", "Travis Hunter", "JAX", "WR", 4.3, 5],
+["BE", "Jalen Coker", "CAR", "WR", 0, 0],
+["BE", "Samaje Perine", "CIN", "RB", 4.33, 0.7],
+["BE", "Geno Smith", "NYJ", "QB", 17.42, 14.45]] },
+MAGA: { score: 89.75, full: true, proj: 107.91,
+starters: [
+["RB", "Jeremiyah Love", "ARI", "RB", 14.42, 6],
+["RB", "Bucky Irving", "TB", "RB", 14.92, 6.1],
+["WR", "Carnell Tate", "TEN", "WR", 9.57, 15],
+["TE", "Harold Fannin Jr.", "CLE", "TE", 8.72, 10.2],
+["WR", "Jakobi Meyers", "JAX", "WR", 8.76, 4.8],
+["QB", "Patrick Mahomes", "KC", "QB", 22.45, 20.25],
+["FLEX", "Tre Tucker", "LV", "WR", 7.53, 6.4],
+["K", "Harrison Butker", "KC", "K", 8.66, 6],
+["D/ST", "Vikings D/ST", "MIN", "D/ST", 12.88, 15]],
+bench: [
+["BE", "Puka Nacua", "LAR", "WR", 14.84, 23.2],
+["BE", "Josh Jacobs", "GB", "RB", 0, 0],
+["BE", "Jayden Daniels", "WSH", "QB", 0, 0],
+["BE", "Hunter Henry", "NE", "TE", 7.12, 8.7],
+["BE", "Emanuel Wilson", "SEA", "RB", 11.29, 25],
+["BE", "Oronde Gadsden", "LAC", "TE", 5.5, 6.8]] },
+BMD: { score: 176.8, full: true, proj: 128.18,
+starters: [
+["RB", "Bijan Robinson", "ATL", "RB", 19.7, 33.2],
+["RB", "Kenneth Walker III", "KC", "RB", 19.3, 31.4],
+["WR", "Nico Collins", "HOU", "WR", 12.56, 27.3],
+["WR", "Emeka Egbuka", "TB", "WR", 9.42, 2.3],
+["TE", "Sam LaPorta", "DET", "TE", 8.95, 18.4],
+["QB", "Brock Purdy", "SF", "QB", 22.63, 28.8],
+["FLEX", "Chuba Hubbard", "CAR", "RB", 15.31, 26.4],
+["K", "Jason Myers", "SEA", "K", 9.71, 5],
+["D/ST", "Bills D/ST", "BUF", "D/ST", 10.6, 4]],
+bench: [
+["BE", "Lamar Jackson", "BAL", "QB", 24.73, 22.1],
+["BE", "Marvin Harrison Jr.", "ARI", "WR", 5.27, 8.2],
+["BE", "Mark Andrews", "BAL", "TE", 8.16, 11.2],
+["BE", "Eagles D/ST", "PHI", "D/ST", 7.64, 4],
+["BE", "Devaughn Vele", "NO", "WR", 8.68, 14.4],
+["BE", "Denzel Boston", "CLE", "WR", 8.53, 11.4]] },
+SAP: { score: 80.55, full: true, proj: 114.85,
+starters: [
+["RB", "Jonathan Taylor", "IND", "RB", 19.18, 22.2],
+["RB", "Saquon Barkley", "PHI", "RB", 13.67, 0.5],
+["WR", "Davante Adams", "LAR", "WR", 13.13, 5.2],
+["WR", "DJ Moore", "BUF", "WR", 10.77, 2.2],
+["QB", "Dak Prescott", "DAL", "QB", 20.81, 20.95],
+["TE", "Travis Kelce", "KC", "TE", 9.48, 2.5],
+["FLEX", "Stefon Diggs", "WSH", "WR", 10.2, 6],
+["K", "Tyler Bass", "BUF", "K", 8.41, 8],
+["D/ST", "Cardinals D/ST", "ARI", "D/ST", 9.2, 13]],
+bench: [
+["BE", "Terry McLaurin", "WSH", "WR", 0, 0],
+["BE", "Tony Pollard", "TEN", "RB", 10.97, 12],
+["BE", "Tank Bigsby", "PHI", "RB", 2.66, 5.5],
+["BE", "Daniel Jones", "IND", "QB", 17.65, 7.35],
+["BE", "Dontayvion Wicks", "PHI", "WR", 9.21, 3.3],
+["BE", "Malik Washington", "MIA", "WR", 8.42, 9.5]] },
+ISA: { score: 95.85, full: true, proj: 113.92,
+starters: [
+["RB", "Jahmyr Gibbs", "DET", "RB", 24.23, 15.7],
+["TE", "Tyler Warren", "IND", "TE", 10.28, 6.6],
+["WR", "Ladd McConkey", "LAC", "WR", 9.12, 0],
+["RB", "Rhamondre Stevenson", "NE", "RB", 10.21, 16.9],
+["FLEX", "Mike Evans", "SF", "WR", 9.79, 10.1],
+["WR", "Matthew Golden", "GB", "WR", 10.56, 10.2],
+["QB", "Matthew Stafford", "LAR", "QB", 20.47, 12.35],
+["K", "Cam Little", "JAX", "K", 8.66, 14],
+["D/ST", "Browns D/ST", "CLE", "D/ST", 10.6, 10]],
+bench: [
+["BE", "Breece Hall", "NYJ", "RB", 0, 0],
+["BE", "Rachaad White", "WSH", "RB", 0, 0],
+["BE", "RJ Harvey", "DEN", "RB", 8.17, 13.3],
+["BE", "Romeo Doubs", "NE", "WR", 8, 20.8],
+["BE", "Terrance Ferguson", "LAR", "TE", 0, 0],
+["BE", "Bryce Young", "CAR", "QB", 24.15, 25.25]] },
+LHC: { score: 128.95, full: true, proj: 112.03,
+starters: [
+["RB", "James Cook III", "BUF", "RB", 16.7, 15.3],
+["RB", "Omarion Hampton", "LAC", "RB", 10.03, 12.3],
+["WR", "Zay Flowers", "BAL", "WR", 13, 21.8],
+["WR", "Jaylen Waddle", "DEN", "WR", 9.42, 12],
+["FLEX", "Christian Watson", "GB", "WR", 12, 6.2],
+["QB", "Trevor Lawrence", "JAX", "QB", 22.11, 14.35],
+["TE", "Tucker Kraft", "GB", "TE", 6.88, 14],
+["D/ST", "Seahawks D/ST", "SEA", "D/ST", 12.06, 17],
+["K", "Ka'imi Fairbairn", "HOU", "K", 9.83, 16]],
+bench: [
+["BE", "Blake Corum", "LAR", "RB", 7.7, 2.6],
+["BE", "KC Concepcion", "CLE", "WR", 7.51, 8.9],
+["BE", "Kyler Murray", "MIN", "QB", 22.56, 11.95],
+["BE", "Ray Davis", "BUF", "RB", 1.29, 1.2],
+["BE", "George Holani", "SEA", "RB", 9.23, 2.5],
+["BE", "J.K. Dobbins", "DEN", "RB", 9.8, 6.2]] },
+KRAM: { score: 142.25, full: true, proj: 113.45,
+starters: [
+["WR", "CeeDee Lamb", "DAL", "WR", 13.57, 32.8],
+["RB", "Christian McCaffrey", "SF", "RB", 18.11, 14.5],
+["WR", "Malik Nabers", "NYG", "WR", 11.34, 20.2],
+["RB", "Kyren Williams", "LAR", "RB", 11.98, 32.2],
+["QB", "Jalen Hurts", "PHI", "QB", 20.26, 13.45],
+["D/ST", "Rams D/ST", "LAR", "D/ST", 10.11, 11],
+["FLEX", "Jacory Croskey-Merritt", "WSH", "RB", 10.76, 6],
+["TE", "Darren Waller", "CAR", "TE", 8.16, 5.1],
+["K", "Tyler Loop", "BAL", "K", 9.16, 7]],
+bench: [
+["BE", "Jameson Williams", "DET", "WR", 8.68, 13.2],
+["BE", "Brian Thomas Jr.", "JAX", "WR", 6.87, 8.7],
+["BE", "Dallas Goedert", "PHI", "TE", 0, 0],
+["BE", "Xavier Worthy", "KC", "WR", 8.21, 9],
+["BE", "Kaelon Black", "SF", "RB", 5.26, 1.3],
+["BE", "Adonai Mitchell", "NYJ", "WR", 0, 0]] },
+DDT: { score: 93, full: true, proj: 107.18,
+starters: [
+["WR", "Amon-Ra St. Brown", "DET", "WR", 16.41, 11.5],
+["WR", "Garrett Wilson", "NYJ", "WR", 13.11, 4.2],
+["RB", "David Montgomery", "HOU", "RB", 12.7, 4.3],
+["QB", "Joe Burrow", "CIN", "QB", 21.86, 27],
+["D/ST", "Texans D/ST", "HOU", "D/ST", 8.45, 3],
+["TE", "Isaiah Likely", "NYG", "TE", 9.53, 10.1],
+["K", "Harrison Mevis", "LAR", "K", 8.44, 6],
+["FLEX", "Juwan Johnson", "NO", "TE", 8.53, 8.9],
+["RB", "Ollie Gordon II", "MIA", "RB", 8.15, 18]],
+bench: [
+["BE", "Travis Etienne Jr.", "NO", "RB", 0, 0],
+["BE", "Courtland Sutton", "DEN", "WR", 8.57, 0.9],
+["BE", "Khalil Shakir", "BUF", "WR", 7.86, 8.7],
+["BE", "Kenyon Sadiq", "NYJ", "TE", 7.75, 0],
+["BE", "C.J. Stroud", "HOU", "QB", 20.02, 27.55],
+["BE", "Kendre Miller", "NO", "RB", 8.17, -0.1]] },
+PNB: { score: 91.7, full: true, proj: 110.83,
+starters: [
+["RB", "Ashton Jeanty", "LV", "RB", 16.82, 15.6],
+["RB", "Chase Brown", "CIN", "RB", 14.52, 14.1],
+["WR", "Parker Washington", "JAX", "WR", 12.69, 1.5],
+["FLEX", "Jordan Addison", "MIN", "WR", 12.43, 7.1],
+["TE", "Jake Ferguson", "DAL", "TE", 6.29, 2.6],
+["QB", "Bo Nix", "DEN", "QB", 17.95, 16.7],
+["K", "Jake Bates", "DET", "K", 8.59, 18],
+["D/ST", "Ravens D/ST", "BAL", "D/ST", 10.61, 13],
+["WR", "Josh Downs", "IND", "WR", 10.93, 3.1]],
+bench: [
+["BE", "DeVonta Smith", "PHI", "WR", 0, 0],
+["BE", "Tee Higgins", "CIN", "WR", 11.2, 21.2],
+["BE", "Justin Herbert", "LAC", "QB", 14.16, 9.95],
+["BE", "Emmett Johnson", "KC", "RB", 4.58, 1.5],
+["BE", "Jaylen Wright", "MIA", "RB", 6.66, 0.7],
+["BE", "Kalif Raymond", "CHI", "WR", 7.64, 1.6]] },
+DB: { score: 129.7, full: true, proj: 123.51,
+starters: [
+["WR", "Ja'Marr Chase", "CIN", "WR", 16.42, 4.2],
+["TE", "Trey McBride", "ARI", "TE", 13.67, 6.6],
+["FLEX", "Javonte Williams", "DAL", "RB", 13.39, 28.8],
+["WR", "Tetairoa McMillan", "CAR", "WR", 13.4, 37.2],
+["RB", "D'Andre Swift", "CHI", "RB", 13.56, 5.4],
+["QB", "Tyler Shough", "NO", "QB", 21.71, 18.8],
+["K", "Eddy Pineiro", "SF", "K", 9.21, 5],
+["RB", "Braelon Allen", "NYJ", "RB", 12.09, 7.7],
+["D/ST", "Packers D/ST", "GB", "D/ST", 10.06, 16]],
+bench: [
+["BE", "DK Metcalf", "PIT", "WR", 8.41, 14],
+["BE", "Rico Dowdle", "PIT", "RB", 0, 0],
+["BE", "Kenny Gainwell", "TB", "RB", 6.96, 9.7],
+["BE", "Kyle Monangai", "CHI", "RB", 7.65, 28.5],
+["BE", "Jared Goff", "DET", "QB", 21.08, 25.1],
+["BE", "Makai Lemon", "PHI", "WR", 8.64, 4.2]] }
+}
 }
 },
-/* Week 4: ESPN projections + win chances from the league matchup feed, pulled Tue 9/29 ~10 PM CT.
-Lineups can change before kickoff. [slot, name, team, pos, status, kickoff] */
+/* Week 5: ESPN projections + win chances from the league matchup feed, pulled Tue 10/6 ~8:30 PM CT.
+Lineups can change before kickoff. [slot, name, team, pos, status, kickoff, ESPN proj] */
 preview: {
-week: 4,
-asOf: "ESPN, Tue 9/29, 10 PM",
+week: 5,
+asOf: "ESPN, Tue 10/6, 8:30 PM",
 games: [
-{ away: "V3K", home: "CHQ", proj: [111.9, 112.0], win: [50, 50],
+{ away: "CHQ", home: "MAGA", proj: [112.98, 75.53], win: [71, 29],
 lineups: {
-V3K: [["QB","Deshaun Watson","CLE","QB","","vs PIT Thu 7:15"],["RB","Quinshon Judkins","CLE","RB","","vs PIT Thu 7:15"],["RB","TreVeyon Henderson","NE","RB","","@ BUF Sun 12:00"],["WR","Jaxon Smith-Njigba","SEA","WR","","vs LAC Sun 3:25"],["WR","Drake London","ATL","WR","","@ NO Mon 7:15"],["TE","George Kittle","SF","TE","","vs DEN Sun 3:25"],["FLEX","Rashee Rice","KC","WR","","@ LV Sun 3:25"],["D/ST","Steelers D/ST","PIT","D/ST","","@ CLE Thu 7:15"],["K","Evan McPherson","CIN","K","","vs JAX Sun 12:00"]],
-CHQ: [["QB","Sam Darnold","SEA","QB","","vs LAC Sun 3:25"],["RB","Bhayshul Tuten","JAX","RB","","@ CIN Sun 12:00"],["RB","Jaylen Warren","PIT","RB","","@ CLE Thu 7:15"],["WR","Justin Jefferson","MIN","WR","Q","vs MIA Sun 3:05"],["WR","Chris Olave","NO","WR","","vs ATL Mon 7:15"],["TE","Brock Bowers","LV","TE","","vs KC Sun 3:25"],["FLEX","Michael Wilson","ARI","WR","","@ NYG Sun 12:00"],["D/ST","Patriots D/ST","NE","D/ST","","@ BUF Sun 12:00"],["K","Cairo Santos","CHI","K","","vs NYJ Sun 12:00"]]
+CHQ: [["TE", "Brock Bowers", "LV", "TE", "", "@ NE Sun 12:00", 12.97], ["WR", "Chris Olave", "NO", "WR", "", "vs MIN Sun 12:00", 13.36], ["RB", "Bhayshul Tuten", "JAX", "RB", "", "vs PHI Sun 8:30 AM", 13.24], ["RB", "Jaylen Warren", "PIT", "RB", "", "vs IND Sun 12:00", 13.04], ["WR", "Michael Wilson", "ARI", "WR", "", "vs DET Sun 3:25", 13.85], ["FLEX", "Alvin Kamara", "NO", "RB", "", "vs MIN Sun 12:00", 9.73], ["K", "Cairo Santos", "CHI", "K", "", "@ GB Sun 12:00", 8.37], ["QB", "Sam Darnold", "SEA", "QB", "", "vs SF Sun 3:25", 18.8], ["D/ST", "Bears D/ST", "CHI", "D/ST", "", "@ GB Sun 12:00", 9.62]],
+MAGA: [["RB", "Jeremiyah Love", "ARI", "RB", "Q", "vs DET Sun 3:25", 13.93], ["RB", "Bucky Irving", "TB", "RB", "", "@ DAL Thu 7:15", 14.2], ["WR", "Carnell Tate", "TEN", "WR", "", "vs HOU Sun 12:00", 11.01], ["TE", "Harold Fannin Jr.", "CLE", "TE", "", "@ NYJ Sun 12:00", 9.55], ["WR", "Jakobi Meyers", "JAX", "WR", "", "vs PHI Sun 8:30 AM", 8.73], ["QB", "Patrick Mahomes", "KC", "QB", "", "BYE", 0], ["FLEX", "Tre Tucker", "LV", "WR", "", "@ NE Sun 12:00", 7.4], ["K", "Harrison Butker", "KC", "K", "", "BYE", 0], ["D/ST", "Vikings D/ST", "MIN", "D/ST", "", "@ NO Sun 12:00", 10.71]]
 } },
-{ away: "QSG", home: "MAGA", proj: [122.3, 109.2], win: [56, 44],
+{ away: "SAP", home: "V3K", proj: [84.35, 112.82], win: [34, 66],
 lineups: {
-QSG: [["QB","Josh Allen","BUF","QB","Q","vs NE Sun 12:00"],["RB","Derrick Henry","BAL","RB","","vs TEN Sun 12:00"],["RB","Cam Skattebo","NYG","RB","","vs ARI Sun 12:00"],["WR","George Pickens","DAL","WR","","@ HOU Sun 12:00"],["WR","Jalen Coker","CAR","WR","Q","vs DET Sun 7:20"],["TE","Dalton Schultz","HOU","TE","","vs DAL Sun 12:00"],["FLEX","Aaron Jones Sr.","MIN","RB","","vs MIA Sun 3:05"],["D/ST","Broncos D/ST","DEN","D/ST","","@ SF Sun 3:25"],["K","Brandon Aubrey","DAL","K","","@ HOU Sun 12:00"]],
-MAGA: [["QB","Patrick Mahomes","KC","QB","","@ LV Sun 3:25"],["RB","Jeremiyah Love","ARI","RB","","@ NYG Sun 12:00"],["RB","Bucky Irving","TB","RB","","vs GB Sun 12:00"],["WR","Carnell Tate","TEN","WR","","@ BAL Sun 12:00"],["WR","Jakobi Meyers","JAX","WR","","@ CIN Sun 12:00"],["TE","Harold Fannin Jr.","CLE","TE","","vs PIT Thu 7:15"],["FLEX","Tre Tucker","LV","WR","","vs KC Sun 3:25"],["D/ST","Vikings D/ST","MIN","D/ST","","vs MIA Sun 3:05"],["K","Harrison Butker","KC","K","","@ LV Sun 3:25"]]
+SAP: [["RB", "Jonathan Taylor", "IND", "RB", "", "@ PIT Sun 12:00", 17.9], ["RB", "Saquon Barkley", "PHI", "RB", "Q", "@ JAX Sun 8:30 AM", 0], ["WR", "Davante Adams", "LAR", "WR", "", "vs BUF Mon 7:15", 13.2], ["WR", "DJ Moore", "BUF", "WR", "Q", "@ LAR Mon 7:15", 10.33], ["QB", "Dak Prescott", "DAL", "QB", "", "vs TB Thu 7:15", 21.43], ["TE", "Travis Kelce", "KC", "TE", "", "BYE", 0], ["FLEX", "Stefon Diggs", "WSH", "WR", "", "vs NYG Sun 12:00", 8.54], ["K", "Tyler Bass", "BUF", "K", "", "@ LAR Mon 7:15", 7.84], ["D/ST", "Cardinals D/ST", "ARI", "D/ST", "", "vs DET Sun 3:25", 5.11]],
+V3K: [["WR", "Jaxon Smith-Njigba", "SEA", "WR", "", "vs SF Sun 3:25", 16.63], ["WR", "Drake London", "ATL", "WR", "", "vs BAL Sun 7:20", 13.12], ["RB", "Quinshon Judkins", "CLE", "RB", "", "@ NYJ Sun 12:00", 13.31], ["QB", "Drake Maye", "NE", "QB", "", "vs LV Sun 12:00", 21.3], ["RB", "TreVeyon Henderson", "NE", "RB", "", "vs LV Sun 12:00", 10.02], ["TE", "George Kittle", "SF", "TE", "", "@ SEA Sun 3:25", 11.12], ["D/ST", "Steelers D/ST", "PIT", "D/ST", "", "vs IND Sun 12:00", 10.99], ["K", "Evan McPherson", "CIN", "K", "", "@ MIA Sun 12:00", 8.62], ["FLEX", "Brian Robinson Jr.", "ATL", "RB", "", "vs BAL Sun 7:20", 7.71]]
 } },
-{ away: "BMD", home: "SAP", proj: [127.3, 110.2], win: [58, 42],
+{ away: "LHC", home: "QSG", proj: [104.53, 114.62], win: [45, 55],
 lineups: {
-BMD: [["QB","Lamar Jackson","BAL","QB","","vs TEN Sun 12:00"],["RB","Bijan Robinson","ATL","RB","","@ NO Mon 7:15"],["RB","Kenneth Walker III","KC","RB","","@ LV Sun 3:25"],["WR","Nico Collins","HOU","WR","Q","vs DAL Sun 12:00"],["WR","Emeka Egbuka","TB","WR","","vs GB Sun 12:00"],["TE","Sam LaPorta","DET","TE","","@ CAR Sun 7:20"],["FLEX","Chuba Hubbard","CAR","RB","","vs DET Sun 7:20"],["D/ST","Eagles D/ST","PHI","D/ST","","vs LAR Sun 12:00"],["K","Jason Myers","SEA","K","","vs LAC Sun 3:25"]],
-SAP: [["QB","Dak Prescott","DAL","QB","","@ HOU Sun 12:00"],["RB","Jonathan Taylor","IND","RB","","@ WSH Sun 8:30 AM"],["RB","Saquon Barkley","PHI","RB","","vs LAR Sun 12:00"],["WR","Davante Adams","LAR","WR","","@ PHI Sun 12:00"],["WR","DJ Moore","BUF","WR","","vs NE Sun 12:00"],["TE","Travis Kelce","KC","TE","","@ LV Sun 3:25"],["FLEX","Terry McLaurin","WSH","WR","","vs IND Sun 8:30 AM"],["D/ST","Panthers D/ST","CAR","D/ST","","vs DET Sun 7:20"],["K","Tyler Bass","BUF","K","","vs NE Sun 12:00"]]
+LHC: [["RB", "James Cook III", "BUF", "RB", "", "@ LAR Mon 7:15", 14.88], ["RB", "Omarion Hampton", "LAC", "RB", "", "vs DEN Sun 3:05", 10.98], ["WR", "Zay Flowers", "BAL", "WR", "", "@ ATL Sun 7:20", 11.09], ["WR", "Jaylen Waddle", "DEN", "WR", "", "@ LAC Sun 3:05", 9.05], ["FLEX", "Christian Watson", "GB", "WR", "", "vs CHI Sun 12:00", 11.43], ["QB", "Trevor Lawrence", "JAX", "QB", "", "vs PHI Sun 8:30 AM", 22.76], ["TE", "Tucker Kraft", "GB", "TE", "", "vs CHI Sun 12:00", 8.19], ["D/ST", "Seahawks D/ST", "SEA", "D/ST", "", "vs SF Sun 3:25", 7.2], ["K", "Ka'imi Fairbairn", "HOU", "K", "", "@ TEN Sun 12:00", 8.94]],
+QSG: [["QB", "Josh Allen", "BUF", "QB", "", "@ LAR Mon 7:15", 22.59], ["RB", "Derrick Henry", "BAL", "RB", "", "@ ATL Sun 7:20", 16.3], ["WR", "George Pickens", "DAL", "WR", "", "vs TB Thu 7:15", 10.81], ["RB", "Cam Skattebo", "NYG", "RB", "", "@ WSH Sun 12:00", 12.33], ["K", "Brandon Aubrey", "DAL", "K", "", "vs TB Thu 7:15", 10.73], ["D/ST", "Broncos D/ST", "DEN", "D/ST", "", "@ LAC Sun 3:05", 9.98], ["WR", "Deebo Samuel Sr.", "SF", "WR", "", "@ SEA Sun 3:25", 9.2], ["FLEX", "Aaron Jones Sr.", "MIN", "RB", "", "@ NO Sun 12:00", 16.6], ["TE", "Dalton Schultz", "HOU", "TE", "", "@ TEN Sun 12:00", 6.09]]
 } },
-{ away: "ISA", home: "LHC", proj: [101.2, 112.2], win: [44, 56],
+{ away: "DDT", home: "BMD", proj: [111.9, 99.33], win: [57, 43],
 lineups: {
-ISA: [["QB","Matthew Stafford","LAR","QB","","@ PHI Sun 12:00"],["RB","Jahmyr Gibbs","DET","RB","","@ CAR Sun 7:20"],["RB","Breece Hall","NYJ","RB","Q","@ CHI Sun 12:00"],["WR","Ladd McConkey","LAC","WR","","@ SEA Sun 3:25"],["WR","Mike Evans","SF","WR","Q","vs DEN Sun 3:25"],["TE","Tyler Warren","IND","TE","","@ WSH Sun 8:30 AM"],["FLEX","Rhamondre Stevenson","NE","RB","","@ BUF Sun 12:00"],["D/ST","Lions D/ST","DET","D/ST","","@ CAR Sun 7:20"],["K","Cam Little","JAX","K","","@ CIN Sun 12:00"]],
-LHC: [["QB","Trevor Lawrence","JAX","QB","","@ CIN Sun 12:00"],["RB","James Cook III","BUF","RB","","vs NE Sun 12:00"],["RB","Omarion Hampton","LAC","RB","","@ SEA Sun 3:25"],["WR","Zay Flowers","BAL","WR","","vs TEN Sun 12:00"],["WR","Jaylen Waddle","DEN","WR","Q","@ SF Sun 3:25"],["TE","Tucker Kraft","GB","TE","","@ TB Sun 12:00"],["FLEX","Christian Watson","GB","WR","","@ TB Sun 12:00"],["D/ST","Seahawks D/ST","SEA","D/ST","","vs LAC Sun 3:25"],["K","Ka'imi Fairbairn","HOU","K","","vs DAL Sun 12:00"]]
+DDT: [["WR", "Amon-Ra St. Brown", "DET", "WR", "", "@ ARI Sun 3:25", 16.3], ["WR", "Garrett Wilson", "NYJ", "WR", "", "vs CLE Sun 12:00", 11.44], ["RB", "David Montgomery", "HOU", "RB", "", "@ TEN Sun 12:00", 11.1], ["QB", "Joe Burrow", "CIN", "QB", "", "@ MIA Sun 12:00", 24.36], ["D/ST", "Texans D/ST", "HOU", "D/ST", "", "@ TEN Sun 12:00", 10.86], ["TE", "Isaiah Likely", "NYG", "TE", "", "@ WSH Sun 12:00", 10.28], ["K", "Harrison Mevis", "LAR", "K", "", "vs BUF Mon 7:15", 9.3], ["FLEX", "Juwan Johnson", "NO", "TE", "", "vs MIN Sun 12:00", 8.06], ["RB", "Ollie Gordon II", "MIA", "RB", "", "vs CIN Sun 12:00", 10.2]],
+BMD: [["RB", "Bijan Robinson", "ATL", "RB", "", "vs BAL Sun 7:20", 20.87], ["RB", "Kenneth Walker III", "KC", "RB", "", "BYE", 0], ["WR", "Nico Collins", "HOU", "WR", "", "@ TEN Sun 12:00", 13.41], ["TE", "Sam LaPorta", "DET", "TE", "", "@ ARI Sun 3:25", 10.68], ["QB", "Brock Purdy", "SF", "QB", "", "@ SEA Sun 3:25", 21.53], ["FLEX", "Mark Andrews", "BAL", "TE", "", "@ ATL Sun 7:20", 7.36], ["K", "Jason Myers", "SEA", "K", "", "vs SF Sun 3:25", 8.74], ["D/ST", "Eagles D/ST", "PHI", "D/ST", "", "@ JAX Sun 8:30 AM", 7.01], ["WR", "Denzel Boston", "CLE", "WR", "", "@ NYJ Sun 12:00", 9.73]]
 } },
-{ away: "KRAM", home: "DDT", proj: [108.3, 98.3], win: [55, 45],
+{ away: "DB", home: "ISA", proj: [121.55, 121.13], win: [50, 50],
 lineups: {
-KRAM: [["QB","Jalen Hurts","PHI","QB","","vs LAR Sun 12:00"],["RB","Christian McCaffrey","SF","RB","","vs DEN Sun 3:25"],["RB","Kyren Williams","LAR","RB","","@ PHI Sun 12:00"],["WR","CeeDee Lamb","DAL","WR","","@ HOU Sun 12:00"],["WR","Jameson Williams","DET","WR","","@ CAR Sun 7:20"],["TE","Brenton Strange","JAX","TE","","@ CIN Sun 12:00"],["FLEX","Malik Nabers","NYG","WR","","vs ARI Sun 12:00"],["D/ST","Rams D/ST","LAR","D/ST","","@ PHI Sun 12:00"],["K","Cameron Dicker","LAC","K","","@ SEA Sun 3:25"]],
-DDT: [["QB","Joe Burrow","CIN","QB","","vs JAX Sun 12:00"],["RB","Travis Etienne Jr.","NO","RB","O","vs ATL Mon 7:15"],["RB","David Montgomery","HOU","RB","","vs DAL Sun 12:00"],["WR","Garrett Wilson","NYJ","WR","","@ CHI Sun 12:00"],["WR","Courtland Sutton","DEN","WR","","@ SF Sun 3:25"],["TE","Isaiah Likely","NYG","TE","","vs ARI Sun 12:00"],["FLEX","Amon-Ra St. Brown","DET","WR","","@ CAR Sun 7:20"],["D/ST","Texans D/ST","HOU","D/ST","","vs DAL Sun 12:00"],["K","Harrison Mevis","LAR","K","","@ PHI Sun 12:00"]]
+DB: [["WR", "Ja'Marr Chase", "CIN", "WR", "Q", "@ MIA Sun 12:00", 17.67], ["TE", "Trey McBride", "ARI", "TE", "", "vs DET Sun 3:25", 14.83], ["RB", "Javonte Williams", "DAL", "RB", "", "vs TB Thu 7:15", 16.33], ["RB", "D'Andre Swift", "CHI", "RB", "", "@ GB Sun 12:00", 13.13], ["WR", "DK Metcalf", "PIT", "WR", "", "vs IND Sun 12:00", 10.12], ["FLEX", "Kyle Monangai", "CHI", "RB", "Q", "@ GB Sun 12:00", 10.08], ["QB", "Jared Goff", "DET", "QB", "", "@ ARI Sun 3:25", 23.9], ["K", "Eddy Pineiro", "SF", "K", "", "@ SEA Sun 3:25", 8.5], ["D/ST", "Packers D/ST", "GB", "D/ST", "", "vs CHI Sun 12:00", 6.99]],
+ISA: [["RB", "Jahmyr Gibbs", "DET", "RB", "", "@ ARI Sun 3:25", 24.99], ["RB", "Breece Hall", "NYJ", "RB", "D", "vs CLE Sun 12:00", 15.19], ["TE", "Tyler Warren", "IND", "TE", "", "@ PIT Sun 12:00", 9.16], ["FLEX", "Mike Evans", "SF", "WR", "", "@ SEA Sun 3:25", 10.47], ["WR", "Matthew Golden", "GB", "WR", "", "vs CHI Sun 12:00", 10.57], ["QB", "Matthew Stafford", "LAR", "QB", "", "vs BUF Mon 7:15", 22.62], ["WR", "Romeo Doubs", "NE", "WR", "", "vs LV Sun 12:00", 9.11], ["K", "Cam Little", "JAX", "K", "", "vs PHI Sun 8:30 AM", 9.65], ["D/ST", "Browns D/ST", "CLE", "D/ST", "", "@ NYJ Sun 12:00", 9.39]]
 } },
-{ away: "PNB", home: "DB", proj: [108.0, 118.8], win: [45, 55],
+{ away: "PNB", home: "KRAM", proj: [104.01, 102.43], win: [51, 49],
 lineups: {
-PNB: [["QB","Justin Herbert","LAC","QB","","@ SEA Sun 3:25"],["RB","Ashton Jeanty","LV","RB","","vs KC Sun 3:25"],["RB","Chase Brown","CIN","RB","","vs JAX Sun 12:00"],["WR","Tee Higgins","CIN","WR","","vs JAX Sun 12:00"],["WR","Parker Washington","JAX","WR","","@ CIN Sun 12:00"],["TE","Jake Ferguson","DAL","TE","","@ HOU Sun 12:00"],["FLEX","DeVonta Smith","PHI","WR","","vs LAR Sun 12:00"],["D/ST","Ravens D/ST","BAL","D/ST","","vs TEN Sun 12:00"],["K","Jake Bates","DET","K","","@ CAR Sun 7:20"]],
-DB: [["QB","Jared Goff","DET","QB","","@ CAR Sun 7:20"],["RB","Javonte Williams","DAL","RB","","@ HOU Sun 12:00"],["RB","D'Andre Swift","CHI","RB","","vs NYJ Sun 12:00"],["WR","Ja'Marr Chase","CIN","WR","","vs JAX Sun 12:00"],["WR","Tetairoa McMillan","CAR","WR","","vs DET Sun 7:20"],["TE","Trey McBride","ARI","TE","","@ NYG Sun 12:00"],["FLEX","Kyle Monangai","CHI","RB","","vs NYJ Sun 12:00"],["D/ST","Chiefs D/ST","KC","D/ST","","@ LV Sun 3:25"],["K","Eddy Pineiro","SF","K","","vs DEN Sun 3:25"]]
+PNB: [["RB", "Ashton Jeanty", "LV", "RB", "", "@ NE Sun 12:00", 15.86], ["RB", "Chase Brown", "CIN", "RB", "", "@ MIA Sun 12:00", 15.54], ["FLEX", "Tee Higgins", "CIN", "WR", "Q", "@ MIA Sun 12:00", 11.66], ["WR", "Parker Washington", "JAX", "WR", "", "vs PHI Sun 8:30 AM", 11.8], ["TE", "Jake Ferguson", "DAL", "TE", "", "vs TB Thu 7:15", 5.34], ["QB", "Bo Nix", "DEN", "QB", "", "@ LAC Sun 3:05", 19.42], ["K", "Jake Bates", "DET", "K", "", "@ ARI Sun 3:25", 9.03], ["D/ST", "Ravens D/ST", "BAL", "D/ST", "", "@ ATL Sun 7:20", 5.82], ["WR", "Josh Downs", "IND", "WR", "", "@ PIT Sun 12:00", 9.52]],
+KRAM: [["WR", "CeeDee Lamb", "DAL", "WR", "", "vs TB Thu 7:15", 15.38], ["RB", "Christian McCaffrey", "SF", "RB", "", "@ SEA Sun 3:25", 16.62], ["WR", "Malik Nabers", "NYG", "WR", "", "@ WSH Sun 12:00", 11.08], ["RB", "Kyren Williams", "LAR", "RB", "", "vs BUF Mon 7:15", 16.18], ["QB", "Jalen Hurts", "PHI", "QB", "", "@ JAX Sun 8:30 AM", 18.4], ["FLEX", "Jameson Williams", "DET", "WR", "", "@ ARI Sun 3:25", 9.08], ["D/ST", "Rams D/ST", "LAR", "D/ST", "", "vs BUF Mon 7:15", 7.83], ["TE", "Darren Waller", "CAR", "TE", "", "BYE", 0], ["K", "Tyler Loop", "BAL", "K", "", "@ ATL Sun 7:20", 7.85]]
 } }
 ],
-/* Bench players worth a look, with status flags, from the same pull */
-benchNotes: {
-V3K: ["Drake Maye (NE QB, 20.24 proj) @ BUF Sun 12:00", "Dalton Kincaid (BUF TE) vs NE Sun 12:00"],
-CHQ: ["Jordan Love (GB QB, 18.09 proj) @ TB Sun 12:00", "Caleb Williams (CHI QB, D)", "Alvin Kamara (NO RB) vs ATL Mon 7:15"],
-QSG: ["Deebo Samuel Sr. (SF WR) vs DEN Sun 3:25", "Kyle Pitts Sr. (ATL TE) @ NO Mon 7:15"],
-MAGA: ["Puka Nacua (LAR WR, Q, 16.84 proj) @ PHI Sun 12:00", "Jayden Daniels (WSH QB, Q) vs IND Sun 8:30 AM", "Josh Jacobs (GB RB, DTD)"],
-BMD: ["Brock Purdy (SF QB, 22.42 proj) vs DEN Sun 3:25", "Mark Andrews (BAL TE) vs TEN Sun 12:00"],
-SAP: ["Tony Pollard (TEN RB) @ BAL Sun 12:00", "Stefon Diggs (WSH WR) vs IND Sun 8:30 AM"],
-ISA: ["Bryce Young (CAR QB, 23.95 proj) vs DET Sun 7:20", "Matthew Golden (GB WR) @ TB Sun 12:00"],
-LHC: ["Kyler Murray (MIN QB, 22.68 proj) vs MIA Sun 3:05", "Jadarian Price (SEA RB) vs LAC Sun 3:25"],
-KRAM: ["J.K. Dobbins (DEN RB) @ SF Sun 3:25", "Dallas Goedert (PHI TE, D)"],
-DDT: ["De'Von Achane (MIA RB, IR)", "Kenyon Sadiq (NYJ TE) @ CHI Sun 12:00", "Juwan Johnson (NO TE) vs ATL Mon 7:15", "C.J. Stroud (HOU QB) vs DAL Sun 12:00"],
-PNB: ["Bo Nix (DEN QB, 18.33 proj) @ SF Sun 3:25", "Jordan Addison (MIN WR) vs MIA Sun 3:05"],
-DB: ["Tyler Shough (NO QB, 22.26 proj) vs ATL Mon 7:15", "DK Metcalf (PIT WR) @ CLE Thu 7:15"]
-}
+/* Bench players ESPN projects higher than the weakest starter they could replace */
+benchNotes: {"CHQ": ["Justin Jefferson (MIN WR, Q, 15.03 proj) @ NO Sun 12:00", "Patriots D/ST (NE D/ST, 9.74 proj) vs LV Sun 12:00"], "MAGA": ["Puka Nacua (LAR WR, 17.95 proj) vs BUF Mon 7:15", "Jayden Daniels (WSH QB, Q, 23.67 proj) vs NYG Sun 12:00", "Emanuel Wilson (SEA RB, 12.86 proj) vs SF Sun 3:25"], "SAP": ["Terry McLaurin (WSH WR, Q, 11.04 proj) vs NYG Sun 12:00", "Tony Pollard (TEN RB, 12.11 proj) vs HOU Sun 12:00", "Malik Washington (MIA WR, 8.64 proj) vs CIN Sun 12:00"], "V3K": ["Luther Burden III (CHI WR, 9.85 proj) @ GB Sun 12:00"], "DDT": ["Courtland Sutton (DEN WR, 8.53 proj) @ LAC Sun 3:05"], "BMD": ["Emeka Egbuka (TB WR, 8.11 proj) @ DAL Thu 7:15", "Devaughn Vele (NO WR, 8.22 proj) vs MIN Sun 12:00"], "ISA": ["Rhamondre Stevenson (NE RB, 11.92 proj) vs LV Sun 12:00"]}
 },
 /* League history from ESPN History + season standings pages.
 Records are regular season. 2017–2020 seasons were 13 games; 14 since 2021. */
 history: {
+/* Playoff rate by record after Week 4, 6-team playoff era. Source: ESPN league history API. */
+startOdds: { asOf: 4, seasons: "2018-2025", rows: [
+["4-0", 7, 8, "Only miss: Mike Anderson, 2019. Kyle (2023) and Verber (2024) won titles from 4-0."],
+["3-1", 17, 20, ""],
+["2-2", 18, 38, ""],
+["1-3", 6, 24, "Spencer won the 2019 title from 1-3. Kramer won 2021 from 1-3."],
+["0-4", 0, 6, "Nobody. Bonifield started 0-4 in 2023 and finished 4-10."]
+] },
 seasons: [
 { year: 2017, champ: ["Mike Anderson","Chongqing Bangbangs"], second: ["Adam Kovac","You down with JPP?"], third: ["Megan Morrissey","Team Weaver"] },
 { year: 2018, champ: ["Rohan Sarode","Delhi Belly"], second: ["Adam Kovac","Tyreek and Destroy"], third: ["Keith Gardiner","NY Paper Airplanes"] },
@@ -1406,7 +1633,10 @@ records: [
 ["Highest Points per Game", "137.65", "Sean Kramer, 2021"],
 ["Worst Regular Season", "0-13", "Areg A, 2017 (A for Eifert)"],
 ["Only Back-to-Back Champion", "2024–25", "Jeff Verber (Eating W's)"],
-["Charter Members Still Here", "3 of 12", "Spencer Popp, Rohan Sarode and Sean Kramer have played all 10 seasons"]
+["Charter Members Still Here", "3 of 12", "Spencer Popp, Rohan Sarode and Sean Kramer have played all 10 seasons"],
+["Highest Single-Week Score", "225.55", "Jeff Verber, 2024 Week 12 (Eating W's), against Phil ntheblanks"],
+["Biggest Blowout", "135.65", "Verber over Phil, 225.55 to 89.90, 2024 Week 12"],
+["Lowest Single-Week Score", "43.30", "Areg A, 2017 Week 12 (A for Eifert)"]
 ]
 }
 };
@@ -1415,22 +1645,22 @@ records: [
 /* ============================================================
 WEEKLY COPY — trash talk, but every number is real.
 Rewrite each week. Keep every claim checkable against DATA.
-Week 3 recap / Week 4 preview. ESPN data pulled Tue 9/29, ~10 PM CT.
+Week 4 recap / Week 5 preview. ESPN data pulled Tue 10/6, ~8:30 PM CT.
 ============================================================ */
 DATA.copy = {
 stories: [
-{ title: "Garrett Started Patrick Mahomes. The High Score Followed.",
-body: "After two weeks and 59.3 points of Mahomes on the bench, Garrett finally started him. He also grabbed the Vikings D/ST off the wire Wednesday morning for the Browns, who had scored 0 and 10. Result: 128.70, the week's high score, the only perfect lineup in the league, and an 11-0 all-play week. On Tuesday ESPN had Make Arlington Great Again at 23% with a 69.1 projection. Mahomes scored a very normal 20.4. The Vikings defense scored 25.0. Mahomes was only his third-best starter. Nobody tell Garrett." },
-{ title: "Five Managers Benched the Better Quarterback. It Cost 69.05 Points.",
-body: "Five of the 11 managers carrying two quarterbacks started the wrong one. Verber started Drake Maye (2.75) over Deshaun Watson (22.7). David sat Brock Purdy's 43.25 for Lamar Jackson's 24.3, and Purdy now has 102.75 bench points in three weeks to Lamar's 73.15 as the starter. Rodrick picked up Sam Darnold on Saturday night and benched him for 35.45. Phil sat Bo Nix's 27.5 for Justin Herbert's 15.0, his second straight wrong call. Rohan's miss was only 4.30, and it still cost him the game." },
-{ title: "Bonifield Scored 119.70 and Lost. Again.",
-body: "I suck again has faced the week's third-best score (135.75), the best score (140.60) and the best score (128.70). That's 405.05 points against, the most in the league by 26.75. Swap every team onto Bonifield's schedule and not one of the 12 would have a winning record. Swap him onto Kyle's and he'd be 3-0. His 18-15 all-play record matches Spencer's and Rodrick's; they're 2-1 and he's 0-3. The name was a prophecy." },
-{ title: "The Two-Time Champ Left 54.55 Points on the Bench",
-body: "Verber's Week 3 lineup was 64.9% efficient, the worst of the season. The best lineup his roster could have fielded was 155.40, higher than any score anyone has posted this year. Instead he started Drake Maye (2.75, two picks and a lost fumble in a 35-6 loss), TreVeyon Henderson (3.4) and Dalton Kincaid (1.8). Drake London scored 24.4 on the bench on Thursday night. Two rings, one win." },
-{ title: "Darren Won the Game and Lost His Season's Running Back",
-body: "De'Von Achane tore his ACL and scored 1.7 in the process. Darren beat Rohan by 4.05 anyway, behind Joe Burrow (26.9), Garrett Wilson (21.7), Texans D/ST (18.0) and Harrison Mevis (16.0). He also sat Juwan Johnson (20.8) and Kenyon Sadiq (20.0) at tight end while Isaiah Likely started and scored 2.3. Travis Etienne Jr. is out too. Darren holds the No. 1 waiver priority, and Miami's next man up, Ollie Gordon II, is sitting on waivers." },
-{ title: "Kramer Played Almost Perfectly and Is 0-3",
-body: "Kramer's lineup was 94.1% efficient, third-best in the league. His best possible lineup, 100.95, still loses to Spencer's 112.90. He has faced 378.3 points, second-most. His only real sin: picking up the Bengals D/ST on Thursday, starting it (1.0), and benching the Rams D/ST (7.0). Some men are cursed. Some men start Jameson Williams. Kramer is both." }
+{ title: "David Scored 176.80. Spencer Scored 2.50 After Lunch.",
+body: "Spencer led 78.05 to 33.60 after the noon games. Then David went 65.20 in the afternoon, 44.80 on Sunday night and 33.20 from Bijan Robinson on Monday. That's 143.20 after noon, more than any other team scored all weekend. Spencer added 2.50, all of it Travis Kelce. The 176.80 is the season high, the second-best score of David's career, and it would rank 16th among the 1,464 regular-season scores from 2017 to 2025. The 96.25-point loss is the worst regular-season beating of Spencer's ten seasons; his old record was 81.92 in 2017. The commissioner would like it noted that Saquon Barkley left in the first quarter. Noted." },
+{ title: "Garrett Got Warned About Puka. He Benched Puka.",
+body: "Last week this page said that if Puka Nacua was active and Tre Tucker was still starting, somebody should check on Garrett. ESPN reported Puka active about an hour before kickoff. Tucker started and scored 6.4. Puka scored 23.2 on the bench, next to Emanuel Wilson's 25.0. Garrett lost by 3.50. Either swap alone wins it. This week he's starting Patrick Mahomes and Harrison Butker, both on bye, with Puka on the bench again behind Tucker. ESPN projects him for 75.53. Nobody can save this man." },
+{ title: "Verber Cut His Quarterback Four Minutes Before Kickoff",
+body: "At 7:11 PM Thursday, Verber dropped Deshaun Watson, his starting quarterback, for Marcus Mariota. Watson kicked off at 7:15 and scored 13.6. Mariota scored 5.3 and sprained his MCL. Drake Maye scored 28.35 on the bench. That's two straight weeks starting the wrong QB, 43.00 points in all, and Verber's quarterbacks have 27.75 points this season, last by 25.60. He also cut T.J. Hockenson, who then scored 18.4, to claim Tyreek Hill, who doesn't have a team. Two rings. 1-3. 79.80, the low score of the week." },
+{ title: "Bonifield Is 0-4 With a Winning All-Play Record",
+body: "I suck again is 24-20 against the whole league and 0-4 against the schedule. Put any of the 12 teams on Bonifield's schedule and none of them has a winning record; David would be 2-2. Put Bonifield on David's schedule and he's 4-0. His 534.00 points against is the league's most, and his luck score is −2.18 wins. He did help this week: Matthew Stafford (12.35) started over Bryce Young (25.25), and his best lineup, 132.75, beats Kyle's 128.95. Seven teams have started 0-4 since 2017. None made the playoffs. One of them was Bonifield, in 2023." },
+{ title: "Rohan Won by 38.00 and Left 41.20 on the Bench",
+body: "Delhi Belly and Phil were tied at 73.70 after the Sunday afternoon games. Tetairoa McMillan scored 37.2 on Sunday night, the best starter in the league this week, and that was that. Rohan still started D'Andre Swift (5.4) over Kyle Monangai (28.5), and Tyler Shough (18.8) over Jared Goff (25.1); that's three wrong QB calls in four weeks. His best lineup, 170.90, would have been the second-best score of the week. He is 33-11 against the league and 2-2." },
+{ title: "Kramer Finally Won, Then Started a Bye Week",
+body: "Kramer led from the London game on and won 142.25 to 93.00 for his first win: CeeDee Lamb 32.8, Kyren Williams 32.2, Malik Nabers 20.2. He did spend Sunday morning at 7:52 and 7:59 dropping Brenton Strange (12.0) and Cameron Dicker (12.0) for Darren Waller (5.1) and Tyler Loop (7.0). Seven minutes, 11.90 points. Waller's Panthers are on bye this week, and Waller is in the lineup. Jacory Croskey-Merritt, from the Kyle trade, scored 6.0 as his flex. J.K. Dobbins scored 6.2 on Kyle's bench. The trade remains a 0.2-point wash." }
 ],
 recaps: {
 1: [
@@ -1456,149 +1686,184 @@ recaps: {
 "Spencer never trailed. Dak Prescott (22.2), Davante Adams (17.2) and Terry McLaurin (16.7) did the work; Jonathan Taylor scored 8.2 on a 19.5 projection and Saquon Barkley 8.5. Kramer's Jalen Hurts managed 13.15 on 22.7 projected, and the Bengals D/ST he added Thursday scored 1.0 while the Rams D/ST scored 7.0 on his bench. Even Kramer's perfect lineup (100.95) loses this one.",
 "The lowest-scoring game of the season: 177.40 combined. Kyle led 81.50 to 59.40 after the noon games, then scored 5.40 the rest of the weekend. Phil's afternoon (21.6) got within 0.50, and DeVonta Smith's 9.5 on Monday night won it. Kyle started Jadarian Price (−0.3) at flex with Zay Flowers (12.9) on the bench; that one swap wins. Phil started Justin Herbert (15.0) with Bo Nix (27.5) on the bench, and still won.",
 "Darren led 86.30 to 59.05 after the noon games: Joe Burrow 26.9, Garrett Wilson 21.7, Texans D/ST 18.0. De'Von Achane scored 1.7 and tore his ACL. Rohan needed 16.95 on Monday night from D'Andre Swift and Kyle Monangai just to tie, and got 12.90. Tyler Shough (27.35) and DK Metcalf (10.6) sat on Rohan's bench; starting either one wins it. Shough alone wins by 0.25."
+],
+4: [
+"Verber led 32.90 to 14.10 after the London game, behind Thursday night's Quinshon Judkins (18.6) and Steelers D/ST (9.0). Then Rodrick's noon window went for 46.10 and Verber's for 9.70. Alvin Kamara scored 20.3 at flex and Brock Bowers 17.6. Rodrick's lineup was 98.8% efficient, the best of the week. Verber started Marcus Mariota (5.3) with Drake Maye (28.35) on the bench, Rashee Rice hurt a hamstring in the first quarter (0.0), and Brian Robinson Jr. scored three Monday-night touchdowns on the bench (25.2).",
+"The lowest winning score of the week. Garrett led 10.20 to nothing after Thursday on Harold Fannin Jr. Bagwell led 62.95 to 42.10 after noon, then held on as Garrett's afternoon went for 47.65 to his 30.30. Dalton Schultz scored 1.9 and Broncos D/ST 2.0 for the winner. Garrett started Tre Tucker (6.4), Jakobi Meyers (4.8) and Jeremiyah Love (6.0) with Puka Nacua (23.2) and Emanuel Wilson (25.0) on the bench. His best lineup was 129.45.",
+"Spencer led 78.05 to 33.60 after noon: Jonathan Taylor 22.2 in London, Dak Prescott 20.95, Cardinals D/ST 13.0. David's afternoon went for 65.20 (Kenneth Walker III 31.4, Brock Purdy 28.8), his Sunday night 44.80 (Chuba Hubbard 26.4, Sam LaPorta 18.4), and Bijan Robinson closed it with 33.20 on Monday. Barkley left in the first quarter (0.5), DJ Moore left with a shoulder injury (2.2), and Davante Adams caught four balls for 32 yards (5.2). Spencer's best lineup, 99.65, loses by 77.15.",
+"Bonifield led 16.60 to nothing after the London game. Kyle's noon window went for 87.65: Zay Flowers 21.8, Ka'imi Fairbairn 16.0, James Cook III 15.3. Bonifield's went for 53.45, and Seahawks D/ST (17.0) put it away in the afternoon. Bonifield started Matthew Stafford (12.35) with Bryce Young (25.25) on the bench, Romeo Doubs scored 20.8 on the bench, and Ladd McConkey left with a foot injury (0.0). His best lineup, 132.75, wins.",
+"Kramer led from the London game on. His noon games alone produced 116.65, more than Darren scored all week: Lamb 32.8, Kyren Williams 32.2, Nabers 20.2. Darren's waiver claim, Ollie Gordon II, scored 18.0 and Joe Burrow 27.0. Garrett Wilson (4.2), David Montgomery (4.3) and Texans D/ST (3.0) did not. C.J. Stroud outscored Burrow on Darren's bench by 0.55, which is the closest anyone came to a decision this week.",
+"Tied at 73.70 after the Sunday afternoon games. Tetairoa McMillan scored 37.2 on Sunday night and Tyler Shough 18.8 on Monday; Phil had Jake Bates (18.0) on Sunday night and nobody on Monday. Phil's three starting receivers combined for 11.7, less than his kicker, while Tee Higgins scored 21.2 on his bench. Rohan won by 38.00 and left 41.20 on his own bench, mostly Kyle Monangai (28.5) and Jared Goff (25.1)."
 ]
 },
 power: {
-BMD:  "3-0, 28-5 against the whole league, and has started the wrong QB twice. The scary part is he hasn't figured it out yet.",
-DB:   "Most points in the league (377.8). 1-2. Lost Week 3 by 4.05 with Tyler Shough's 27.35 on the bench. Rohan's worst enemy lives in his lineup screen.",
-QSG:  "Josh Allen bruised a knee and scored 16.0. Baker Mayfield dislocated a thumb. The rookie manager is one hit away from starting a waiver QB.",
-SAP:  "344.50 points for, 344.65 against. Perfectly, aggressively average, and 2-1 about it.",
-CHQ:  "Won as a Tuesday underdog and never trailed. Owns three QBs and has started the right one in exactly one of three weeks.",
-ISA:  "Up four spots and still 0-3. Third-highest score of the week, lost by 9.00. The schedule has a personal grudge.",
-V3K:  "54.55 points on the bench in one week. The best lineup on his roster would've been the season's high score. Two rings, zero excuses.",
-DDT:  "Won the game, lost Achane for the year. Still has Etienne (O) in the lineup. The No. 1 waiver claim has never mattered more.",
-MAGA: "Started Mahomes, scored the week's high. Up three spots. Still dead last in points. Took him three weeks to find the start button.",
-KRAM: "0-3 with a lineup that was 94.1% efficient. His best lineup still lost. Some teams are bad; this one is haunted.",
-PNB:  "2-1 on a 10-23 all-play record. Won Week 3 with the league's 11th-best score. Benched Bo Nix's 27.5. The standings are lying for Phil.",
-LHC:  "Lowest score of the week, 0-11 all-play, and 2-1. Led by 22.10 after noon Sunday, scored 5.40 more. Luckiest man in the league."
+BMD:  "4-0, 39-5 against the league, and 143.20 points after the noon games. Next week he's starting a running back on bye and ESPN has him as an underdog. Enjoy it while it lasts, which it will.",
+DB:   "Second in points (507.50), second in all-play (33-11), 2-2. Won by 38.00 and still left 41.20 on the bench. Rohan's lineup is the only thing that can stop Rohan's roster.",
+QSG:  "3-1 after the lowest winning score of the week. Josh Allen's QB room leads the league in points (123.85). The tight ends are last (26.40). Pick a lane, rookie.",
+CHQ:  "98.8% efficient, beat the two-time champ by 49.40. Has started the wrong quarterback three weeks in a row and is 3-1 anyway. Talent is a hell of a drug.",
+ISA:  "0-4 with a winning all-play record (24-20). The schedule is the problem. Starting Stafford over Bryce Young was also the problem.",
+KRAM: "142.25, second-best of the week, first win. Then he started a tight end on bye. Kramer giveth, Kramer taketh away, Kramer is 1-3.",
+SAP:  "80.55, the third-lowest regular-season score of Spencer's career, and the worst regular-season loss he's ever taken. Next week: Kelce on bye, Saquon projected for zero. Thoughts and prayers.",
+DDT:  "Never led against Kramer. Ollie Gordon II (18.0) was a great waiver claim. ESPN makes Darren a 57% favorite over the unbeaten team, which says more about David's bye weeks than Darren.",
+LHC:  "3-1 on a 16-28 all-play record, fewest points against (367.70), luck score +1.55. Kyle is the guy who finds a twenty on the sidewalk every single day.",
+MAGA: "Was told about Puka. Benched Puka. Lost by 3.50. Is starting two Chiefs on bye. Has a 29% chance and, honestly, that's generous.",
+V3K:  "Low score of the week, 0-11 all-play, cut his starting QB four minutes before kickoff. The two-time champ has been replaced by a man wearing his jersey.",
+PNB:  "2-2 and has never once finished above the weekly median. 13-31 against the league. His kicker outscored his receivers. Phil is a magic trick nobody asked to see."
 },
 preview: [
-"Thursday night is civil war for Verber: he's starting Deshaun Watson and Quinshon Judkins against his own Steelers D/ST, with Drake Maye benched (DK Network also says sit Maye). Rodrick now starts Sam Darnold, at home against a Chargers defense Bleacher Report calls vulnerable, with Jordan Love and a D-tagged Caleb Williams on the bench. Justin Jefferson (Q, ankle sprain) is in his lineup; ESPN reports he could play. ESPN projects this within 0.1 points.",
-"Josh Allen took a shot to the left knee and Dr. David Chao calls him 'hurt, not injured'; he's expected to face New England. DK Network likes Aaron Jones against a Miami defense giving up the most running back points. Garrett gets a second straight week of Mahomes. Puka Nacua (Q, groin) is on his bench projected for 16.84, and Sean McVay is 'hopeful.' If Puka is active and Tre Tucker (8.02) is still starting, somebody should check on Garrett.",
-"David is ESPN's biggest favorite of the week, and he's starting Lamar Jackson (24.61 projected) over Brock Purdy (22.42) again. Nico Collins (Q, hamstring) is in his lineup; Houston is hopeful. USA Today says sit Emeka Egbuka, with undrafted rookie Jalon Daniels expected to start at quarterback for Tampa Bay. Spencer's Jonathan Taylor and Terry McLaurin lock at 8:30 AM Sunday in Washington, and DK Network likes McLaurin. Spencer's Panthers D/ST carries the lowest projection of any starting defense (5.0).",
-"Breece Hall (quad, week-to-week) is in Bonifield's lineup with a 0.0 projection, and Braelon Allen is on waivers. Bryce Young is projected for 23.95 against a Lions defense DK Network says allows the most QB points; he's on the bench behind Matthew Stafford (20.29). Kyle's QB call is the same shape: Kyler Murray, a USA Today start against Miami, is projected for 22.68 on the bench behind Trevor Lawrence (22.0). Kyle did bench Jadarian Price.",
-"Darren is starting Travis Etienne Jr., who is out, and ESPN projects him for 0.0. De'Von Achane (torn ACL) is on his bench, not IR. Kenyon Sadiq (20.0 last week) is still behind Isaiah Likely. Kramer is starting Jameson Williams, a sit for both USA Today and DK Network, with J.K. Dobbins (a USA Today start at San Francisco) on the bench. Dallas Goedert is out with an MCL sprain. Kramer is favored. He was favored in Weeks 1 and 2 too, and lost both.",
-"Phil is starting Justin Herbert at Seattle (14.43 projected) over Bo Nix at San Francisco (18.33), his fourth straight Herbert start. The last two cost him 23.70 points. Rohan is starting Jared Goff at Carolina, a USA Today sit, with Tyler Shough (22.26 projected, Monday night vs Atlanta) on the bench again. Jordan Addison, a USA Today start if Jefferson sits, is on Phil's bench."
+"Garrett is starting Patrick Mahomes and Harrison Butker. The Chiefs are on bye. Puka Nacua, whose average ESPN rank this week is 1.6 at receiver, is on the bench behind Tre Tucker (48.6). Jayden Daniels (Q), ranked 3.9 at quarterback, is on the bench too, and Dan Quinn wants him starting Sunday. That's how you get a 75.53 projection, the league's lowest. Rodrick starts Michael Wilson, a Daniel Dopp must-start this week, and has Justin Jefferson (Q) on the bench; the Vikings are hopeful. ESPN's rankers like Jordan Love (14.9) more than Sam Darnold (18.4). Rodrick is starting Darnold.",
+"Spencer's lineup has Travis Kelce on bye and Saquon Barkley (Q, hamstring, week-to-week per Ian Rapoport) projected for 0.0. He has no other tight end. T.J. Hockenson, ranked 11.1 at tight end, is on waivers, because Verber cut him for Tyreek Hill. Tank Bigsby went on IR Tuesday, and Will Shipley, the Eagles' only healthy back, is on waivers too. The Cardinals D/ST draws a Lions offense Tristan H. Cockcroft lists among the 10 to avoid; the Cowboys D/ST Spencer dropped Sunday morning is Cockcroft's No. 2 play this week. Verber finally starts Drake Maye, a borderline starter against the Raiders per Cockcroft.",
+"Bagwell has Josh Allen on Monday night, Brandon Aubrey (all eight ESPN rankers have him first at kicker) and Broncos D/ST at the Chargers, Cockcroft's No. 5 defense. Derrick Henry plays Sunday night in Atlanta with Lamar Jackson 'unlikely' to play, per Rapoport. Kyle is starting Seahawks D/ST against San Francisco, on Cockcroft's avoid list; the 49ers have cost opposing defenses 6.0 points a game, worst in the league. Trevor Lawrence draws the Eagles, and Matt Bowen flagged that Lawrence's rushing is down to 8.5 yards a game.",
+"The unbeaten team is the underdog. David is starting Kenneth Walker III, whose Chiefs are on bye. Chuba Hubbard, his only other healthy running back, is also on bye. Lamar Jackson is 'unlikely' to play, so at least Purdy starts. Mark Andrews is the flex and Eagles D/ST plays at Jacksonville, on Cockcroft's avoid list. Darren starts Texans D/ST at Tennessee (Cockcroft's No. 4), Joe Burrow at Miami, and Garrett Wilson against Cleveland after a 4.2; Cockcroft expects a WR1 rebound. ESPN: Darren 111.90, David 99.33.",
+"The highest-projected game of the week, 121.55 to 121.13. Rohan is starting Ja'Marr Chase (Q, concussion) and Kyle Monangai (Q, thumb, day-to-day) at flex. Cockcroft calls Monangai and D'Andre Swift both RB2/flex plays against a Packers defense allowing 29.0 points a game to backs. Goff starts over Shough this time. Bonifield is starting Breece Hall (D), who missed Week 4 with a quad injury, with Rhamondre Stevenson (16.9 last week) on the bench. Bryce Young is on bye, so the Stafford decision makes itself.",
+"Kramer is starting Darren Waller, whose Panthers are on bye. Dallas Goedert (D) is his only other tight end. Brenton Strange, the tight end he cut for Waller on Sunday morning, is on waivers. Jalen Hurts lost right tackle Lane Johnson to retirement on Tuesday, and Eric Karabell dropped Hurts out of his top 10. Rams D/ST hosts Buffalo, on Cockcroft's avoid list. Phil has Tee Higgins (Q, adductor, day-to-day) at flex; Cockcroft says Higgins becomes Burrow's top target if Chase sits. Bo Nix starts over Justin Herbert, who Karabell notes is averaging 10.9 points a game."
 ],
-thursday: "Steelers at Browns, Thursday 7:15 PM. Starting in that game: Deshaun Watson, Quinshon Judkins and Steelers D/ST (Eating W's), Jaylen Warren (Roddy Riccchh) and Harold Fannin Jr. (Make Arlington Great Again). Colts at Commanders kicks off Sunday at 8:30 AM Central, so Jonathan Taylor and Terry McLaurin (Saquon my Dak) and Tyler Warren (I suck again) lock early. Waivers run early Wednesday; lineups here are as of Tuesday night.",
+thursday: "Buccaneers at Cowboys, Thursday 7:15 PM. Starting in that game: Dak Prescott (Saquon my Dak), Javonte Williams (Delhi Belly), George Pickens and Brandon Aubrey (Quarterback Sackgood), CeeDee Lamb (Won't You Be My Nabers?), Jake Ferguson (Phil ntheblanks) and Bucky Irving (Make Arlington Great Again). Eagles at Jaguars kicks off Sunday at 8:30 AM Central in London, so Saquon Barkley, Bhayshul Tuten, Jakobi Meyers, Trevor Lawrence, Jalen Hurts, Parker Washington, Cam Little and Eagles D/ST lock early. The Chiefs and Panthers are on bye. Waivers run early Wednesday; lineups here are as of Tuesday night.",
 week: {
-kicker: "Week 3 in Review",
-headline: "Garrett Finally Started Mahomes. Five Managers Benched the Better Quarterback.",
-deck: "League scoring dipped for the second straight week, to 107.36 a team. Five of the 11 managers carrying two QBs started the wrong one, and it cost 69.05 points; starting QBs finished 2.02 under projection, the worst of any position. De'Von Achane tore his ACL. The only unbeaten team left is David's, and the league's highest scorer, Rohan, is 1-2."
+kicker: "Week 4 in Review",
+headline: "David Hung 176.80 on Spencer. Garrett Benched Puka. Again.",
+deck: "League scoring rose to 110.90 a team, up from 107.36. Every ESPN Tuesday favorite won, and the one coin flip went to Rodrick. Five teams scored 128.95 or more and seven scored 95.85 or less, with nothing in between. Starting quarterbacks finished 3.67 under projection, the worst of any position for the second straight week. Saquon Barkley, Ja'Marr Chase, Rashee Rice, DJ Moore, Ladd McConkey and Marcus Mariota all left their games hurt. David is the last unbeaten team; Bonifield is the last winless one."
 },
-/* Team reports. Grades are opinion; everything else is from DATA. W3 position ranks are among all 12 teams. */
 teams: {
-BMD: { grade: "A-", title: "Unbeaten, and Still Starting the Wrong Quarterback",
-body: "The only 3-0 team, and 28-5 against the whole league, best by four games. Bijan Robinson scored 35.3 on Thursday and Kenneth Walker III added 20.3. Brock Purdy has 102.75 points on the bench in three weeks; Lamar Jackson has 73.15 as the starter. David is either playing 4-D chess or has never opened the lineup screen.",
-working: "Running backs: 68.6 in Week 3, first by 18.4.",
-broken: "Receivers (14.1, last in Week 3) and Eagles D/ST (0.0, last).",
-call: "58% at Spencer, the week's biggest favorite. Nico Collins (Q, hamstring) is starting. USA Today says sit Egbuka with an undrafted rookie expected at QB." },
-DB: { grade: "B+", title: "The League's Best Offense Keeps Losing",
-body: "Rohan leads the league with 377.8 points and is 24-9 against the whole league. He is 1-2. In Week 3 he needed 16.95 from two Bears running backs on Monday night just to tie, and got 12.90, while Tyler Shough scored 27.35 on the bench. Starting Shough over Goff wins by 0.25. Starting DK Metcalf (10.6) over Tetairoa McMillan (2.7) wins by 3.85. His luck score is −1.18 wins.",
-working: "Quarterback depth (Goff 23.05, Shough 27.35) and Chiefs D/ST (13.0, third).",
-broken: "Lineup calls. Tetairoa McMillan has 22.3 points in three games as a starter.",
-call: "55% vs Phil. USA Today says sit Goff at Carolina. Shough (22.26 projected) is on the bench again." },
-QSG: { grade: "B", title: "The Cheat Code Bruised a Knee",
-body: "Josh Allen scored 16.0 on a 27.18 projection after a hit to the left knee, and Bagwell took his first loss. He's still third in points (363.4) and third in all-play (22-11). The new problem: Baker Mayfield dislocated his thumb and went to IR, so Allen is the only healthy quarterback on the roster.",
-working: "Running backs: Henry 21.4, Jones 11.7, Skattebo 10.5; 43.6, third.",
-broken: "Receivers (14.5, 11th) and tight end (Schultz 4.5, 11th). Deebo scored 15.4 on the bench while Coker (2.8) started.",
-call: "56% at Garrett. Allen's knee is a bruise; Dr. David Chao expects him to play. DK Network likes Aaron Jones against Miami." },
-SAP: { grade: "B", title: "The Most Average Team in America",
-body: "Won by 17.95 and never trailed. Receivers carried it: Davante Adams 17.2, Terry McLaurin 16.7 and DJ Moore 10.2 for 44.1, first in the league. Running backs didn't: Jonathan Taylor 8.2 on a 19.5 projection, Saquon Barkley 8.5. Season to date: 344.50 points for, 344.65 against.",
-working: "Receivers (44.1, first in Week 3) and Dak Prescott, 75.9 points in three games.",
-broken: "Running backs (16.7, 10th) and kicker (Tyler Bass, 6.0).",
-call: "42% vs David, the week's biggest underdog. Taylor and McLaurin lock at 8:30 AM Sunday. Panthers D/ST has the lowest projection of any starting defense." },
-CHQ: { grade: "B-", title: "Three Quarterbacks, One Lineup Spot, Zero Clue",
-body: "Won as ESPN's 44% Tuesday underdog and never trailed after a kickoff window. Brock Bowers came off IR and scored 22.6. Then the QB room: Rodrick picked up Sam Darnold on Saturday night, benched him, and watched 35.45 points go to waste. Caleb Williams (D) is still on the roster too. Rodrick has started the right QB once in three weeks.",
-working: "Tight end (Bowers 22.6, second) and running backs (40.7, fourth).",
-broken: "Receivers (19.4, 10th) with Justin Jefferson at 4.2 on a sprained ankle. D/ST 1.0.",
-call: "50-50 vs Verber. Darnold starts at home against the Chargers. Jefferson (Q) is in the lineup; ESPN reports he could play." },
-ISA: { grade: "C+", title: "A Good Team With the Worst Schedule in the League",
-body: "Scored 119.70, third-best in Week 3, and lost to the week's high score for the second straight week. 405.05 points against, most in the league by 26.75. Put any of the 12 teams on Bonifield's schedule and none of them has a winning record. Put Bonifield on Kyle's and he's 3-0. His luck score, −1.64 wins, is the league's worst.",
-working: "Quarterback (Stafford 26.8, second) and running backs (50.2, second, with Gibbs at 37.9).",
-broken: "Receivers (19.5, ninth), kicker (4.0, last) and the flex: Golden (18.5) and White (10.6) sat. The best lineup, 136.50, wins.",
-call: "44% at Kyle. Breece Hall is starting with a 0.0 projection. Bryce Young (23.95 projected, a DK Network start) is on the bench." },
-V3K: { grade: "C-", title: "Two Rings and 54.55 Points on the Bench",
-body: "The worst lineup of the season: 64.9% efficient. The best lineup Verber could have started, 155.40, beats every score anyone has posted this year. He started Drake Maye (2.75) with Deshaun Watson (22.7) on the bench, and Drake London (24.4) sat on Thursday night. Jaxon Smith-Njigba has 90.7 points in three weeks and a 1-2 team to show for it.",
-working: "Jaxon Smith-Njigba (30.5), and George Kittle (23.2) at flex: 25.0 from tight ends, first in Week 3.",
-broken: "Quarterback (2.75, last) and running backs (12.3, last).",
-call: "50-50 at Rodrick. Watson starts Thursday against Verber's own Steelers D/ST. Maye is benched, which is DK Network's call too." },
-DDT: { grade: "C", title: "Won the Game, Lost Achane",
-body: "Beat Rohan by 4.05 and lost De'Von Achane for the season with a torn ACL. Darren left 36.8 points on the bench, with Juwan Johnson (20.8) and Kenyon Sadiq (20.0) sitting while Isaiah Likely scored 2.3. That's 75.75 bench points left over three weeks, second-most. 2-1 on a 13-20 all-play record.",
-working: "Quarterback (Burrow 26.9, first), kicker (Mevis 16.0, first) and D/ST (Texans 18.0, second).",
-broken: "Tight end (2.3, last) and running back (15.5, 11th), which just lost its best player.",
-call: "45% vs Kramer. Etienne (O) is in the lineup. Achane is on the bench, not IR. Ollie Gordon II is on waivers and Darren has the first claim." },
-MAGA: { grade: "C", title: "The Patient Took His Medicine",
-body: "Garrett started Patrick Mahomes, added the Vikings D/ST, and scored 128.70, the high score of the week, with the only perfect lineup in the league. ESPN gave him 23% on Tuesday. He's 11-0 against the league for the week and still last in points for the season (300.6), which is what 59.3 bench points of Mahomes will do.",
-working: "D/ST (Vikings 25.0, first) and tight end (Harold Fannin Jr. 20.6, third).",
-broken: "Kicker (Butker 5.0, 10th). Every other position ranked eighth or better.",
-call: "44% vs Bagwell. Puka Nacua (Q) is on the bench projected 16.84. If he's active, he starts over Tre Tucker. Right, Garrett?" },
-KRAM: { grade: "D+", title: "The Most Efficient 0-3 Team in the League",
-body: "Kramer's lineup was 94.1% efficient, third-best in the league, and his best possible lineup (100.95) still loses. He has faced 378.3 points, second-most. Jalen Hurts scored 13.15 on a 22.7 projection, and the Bengals D/ST he added Thursday scored 1.0 while the Rams D/ST scored 7.0 on the bench.",
-working: "Running backs: Christian McCaffrey 19.6, Kyren Williams 18.8.",
-broken: "Quarterback (13.15, 11th), tight end (Brenton Strange 4.7) and D/ST (1.0).",
-call: "55% at Darren. Jameson Williams starts; USA Today and DK Network both say sit him. J.K. Dobbins, a USA Today start, is on the bench." },
-PNB: { grade: "D+", title: "2-1, and Nobody Knows How",
-body: "Phil is 2-1 with a 10-23 all-play record. He won Week 3 with 90.50, the 11th-best score of 12, against the only team that scored less. He started Justin Herbert (15.0) with Bo Nix (27.5) on the bench, his second straight wrong call; the QB decisions have cost him 23.70 points. His luck score, +1.09, is second only to Kyle's.",
-working: "Receivers (39.0, third), led by Tee Higgins (18.0).",
-broken: "Running backs (18.7, ninth): Jeanty 10.8, Chase Brown 7.9. And the QB call.",
-call: "45% at Rohan. Herbert (14.43 projected) starts over Nix (18.33). Again." },
-LHC: { grade: "D", title: "0-11 in Week 3, 2-1 on the Season",
-body: "Lowest score of the week (86.90) and 0-11 against the league. Kyle led Phil by 22.10 after the noon games, then scored 5.40 the rest of the weekend. Jadarian Price scored −0.3 at flex with Zay Flowers (12.9) on the bench, and that single swap wins the game. At 9-24 in all-play, Kyle's +1.18 luck score is the best in the league.",
-working: "Quarterback (Trevor Lawrence 24.1, fourth) and James Cook III (19.4).",
-broken: "Tight end (Kraft 4.6), D/ST (4.0) and kicker (5.0): three slots, 13.6 points.",
-call: "56% vs Bonifield. Kyler Murray (22.68 projected, a USA Today start) is on the bench behind Lawrence (22.0)." }
-}
+BMD: { grade: "A+", title: "143.20 After Lunch",
+body: "176.80, the season high and the second-best score of David's career (182.65 in 2023). He trailed Spencer by 44.45 after the noon games and then outscored every other team's full weekend in the afternoon, Sunday night and Monday combined. Bijan Robinson 33.2, Kenneth Walker III 31.4, Brock Purdy 28.8, Nico Collins 27.3 in his return, Chuba Hubbard 26.4 at flex. And he started the right quarterback for once: Purdy over Lamar Jackson (22.1).",
+working: "Running backs: 91.0 in Week 4 and 268.3 for the season, more than double what seven teams have.",
+broken: "Bills D/ST (4.0, 10th) and Jason Myers (5.0, 11th). He dropped Jaguars D/ST (11.0) Saturday to add the Bills.",
+call: "43% vs Darren. Walker is in the lineup on bye, Hubbard is on bye, Lamar is unlikely. Bijan is his only healthy back; Will Shipley and Tyler Allgeier are on waivers." },
+KRAM: { grade: "A-", title: "First Win, Wire to Wire",
+body: "142.25, second only to David, and a 10-1 all-play week. CeeDee Lamb (32.8, a career day per Cockcroft) and Kyren Williams (32.2) carried it; Cockcroft calls Lamb a locked-in WR1 against Tampa Bay and Bowen calls Kyren an RB1 against Buffalo. Kramer's season efficiency (94.2%) is still the league's best. The Sunday-morning tight end and kicker swaps cost him 11.90, and starting Croskey-Merritt (6.0) over Jameson Williams (13.2) cost 7.20.",
+working: "Receivers (53.0, first) and running backs (52.7, second).",
+broken: "Tight end (Waller 5.1) and quarterback (Hurts 13.45, 10th).",
+call: "49% vs Phil. Waller is on bye and in the lineup; Goedert is doubtful. Hurts just lost Lane Johnson. Rams D/ST hosts Buffalo, a Cockcroft avoid." },
+CHQ: { grade: "A-", title: "Almost Perfect, Except the Quarterback. Again.",
+body: "Beat the two-time champ by 49.40 with a 98.8% efficient lineup, best in the league. Alvin Kamara (20.3) at flex, Brock Bowers (17.6), Chris Olave (15.6), Bears D/ST (12.0) off Thursday's wire. The only miss: Jordan Love (17.05) on the bench while Sam Darnold (15.50) started. That's three straight weeks starting the wrong quarterback, 23.05 points in all, and he's 3-1.",
+working: "Running backs (44.5, third) and Bowers, who Karabell now ranks first at tight end.",
+broken: "Quarterback (15.5, eighth). Justin Jefferson missed the game.",
+call: "71% at Garrett, the week's biggest favorite. Daniel Dopp calls Michael Wilson a must-start. Jefferson (Q) is on the bench; Love outranks Darnold again." },
+LHC: { grade: "B+", title: "The Luckiest Man in the League Also Played Well",
+body: "Beat Bonifield by 33.10 with a 97.9% efficient lineup. Zay Flowers 21.8, Seahawks D/ST 17.0, Ka'imi Fairbairn 16.0, Tucker Kraft 14.0. Kyle is 3-1 with a 16-28 all-play record and the league's fewest points against (367.70). Put the 12 teams on Kyle's schedule and nine have winning records; four go 4-0. J.K. Dobbins, the trade prize, scored 6.2 on the bench.",
+working: "D/ST (17.0, first) and kicker (16.0, second). Receivers 40.0, third.",
+broken: "Trevor Lawrence (14.35), on Bowen and Cockcroft's losers list.",
+call: "45% at Bagwell. Seahawks D/ST faces the 49ers, Cockcroft's No. 1 offense to avoid. Lawrence draws the Eagles." },
+DB: { grade: "B", title: "A 38-Point Win With 41.20 on the Bench",
+body: "Tetairoa McMillan (37.2) and Javonte Williams (28.8, three touchdowns) won it after a 73.70 tie on Sunday afternoon. Ja'Marr Chase left with a concussion (4.2). Rohan started D'Andre Swift (5.4, a fumble and three failed goal-line carries, per Cockcroft) over Kyle Monangai (28.5), and Tyler Shough (18.8) over Jared Goff (25.1). Best lineup: 170.90. Bench: 81.5, most in the league this week.",
+working: "Receivers (41.4, second) and Packers D/ST (16.0, second), a Thursday pickup.",
+broken: "QB calls: wrong three times in four weeks, 17.40 points. Kicker (5.0, last).",
+call: "50-50 at Bonifield, the highest-projected game. Chase (Q, concussion) and Monangai (Q, thumb) are starting. McMillan is on bye." },
+QSG: { grade: "C+", title: "Won Ugly, Which Still Counts",
+body: "93.25, the lowest winning score of the week, beat Garrett by 3.50 only because Garrett benched 48.2 points. Josh Allen scored 20.55 on a 25.38 projection. Dalton Schultz scored 1.9 and Broncos D/ST 2.0, last at both spots. Rome Odunze (12.4) sat while Cam Skattebo (7.1) and George Pickens (8.5) started. 3-1, fourth in points.",
+working: "Quarterback: 123.85 points this season, first in the league by 21.90.",
+broken: "Tight end (26.4 for the season, last) and receivers (79.4, 11th).",
+call: "55% vs Kyle. Allen plays Monday night in L.A. Aubrey is ESPN's unanimous top kicker. Broncos D/ST is Cockcroft's No. 5." },
+DDT: { grade: "C-", title: "Never Led, but Won the Waiver Wire",
+body: "Lost by 49.25 and never had the lead. The No. 1 waiver claim, Ollie Gordon II, scored 18.0 and Joe Burrow 27.0. The rest of the lineup: Garrett Wilson 4.2, David Montgomery 4.3, Amon-Ra St. Brown 11.5, Texans D/ST 3.0. C.J. Stroud scored 27.55 on the bench, so technically Darren started the wrong QB by 0.55.",
+working: "Quarterback (27.0, second) and tight ends (19.0 combined, first).",
+broken: "Running back Montgomery (4.3), receivers (15.7, 10th) and D/ST (3.0, 11th).",
+call: "57% at David, favored over the unbeaten team. Texans D/ST is Cockcroft's No. 4. Isaiah Likely ranks 5.6 at tight end." },
+ISA: { grade: "D+", title: "0-4 and Earned Some of It",
+body: "Bonifield finally gets some blame. He started Matthew Stafford (12.35) over Bryce Young (25.25), Romeo Doubs (20.8) and RJ Harvey (13.3) sat, and his best lineup (132.75) beats Kyle. Ladd McConkey left with a foot injury (0.0), which isn't his fault. He's 24-20 against the league, and his −2.18 luck score is the worst in the league.",
+working: "Running backs: 179.8 this season, second. Cam Little (14.0, third among kickers).",
+broken: "Receivers: 72.5 this season, last. The QB call: −12.90.",
+call: "50-50 vs Rohan. Breece Hall (D) is starting after missing Week 4. Stevenson (16.9 last week) is on the bench. Young is on bye." },
+PNB: { grade: "D", title: "His Kicker Outscored His Receivers",
+body: "Jake Bates scored 18.0. Parker Washington (1.5), Josh Downs (3.1) and Jordan Addison (7.1) scored 11.7 together. Tee Higgins scored 21.2 on the bench after Chase went down. Phil did start the right quarterback, Bo Nix (16.7) over Justin Herbert (9.95), and still lost by 38.00. He's 2-2 and has finished below the league median every week.",
+working: "Jake Bates (18.0, first) and Ravens D/ST (13.0, fourth).",
+broken: "Receivers (11.7, last) and tight end (Jake Ferguson 2.6, 10th).",
+call: "51% at Kramer. Higgins (Q) is the flex. Cockcroft expects Parker Washington to rebound against the Eagles." },
+SAP: { grade: "D-", title: "The Worst Regular-Season Loss of Spencer's Career",
+body: "80.55, the third-lowest regular-season score of Spencer's ten seasons, and a 96.25-point loss, his worst regular-season loss ever. He led by 44.45 after noon. Saquon Barkley left in the first quarter (0.5), DJ Moore left with a shoulder injury (2.2), Davante Adams scored 5.2 and Travis Kelce 2.5. Jonathan Taylor (22.2) and Dak Prescott (20.95) tried. His Cardinals D/ST (13.0, a Sunday-morning pickup) nearly matched his three receivers (13.4).",
+working: "Dak Prescott (20.95, third) and the Sunday D/ST pickup.",
+broken: "Receivers (13.4, 11th), tight end (2.5, 11th) and the injury report.",
+call: "34% at Verber. Kelce is on bye and Saquon is projected for 0.0, both in the lineup. No backup tight end. Hockenson is on waivers." },
+MAGA: { grade: "F", title: "You Were Warned",
+body: "Lost by 3.50 with Puka Nacua (23.2) and Emanuel Wilson (25.0) on the bench, after this page told him what would happen. Tre Tucker (6.4), Jakobi Meyers (4.8) and Jeremiyah Love (6.0) started. Best lineup: 129.45. That's two losses this season a better lineup from his own roster would have won. Garrett also declined a trade offer last Wednesday. Whatever it was, it beat what he did with Puka.",
+working: "Vikings D/ST (15.0, third) and Carnell Tate (15.0).",
+broken: "Running backs (12.1, last). Decision-making (unranked).",
+call: "29% vs Rodrick. Mahomes and Butker are on bye and in the lineup. Puka (ESPN rank 1.6) is benched behind Tucker (48.6). Daniels (Q) is on the bench." },
+V3K: { grade: "F", title: "The Champ Is Here. Somewhere.",
+body: "79.80, the low score of the week, and 0-11 against the league. He dropped Deshaun Watson four minutes before Watson's kickoff, started Marcus Mariota (5.3, sprained MCL) over Drake Maye (28.35), and left Brian Robinson Jr. (25.2) on the bench. Best lineup: 133.25, which beats Rodrick. Verber has left 134.10 points on his bench this season, most in the league by 47.00, and his lineups are 75.1% efficient, worst in the league.",
+working: "Quinshon Judkins (18.6) and George Kittle (15.0). Receivers lead the league for the season (156.8).",
+broken: "Quarterback: 27.75 points in four weeks. Rashee Rice (0.0) hurt a hamstring.",
+call: "66% vs Spencer. Maye finally starts. Steelers D/ST is Cockcroft's No. 6. Luther Burden III outprojects Brian Robinson Jr. at flex." }
+},
+receipts: [
+["V3K", "Cut T.J. Hockenson for Tyreek Hill, who doesn't have an NFL team; Hockenson scored 18.4. Cut Deshaun Watson at 7:11 PM Thursday for Marcus Mariota; Watson scored 13.6, Mariota 5.3. Added Brian Robinson Jr., then benched his 25.2."],
+["KRAM", "Sunday, 7:52 AM: Brenton Strange (12.0) out, Darren Waller (5.1) in. 7:59 AM: Cameron Dicker (12.0) out, Tyler Loop (7.0) in. Minus 11.90 points in seven minutes, and Waller is on bye this week."],
+["DDT", "Spent the No. 1 waiver claim on Ollie Gordon II, cutting De'Von Achane (torn ACL). Gordon scored 18.0. Move of the week."],
+["DB", "Chiefs D/ST (4.0) out, Packers D/ST (16.0) in: plus 12.0. Also cut 49ers D/ST (13.0) for Makai Lemon, who scored 4.2 on the bench."],
+["SAP", "Three defenses in two days. Panthers D/ST (−4.0) out Friday night for Cowboys D/ST (0.0), which went out Sunday morning for Cardinals D/ST (13.0). The last one was right."],
+["BMD", "Added Jaguars D/ST Wednesday, cut it Saturday for Bills D/ST. Jaguars scored 11.0, Bills 4.0. He won by 96.25."],
+["ISA", "Lions D/ST (0.0) out, Browns D/ST (10.0) in."],
+["CHQ", "Claimed Tank Dell, who is on IR, and cut Chris Godwin Jr. (6.1). Added Bears D/ST Thursday morning: 12.0."],
+["QSG", "Added Geno Smith as Josh Allen insurance. He scored 14.45 on the bench."]
+]
 };
 DATA.copy.feature = {
 kicker: "Collapse of the Week",
-headline: "Kyle Led by 22.10 After Noon on Sunday. Then He Scored 5.40.",
-deck: "Let HIM Cook and Phil ntheblanks combined for 177.40, the lowest-scoring game of the season. Kyle had a 23.70-point lead after Thursday night and 81.50 to 59.40 after the noon games. His last player, Jaylen Waddle, scored 5.40 on Sunday night. Phil's afternoon got within 0.50, and DeVonta Smith's 9.5 on Monday night won it by 3.60.",
-game: { week: 3, index: 4 }
+headline: "Spencer Led by 44.45 After Noon. Then He Scored 2.50.",
+deck: "Saquon my Dak was up 78.05 to 33.60 when the noon games ended, behind Jonathan Taylor in London, Dak Prescott and a Sunday-morning Cardinals D/ST. Then Honey Bijan Chicken scored 65.20 in the afternoon, 44.80 on Sunday night and 33.20 on Monday night. Spencer's only points after noon were Travis Kelce's 2.5. Final: 176.80 to 80.55.",
+game: { week: 4, index: 2 }
 };
-/* ---------- Injury news, Tuesday Sept 29 (paraphrased; see sources) ----------
-[player, NFL team, pos, fantasy owner, ESPN tag, Week 4 role, note, source #] */
+/* ---------- Injury news, Tuesday Oct 6 (paraphrased from ESPN player news; see sources) ----------
+[player, NFL team, pos, fantasy owner, ESPN tag, Week 5 role, note, source #] */
 DATA.news = {
-asOf: "Tuesday, Sept 29",
+asOf: "Tuesday, Oct 6",
 sources: [
-["NBC Sports via Yahoo", "https://sports.yahoo.com/articles/2026-nfl-week-4-injury-191617986.html"],
-["Forbes", "https://www.forbes.com/sites/bryantoporek/2026/09/28/fantasy-football-week-4-injury-report-devon-achane-breece-hall-justin-jefferson-and-more/"],
-["Sports Illustrated", "https://www.si.com/nfl/bills/onsi/josh-allen-reputable-nfl-injury-expert-projects-hurt-qb-week-4-availability-for-bills"],
-["NBC Sports Boston", "https://www.nbcsportsboston.com/nfl/new-england-patriots/live-updates-jacksonville-jaguars-week-3-highlights-score/804338/"],
-["Yahoo Sports", "https://sports.yahoo.com/articles/packers-josh-jacobs-important-suspension-222616925.html"],
-["ESPN", "https://www.espn.com/nfl/story/_/id/50054067/sources-vikings-jefferson-ankle-sprain-play-week"]
+["Saquon Barkley", "https://www.espn.com/nfl/player/_/id/3929630/saquon-barkley"],
+["Ja'Marr Chase", "https://www.espn.com/nfl/player/_/id/4362628/jamarr-chase"],
+["Kyle Monangai", "https://www.espn.com/nfl/player/_/id/4608686/kyle-monangai"],
+["Breece Hall", "https://www.espn.com/nfl/player/_/id/4427366/breece-hall"],
+["Tee Higgins", "https://www.espn.com/nfl/player/_/id/4239993/tee-higgins"],
+["Jeremiyah Love", "https://www.espn.com/nfl/player/_/id/4870808/jeremiyah-love"],
+["DJ Moore", "https://www.espn.com/nfl/player/_/id/3915416/dj-moore"],
+["Lamar Jackson", "https://www.espn.com/nfl/player/_/id/3916387/lamar-jackson"],
+["Justin Jefferson", "https://www.espn.com/nfl/player/_/id/4262921/justin-jefferson"],
+["Jayden Daniels", "https://www.espn.com/nfl/player/_/id/4426348/jayden-daniels"],
+["Terry McLaurin", "https://www.espn.com/nfl/player/_/id/3121422/terry-mclaurin"],
+["Marcus Mariota", "https://www.espn.com/nfl/player/_/id/2576980/marcus-mariota"],
+["Dallas Goedert", "https://www.espn.com/nfl/player/_/id/3121023/dallas-goedert"],
+["Tank Bigsby", "https://www.espn.com/nfl/player/_/id/4429013/tank-bigsby"],
+["Ladd McConkey", "https://www.espn.com/nfl/player/_/id/4612826/ladd-mcconkey"],
+["Rashee Rice", "https://www.espn.com/nfl/player/_/id/4428331/rashee-rice"],
+["Caleb Williams", "https://www.espn.com/nfl/player/_/id/4431611/caleb-williams"]
 ],
-/* Expert takes quoted in the preview copy */
+/* Expert takes quoted in the preview copy (all published Oct 5-6) */
 experts: [
-["USA Today start/sit", "https://sports.yahoo.com/articles/fantasy-football-start-em-sit-151327237.html"],
-["DK Network start/sit (Jeff Pratt)", "https://dknetwork.draftkings.com/2026/09/29/fantasy-football-start-em-sit-em-week-4-picks-2026/"],
-["Bleacher Report waivers (Alex Kay)", "https://bleacherreport.com/articles/25504467-ollie-gordon-ii-and-best-week-4-fantasy-football-waiver-wire-pickups"]
+["ESPN Week 5 rankings", "https://www.espn.com/fantasy/football/story/_/page/FFWeeklyPlayerRank26main-49797082/fantasy-football-rankings-2026-qb-rb-wr-te-dst"],
+["Week 4 winners and losers (Matt Bowen, Tristan H. Cockcroft)", "https://www.espn.com/fantasy/football/story/_/page/FFSundayHighLows-50102250/nfl-week-4-fantasy-football-winners-losers-injuries-rankings-more"],
+["D/ST outlook, Weeks 5-8 (Cockcroft)", "https://www.espn.com/fantasy/football/story/_/id/50117199/fantasy-football-defense-special-teams-streaming-week-5"],
+["Rest-of-season rankings (Eric Karabell)", "https://www.espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings"],
+["Daniel Dopp on Michael Wilson", "https://www.espn.com/video/clip/_/id/50117332/michael-wilson-fantasy-football-start-week-5"],
+["ESPN Fantasy buzz on Lane Johnson's retirement", "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis"]
 ],
 injuries: [
-["Josh Allen","BUF","QB","QSG","Q","Starting","Knee contusion from a hit against the Chargers. Dr. David Chao expects him to play.",2],
-["Caleb Williams","CHI","QB","CHQ","D","Bench","Grade 1 hamstring strain. Missed Week 3; Ben Johnson says they'll see how it plays out.",0],
-["Jayden Daniels","WSH","QB","MAGA","Q","Bench","Dislocated elbow, surgery put off to the offseason. Marcus Mariota starts; likely a multi-week absence.",0],
-["Baker Mayfield","TB","QB","QSG","O","IR","Dislocated thumb. Expected to miss at least three weeks; undrafted rookie Jalon Daniels starts.",1],
-["De'Von Achane","MIA","RB","DDT","IR","Bench","Torn ACL. Season over. Ollie Gordon II is next up; Jaylen Wright is dealing with a foot injury.",0],
-["Travis Etienne Jr.","NO","RB","DDT","O","Starting","Aggravated hamstring. Expected to miss Week 4; Alvin Kamara and Kendre Miller split the work.",1],
-["Breece Hall","NYJ","RB","ISA","Q","Starting","Quad. Week-to-week per Aaron Glenn; Braelon Allen would be the workhorse.",0],
-["Josh Jacobs","GB","RB","MAGA","DTD","Bench","On the commissioner's exempt list while the NFL reviews his case. No timeline.",4],
-["Justin Jefferson","MIN","WR","CHQ","Q","Starting","Ankle sprain. Imaging was good and he could play against Miami.",5],
-["Nico Collins","HOU","WR","BMD","Q","Starting","Hamstring. Missed Week 3; Houston is hopeful for Week 4, snaps may be watched.",0],
-["Puka Nacua","LAR","WR","MAGA","Q","Bench","Groin. Missed Weeks 2 and 3; Sean McVay is hopeful for Week 4.",0],
-["Mike Evans","SF","WR","ISA","Q","Starting","Rib. Couldn't finish Week 3, second straight game he left early. Not considered serious.",0],
-["Jalen Coker","CAR","WR","QSG","Q","Starting","Minor quad strain. Questionable; watch the practice reports.",1],
-["Jayden Reed","GB","WR","DDT","D","Bench","Neck. Too early to set a 2026 return.",0],
-["Dallas Goedert","PHI","TE","KRAM","D","Bench","MCL sprain. Expected to miss multiple weeks.",0],
-["Terrance Ferguson","LAR","TE","ISA","D","Bench","Medial ankle sprain. Likely to miss Week 4.",0]
+["Saquon Barkley","PHI","RB","SAP","Q","Starting","Hamstring, hurt in the first quarter against the Rams. Ian Rapoport: week-to-week, but the Eagles don't see it as long term. ESPN projects 0.0.",0],
+["Ja'Marr Chase","CIN","WR","DB","Q","Starting","Concussion, ruled out early against Jacksonville. Has to clear the protocol; Cincinnati's bye is Week 6.",1],
+["Kyle Monangai","CHI","RB","DB","Q","Starting","Right thumb, hurt during his 28.5-point game. Ben Johnson calls him day-to-day.",2],
+["Breece Hall","NYJ","RB","ISA","D","Starting","Quad. Missed Week 4. No newer practice update yet; ESPN still projects 15.19.",3],
+["Tee Higgins","CIN","WR","PNB","Q","Starting","Adductor, hurt in Week 4. Zac Taylor says day-to-day.",4],
+["Jeremiyah Love","ARI","RB","MAGA","Q","Starting","Ankle. Mike LaFleur says it isn't related to his August high-ankle sprain.",5],
+["DJ Moore","BUF","WR","SAP","Q","Starting","Shoulder, left Week 4 early. Adam Schefter says it isn't considered long term.",6],
+["Lamar Jackson","BAL","QB","BMD","Q","Bench","An uncommon ankle sprain. Rapoport says he's unlikely to play Sunday and could miss multiple games.",7],
+["Justin Jefferson","MIN","WR","CHQ","Q","Bench","Ankle. Missed Week 4; the Vikings are hopeful for New Orleans.",8],
+["Jayden Daniels","WSH","QB","MAGA","Q","Bench","Elbow. Dan Quinn wants a full practice week and a start against the Giants.",9],
+["Terry McLaurin","WSH","WR","SAP","Q","Bench","Hamstring. Inactive in Week 4 after pushing to play. Washington will see what he can do Wednesday.",10],
+["Marcus Mariota","WSH","QB","V3K","D","Bench","Sprained MCL in his right knee. No timeline.",11],
+["Dallas Goedert","PHI","TE","KRAM","D","Bench","Knee. Missed Week 4.",12],
+["Tank Bigsby","PHI","RB","SAP","IR","Bench","Core muscle surgery. The Eagles put him on IR Tuesday.",13],
+["Ladd McConkey","LAC","WR","ISA","Q","Bench","Foot. Jim Harbaugh says week-to-week.",14],
+["Rashee Rice","KC","WR","V3K","Q","Bench","Hamstring, reported as relatively minor. The Chiefs are on bye.",15],
+["Caleb Williams","CHI","QB","CHQ","O","Bench","Hamstring. Won't practice and is out for Week 5.",16]
 ],
 alsoTagged: [
-["Jaylen Waddle","LHC","Q","Starting"], ["Rico Dowdle","DB","Q","Bench"], ["Adonai Mitchell","PNB","Q","Bench"],
-["A.J. Brown","ISA","IR","IR"], ["Zach Charbonnet","BMD","O","IR"], ["Jonah Coleman","CHQ","IR","IR"],
-["Alec Pierce","MAGA","IR","IR"], ["Jordan Mason","DB","IR","IR"], ["Jonathon Brooks","PNB","IR","IR"],
-["Jordyn Tyson","DDT","IR","IR"], ["Tank Dell","QSG","IR","IR"]
+["DeVonta Smith","PNB","Q","Bench"], ["Rico Dowdle","DB","Q","Bench"], ["Rachaad White","ISA","Q","Bench"], ["Jalen Coker","QSG","Q","Bench"],
+["Adonai Mitchell","KRAM","D","Bench"], ["Josh Jacobs","MAGA","DTD","Bench"], ["Travis Etienne Jr.","DDT","IR","Bench"], ["Terrance Ferguson","ISA","IR","Bench"],
+["Tyreek Hill","V3K","O","IR"], ["Baker Mayfield","QSG","O","IR"], ["Zach Charbonnet","BMD","O","IR"], ["Tank Dell","CHQ","IR","IR"],
+["A.J. Brown","ISA","IR","IR"], ["Alec Pierce","MAGA","IR","IR"], ["Jordan Mason","DB","IR","IR"], ["Jonathon Brooks","PNB","IR","IR"],
+["Jordyn Tyson","DDT","IR","IR"], ["Jadarian Price","LHC","IR","IR"]
 ]
 };
+
 </script>
 <script>
 /* ============================================================
@@ -1845,7 +2110,7 @@ const $ = id => document.getElementById(id);
 const T = id => DATA.teams[id];
 const P = n => (n === null || n === undefined) ? '<span class="dash">—</span>' : (n < 0 ? '−' + Math.abs(n).toFixed(2) : Number(n).toFixed(2));
 const P1 = n => (n === null || n === undefined) ? '<span class="dash">—</span>' : (n < 0 ? '−' + Math.abs(n).toFixed(1) : Number(n).toFixed(1));
-const tag = s => s ? `<span class="tag ${esc(s)}" title="${({Q:'Questionable',D:'Doubtful',O:'Out',DTD:'Day-to-day',IR:'Injured reserve'})[s]||esc(s)}">${esc(s)}</span>` : '';
+const tag = s => s ? `<span class="tag ${esc(s)}" title="${({Q:'Questionable',D:'Doubtful',O:'Out',DTD:'Day-to-day',IR:'Injured reserve',BYE:'Bye week'})[s]||esc(s)}">${esc(s)}</span>` : '';
 const pct = x => (x * 1).toFixed(3).replace(/^0/, '');
 const L = DATA.league;
 const CUR = L.currentWeek;
@@ -1899,7 +2164,7 @@ for (let v = 0; v <= ymax; v += (ymax > 100 ? 40 : 20)) {
 g += `<line class="grid" x1="${pad.l}" x2="${W - pad.r}" y1="${Y(v)}" y2="${Y(v)}"/>`;
 if (!mini) g += `<text class="yl" x="${pad.l - 8}" y="${Y(v) + 4}" text-anchor="end">${v}</text>`;
 }
-const short = { START: 'Start', THU: 'Thu', SUN1: 'Sun 12', SUN2: 'Sun 3', SNF: 'SNF', MNF: 'MNF' };
+const short = { START: 'Start', THU: 'Thu', SUN0: 'Sun AM', SUN1: 'Sun 12', SUN2: 'Sun 3', SNF: 'SNF', MNF: 'MNF' };
 f.order.forEach((k, i) => { g += `<text class="ax" x="${X(i)}" y="${H - 8}" text-anchor="middle">${(mini || narrow) ? short[k] : (k === 'START' ? 'Kickoff' : f.labels[k])}</text>`; });
 const area = win.map((p, i) => `${X(i)},${Y(p.pts)}`).concat(lose.slice().reverse().map((p, j) => `${X(n - 1 - j)},${Y(p.pts)}`)).join(' ');
 g += `<polygon class="gap" points="${area}"/>`;
@@ -2137,6 +2402,7 @@ const pv = positionVsProj(CUR), worst = [...pv].sort((a, b) => a.diff - b.diff)[
 const qbs = qbRoom(CUR), wrong = qbs.filter(q => !q.right);
 const tops = topPerformances(0).filter(p => p.w === CUR).slice(0, 8), tmax = tops.length ? tops[0].pts : 1;
 const starting = N.injuries.filter(x => x[5] === 'Starting').map(x => [x[0], x[3], x[4]]).concat(N.alsoTagged.filter(x => x[3] === 'Starting').map(x => [x[0], x[1], x[2]]));
+DATA.preview.games.forEach(g => [g.away, g.home].forEach(id => g.lineups[id].filter(p => p[5] === 'BYE').forEach(p => starting.push([p[1], id, 'BYE']))));
 const byTeam = {}; starting.forEach(([n, id, tg]) => (byTeam[id] = byTeam[id] || []).push([n, tg]));
 const posOrder = ['QB', 'RB', 'WR', 'TE'];
 $('overview').innerHTML = `
@@ -2193,7 +2459,7 @@ ${qbs.length ? `<div class="take"><b>${wrong.length} of ${qbs.length} QB Calls M
 <aside>
 <div class="section" style="margin-top:28px">
 <h2>Week ${NEXT} Lineup Alerts</h2>
-<p class="sub" style="margin-bottom:6px">Injured players still in a starting lineup as of ${esc(DATA.preview.asOf.replace('ESPN, ', ''))}.</p>
+<p class="sub" style="margin-bottom:6px">Injured or bye-week players still in a starting lineup as of ${esc(DATA.preview.asOf.replace('ESPN, ', ''))}.</p>
 <ul class="alerts">${Object.keys(byTeam).map(id => `<li><b>${esc(T(id).name)}</b>${byTeam[id].map(([n, tg]) => `${esc(n)}${tag(tg)}`).join(', ')}</li>`).join('')}</ul>
 <div class="alert" style="margin-top:14px"><div>${esc(DATA.copy.thursday)}</div></div>
 </div>
@@ -2369,6 +2635,9 @@ ${qbs.length ? `<div class="section"><h3 style="margin-bottom:10px">The QB Room<
 ${qbs.map(q => `<tr><td>${teamCell(q.id, w)}</td><td>${esc(q.starter)}</td><td class="num">${P(q.sPts)}</td><td>${esc(q.bench)}</td><td class="num">${P(q.bPts)}</td>
 <td>${q.right ? '<span class="pos">Right</span>' : '<span class="neg">Wrong</span>'}</td><td class="num">${q.cost ? q.cost.toFixed(2) : ''}</td></tr>`).join('')}
 </tbody></table></div></div>` : ''}
+${(w === CUR && DATA.copy.receipts) ? `<div class="section"><h3 style="margin-bottom:6px">Waiver Wire Receipts</h3>
+<p class="lede" style="margin-bottom:8px">This week's adds and drops, and what those players actually scored in Week ${CUR}.</p>
+<ul class="alerts">${DATA.copy.receipts.map(([id, t]) => `<li><b>${esc(T(id).name)}</b>${esc(t)}</li>`).join('')}</ul></div>` : ''}
 <div class="section grid2" style="gap:36px">
 <div><h3 style="margin-bottom:10px">Beat ESPN's Projection</h3><div class="diverge">${topM.map(dvRow).join('')}</div></div>
 <div><h3 style="margin-bottom:10px">Missed It</h3><div class="diverge">${botM.map(dvRow).join('')}</div></div>
@@ -2385,7 +2654,7 @@ return `<td class="h" style="background:${c.bg};color:${c.fg}">${P1(row[k])}</td
 }
 /* ---------- Preview ---------- */
 function luTable(rows) {
-return `<table class="mini"><tbody>${rows.map(p => `<tr><td style="width:44px">${esc(p[0])}</td><td>${esc(p[1])}${tag(p[4])}<br><span class="sub">${esc(p[2])} ${esc(p[5])}</span></td></tr>`).join('')}</tbody></table>`;
+return `<table class="mini"><tbody>${rows.map(p => `<tr><td style="width:44px">${esc(p[0])}</td><td>${esc(p[1])}${tag(p[4])}<br><span class="sub">${esc(p[2])} ${esc(p[5])}</span></td><td class="num sub" style="width:44px">${p[6] !== undefined ? Number(p[6]).toFixed(1) : ''}</td></tr>`).join('')}</tbody></table>`;
 }
 function renderPreview() {
 const st = {}; standings().forEach(t => st[t.id] = t);
@@ -2450,7 +2719,16 @@ $('history').innerHTML = `
 <div class="section">
 <h3 style="margin-bottom:14px">League Records</h3>
 <div class="records">${H.records.map(r => `<div class="rec"><div class="v">${esc(r[1])}</div><div class="k">${esc(r[0])}</div><div class="d">${esc(r[2])}</div></div>`).join('')}</div>
-</div>`;
+<p class="note">Single-week records are regular season, 2017 through 2025.</p>
+</div>
+${H.startOdds ? (() => { const so = H.startOdds, st = standings(so.asOf); return `<div class="section">
+<h3 style="margin-bottom:6px">What Your Week ${so.asOf} Record Is Worth</h3>
+<p class="lede" style="margin-bottom:12px">How often teams with each record after Week ${so.asOf} made the playoffs, ${esc(so.seasons)} (the six-team playoff era).</p>
+<div class="scroll"><table><thead><tr><th>Record</th><th class="num">Made Playoffs</th><th style="min-width:120px">Rate</th><th>This Year</th><th>Notes</th></tr></thead><tbody>
+${so.rows.map(r => { const now = st.filter(t => `${t.W}-${t.L}` === r[0]); return `<tr><td><b>${esc(r[0])}</b></td><td class="num">${r[1]} of ${r[2]}</td>
+<td><div class="pbar"><i style="width:${(100 * r[1] / r[2]).toFixed(1)}%"></i></div><span class="sub">${Math.round(100 * r[1] / r[2])}%</span></td>
+<td>${now.length ? now.map(t => esc(T(t.id).name)).join(', ') : '<span class="sub">None</span>'}</td><td class="sub">${esc(r[3])}</td></tr>`; }).join('')}
+</tbody></table></div></div>`; })() : ''}`;
 }
 /* ---------- Footer ---------- */
 function renderFooter() {
