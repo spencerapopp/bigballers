@@ -33,8 +33,12 @@ jobs:
 
       - name: Fetch league data
         env:
-          ESPN_S2: ${{ secrets.ESPN_S2 }}
-          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+          ESPN_S2: ${{ secrets.ESPN_S2 || secrets.S2 || vars.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID || secrets.SWID || vars.ESPN_SWID || vars.SWID }}
+          # Which source each value came from (names only, never values), for the failure note.
+          ESPN_SOURCES: >-
+            S2 secret=${{ secrets.ESPN_S2 != '' }} S2 alt-secret=${{ secrets.S2 != '' }} S2 variable=${{ vars.ESPN_S2 != '' }}
+            SWID secret=${{ secrets.ESPN_SWID != '' }} SWID alt-secret=${{ secrets.SWID != '' }} SWID variable=${{ vars.ESPN_SWID != '' || vars.SWID != '' }}
         run: python3 scripts/fetch_espn.py --weeks "${{ inputs.weeks || 'recent' }}"
 
       - name: Commit if changed

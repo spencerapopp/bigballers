@@ -45,7 +45,9 @@ def cookies():
     s2 = os.environ.get("ESPN_S2", "").strip()
     swid = os.environ.get("ESPN_SWID", "").strip()
     if not s2 or not swid:
-        fail("ESPN_S2 / ESPN_SWID secrets are missing. Add them under repo Settings > Secrets and variables > Actions.")
+        missing = " and ".join(n for n, v in (("ESPN_S2", s2), ("ESPN_SWID", swid)) if not v)
+        fail(f"{missing} not found. Add as repository secrets under Settings > Secrets and variables > Actions > Secrets. "
+             f"Found: {os.environ.get('ESPN_SOURCES', 'n/a')}")
     if not swid.startswith("{"):
         swid = "{" + swid.strip("{}") + "}"
     return f"espn_s2={s2}; SWID={swid}"
