@@ -517,7 +517,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Terry McLaurin",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -1949,7 +1949,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "DK Metcalf",
       "nfl": "PIT",
       "pctOwned": 0,
@@ -2089,7 +2089,7 @@
      {
       "acquisitionType": null,
       "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Roman Wilson",
       "nfl": "PIT",
       "pctOwned": 0,
@@ -2138,8 +2138,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2237,7 +2237,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Rachaad White",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -2635,7 +2635,7 @@
      {
       "acquisitionType": null,
       "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Jalen Hurts",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -2732,8 +2732,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Jacory Croskey-Merritt",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -2761,7 +2761,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Pat Freiermuth",
       "nfl": "PIT",
       "pctOwned": 0,

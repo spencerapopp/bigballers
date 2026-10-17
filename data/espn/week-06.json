@@ -49,7 +49,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Terry McLaurin",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -57,7 +57,7 @@
       "playerId": 3121422,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.05,
+      "proj": 10.03,
       "slot": "WR"
      },
      {
@@ -127,7 +127,7 @@
       "playerId": 2976212,
       "points": 0.0,
       "pos": "WR",
-      "proj": 8.22,
+      "proj": 8.21,
       "slot": "FLEX"
      },
      {
@@ -231,7 +231,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 111.44064845,
+    "projected": 111.40307347,
     "teamId": 1
    },
    "home": {
@@ -539,7 +539,7 @@
       "playerId": 4426348,
       "points": 0.0,
       "pos": "QB",
-      "proj": 22.41,
+      "proj": 22.49,
       "slot": "QB"
      },
      {
@@ -699,7 +699,7 @@
     ],
     "points": 0.0,
     "pointsLive": 15.2,
-    "projected": 93.95358697,
+    "projected": 94.03204546,
     "teamId": 5
    },
    "home": {
@@ -743,7 +743,7 @@
       "playerId": 4429615,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.0,
+      "proj": 11.07,
       "slot": "WR"
      },
      {
@@ -931,7 +931,7 @@
     ],
     "points": 0.0,
     "pointsLive": 4.4,
-    "projected": 110.85912964,
+    "projected": 110.9233564,
     "teamId": 13
    },
    "week": 6,
@@ -1167,7 +1167,7 @@
     ],
     "points": 0.0,
     "pointsLive": 19.4,
-    "projected": 124.45874712,
+    "projected": 124.45873861,
     "teamId": 7
    },
    "home": {
@@ -1433,7 +1433,7 @@
       "playerId": 3043078,
       "points": 0.0,
       "pos": "RB",
-      "proj": 18.13,
+      "proj": 18.15,
       "slot": "RB"
      },
      {
@@ -1635,7 +1635,7 @@
     ],
     "points": 0.0,
     "pointsLive": 20.0,
-    "projected": 124.8828672,
+    "projected": 124.90017073,
     "teamId": 6
    },
    "home": {
@@ -1680,7 +1680,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 15.73,
-      "slot": "RB"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1713,7 +1713,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "DK Metcalf",
       "nfl": "PIT",
       "pctOwned": 0,
@@ -1806,7 +1806,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 13.34,
-      "slot": "FLEX"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -1985,7 +1985,7 @@
       "playerId": 3116365,
       "points": 0.0,
       "pos": "TE",
-      "proj": 6.79,
+      "proj": 6.86,
       "slot": "TE"
      },
      {
@@ -2103,7 +2103,7 @@
     ],
     "points": 0.0,
     "pointsLive": 7.0,
-    "projected": 133.50823095,
+    "projected": 133.57355171,
     "teamId": 8
    },
    "home": {
@@ -2374,8 +2374,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2384,7 +2384,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 10.52,
-      "slot": "IR"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -2473,7 +2473,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Rachaad White",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -2481,7 +2481,7 @@
       "playerId": 4697815,
       "points": 0.0,
       "pos": "RB",
-      "proj": 6.34,
+      "proj": 9.39,
       "slot": "BE"
      },
      {
@@ -2510,7 +2510,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 7.87,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2524,7 +2524,7 @@
       "points": 0.0,
       "pos": "TE",
       "proj": 0.0,
-      "slot": "BE"
+      "slot": "IR"
      },
      {
       "acquisitionType": null,
@@ -2571,7 +2571,7 @@
     ],
     "points": 0.0,
     "pointsLive": 13.1,
-    "projected": 111.09698443,
+    "projected": 113.7431812,
     "teamId": 9
    },
    "home": {
@@ -2635,7 +2635,7 @@
      {
       "acquisitionType": null,
       "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Jalen Hurts",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -2732,8 +2732,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Jacory Croskey-Merritt",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -2741,7 +2741,7 @@
       "playerId": 4575131,
       "points": 0.0,
       "pos": "RB",
-      "proj": 6.71,
+      "proj": 0.0,
       "slot": "BE"
      },
      {
@@ -2761,7 +2761,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Pat Freiermuth",
       "nfl": "PIT",
       "pctOwned": 0,
