@@ -8,7 +8,7 @@ Instructions for the scheduled Claude runs that keep https://spencerapopp.github
 |---|---|
 | League | ESPN "BIG BALLERS 2026-2027", leagueId 432801, season 2026. Half-PPR, H2H points, 12 teams, 14-week regular season, 6 playoff teams, tiebreaker total points for. |
 | League data (source of truth for numbers) | `data/espn/*.json`, written by the **ESPN data refresh** GitHub Action (`.github/workflows/espn-data.yml`, `scripts/fetch_espn.py`) at 11:15 and 22:15 UTC daily. |
-| Site data | The `const DATA = {...}` script block in `index.html`, plus `DATA.copy = {...}` (headline, storylines, grades, power blurbs, preview copy) and `DATA.news = {...}` (injuries, sources, experts). Every section on the page renders from these. |
+| Site data | The `const DATA = {...}` script block in `index.html`, plus `DATA.copy = {...}` (headline, storylines, grades, power blurbs, preview copy), `DATA.news = {...}` (injuries, sources, experts) and `DATA.daily = {...}` (the Daily Note card at the top of the overview). Every section on the page renders from these. |
 | Rendering code | The last `<script>` block. Don't touch it unless a section is visibly broken. |
 | Audit | `node scripts/check_site.mjs` must pass before any commit. |
 | Archive | Google Drive: `Big Ballers League / 2026 Dashboard / Week N / index.html` (2026 Dashboard folder id `1OX2K5GVAhdqjknCWx0XGK_mWEaHeM3uZ`). |
@@ -42,7 +42,8 @@ The week just finished is W = `league.json` → the last matchup period whose ga
 5. Rebuild `DATA.preview` for W+1: matchups with ESPN projections and win odds, waiver order, best available (`free-agents.json`), upcoming byes, bench notes, `asOf`.
 6. Refresh `DATA.news`: current injury tags for every rostered player who matters (starter or flex-worthy), with a source URL per player (ESPN player pages, team reports) and current expert links (ESPN rankings, waiver pickups, winners/losers). Use web search for this. Paraphrase; no quotes over a dozen words.
 7. History/record book: update any season or all-time records broken this week.
-8. Audit (below), commit `Week W full update`, push, archive to Drive as `2026 Dashboard/Week W/index.html` (create the folder).
+8. Rewrite `DATA.daily` for Tuesday: open lineup holes for W+1, waiver order highlights, anything critical before Wednesday's waiver run.
+9. Audit (below), commit `Week W full update`, push, archive to Drive as `2026 Dashboard/Week W/index.html` (create the folder).
 
 The overview is a league-wide week in review. Matchups, comebacks and storylines get their own sections. Every team gets a real paragraph of analysis. Include the true win/loss matrix (each team vs. every other team's score each week) and keep it consistent with the scores.
 
@@ -61,7 +62,9 @@ If none happened: don't edit, don't commit. End the run with a one-line note. A 
 
 When there is something:
 
-- Edit only `DATA.news` (injuries, alsoTagged, sources, asOf), `DATA.preview` (lineup notes, needs, bench notes, asOf), the Thursday note, a team's `needs` line, and `league.updated`. Add a dated line to the relevant team's preview note if it matters for the matchup.
+- Rewrite `DATA.daily` (the Daily Note at the top of the overview): `date` (e.g. "Saturday, Oct 17"), `asOf` ("ESPN 11:15 AM CT"), and 2 to 6 `items` of `[level, teamKey or null, text]`, most urgent first. `out` = a starter who won't play or a lineup hole with no fix on the roster; `watch` = a questionable starter or a decision that matters before the next kickoff; `info` = league-wide moves, kickoff locks. One or two sentences each, facts first, same voice. Replace the whole list each time; it's today's note, not a log. If nothing material happened, leave it alone.
+- Otherwise edit only `DATA.news` (injuries, alsoTagged, sources, asOf), `DATA.preview` (lineup notes, needs, bench notes, asOf), the Thursday note, a team's `needs` line, and `league.updated`. Add a dated line to the relevant team's preview note if it matters for the matchup.
+- During live games the Daily Note can flag inactives and late scratches, never scores.
 - Don't rewrite the headline, grades, recaps or power rankings. Those belong to Tuesday.
 - Commit message names the facts: `Quick update: Darren claims Matt Gay, drops Mevis; Lamb out (quad)`.
 - During live games (Thu night, Sun, Mon night) don't publish live scores; final results wait for Tuesday.
