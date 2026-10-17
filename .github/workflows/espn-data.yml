@@ -1,0 +1,60 @@
+name: ESPN data refresh
+
+# Pulls Big Ballers league data from ESPN into data/espn/ so the scheduled
+# Claude updates can read it without a browser. Needs repo secrets ESPN_S2
+# and ESPN_SWID. Commits only when the data actually changed.
+on:
+  schedule:
+    # UTC. 11:15 = 6:15 AM CDT / 5:15 AM CST; 22:15 = 5:15 PM CDT / 4:15 PM CST.
+    # Both land before the Claude runs (Tue ~6:50 AM, daily ~7:45 AM and ~5:45 PM Central).
+    - cron: "15 11 * * *"
+    - cron: "15 22 * * *"
+  workflow_dispatch:
+    inputs:
+      weeks:
+        description: "recent = current + previous week; all = every week this season"
+        default: recent
+        type: choice
+        options: [recent, all]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: espn-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch league data
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: python3 scripts/fetch_espn.py --weeks "${{ inputs.weeks || 'recent' }}"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "bigballers-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/espn
+          if git diff --cached --quiet; then
+            echo "No league changes."
+            exit 0
+          fi
+          git commit -m "data: ESPN refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Keep raw responses for debugging
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: espn-raw
+          path: data/espn/_raw/
+          retention-days: 7
+          if-no-files-found: ignore
