@@ -1,0 +1,350 @@
+{
+ "transactions": [
+  {
+   "bid": 0,
+   "date": "2026-09-23T07:17:49.737000+00:00",
+   "id": "16ff172e-6d2f-4c02-9a42-797df71a18f9",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4832955,
+     "to": 2,
+     "type": "ADD"
+    },
+    {
+     "from": 2,
+     "playerId": 4686658,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 2,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-23T07:17:49.737000+00:00",
+   "id": "8008d613-4d2d-4ce0-9701-28cce4f290f8",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4430539,
+     "to": 4,
+     "type": "ADD"
+    },
+    {
+     "from": 4,
+     "playerId": 4241474,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 4,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-23T07:17:49.738000+00:00",
+   "id": "4cd6fb09-b40e-4e1c-8636-db170d288a70",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 3122840,
+     "to": 7,
+     "type": "ADD"
+    },
+    {
+     "from": 7,
+     "playerId": 4040761,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 7,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-23T07:17:49.738000+00:00",
+   "id": "d56f2bb1-ca2f-4975-a966-57ae065c266e",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4832800,
+     "to": 8,
+     "type": "ADD"
+    },
+    {
+     "from": 8,
+     "playerId": 4373626,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 8,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-23T07:17:49.739000+00:00",
+   "id": "0c29cc12-67f7-4d41-9440-1a1d4c179722",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4597500,
+     "to": 2,
+     "type": "ADD"
+    },
+    {
+     "from": 2,
+     "playerId": 4870795,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 2,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-23T07:17:49.739000+00:00",
+   "id": "3262f688-db0c-4563-a06a-4e85b616a9f4",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4360234,
+     "to": 7,
+     "type": "ADD"
+    },
+    {
+     "from": 7,
+     "playerId": 4034949,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 7,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-23T12:22:19.858000+00:00",
+   "id": "4474e57a-75a3-4855-9919-0ebd9cbc4f6e",
+   "items": [
+    {
+     "from": 0,
+     "playerId": -16016,
+     "to": 5,
+     "type": "ADD"
+    },
+    {
+     "from": 5,
+     "playerId": -16005,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 5,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-23T12:22:45.491000+00:00",
+   "id": "07a0eaa6-22c4-4fc8-ab50-4d0d6d5283d1",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4887558,
+     "to": 5,
+     "type": "ADD"
+    },
+    {
+     "from": 5,
+     "playerId": 4362619,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 5,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-24T07:12:02.711000+00:00",
+   "id": "2012cc1b-e68d-4c81-bafb-392330be60c9",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4686658,
+     "to": 7,
+     "type": "ADD"
+    },
+    {
+     "from": 7,
+     "playerId": 4569587,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 7,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-24T10:49:29.124000+00:00",
+   "id": "34db82f2-36b4-431f-b143-e49de947af30",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4819231,
+     "to": 2,
+     "type": "ADD"
+    },
+    {
+     "from": 2,
+     "playerId": 4361529,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 2,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-24T12:05:17.986000+00:00",
+   "id": "82bd7c26-b68b-493e-a151-cf54f52e07a6",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4432577,
+     "to": 10,
+     "type": "ADD"
+    },
+    {
+     "from": 10,
+     "playerId": 4689114,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 10,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-24T17:05:34.443000+00:00",
+   "id": "f2df8c14-d6e0-484e-8439-7e3ba99972ea",
+   "items": [
+    {
+     "from": 0,
+     "playerId": -16004,
+     "to": 4,
+     "type": "ADD"
+    },
+    {
+     "from": 4,
+     "playerId": 4032473,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 4,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-25T04:56:48.295000+00:00",
+   "id": "f63acc5c-18a5-43e2-9ecd-75c52699e6ae",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4428850,
+     "to": 1,
+     "type": "ADD"
+    },
+    {
+     "from": 1,
+     "playerId": 4869645,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 1,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-27T01:01:59.316000+00:00",
+   "id": "4e023a54-5e82-468d-84c6-a044117b5497",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 3912547,
+     "to": 3,
+     "type": "ADD"
+    }
+   ],
+   "teamId": 3,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-27T01:51:21.350000+00:00",
+   "id": "f8a461d4-dbbd-409b-9374-33c0b6937bd6",
+   "items": [
+    {
+     "from": 0,
+     "playerId": -16029,
+     "to": 1,
+     "type": "ADD"
+    },
+    {
+     "from": 1,
+     "playerId": -16027,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 1,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-27T14:21:28.745000+00:00",
+   "id": "fccc6174-7a30-4802-9378-2b89be239e25",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4034949,
+     "to": 11,
+     "type": "ADD"
+    },
+    {
+     "from": 11,
+     "playerId": 3150744,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 11,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-09-27T15:15:08.099000+00:00",
+   "id": "87d12967-d444-40ec-b1cf-93a0dec88df7",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4595342,
+     "to": 5,
+     "type": "ADD"
+    }
+   ],
+   "teamId": 5,
+   "type": "FREEAGENT"
+  }
+ ],
+ "week": 3
+}

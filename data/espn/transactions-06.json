@@ -1,0 +1,343 @@
+{
+ "transactions": [
+  {
+   "bid": 0,
+   "date": "2026-10-14T01:40:39.587000+00:00",
+   "id": "26bbaab9-059d-40f3-abe5-162b9bef6fe9",
+   "items": [],
+   "teamId": 5,
+   "type": "TRADE_DECLINE"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T07:27:57.132000+00:00",
+   "id": "261d6731-38c2-43a2-a084-3068916d2ac4",
+   "items": [
+    {
+     "from": 0,
+     "playerId": -16026,
+     "to": 5,
+     "type": "ADD"
+    },
+    {
+     "from": 5,
+     "playerId": 4595342,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 5,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T07:27:57.132000+00:00",
+   "id": "aba4d9a4-b72a-494d-b39f-3670c7ef13bc",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4259619,
+     "to": 10,
+     "type": "ADD"
+    },
+    {
+     "from": 10,
+     "playerId": 4574716,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 10,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T07:27:57.133000+00:00",
+   "id": "54e3281b-2781-4947-9da0-7a3c823a633c",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4242355,
+     "to": 2,
+     "type": "ADD"
+    },
+    {
+     "from": 2,
+     "playerId": 4036133,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 2,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T07:27:57.133000+00:00",
+   "id": "9964fa19-6287-4a9c-9691-229c52d9a6cb",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 5082424,
+     "to": 7,
+     "type": "ADD"
+    },
+    {
+     "from": 7,
+     "playerId": 4635008,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 7,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T07:27:57.134000+00:00",
+   "id": "50761813-ff5a-468d-a011-f16ee439f1d7",
+   "items": [
+    {
+     "from": 0,
+     "playerId": -16012,
+     "to": 13,
+     "type": "ADD"
+    },
+    {
+     "from": 13,
+     "playerId": -16004,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 13,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T07:27:57.134000+00:00",
+   "id": "78d4993a-b245-4e46-9bf8-e567bbda20bc",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4715355,
+     "to": 8,
+     "type": "ADD"
+    },
+    {
+     "from": 8,
+     "playerId": 4431545,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 8,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T07:27:57.135000+00:00",
+   "id": "57102f79-14c7-462e-bd54-31a78cfc2dd2",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 3055899,
+     "to": 2,
+     "type": "ADD"
+    },
+    {
+     "from": 2,
+     "playerId": 4689936,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 2,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T09:45:48.001000+00:00",
+   "id": "6631c3ef-a767-454e-bf24-efcbce643aaa",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4685261,
+     "to": 11,
+     "type": "ADD"
+    }
+   ],
+   "teamId": 11,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-14T17:31:02.768000+00:00",
+   "id": "3c263d19-d510-4ee7-a3c2-283c4779778c",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4430968,
+     "to": 10,
+     "type": "ADD"
+    },
+    {
+     "from": 10,
+     "playerId": 3128429,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 10,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-15T03:02:47.996000+00:00",
+   "id": "0745d42b-8d93-450d-a662-db7a661fde8a",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 3045523,
+     "to": 1,
+     "type": "ADD"
+    },
+    {
+     "from": 1,
+     "playerId": 4686612,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 1,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-15T03:05:40.414000+00:00",
+   "id": "4de06026-da62-471a-8077-1c5c6b5efe17",
+   "items": [
+    {
+     "from": 0,
+     "playerId": -16011,
+     "to": 1,
+     "type": "ADD"
+    },
+    {
+     "from": 1,
+     "playerId": -16006,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 1,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-15T17:15:41.893000+00:00",
+   "id": "6d6f625a-e4b8-4633-9c2c-bcd03aba5535",
+   "items": [
+    {
+     "from": 0,
+     "playerId": -16029,
+     "to": 11,
+     "type": "ADD"
+    },
+    {
+     "from": 11,
+     "playerId": -16030,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 11,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-15T23:16:06.215000+00:00",
+   "id": "a7df6797-a384-4287-abff-1c83bd23dbc7",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4569587,
+     "to": 8,
+     "type": "ADD"
+    },
+    {
+     "from": 8,
+     "playerId": 4373626,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 8,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-16T03:03:10.717000+00:00",
+   "id": "e0bd9548-5a8e-4288-9b9b-e315c2995857",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 2573401,
+     "to": 7,
+     "type": "ADD"
+    },
+    {
+     "from": 7,
+     "playerId": 14880,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 7,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-17T07:04:06.043000+00:00",
+   "id": "2340516e-a9f7-4674-b577-60ed548d1ded",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 14880,
+     "to": 11,
+     "type": "ADD"
+    },
+    {
+     "from": 11,
+     "playerId": 4360689,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 11,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-17T07:04:06.045000+00:00",
+   "id": "4615719d-7c95-44ab-886a-69ef8cbde6a9",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4373626,
+     "to": 13,
+     "type": "ADD"
+    },
+    {
+     "from": 13,
+     "playerId": 4596334,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 13,
+   "type": "WAIVER"
+  }
+ ],
+ "week": 6
+}

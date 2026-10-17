@@ -1,0 +1,3460 @@
+{
+ "teams": [
+  {
+   "abbr": "IND",
+   "bye": 13,
+   "games": [
+    {
+     "away": "BAL",
+     "home": "IND",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "IND",
+     "home": "KC",
+     "kickoff": "2026-09-21T00:20:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "HOU",
+     "home": "IND",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "IND",
+     "home": "WSH",
+     "kickoff": "2026-10-04T13:30:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "IND",
+     "home": "PIT",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "TEN",
+     "home": "IND",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "IND",
+     "home": "MIN",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "IND",
+     "home": "JAX",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "DAL",
+     "home": "IND",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "MIA",
+     "home": "IND",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "IND",
+     "home": "HOU",
+     "kickoff": "2026-11-20T01:15:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "NYG",
+     "home": "IND",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "IND",
+     "home": "PHI",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "IND",
+     "home": "TEN",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "CIN",
+     "home": "IND",
+     "kickoff": "2026-12-27T08:01:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "IND",
+     "home": "CLE",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "JAX",
+     "home": "IND",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "KC",
+   "bye": 5,
+   "games": [
+    {
+     "away": "DEN",
+     "home": "KC",
+     "kickoff": "2026-09-15T00:15:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "IND",
+     "home": "KC",
+     "kickoff": "2026-09-21T00:20:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "KC",
+     "home": "MIA",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "KC",
+     "home": "LV",
+     "kickoff": "2026-10-04T20:25:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "LAC",
+     "home": "KC",
+     "kickoff": "2026-10-18T20:25:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "KC",
+     "home": "SEA",
+     "kickoff": "2026-10-26T00:20:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "KC",
+     "home": "DEN",
+     "kickoff": "2026-11-01T21:25:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "NYJ",
+     "home": "KC",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "KC",
+     "home": "ATL",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "ARI",
+     "home": "KC",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "KC",
+     "home": "BUF",
+     "kickoff": "2026-11-27T01:20:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "KC",
+     "home": "LAR",
+     "kickoff": "2026-12-04T01:15:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "KC",
+     "home": "CIN",
+     "kickoff": "2026-12-13T21:25:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "NE",
+     "home": "KC",
+     "kickoff": "2026-12-22T01:15:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "SF",
+     "home": "KC",
+     "kickoff": "2026-12-27T21:25:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "KC",
+     "home": "LAC",
+     "kickoff": "2027-01-03T08:01:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "LV",
+     "home": "KC",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "LV",
+   "bye": 13,
+   "games": [
+    {
+     "away": "MIA",
+     "home": "LV",
+     "kickoff": "2026-09-13T20:25:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "LV",
+     "home": "LAC",
+     "kickoff": "2026-09-20T20:05:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "LV",
+     "home": "NO",
+     "kickoff": "2026-09-27T20:25:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "KC",
+     "home": "LV",
+     "kickoff": "2026-10-04T20:25:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "LV",
+     "home": "NE",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "BUF",
+     "home": "LV",
+     "kickoff": "2026-10-18T20:25:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "LAR",
+     "home": "LV",
+     "kickoff": "2026-10-25T20:25:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "LV",
+     "home": "NYJ",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "LV",
+     "home": "SF",
+     "kickoff": "2026-11-08T21:05:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "SEA",
+     "home": "LV",
+     "kickoff": "2026-11-15T21:05:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "LV",
+     "home": "DEN",
+     "kickoff": "2026-11-22T21:25:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "LV",
+     "home": "CLE",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "LAC",
+     "home": "LV",
+     "kickoff": "2026-12-13T21:05:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "DEN",
+     "home": "LV",
+     "kickoff": "2026-12-20T21:25:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "TEN",
+     "home": "LV",
+     "kickoff": "2026-12-27T21:05:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "LV",
+     "home": "ARI",
+     "kickoff": "2027-01-03T21:05:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "LV",
+     "home": "KC",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "LAR",
+   "bye": 11,
+   "games": [
+    {
+     "away": "SF",
+     "home": "LAR",
+     "kickoff": "2026-09-11T00:35:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "NYG",
+     "home": "LAR",
+     "kickoff": "2026-09-22T00:15:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "LAR",
+     "home": "DEN",
+     "kickoff": "2026-09-28T00:20:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "LAR",
+     "home": "PHI",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "BUF",
+     "home": "LAR",
+     "kickoff": "2026-10-13T00:15:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "ARI",
+     "home": "LAR",
+     "kickoff": "2026-10-18T20:05:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "LAR",
+     "home": "LV",
+     "kickoff": "2026-10-25T20:25:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "LAC",
+     "home": "LAR",
+     "kickoff": "2026-11-01T21:05:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "LAR",
+     "home": "WSH",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "LAR",
+     "home": "ARI",
+     "kickoff": "2026-11-15T21:05:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "GB",
+     "home": "LAR",
+     "kickoff": "2026-11-26T01:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "KC",
+     "home": "LAR",
+     "kickoff": "2026-12-04T01:15:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "LAR",
+     "home": "SF",
+     "kickoff": "2026-12-13T21:25:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "DAL",
+     "home": "LAR",
+     "kickoff": "2026-12-20T21:25:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "LAR",
+     "home": "SEA",
+     "kickoff": "2026-12-26T01:15:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "LAR",
+     "home": "TB",
+     "kickoff": "2027-01-03T08:01:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "SEA",
+     "home": "LAR",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "MIA",
+   "bye": 6,
+   "games": [
+    {
+     "away": "MIA",
+     "home": "LV",
+     "kickoff": "2026-09-13T20:25:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "MIA",
+     "home": "SF",
+     "kickoff": "2026-09-20T20:25:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "KC",
+     "home": "MIA",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "MIA",
+     "home": "MIN",
+     "kickoff": "2026-10-04T20:05:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "CIN",
+     "home": "MIA",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "MIA",
+     "home": "NYJ",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "NE",
+     "home": "MIA",
+     "kickoff": "2026-11-01T21:25:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "DET",
+     "home": "MIA",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "MIA",
+     "home": "IND",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "MIA",
+     "home": "BUF",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "NYJ",
+     "home": "MIA",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "MIA",
+     "home": "DEN",
+     "kickoff": "2026-12-06T21:05:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "CHI",
+     "home": "MIA",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "MIA",
+     "home": "GB",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "LAC",
+     "home": "MIA",
+     "kickoff": "2026-12-27T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "BUF",
+     "home": "MIA",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "MIA",
+     "home": "NE",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "MIN",
+   "bye": 6,
+   "games": [
+    {
+     "away": "GB",
+     "home": "MIN",
+     "kickoff": "2026-09-13T20:25:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "MIN",
+     "home": "CHI",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "MIN",
+     "home": "TB",
+     "kickoff": "2026-09-27T20:05:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "MIA",
+     "home": "MIN",
+     "kickoff": "2026-10-04T20:05:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "MIN",
+     "home": "NO",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "IND",
+     "home": "MIN",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "MIN",
+     "home": "DET",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "BUF",
+     "home": "MIN",
+     "kickoff": "2026-11-10T01:15:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "MIN",
+     "home": "GB",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "MIN",
+     "home": "SF",
+     "kickoff": "2026-11-23T01:20:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "ATL",
+     "home": "MIN",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "CAR",
+     "home": "MIN",
+     "kickoff": "2026-12-06T21:25:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "MIN",
+     "home": "NE",
+     "kickoff": "2026-12-11T01:15:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "DET",
+     "home": "MIN",
+     "kickoff": "2026-12-21T01:20:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "WSH",
+     "home": "MIN",
+     "kickoff": "2026-12-27T08:01:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "MIN",
+     "home": "NYJ",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "CHI",
+     "home": "MIN",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "NE",
+   "bye": 11,
+   "games": [
+    {
+     "away": "NE",
+     "home": "SEA",
+     "kickoff": "2026-09-10T00:20:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "PIT",
+     "home": "NE",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "NE",
+     "home": "JAX",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "NE",
+     "home": "BUF",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "LV",
+     "home": "NE",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "NYJ",
+     "home": "NE",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "NE",
+     "home": "CHI",
+     "kickoff": "2026-10-23T00:15:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "NE",
+     "home": "MIA",
+     "kickoff": "2026-11-01T21:25:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "GB",
+     "home": "NE",
+     "kickoff": "2026-11-08T21:25:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "NE",
+     "home": "DET",
+     "kickoff": "2026-11-15T14:30:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "NE",
+     "home": "LAC",
+     "kickoff": "2026-11-30T01:20:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "BUF",
+     "home": "NE",
+     "kickoff": "2026-12-06T21:25:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "MIN",
+     "home": "NE",
+     "kickoff": "2026-12-11T01:15:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "NE",
+     "home": "KC",
+     "kickoff": "2026-12-22T01:15:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "NE",
+     "home": "NYJ",
+     "kickoff": "2026-12-27T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "DEN",
+     "home": "NE",
+     "kickoff": "2027-01-03T08:01:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "MIA",
+     "home": "NE",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "NO",
+   "bye": 8,
+   "games": [
+    {
+     "away": "NO",
+     "home": "DET",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "NO",
+     "home": "BAL",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "LV",
+     "home": "NO",
+     "kickoff": "2026-09-27T20:25:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "ATL",
+     "home": "NO",
+     "kickoff": "2026-10-06T00:15:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "MIN",
+     "home": "NO",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "NO",
+     "home": "NYG",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "PIT",
+     "home": "NO",
+     "kickoff": "2026-10-25T13:30:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "CLE",
+     "home": "NO",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "CAR",
+     "home": "NO",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "NO",
+     "home": "CHI",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "NO",
+     "home": "CIN",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "GB",
+     "home": "NO",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "NO",
+     "home": "CAR",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "NO",
+     "home": "TB",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "ARI",
+     "home": "NO",
+     "kickoff": "2026-12-27T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "NO",
+     "home": "ATL",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "TB",
+     "home": "NO",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "NYG",
+   "bye": 8,
+   "games": [
+    {
+     "away": "DAL",
+     "home": "NYG",
+     "kickoff": "2026-09-14T00:20:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "NYG",
+     "home": "LAR",
+     "kickoff": "2026-09-22T00:15:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "TEN",
+     "home": "NYG",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "ARI",
+     "home": "NYG",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "NYG",
+     "home": "WSH",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "NO",
+     "home": "NYG",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "NYG",
+     "home": "HOU",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "NYG",
+     "home": "PHI",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "WSH",
+     "home": "NYG",
+     "kickoff": "2026-11-13T01:15:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "JAX",
+     "home": "NYG",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "NYG",
+     "home": "IND",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "SF",
+     "home": "NYG",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "NYG",
+     "home": "SEA",
+     "kickoff": "2026-12-13T21:25:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "CLE",
+     "home": "NYG",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "NYG",
+     "home": "DET",
+     "kickoff": "2026-12-29T01:15:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "NYG",
+     "home": "DAL",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "PHI",
+     "home": "NYG",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "NYJ",
+   "bye": 13,
+   "games": [
+    {
+     "away": "NYJ",
+     "home": "TEN",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "GB",
+     "home": "NYJ",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "NYJ",
+     "home": "DET",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "NYJ",
+     "home": "CHI",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "CLE",
+     "home": "NYJ",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "NYJ",
+     "home": "NE",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "MIA",
+     "home": "NYJ",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "LV",
+     "home": "NYJ",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "NYJ",
+     "home": "KC",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "BUF",
+     "home": "NYJ",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "NYJ",
+     "home": "LAC",
+     "kickoff": "2026-11-22T21:05:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "NYJ",
+     "home": "MIA",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "DEN",
+     "home": "NYJ",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "NYJ",
+     "home": "ARI",
+     "kickoff": "2026-12-20T21:05:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "NE",
+     "home": "NYJ",
+     "kickoff": "2026-12-27T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "MIN",
+     "home": "NYJ",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "NYJ",
+     "home": "BUF",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "PHI",
+   "bye": 10,
+   "games": [
+    {
+     "away": "WSH",
+     "home": "PHI",
+     "kickoff": "2026-09-13T20:25:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "PHI",
+     "home": "TEN",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "PHI",
+     "home": "CHI",
+     "kickoff": "2026-09-29T00:15:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "LAR",
+     "home": "PHI",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "PHI",
+     "home": "JAX",
+     "kickoff": "2026-10-11T13:30:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "CAR",
+     "home": "PHI",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "DAL",
+     "home": "PHI",
+     "kickoff": "2026-10-27T00:15:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "PHI",
+     "home": "WSH",
+     "kickoff": "2026-11-02T01:20:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "NYG",
+     "home": "PHI",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "PIT",
+     "home": "PHI",
+     "kickoff": "2026-11-22T21:25:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "PHI",
+     "home": "DAL",
+     "kickoff": "2026-11-26T21:30:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "PHI",
+     "home": "ARI",
+     "kickoff": "2026-12-06T21:05:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "IND",
+     "home": "PHI",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "SEA",
+     "home": "PHI",
+     "kickoff": "2026-12-19T22:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "HOU",
+     "home": "PHI",
+     "kickoff": "2026-12-25T01:15:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "PHI",
+     "home": "SF",
+     "kickoff": "2027-01-04T01:20:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "PHI",
+     "home": "NYG",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "ARI",
+   "bye": 14,
+   "games": [
+    {
+     "away": "ARI",
+     "home": "LAC",
+     "kickoff": "2026-09-13T20:25:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "SEA",
+     "home": "ARI",
+     "kickoff": "2026-09-20T20:25:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "ARI",
+     "home": "SF",
+     "kickoff": "2026-09-27T20:05:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "ARI",
+     "home": "NYG",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "DET",
+     "home": "ARI",
+     "kickoff": "2026-10-11T20:25:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "ARI",
+     "home": "LAR",
+     "kickoff": "2026-10-18T20:05:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "DEN",
+     "home": "ARI",
+     "kickoff": "2026-10-25T20:05:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "ARI",
+     "home": "DAL",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "ARI",
+     "home": "SEA",
+     "kickoff": "2026-11-08T21:25:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "LAR",
+     "home": "ARI",
+     "kickoff": "2026-11-15T21:05:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "ARI",
+     "home": "KC",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "WSH",
+     "home": "ARI",
+     "kickoff": "2026-11-29T21:25:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "PHI",
+     "home": "ARI",
+     "kickoff": "2026-12-06T21:05:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "NYJ",
+     "home": "ARI",
+     "kickoff": "2026-12-20T21:05:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "ARI",
+     "home": "NO",
+     "kickoff": "2026-12-27T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "LV",
+     "home": "ARI",
+     "kickoff": "2027-01-03T21:05:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "SF",
+     "home": "ARI",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "PIT",
+   "bye": 9,
+   "games": [
+    {
+     "away": "ATL",
+     "home": "PIT",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "PIT",
+     "home": "NE",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "CIN",
+     "home": "PIT",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "PIT",
+     "home": "CLE",
+     "kickoff": "2026-10-02T00:15:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "IND",
+     "home": "PIT",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "PIT",
+     "home": "TB",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "PIT",
+     "home": "NO",
+     "kickoff": "2026-10-25T13:30:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "CLE",
+     "home": "PIT",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "PIT",
+     "home": "CIN",
+     "kickoff": "2026-11-16T01:20:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "PIT",
+     "home": "PHI",
+     "kickoff": "2026-11-22T21:25:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "DEN",
+     "home": "PIT",
+     "kickoff": "2026-11-27T20:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "HOU",
+     "home": "PIT",
+     "kickoff": "2026-12-07T01:20:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "PIT",
+     "home": "JAX",
+     "kickoff": "2026-12-15T01:15:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "BAL",
+     "home": "PIT",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "CAR",
+     "home": "PIT",
+     "kickoff": "2026-12-27T08:01:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "PIT",
+     "home": "TEN",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "PIT",
+     "home": "BAL",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "LAC",
+   "bye": 7,
+   "games": [
+    {
+     "away": "ARI",
+     "home": "LAC",
+     "kickoff": "2026-09-13T20:25:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "LV",
+     "home": "LAC",
+     "kickoff": "2026-09-20T20:05:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "LAC",
+     "home": "BUF",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "LAC",
+     "home": "SEA",
+     "kickoff": "2026-10-04T20:25:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "DEN",
+     "home": "LAC",
+     "kickoff": "2026-10-11T20:05:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "LAC",
+     "home": "KC",
+     "kickoff": "2026-10-18T20:25:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "LAC",
+     "home": "LAR",
+     "kickoff": "2026-11-01T21:05:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "HOU",
+     "home": "LAC",
+     "kickoff": "2026-11-08T21:05:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "LAC",
+     "home": "BAL",
+     "kickoff": "2026-11-17T01:15:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "NYJ",
+     "home": "LAC",
+     "kickoff": "2026-11-22T21:05:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "NE",
+     "home": "LAC",
+     "kickoff": "2026-11-30T01:20:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "LAC",
+     "home": "TB",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "LAC",
+     "home": "LV",
+     "kickoff": "2026-12-13T21:05:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "SF",
+     "home": "LAC",
+     "kickoff": "2026-12-18T01:15:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "LAC",
+     "home": "MIA",
+     "kickoff": "2026-12-27T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "KC",
+     "home": "LAC",
+     "kickoff": "2027-01-03T08:01:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "LAC",
+     "home": "DEN",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "SF",
+   "bye": 8,
+   "games": [
+    {
+     "away": "SF",
+     "home": "LAR",
+     "kickoff": "2026-09-11T00:35:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "MIA",
+     "home": "SF",
+     "kickoff": "2026-09-20T20:25:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "ARI",
+     "home": "SF",
+     "kickoff": "2026-09-27T20:05:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "DEN",
+     "home": "SF",
+     "kickoff": "2026-10-04T20:25:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "SF",
+     "home": "SEA",
+     "kickoff": "2026-10-11T20:25:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "WSH",
+     "home": "SF",
+     "kickoff": "2026-10-20T00:15:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "SF",
+     "home": "ATL",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "LV",
+     "home": "SF",
+     "kickoff": "2026-11-08T21:05:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "SF",
+     "home": "DAL",
+     "kickoff": "2026-11-15T21:25:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "MIN",
+     "home": "SF",
+     "kickoff": "2026-11-23T01:20:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "SEA",
+     "home": "SF",
+     "kickoff": "2026-11-29T21:25:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "SF",
+     "home": "NYG",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "LAR",
+     "home": "SF",
+     "kickoff": "2026-12-13T21:25:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "SF",
+     "home": "LAC",
+     "kickoff": "2026-12-18T01:15:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "SF",
+     "home": "KC",
+     "kickoff": "2026-12-27T21:25:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "PHI",
+     "home": "SF",
+     "kickoff": "2027-01-04T01:20:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "SF",
+     "home": "ARI",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "SEA",
+   "bye": 11,
+   "games": [
+    {
+     "away": "NE",
+     "home": "SEA",
+     "kickoff": "2026-09-10T00:20:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "SEA",
+     "home": "ARI",
+     "kickoff": "2026-09-20T20:25:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "SEA",
+     "home": "WSH",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "LAC",
+     "home": "SEA",
+     "kickoff": "2026-10-04T20:25:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "SF",
+     "home": "SEA",
+     "kickoff": "2026-10-11T20:25:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "SEA",
+     "home": "DEN",
+     "kickoff": "2026-10-16T00:15:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "KC",
+     "home": "SEA",
+     "kickoff": "2026-10-26T00:20:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "CHI",
+     "home": "SEA",
+     "kickoff": "2026-11-03T01:15:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "ARI",
+     "home": "SEA",
+     "kickoff": "2026-11-08T21:25:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "SEA",
+     "home": "LV",
+     "kickoff": "2026-11-15T21:05:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "SEA",
+     "home": "SF",
+     "kickoff": "2026-11-29T21:25:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "DAL",
+     "home": "SEA",
+     "kickoff": "2026-12-08T01:15:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "NYG",
+     "home": "SEA",
+     "kickoff": "2026-12-13T21:25:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "SEA",
+     "home": "PHI",
+     "kickoff": "2026-12-19T22:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "LAR",
+     "home": "SEA",
+     "kickoff": "2026-12-26T01:15:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "SEA",
+     "home": "CAR",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "SEA",
+     "home": "LAR",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "TB",
+   "bye": 10,
+   "games": [
+    {
+     "away": "TB",
+     "home": "CIN",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "CLE",
+     "home": "TB",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "MIN",
+     "home": "TB",
+     "kickoff": "2026-09-27T20:05:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "GB",
+     "home": "TB",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "TB",
+     "home": "DAL",
+     "kickoff": "2026-10-09T00:15:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "PIT",
+     "home": "TB",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "TB",
+     "home": "CAR",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "ATL",
+     "home": "TB",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "TB",
+     "home": "CHI",
+     "kickoff": "2026-11-09T01:20:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "TB",
+     "home": "DET",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "CAR",
+     "home": "TB",
+     "kickoff": "2026-12-01T01:15:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "LAC",
+     "home": "TB",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "TB",
+     "home": "BAL",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "NO",
+     "home": "TB",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "TB",
+     "home": "ATL",
+     "kickoff": "2026-12-27T08:01:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "LAR",
+     "home": "TB",
+     "kickoff": "2027-01-03T08:01:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "TB",
+     "home": "NO",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "WSH",
+   "bye": 7,
+   "games": [
+    {
+     "away": "WSH",
+     "home": "PHI",
+     "kickoff": "2026-09-13T20:25:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "WSH",
+     "home": "DAL",
+     "kickoff": "2026-09-20T20:25:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "SEA",
+     "home": "WSH",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "IND",
+     "home": "WSH",
+     "kickoff": "2026-10-04T13:30:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "NYG",
+     "home": "WSH",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "WSH",
+     "home": "SF",
+     "kickoff": "2026-10-20T00:15:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "PHI",
+     "home": "WSH",
+     "kickoff": "2026-11-02T01:20:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "LAR",
+     "home": "WSH",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "WSH",
+     "home": "NYG",
+     "kickoff": "2026-11-13T01:15:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "CIN",
+     "home": "WSH",
+     "kickoff": "2026-11-24T01:15:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "WSH",
+     "home": "ARI",
+     "kickoff": "2026-11-29T21:25:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "WSH",
+     "home": "TEN",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "HOU",
+     "home": "WSH",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "ATL",
+     "home": "WSH",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "WSH",
+     "home": "MIN",
+     "kickoff": "2026-12-27T08:01:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "WSH",
+     "home": "JAX",
+     "kickoff": "2027-01-03T08:01:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "DAL",
+     "home": "WSH",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "CAR",
+   "bye": 5,
+   "games": [
+    {
+     "away": "CHI",
+     "home": "CAR",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "CAR",
+     "home": "ATL",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "CAR",
+     "home": "CLE",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "DET",
+     "home": "CAR",
+     "kickoff": "2026-10-05T00:20:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "CAR",
+     "home": "PHI",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "TB",
+     "home": "CAR",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "CAR",
+     "home": "GB",
+     "kickoff": "2026-10-30T00:15:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "DEN",
+     "home": "CAR",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "CAR",
+     "home": "NO",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "BAL",
+     "home": "CAR",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "CAR",
+     "home": "TB",
+     "kickoff": "2026-12-01T01:15:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "CAR",
+     "home": "MIN",
+     "kickoff": "2026-12-06T21:25:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "NO",
+     "home": "CAR",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "CIN",
+     "home": "CAR",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "CAR",
+     "home": "PIT",
+     "kickoff": "2026-12-27T08:01:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "SEA",
+     "home": "CAR",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "ATL",
+     "home": "CAR",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "JAX",
+   "bye": 7,
+   "games": [
+    {
+     "away": "CLE",
+     "home": "JAX",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "JAX",
+     "home": "DEN",
+     "kickoff": "2026-09-20T20:05:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "NE",
+     "home": "JAX",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "JAX",
+     "home": "CIN",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "PHI",
+     "home": "JAX",
+     "kickoff": "2026-10-11T13:30:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "HOU",
+     "home": "JAX",
+     "kickoff": "2026-10-18T13:30:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "IND",
+     "home": "JAX",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "JAX",
+     "home": "BAL",
+     "kickoff": "2026-11-06T01:15:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "JAX",
+     "home": "TEN",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "JAX",
+     "home": "NYG",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "TEN",
+     "home": "JAX",
+     "kickoff": "2026-11-29T21:05:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "JAX",
+     "home": "CHI",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "PIT",
+     "home": "JAX",
+     "kickoff": "2026-12-15T01:15:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "JAX",
+     "home": "HOU",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "JAX",
+     "home": "DAL",
+     "kickoff": "2026-12-28T01:20:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "WSH",
+     "home": "JAX",
+     "kickoff": "2027-01-03T08:01:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "JAX",
+     "home": "IND",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "BAL",
+   "bye": 13,
+   "games": [
+    {
+     "away": "BAL",
+     "home": "IND",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "NO",
+     "home": "BAL",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "BAL",
+     "home": "DAL",
+     "kickoff": "2026-09-27T20:25:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "TEN",
+     "home": "BAL",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "BAL",
+     "home": "ATL",
+     "kickoff": "2026-10-12T00:20:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "BAL",
+     "home": "CLE",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "CIN",
+     "home": "BAL",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "BAL",
+     "home": "BUF",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "JAX",
+     "home": "BAL",
+     "kickoff": "2026-11-06T01:15:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "LAC",
+     "home": "BAL",
+     "kickoff": "2026-11-17T01:15:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "BAL",
+     "home": "CAR",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "BAL",
+     "home": "HOU",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "TB",
+     "home": "BAL",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "BAL",
+     "home": "PIT",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "CLE",
+     "home": "BAL",
+     "kickoff": "2026-12-27T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "BAL",
+     "home": "CIN",
+     "kickoff": "2027-01-01T01:15:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "PIT",
+     "home": "BAL",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "HOU",
+   "bye": 8,
+   "games": [
+    {
+     "away": "BUF",
+     "home": "HOU",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "CIN",
+     "home": "HOU",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "HOU",
+     "home": "IND",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "DAL",
+     "home": "HOU",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "HOU",
+     "home": "TEN",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "HOU",
+     "home": "JAX",
+     "kickoff": "2026-10-18T13:30:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "NYG",
+     "home": "HOU",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "HOU",
+     "home": "LAC",
+     "kickoff": "2026-11-08T21:05:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "HOU",
+     "home": "CLE",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "IND",
+     "home": "HOU",
+     "kickoff": "2026-11-20T01:15:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "BAL",
+     "home": "HOU",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "HOU",
+     "home": "PIT",
+     "kickoff": "2026-12-07T01:20:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "HOU",
+     "home": "WSH",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "JAX",
+     "home": "HOU",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "HOU",
+     "home": "PHI",
+     "kickoff": "2026-12-25T01:15:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "HOU",
+     "home": "GB",
+     "kickoff": "2027-01-05T01:15:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "TEN",
+     "home": "HOU",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "ATL",
+   "bye": 11,
+   "games": [
+    {
+     "away": "ATL",
+     "home": "PIT",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "CAR",
+     "home": "ATL",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "ATL",
+     "home": "GB",
+     "kickoff": "2026-09-25T00:15:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "ATL",
+     "home": "NO",
+     "kickoff": "2026-10-06T00:15:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "BAL",
+     "home": "ATL",
+     "kickoff": "2026-10-12T00:20:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "CHI",
+     "home": "ATL",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "SF",
+     "home": "ATL",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "ATL",
+     "home": "TB",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "CIN",
+     "home": "ATL",
+     "kickoff": "2026-11-08T14:30:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "KC",
+     "home": "ATL",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "ATL",
+     "home": "MIN",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "DET",
+     "home": "ATL",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "ATL",
+     "home": "CLE",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "ATL",
+     "home": "WSH",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "TB",
+     "home": "ATL",
+     "kickoff": "2026-12-27T08:01:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "NO",
+     "home": "ATL",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "ATL",
+     "home": "CAR",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "BUF",
+   "bye": 7,
+   "games": [
+    {
+     "away": "BUF",
+     "home": "HOU",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "DET",
+     "home": "BUF",
+     "kickoff": "2026-09-18T00:15:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "LAC",
+     "home": "BUF",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "NE",
+     "home": "BUF",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "BUF",
+     "home": "LAR",
+     "kickoff": "2026-10-13T00:15:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "BUF",
+     "home": "LV",
+     "kickoff": "2026-10-18T20:25:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "BAL",
+     "home": "BUF",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "BUF",
+     "home": "MIN",
+     "kickoff": "2026-11-10T01:15:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "BUF",
+     "home": "NYJ",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "MIA",
+     "home": "BUF",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "KC",
+     "home": "BUF",
+     "kickoff": "2026-11-27T01:20:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "BUF",
+     "home": "NE",
+     "kickoff": "2026-12-06T21:25:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "BUF",
+     "home": "GB",
+     "kickoff": "2026-12-14T01:20:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "CHI",
+     "home": "BUF",
+     "kickoff": "2026-12-20T01:20:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "BUF",
+     "home": "DEN",
+     "kickoff": "2026-12-25T21:30:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "BUF",
+     "home": "MIA",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "NYJ",
+     "home": "BUF",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "CHI",
+   "bye": 10,
+   "games": [
+    {
+     "away": "CHI",
+     "home": "CAR",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "MIN",
+     "home": "CHI",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "PHI",
+     "home": "CHI",
+     "kickoff": "2026-09-29T00:15:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "NYJ",
+     "home": "CHI",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "CHI",
+     "home": "GB",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "CHI",
+     "home": "ATL",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "NE",
+     "home": "CHI",
+     "kickoff": "2026-10-23T00:15:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "CHI",
+     "home": "SEA",
+     "kickoff": "2026-11-03T01:15:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "TB",
+     "home": "CHI",
+     "kickoff": "2026-11-09T01:20:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "NO",
+     "home": "CHI",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "CHI",
+     "home": "DET",
+     "kickoff": "2026-11-26T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "JAX",
+     "home": "CHI",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "CHI",
+     "home": "MIA",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "CHI",
+     "home": "BUF",
+     "kickoff": "2026-12-20T01:20:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "GB",
+     "home": "CHI",
+     "kickoff": "2026-12-25T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "DET",
+     "home": "CHI",
+     "kickoff": "2027-01-03T21:25:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "CHI",
+     "home": "MIN",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "CIN",
+   "bye": 6,
+   "games": [
+    {
+     "away": "TB",
+     "home": "CIN",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "CIN",
+     "home": "HOU",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "CIN",
+     "home": "PIT",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "JAX",
+     "home": "CIN",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "CIN",
+     "home": "MIA",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "CIN",
+     "home": "BAL",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "TEN",
+     "home": "CIN",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "CIN",
+     "home": "ATL",
+     "kickoff": "2026-11-08T14:30:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "PIT",
+     "home": "CIN",
+     "kickoff": "2026-11-16T01:20:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "CIN",
+     "home": "WSH",
+     "kickoff": "2026-11-24T01:15:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "NO",
+     "home": "CIN",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "CIN",
+     "home": "CLE",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "KC",
+     "home": "CIN",
+     "kickoff": "2026-12-13T21:25:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "CIN",
+     "home": "CAR",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "CIN",
+     "home": "IND",
+     "kickoff": "2026-12-27T08:01:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "BAL",
+     "home": "CIN",
+     "kickoff": "2027-01-01T01:15:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "CLE",
+     "home": "CIN",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "CLE",
+   "bye": 11,
+   "games": [
+    {
+     "away": "CLE",
+     "home": "JAX",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "CLE",
+     "home": "TB",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "CAR",
+     "home": "CLE",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "PIT",
+     "home": "CLE",
+     "kickoff": "2026-10-02T00:15:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "CLE",
+     "home": "NYJ",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "BAL",
+     "home": "CLE",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "CLE",
+     "home": "TEN",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "CLE",
+     "home": "PIT",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "CLE",
+     "home": "NO",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "HOU",
+     "home": "CLE",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "LV",
+     "home": "CLE",
+     "kickoff": "2026-11-29T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "CIN",
+     "home": "CLE",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "ATL",
+     "home": "CLE",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "CLE",
+     "home": "NYG",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "CLE",
+     "home": "BAL",
+     "kickoff": "2026-12-27T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "IND",
+     "home": "CLE",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "CLE",
+     "home": "CIN",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "DAL",
+   "bye": 14,
+   "games": [
+    {
+     "away": "DAL",
+     "home": "NYG",
+     "kickoff": "2026-09-14T00:20:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "WSH",
+     "home": "DAL",
+     "kickoff": "2026-09-20T20:25:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "BAL",
+     "home": "DAL",
+     "kickoff": "2026-09-27T20:25:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "DAL",
+     "home": "HOU",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "TB",
+     "home": "DAL",
+     "kickoff": "2026-10-09T00:15:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "DAL",
+     "home": "GB",
+     "kickoff": "2026-10-19T00:20:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "DAL",
+     "home": "PHI",
+     "kickoff": "2026-10-27T00:15:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "ARI",
+     "home": "DAL",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "DAL",
+     "home": "IND",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "SF",
+     "home": "DAL",
+     "kickoff": "2026-11-15T21:25:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "TEN",
+     "home": "DAL",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "PHI",
+     "home": "DAL",
+     "kickoff": "2026-11-26T21:30:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "DAL",
+     "home": "SEA",
+     "kickoff": "2026-12-08T01:15:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "DAL",
+     "home": "LAR",
+     "kickoff": "2026-12-20T21:25:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "JAX",
+     "home": "DAL",
+     "kickoff": "2026-12-28T01:20:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "NYG",
+     "home": "DAL",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "DAL",
+     "home": "WSH",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "DEN",
+   "bye": 10,
+   "games": [
+    {
+     "away": "DEN",
+     "home": "KC",
+     "kickoff": "2026-09-15T00:15:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "JAX",
+     "home": "DEN",
+     "kickoff": "2026-09-20T20:05:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "LAR",
+     "home": "DEN",
+     "kickoff": "2026-09-28T00:20:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "DEN",
+     "home": "SF",
+     "kickoff": "2026-10-04T20:25:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "DEN",
+     "home": "LAC",
+     "kickoff": "2026-10-11T20:05:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "SEA",
+     "home": "DEN",
+     "kickoff": "2026-10-16T00:15:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "DEN",
+     "home": "ARI",
+     "kickoff": "2026-10-25T20:05:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "KC",
+     "home": "DEN",
+     "kickoff": "2026-11-01T21:25:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "DEN",
+     "home": "CAR",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "LV",
+     "home": "DEN",
+     "kickoff": "2026-11-22T21:25:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "DEN",
+     "home": "PIT",
+     "kickoff": "2026-11-27T20:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "MIA",
+     "home": "DEN",
+     "kickoff": "2026-12-06T21:05:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "DEN",
+     "home": "NYJ",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "DEN",
+     "home": "LV",
+     "kickoff": "2026-12-20T21:25:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "BUF",
+     "home": "DEN",
+     "kickoff": "2026-12-25T21:30:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "DEN",
+     "home": "NE",
+     "kickoff": "2027-01-03T08:01:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "LAC",
+     "home": "DEN",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "DET",
+   "bye": 6,
+   "games": [
+    {
+     "away": "NO",
+     "home": "DET",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "DET",
+     "home": "BUF",
+     "kickoff": "2026-09-18T00:15:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "NYJ",
+     "home": "DET",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "DET",
+     "home": "CAR",
+     "kickoff": "2026-10-05T00:20:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "DET",
+     "home": "ARI",
+     "kickoff": "2026-10-11T20:25:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "GB",
+     "home": "DET",
+     "kickoff": "2026-10-25T20:25:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "MIN",
+     "home": "DET",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "DET",
+     "home": "MIA",
+     "kickoff": "2026-11-08T18:00:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "NE",
+     "home": "DET",
+     "kickoff": "2026-11-15T14:30:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "TB",
+     "home": "DET",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "CHI",
+     "home": "DET",
+     "kickoff": "2026-11-26T18:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "DET",
+     "home": "ATL",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "TEN",
+     "home": "DET",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "DET",
+     "home": "MIN",
+     "kickoff": "2026-12-21T01:20:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "NYG",
+     "home": "DET",
+     "kickoff": "2026-12-29T01:15:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "DET",
+     "home": "CHI",
+     "kickoff": "2027-01-03T21:25:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "DET",
+     "home": "GB",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "GB",
+   "bye": 11,
+   "games": [
+    {
+     "away": "GB",
+     "home": "MIN",
+     "kickoff": "2026-09-13T20:25:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "GB",
+     "home": "NYJ",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "ATL",
+     "home": "GB",
+     "kickoff": "2026-09-25T00:15:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "GB",
+     "home": "TB",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "CHI",
+     "home": "GB",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "DAL",
+     "home": "GB",
+     "kickoff": "2026-10-19T00:20:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "GB",
+     "home": "DET",
+     "kickoff": "2026-10-25T20:25:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "CAR",
+     "home": "GB",
+     "kickoff": "2026-10-30T00:15:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "GB",
+     "home": "NE",
+     "kickoff": "2026-11-08T21:25:00+00:00",
+     "week": 9
+    },
+    {
+     "away": "MIN",
+     "home": "GB",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "GB",
+     "home": "LAR",
+     "kickoff": "2026-11-26T01:00:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "GB",
+     "home": "NO",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "BUF",
+     "home": "GB",
+     "kickoff": "2026-12-14T01:20:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "MIA",
+     "home": "GB",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "GB",
+     "home": "CHI",
+     "kickoff": "2026-12-25T18:00:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "HOU",
+     "home": "GB",
+     "kickoff": "2027-01-05T01:15:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "DET",
+     "home": "GB",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  },
+  {
+   "abbr": "TEN",
+   "bye": 9,
+   "games": [
+    {
+     "away": "NYJ",
+     "home": "TEN",
+     "kickoff": "2026-09-13T17:00:00+00:00",
+     "week": 1
+    },
+    {
+     "away": "PHI",
+     "home": "TEN",
+     "kickoff": "2026-09-20T17:00:00+00:00",
+     "week": 2
+    },
+    {
+     "away": "TEN",
+     "home": "NYG",
+     "kickoff": "2026-09-27T17:00:00+00:00",
+     "week": 3
+    },
+    {
+     "away": "TEN",
+     "home": "BAL",
+     "kickoff": "2026-10-04T17:00:00+00:00",
+     "week": 4
+    },
+    {
+     "away": "HOU",
+     "home": "TEN",
+     "kickoff": "2026-10-11T17:00:00+00:00",
+     "week": 5
+    },
+    {
+     "away": "TEN",
+     "home": "IND",
+     "kickoff": "2026-10-18T17:00:00+00:00",
+     "week": 6
+    },
+    {
+     "away": "CLE",
+     "home": "TEN",
+     "kickoff": "2026-10-25T17:00:00+00:00",
+     "week": 7
+    },
+    {
+     "away": "TEN",
+     "home": "CIN",
+     "kickoff": "2026-11-01T18:00:00+00:00",
+     "week": 8
+    },
+    {
+     "away": "JAX",
+     "home": "TEN",
+     "kickoff": "2026-11-15T18:00:00+00:00",
+     "week": 10
+    },
+    {
+     "away": "TEN",
+     "home": "DAL",
+     "kickoff": "2026-11-22T18:00:00+00:00",
+     "week": 11
+    },
+    {
+     "away": "TEN",
+     "home": "JAX",
+     "kickoff": "2026-11-29T21:05:00+00:00",
+     "week": 12
+    },
+    {
+     "away": "WSH",
+     "home": "TEN",
+     "kickoff": "2026-12-06T18:00:00+00:00",
+     "week": 13
+    },
+    {
+     "away": "TEN",
+     "home": "DET",
+     "kickoff": "2026-12-13T18:00:00+00:00",
+     "week": 14
+    },
+    {
+     "away": "IND",
+     "home": "TEN",
+     "kickoff": "2026-12-20T18:00:00+00:00",
+     "week": 15
+    },
+    {
+     "away": "TEN",
+     "home": "LV",
+     "kickoff": "2026-12-27T21:05:00+00:00",
+     "week": 16
+    },
+    {
+     "away": "PIT",
+     "home": "TEN",
+     "kickoff": "2027-01-03T18:00:00+00:00",
+     "week": 17
+    },
+    {
+     "away": "TEN",
+     "home": "HOU",
+     "kickoff": "2027-01-10T08:01:00+00:00",
+     "week": 18
+    }
+   ]
+  }
+ ]
+}
