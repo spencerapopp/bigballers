@@ -35,11 +35,17 @@ PRO = {0: "FA", 1: "ATL", 2: "BUF", 3: "CHI", 4: "CIN", 5: "CLE", 6: "DAL", 7: "
        25: "SF", 26: "SEA", 27: "TB", 28: "WSH", 29: "CAR", 30: "JAX", 33: "BAL", 34: "HOU"}
 
 
+def fail(msg):
+    # ::error:: shows as a run annotation, readable via the check-runs API.
+    print(f"::error title=ESPN fetch failed::{msg}")
+    sys.exit(msg)
+
+
 def cookies():
     s2 = os.environ.get("ESPN_S2", "").strip()
     swid = os.environ.get("ESPN_SWID", "").strip()
     if not s2 or not swid:
-        sys.exit("ESPN_S2 / ESPN_SWID secrets are missing. Add them under repo Settings > Secrets and variables > Actions.")
+        fail("ESPN_S2 / ESPN_SWID secrets are missing. Add them under repo Settings > Secrets and variables > Actions.")
     if not swid.startswith("{"):
         swid = "{" + swid.strip("{}") + "}"
     return f"espn_s2={s2}; SWID={swid}"
@@ -65,7 +71,7 @@ def get(url, views=(), params=None, xfilter=None, name=None):
             return data
         except urllib.error.HTTPError as e:
             if e.code in (401, 403):
-                sys.exit(f"ESPN refused the request (HTTP {e.code}). The espn_s2/SWID cookies are wrong or expired; "
+                fail(f"ESPN refused the request (HTTP {e.code}). The espn_s2/SWID cookies are wrong or expired; "
                          "copy fresh ones from fantasy.espn.com into the repo secrets.")
             if attempt == 2:
                 raise
@@ -233,4 +239,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except SystemExit:
+        raise
+    except Exception as e:  # network/ESPN format problems: say what broke
+        fail(f"{type(e).__name__}: {e}")
