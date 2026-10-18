@@ -35,7 +35,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Chris Olave",
       "nfl": "NO",
       "pctOwned": 0,
@@ -77,7 +77,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Caleb Williams",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -133,7 +133,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Alvin Kamara",
       "nfl": "NO",
       "pctOwned": 0,
@@ -530,8 +530,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "DJ Moore",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -657,7 +657,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -685,7 +685,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Tyjae Spears",
       "nfl": "TEN",
       "pctOwned": 0,
@@ -748,8 +748,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Quinshon Judkins",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -777,7 +777,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "TreVeyon Henderson",
       "nfl": "NE",
       "pctOwned": 0,
@@ -1551,7 +1551,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Kenyon Sadiq",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1963,7 +1963,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Rico Dowdle",
       "nfl": "PIT",
       "pctOwned": 0,
@@ -2139,7 +2139,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2152,8 +2152,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Tyler Warren",
       "nfl": "IND",
       "pctOwned": 0,
@@ -2166,8 +2166,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Ladd McConkey",
       "nfl": "LAC",
       "pctOwned": 0,
@@ -2265,7 +2265,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Romeo Doubs",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2761,7 +2761,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Pat Freiermuth",
       "nfl": "PIT",
       "pctOwned": 0,
