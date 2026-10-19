@@ -2166,8 +2166,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Ladd McConkey",
       "nfl": "LAC",
       "pctOwned": 0,
