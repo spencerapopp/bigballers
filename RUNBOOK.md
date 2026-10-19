@@ -64,6 +64,7 @@ When there is something:
 
 - Rewrite `DATA.daily` (the Daily Note at the top of the overview): `date` (e.g. "Saturday, Oct 17"), `asOf` ("ESPN 11:15 AM CT"), and 2 to 6 `items` of `[level, teamKey or null, text]`, most urgent first. `out` = a starter who won't play or a lineup hole with no fix on the roster; `watch` = a questionable starter or a decision that matters before the next kickoff; `info` = league-wide moves, kickoff locks. One or two sentences each, facts first, same voice. Replace the whole list each time; it's today's note, not a log. If nothing material happened, leave it alone.
 - Otherwise edit only `DATA.news` (injuries, alsoTagged, sources, asOf), `DATA.preview` (lineup notes, needs, bench notes, asOf), the Thursday note, a team's `needs` line, and `league.updated`. Add a dated line to the relevant team's preview note if it matters for the matchup.
+- `DATA.news.sources` entries are `[player name, url]`, and the page matches each injury to its source by **player name**, so the name must be spelled exactly as in the injury row. When you remove a source, keep the injury rows' last field (the index) pointing at the right entry or the checker will warn; never leave an injury row without a same-named source (the checker fails it).
 - During live games the Daily Note can flag inactives and late scratches, never scores.
 - Don't rewrite the headline, grades, recaps or power rankings. Those belong to Tuesday.
 - Commit message names the facts: `Quick update: Darren claims Matt Gay, drops Mevis; Lamb out (quad)`.
@@ -79,7 +80,7 @@ When there is something:
 
 ## Audit (every run that edits)
 
-1. `node scripts/check_site.mjs` passes: scripts compile, each team's starters sum to its score, every week covers all 12 teams once, scores match ESPN.
+1. `node scripts/check_site.mjs` passes: scripts compile, each team's starters sum to its score, every week covers all 12 teams once, scores match ESPN, every injury/needs/daily/preview reference resolves, and the page renders in headless Chromium with every tab opened and no "couldn't be drawn" section. If the output says the render test was skipped (Playwright missing), install it (`npm i -g playwright && npx playwright install chromium`) and rerun; don't push on a skipped render test.
 2. Records, PF/PA and standings on the page match `league.json` exactly.
 3. Every injury line has a current tag from `league.json`/`week` rosters and a source.
 4. Read the diff (`git diff --stat`, then skim). If a quick update touched anything outside the allowed sections, revert that part.

@@ -343,7 +343,7 @@ display:inline-block;transform:skewX(-7deg);transform-origin:left bottom;text-sh
 .seg i.done{background:var(--brand-700)}
 .seg i.po{background:#FFE2CC}
 .seg i.po.first{margin-left:5px}
-.season .cap{display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted)}
+.season .cap{display:flex;justify-content:space-between;gap:14px;font-size:11.5px;color:var(--muted)}
 @media (max-width:640px){.season{width:100%;min-width:0}.mark{width:52px;height:52px}}
 .footgrid{display:flex;gap:14px;align-items:flex-start}
 /* Team badges */
@@ -2107,21 +2107,21 @@ experts: [
 ],
 injuries: [
 ["Jalen Hurts","PHI","QB","KRAM","IR","IR slot","Blood clot in his calf. Ruled out for Carolina; ESPN lists him on IR. Kramer moved him to his IR slot Saturday night.",0],
-["Tyler Warren","IND","TE","ISA","O","Starting","ESPN now lists him out for Tennessee. Still in Bonifield's TE slot, which locked at noon.",1],
-["Mike Evans","SF","WR","ISA","Q","Starting","Achilles soreness; Kyle Shanahan said he didn't practice Thursday. Questionable for Monday night against Washington. Rachaad White is Bonifield's only Monday-night bench option.",2],
-["Stefon Diggs","WSH","WR","SAP","Q","Bench","Hamstring, missed Week 5. Still questionable for Monday night at San Francisco; Spencer benched him Sunday and moved McLaurin to flex.",3],
-["Jeremiyah Love","ARI","RB","MAGA","O","Bench","Ankle. Out against the Rams; PFT reports he'll miss at least a week. Garrett benched him Sunday morning for Pierre Strong Jr.",4],
-["Quinshon Judkins","CLE","RB","V3K","O","Bench","Ankle. Was day-to-day all week; ESPN now lists him out for Baltimore. Verber benched him for Mike Washington Jr.",5],
-["Saquon Barkley","PHI","RB","SAP","O","IR slot","Hamstring. Still out of practice Thursday and listed out for Carolina.",10],
-["Deebo Samuel Sr.","SF","WR","QSG","O","Bench","Hamstring strain, confirmed by MRI. Kyle Shanahan expects him to miss at least a couple of weeks.",11],
-["DJ Moore","BUF","WR","SAP","O","Bench","Shoulder. Questionable all week; ESPN now lists him out at Las Vegas, his second straight missed game.",12],
-["Ladd McConkey","LAC","WR","ISA","O","Bench","Foot. Came off the injury report this week with a possible snap count; ESPN now lists him out at Kansas City.",13],
-["Lamar Jackson","BAL","QB","BMD","O","Bench","Left ankle sprain, missed Week 5. Listed out at Cleveland.",14],
-["Rashee Rice","KC","WR","V3K","O","Bench","Hamstring. Listed out against the Chargers.",15],
-["Breece Hall","NYJ","RB","ISA","O","Bench","Quad. Out at New England, his third straight missed game.",16],
-["Kyle Monangai","CHI","RB","DB","O","Bench","Turf toe. Out at Atlanta.",17],
-["David Montgomery","HOU","RB","DDT","O","Bench","Groin. Out at Jacksonville; DeMeco Ryans called it week-to-week.",18],
-["Jordan Addison","MIN","WR","PNB","Q","Bench","Hamstring, inactive in Week 5. The Vikings are on bye.",20]
+["Tyler Warren","IND","TE","ISA","O","Starting","ESPN now lists him out for Tennessee. Still in Bonifield's TE slot, which locked at noon.",4],
+["Mike Evans","SF","WR","ISA","Q","Starting","Achilles soreness; Kyle Shanahan said he didn't practice Thursday. Questionable for Monday night against Washington. Rachaad White is Bonifield's only Monday-night bench option.",5],
+["Stefon Diggs","WSH","WR","SAP","Q","Bench","Hamstring, missed Week 5. Still questionable for Monday night at San Francisco; Spencer benched him Sunday and moved McLaurin to flex.",2],
+["Jeremiyah Love","ARI","RB","MAGA","O","Bench","Ankle. Out against the Rams; PFT reports he'll miss at least a week. Garrett benched him Sunday morning for Pierre Strong Jr.",1],
+["Quinshon Judkins","CLE","RB","V3K","O","Bench","Ankle. Was day-to-day all week; ESPN now lists him out for Baltimore. Verber benched him for Mike Washington Jr.",3],
+["Saquon Barkley","PHI","RB","SAP","O","IR slot","Hamstring. Still out of practice Thursday and listed out for Carolina.",6],
+["Deebo Samuel Sr.","SF","WR","QSG","O","Bench","Hamstring strain, confirmed by MRI. Kyle Shanahan expects him to miss at least a couple of weeks.",7],
+["DJ Moore","BUF","WR","SAP","O","Bench","Shoulder. Questionable all week; ESPN now lists him out at Las Vegas, his second straight missed game.",8],
+["Ladd McConkey","LAC","WR","ISA","O","Bench","Foot. Came off the injury report this week with a possible snap count; ESPN now lists him out at Kansas City.",9],
+["Lamar Jackson","BAL","QB","BMD","O","Bench","Left ankle sprain, missed Week 5. Listed out at Cleveland.",10],
+["Rashee Rice","KC","WR","V3K","O","Bench","Hamstring. Listed out against the Chargers.",11],
+["Breece Hall","NYJ","RB","ISA","O","Bench","Quad. Out at New England, his third straight missed game.",12],
+["Kyle Monangai","CHI","RB","DB","O","Bench","Turf toe. Out at Atlanta.",13],
+["David Montgomery","HOU","RB","DDT","O","Bench","Groin. Out at Jacksonville; DeMeco Ryans called it week-to-week.",14],
+["Jordan Addison","MIN","WR","PNB","Q","Bench","Hamstring, inactive in Week 5. The Vikings are on bye.",15]
 ],
 alsoTagged: [
 ["Adonai Mitchell","KRAM","O","Bench"], ["Jacory Croskey-Merritt","KRAM","O","Bench"], ["Blake Grupe","DDT","Q","Starting"], ["Dalton Kincaid","SAP","Q","Bench"], ["Romeo Doubs","ISA","Q","Bench"], ["Josh Jacobs","MAGA","DTD","Bench"], ["Terrance Ferguson","ISA","IR","IR"], ["Travis Etienne Jr.","DDT","IR","Bench"], ["Baker Mayfield","QSG","O","IR"], ["Tyreek Hill","V3K","Q","IR"], ["Zach Charbonnet","BMD","O","IR"], ["Alec Pierce","MAGA","IR","IR"], ["Jadarian Price","LHC","IR","IR"], ["Jonathon Brooks","PNB","IR","IR"], ["Jordan Mason","DB","IR","IR"], ["Jordyn Tyson","DDT","IR","IR"], ["Tank Dell","CHQ","IR","IR"]
@@ -2669,6 +2669,11 @@ const a = $('distchart'), b = $('poschart');
 if (a && a.clientWidth) a.innerHTML = distSVG(a.clientWidth);
 if (b && b.clientWidth) b.innerHTML = posSVG(b.clientWidth, CUR);
 }
+/* Injury row -> its source. Match by player name so deleting a source can't shift citations; fall back to the index only if it names the same player. */
+function srcFor(x) {
+const S = DATA.news.sources;
+return S.find(s => s[0] === x[0]) || (S[x[7]] && S[x[7]][0] === x[0] ? S[x[7]] : null);
+}
 function renderOverview() {
 if (!state.mapSel) state.mapSel = powerOrder(CUR)[0].id;
 const c = DATA.copy.week, N = DATA.news;
@@ -2729,7 +2734,7 @@ ${qbs.length ? `<div class="take"><b>${wrong.length} of ${qbs.length} QB Calls M
 <div class="inj">${posOrder.map(p => N.injuries.filter(x => x[2] === p).map(x => `
 <div class="injcard ${x[5] === 'Starting' ? 'start' : ''}"><div class="pos">${esc(x[2])}</div>
 <div><b>${esc(x[0])}</b>${tag(x[4])}<span class="role ${esc(x[5])}">${x[5] === 'Starting' ? 'In lineup' : esc(x[5])}</span><br><span class="own">${esc(x[1])}. ${esc(T(x[3]).name)}</span></div>
-<p>${esc(x[6])} <span class="sub">(${esc(N.sources[x[7]][0])})</span></p></div>`).join('')).join('')}</div>
+<p>${esc(x[6])}${srcFor(x) ? ` <span class="sub">(<a href="${esc(srcFor(x)[1])}" target="_blank" rel="noopener">${esc(srcFor(x)[0])}</a>)</span>` : ''}</p></div>`).join('')).join('')}</div>
 <p class="note">Also carrying an ESPN injury tag: ${N.alsoTagged.map(x => `${esc(x[0])} (${esc(x[2])}, ${esc(T(x[1]).name)}${x[3] === 'Starting' ? ', in lineup' : ''})`).join('; ')}.</p>
 <p class="srcs">Sources: ${N.sources.map(s => `<a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a>`).join(', ')}. ESPN tags as of ${esc(DATA.preview.asOf.replace('ESPN, ', ''))}.</p>
 </div>
