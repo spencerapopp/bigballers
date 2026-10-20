@@ -48,14 +48,14 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Terry McLaurin",
       "nfl": "WSH",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3121422,
-      "points": 0.0,
+      "points": 3.2,
       "pos": "WR",
       "proj": 10.03,
       "slot": "FLEX"
@@ -119,13 +119,13 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Stefon Diggs",
       "nfl": "WSH",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2976212,
-      "points": 0.0,
+      "points": 2.7,
       "pos": "WR",
       "proj": 8.21,
       "slot": "BE"
@@ -230,8 +230,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 90.9,
-    "projected": 100.92988555,
+    "pointsLive": 94.1,
+    "projected": 94.1,
     "teamId": 1
    },
    "home": {
@@ -537,7 +537,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426348,
-      "points": 0.0,
+      "points": 4.05,
       "pos": "QB",
       "proj": 22.49,
       "slot": "QB"
@@ -698,8 +698,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 77.7,
-    "projected": 100.18611856,
+    "pointsLive": 81.75,
+    "projected": 97.87929284,
     "teamId": 5
    },
    "home": {
@@ -1047,7 +1047,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3040151,
-      "points": 0.0,
+      "points": 10.5,
       "pos": "TE",
       "proj": 12.37,
       "slot": "TE"
@@ -1166,8 +1166,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 104.45,
-    "projected": 116.82389033,
+    "pointsLive": 114.95,
+    "projected": 123.82579153,
     "teamId": 7
    },
    "home": {
@@ -1969,7 +1969,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4361741,
-      "points": 0.0,
+      "points": 11.75,
       "pos": "QB",
       "proj": 25.79,
       "slot": "QB"
@@ -2102,8 +2102,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 86.1,
-    "projected": 111.89052449,
+    "pointsLive": 97.85,
+    "projected": 116.34954322,
     "teamId": 8
    },
    "home": {
@@ -2271,7 +2271,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16025,
-      "points": 0.0,
+      "points": 13.0,
       "pos": "D/ST",
       "proj": 8.4,
       "slot": "D/ST"
@@ -2334,8 +2334,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 69.8,
-    "projected": 78.20081756,
+    "pointsLive": 82.8,
+    "projected": 79.50100644,
     "teamId": 2
    },
    "week": 6,
@@ -2375,7 +2375,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2437,7 +2437,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 16737,
-      "points": 0.0,
+      "points": 8.8,
       "pos": "WR",
       "proj": 12.54,
       "slot": "FLEX"
@@ -2479,7 +2479,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4697815,
-      "points": 0.0,
+      "points": 0.2,
       "pos": "RB",
       "proj": 9.39,
       "slot": "BE"
@@ -2570,8 +2570,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 82.4,
-    "projected": 94.93999863,
+    "pointsLive": 91.2,
+    "projected": 100.19494101,
     "teamId": 9
    },
    "home": {
@@ -2599,7 +2599,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3117251,
-      "points": 0.0,
+      "points": 11.1,
       "pos": "RB",
       "proj": 19.41,
       "slot": "RB"
@@ -2711,7 +2711,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4696044,
-      "points": 0.0,
+      "points": 0.2,
       "pos": "RB",
       "proj": 5.58,
       "slot": "BE"
@@ -2802,8 +2802,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 79.6,
-    "projected": 99.01242069,
+    "pointsLive": 90.7,
+    "projected": 104.62452936,
     "teamId": 4
    },
    "week": 6,
