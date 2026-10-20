@@ -48,8 +48,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "DOUBTFUL",
       "name": "Terry McLaurin",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -2431,7 +2431,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Mike Evans",
       "nfl": "SF",
       "pctOwned": 0,

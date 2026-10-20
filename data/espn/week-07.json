@@ -484,7 +484,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 15.83,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -540,7 +540,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 23.57,
-      "slot": "BE"
+      "slot": "QB"
      },
      {
       "acquisitionType": null,
@@ -582,7 +582,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -638,7 +638,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 22.97,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -652,7 +652,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 11.29,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -694,12 +694,12 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "RB"
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 81.50083026,
+    "projected": 109.21621124,
     "teamId": 10
    },
    "home": {
@@ -748,8 +748,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "DOUBTFUL",
       "name": "Terry McLaurin",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -1736,7 +1736,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 10.15,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1820,7 +1820,7 @@
       "points": 0.0,
       "pos": "K",
       "proj": 11.48,
-      "slot": "BE"
+      "slot": "K"
      },
      {
       "acquisitionType": null,
@@ -1848,7 +1848,7 @@
       "points": 0.0,
       "pos": "K",
       "proj": 10.7,
-      "slot": "K"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1862,12 +1862,12 @@
       "points": 0.0,
       "pos": "TE",
       "proj": 5.68,
-      "slot": "FLEX"
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 104.47325999,
+    "projected": 109.72303971,
     "teamId": 7
    },
    "week": 7,
@@ -1934,20 +1934,6 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
-      "name": "Jalen Hurts",
-      "nfl": "PHI",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4040715,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 0.0,
-      "slot": "IR"
-     },
-     {
-      "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Jameson Williams",
@@ -1958,7 +1944,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 8.9,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1986,7 +1972,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 7.48,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2042,7 +2028,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "BE"
+      "slot": "IR"
      },
      {
       "acquisitionType": null,
@@ -2103,7 +2089,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 102.6553702,
+    "projected": 104.07647168,
     "teamId": 4
    },
    "home": {
@@ -2431,7 +2417,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Mike Evans",
       "nfl": "SF",
       "pctOwned": 0,
@@ -2630,7 +2616,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 11.31,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -2658,7 +2644,7 @@
       "points": 0.0,
       "pos": "TE",
       "proj": 10.16,
-      "slot": "BE"
+      "slot": "TE"
      },
      {
       "acquisitionType": null,
@@ -2686,7 +2672,7 @@
       "points": 0.0,
       "pos": "TE",
       "proj": 6.96,
-      "slot": "TE"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2756,7 +2742,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 10.26,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2803,7 +2789,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 123.65025247,
+    "projected": 127.89458202,
     "teamId": 8
    },
    "week": 7,
