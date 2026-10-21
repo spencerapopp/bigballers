@@ -332,7 +332,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 0.0,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -375,20 +375,6 @@
       "pos": "K",
       "proj": 11.19,
       "slot": "K"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Kyler Murray",
-      "nfl": "MIN",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3917315,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 21.08,
-      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -450,20 +436,34 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Tyler Allgeier",
-      "nfl": "ARI",
+      "name": "Aaron Rodgers",
+      "nfl": "PIT",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": 4373626,
+      "playerId": 8439,
       "points": 0.0,
-      "pos": "RB",
-      "proj": 6.62,
+      "pos": "QB",
+      "proj": 23.59,
+      "slot": "QB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Ja'Kobi Lane",
+      "nfl": "BAL",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4870847,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 4.64,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 90.60145305,
+    "projected": 114.18910532,
     "teamId": 13
    },
    "week": 7,
@@ -670,20 +670,6 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
-      "name": "Blake Grupe",
-      "nfl": "LAR",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4259619,
-      "points": 0.0,
-      "pos": "K",
-      "proj": 0.0,
-      "slot": "K"
-     },
-     {
-      "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Kimani Vidal",
@@ -695,11 +681,25 @@
       "pos": "RB",
       "proj": 0.0,
       "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Matt Gay",
+      "nfl": "LV",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4249087,
+      "points": 0.0,
+      "pos": "K",
+      "proj": 9.6,
+      "slot": "K"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 101.16337786,
+    "projected": 110.75941782,
     "teamId": 10
    },
    "home": {
@@ -1546,7 +1546,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 6.48,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1594,34 +1594,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "MarShawn Lloyd",
-      "nfl": "GB",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4429023,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 2.71,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Jake Ferguson",
-      "nfl": "DAL",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4242355,
-      "points": 0.0,
-      "pos": "TE",
-      "proj": 4.55,
-      "slot": "TE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Harrison Butker",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1631,11 +1603,39 @@
       "pos": "K",
       "proj": 10.15,
       "slot": "K"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Omar Cooper Jr.",
+      "nfl": "NYJ",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4723820,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 6.07,
+      "slot": "FLEX"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
+      "name": "T.J. Hockenson",
+      "nfl": "MIN",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4036133,
+      "points": 0.0,
+      "pos": "TE",
+      "proj": 8.03,
+      "slot": "TE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 98.97036087,
+    "projected": 102.04256391,
     "teamId": 2
    },
    "home": {
@@ -1694,7 +1694,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 12.58,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -1834,40 +1834,40 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 5.46,
-      "slot": "RB"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Dominic Zvada",
-      "nfl": "NYG",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 5082424,
-      "points": 0.0,
-      "pos": "K",
-      "proj": 10.71,
       "slot": "BE"
      },
      {
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Tyler Higbee",
-      "nfl": "LAR",
+      "name": "Jaylin Noel",
+      "nfl": "HOU",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": 2573401,
+      "playerId": 4586312,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 6.17,
+      "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Hunter Henry",
+      "nfl": "NE",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 3046439,
       "points": 0.0,
       "pos": "TE",
-      "proj": 5.68,
+      "proj": 6.59,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 111.42975606,
+    "projected": 118.54585742,
     "teamId": 7
    },
    "week": 7,
@@ -2076,20 +2076,20 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Jameis Winston",
-      "nfl": "NYG",
+      "name": "Tyler Shough",
+      "nfl": "NO",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": 2969939,
+      "playerId": 4360689,
       "points": 0.0,
       "pos": "QB",
-      "proj": 0.0,
+      "proj": 17.93,
       "slot": "QB"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 105.12570579,
+    "projected": 123.05409592,
     "teamId": 4
    },
    "home": {
@@ -2106,7 +2106,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 0.0,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2162,7 +2162,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 8.47,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2222,34 +2222,6 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
-      "name": "Deebo Samuel Sr.",
-      "nfl": "SF",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3126486,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Aaron Jones Sr.",
-      "nfl": "MIN",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3042519,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 10.92,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
       "injured": false,
       "injuryStatus": "QUESTIONABLE",
       "name": "Baker Mayfield",
@@ -2261,20 +2233,6 @@
       "pos": "QB",
       "proj": 17.33,
       "slot": "IR"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Dalton Schultz",
-      "nfl": "HOU",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3117256,
-      "points": 0.0,
-      "pos": "TE",
-      "proj": 6.67,
-      "slot": "TE"
      },
      {
       "acquisitionType": null,
@@ -2294,20 +2252,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Samaje Perine",
-      "nfl": "CIN",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3116389,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 5.36,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Geno Smith",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -2316,12 +2260,68 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 18.89,
+      "slot": "QB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Najee Harris",
+      "nfl": "FA",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4241457,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 0.0,
+      "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Tommy Tremble",
+      "nfl": "CAR",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4372780,
+      "points": 0.0,
+      "pos": "TE",
+      "proj": 3.82,
+      "slot": "TE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "DeMario Douglas",
+      "nfl": "NE",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4427095,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 8.67,
+      "slot": "WR"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Justice Hill",
+      "nfl": "BAL",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4038441,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 5.2,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 82.42001372,
+    "projected": 98.6635354,
     "teamId": 6
    },
    "week": 7,
@@ -2762,20 +2762,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Darius Cooper",
-      "nfl": "PHI",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4715355,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 3.32,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Wan'Dale Robinson",
       "nfl": "TEN",
       "pctOwned": 0,
@@ -2784,6 +2770,20 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 6.57,
+      "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Courtland Sutton",
+      "nfl": "DEN",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 3128429,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 7.55,
       "slot": "BE"
      }
     ],
