@@ -21,7 +21,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Brock Bowers",
       "nfl": "LV",
       "pctOwned": 0,
@@ -281,7 +281,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jaylen Waddle",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -448,16 +448,16 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Ja'Kobi Lane",
-      "nfl": "BAL",
+      "injured": true,
+      "injuryStatus": "INJURY_RESERVE",
+      "name": "Jonah Coleman",
+      "nfl": "DEN",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": 4870847,
+      "playerId": 4702555,
       "points": 0.0,
-      "pos": "WR",
-      "proj": 3.86,
+      "pos": "RB",
+      "proj": 0.0,
       "slot": "BE"
      }
     ],
@@ -791,7 +791,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Travis Kelce",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1532,7 +1532,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 19.15,
-      "slot": "BE"
+      "slot": "QB"
      },
      {
       "acquisitionType": null,
@@ -1588,7 +1588,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 16.89,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1635,7 +1635,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 101.91942386,
+    "projected": 104.18184498,
     "teamId": 2
    },
    "home": {
@@ -1769,7 +1769,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Mike Washington Jr.",
       "nfl": "LV",
       "pctOwned": 0,
@@ -1797,7 +1797,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Brian Robinson Jr.",
       "nfl": "ATL",
       "pctOwned": 0,
