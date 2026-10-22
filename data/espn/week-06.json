@@ -239,7 +239,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Justin Jefferson",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -407,7 +407,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jordan Love",
       "nfl": "GB",
       "pctOwned": 0,
@@ -475,7 +475,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Puka Nacua",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -1217,7 +1217,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "DOUBTFUL",
       "name": "David Montgomery",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1439,7 +1439,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "George Pickens",
       "nfl": "DAL",
       "pctOwned": 0,
@@ -2018,8 +2018,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Zach Charbonnet",
       "nfl": "SEA",
       "pctOwned": 0,
@@ -2139,7 +2139,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "DeVonta Smith",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -2663,7 +2663,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Dallas Goedert",
       "nfl": "PHI",
       "pctOwned": 0,
