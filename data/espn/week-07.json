@@ -448,16 +448,16 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
-      "name": "Jonah Coleman",
-      "nfl": "DEN",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Seth McGowan",
+      "nfl": "IND",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": 4702555,
+      "playerId": 4686468,
       "points": 0.0,
       "pos": "RB",
-      "proj": 0.0,
+      "proj": 2.5,
       "slot": "BE"
      }
     ],
@@ -1050,7 +1050,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 9.98,
-      "slot": "IR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1078,7 +1078,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "BE"
+      "slot": "IR"
      },
      {
       "acquisitionType": null,

@@ -440,6 +440,27 @@
    ],
    "teamId": 2,
    "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-22T14:54:28.586000+00:00",
+   "id": "c27c3906-0fac-46da-a82a-59df1cc17345",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4686468,
+     "to": 13,
+     "type": "ADD"
+    },
+    {
+     "from": 13,
+     "playerId": 4702555,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 13,
+   "type": "FREEAGENT"
   }
  ],
  "week": 7
