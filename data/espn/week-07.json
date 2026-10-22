@@ -1496,20 +1496,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Justin Herbert",
-      "nfl": "LAC",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4038941,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Jordan Addison",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -1631,6 +1617,20 @@
       "pos": "TE",
       "proj": 8.03,
       "slot": "TE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Kyler Murray",
+      "nfl": "MIN",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 3917315,
+      "points": 0.0,
+      "pos": "QB",
+      "proj": 21.08,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
@@ -1778,7 +1778,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 5.21,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1854,20 +1854,20 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Hunter Henry",
-      "nfl": "NE",
+      "name": "Roschon Johnson",
+      "nfl": "CHI",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": 3046439,
+      "playerId": 4426386,
       "points": 0.0,
-      "pos": "TE",
-      "proj": 6.59,
-      "slot": "BE"
+      "pos": "RB",
+      "proj": 8.41,
+      "slot": "RB"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 118.11825941,
+    "projected": 121.3158181,
     "teamId": 7
    },
    "week": 7,
