@@ -105,7 +105,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Travis Kelce",
       "nfl": "KC",
       "pctOwned": 0,
@@ -175,7 +175,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Tyjae Spears",
       "nfl": "TEN",
       "pctOwned": 0,
@@ -488,8 +488,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Jeremiyah Love",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -517,7 +517,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Bucky Irving",
       "nfl": "TB",
       "pctOwned": 0,
@@ -749,7 +749,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jaylen Waddle",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -777,7 +777,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Christian Watson",
       "nfl": "GB",
       "pctOwned": 0,
@@ -970,8 +970,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Rashee Rice",
       "nfl": "KC",
       "pctOwned": 0,
@@ -985,7 +985,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Quinshon Judkins",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -1096,8 +1096,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Brian Robinson Jr.",
       "nfl": "ATL",
       "pctOwned": 0,
@@ -1216,8 +1216,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "David Montgomery",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1439,7 +1439,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "George Pickens",
       "nfl": "DAL",
       "pctOwned": 0,
@@ -1579,7 +1579,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Dalton Schultz",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1920,8 +1920,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Emeka Egbuka",
       "nfl": "TB",
       "pctOwned": 0,
@@ -2018,8 +2018,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Zach Charbonnet",
       "nfl": "SEA",
       "pctOwned": 0,
@@ -2047,7 +2047,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Denzel Boston",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -2388,8 +2388,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Tyler Warren",
       "nfl": "IND",
       "pctOwned": 0,
@@ -2430,8 +2430,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Mike Evans",
       "nfl": "SF",
       "pctOwned": 0,
@@ -2445,7 +2445,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Matthew Golden",
       "nfl": "GB",
       "pctOwned": 0,
@@ -2719,7 +2719,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Adonai Mitchell",
       "nfl": "NYJ",
       "pctOwned": 0,
