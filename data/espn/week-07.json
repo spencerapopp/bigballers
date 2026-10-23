@@ -55,7 +55,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4723086,
-      "points": 0.0,
+      "points": 16.4,
       "pos": "TE",
       "proj": 9.41,
       "slot": "FLEX"
@@ -83,7 +83,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431611,
-      "points": 1.3,
+      "points": 25.7,
       "pos": "QB",
       "proj": 20.32,
       "slot": "BE"
@@ -153,7 +153,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16017,
-      "points": 12.0,
+      "points": -1.0,
       "pos": "D/ST",
       "proj": 7.25,
       "slot": "BE"
@@ -167,7 +167,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 17427,
-      "points": 4.0,
+      "points": 14.0,
       "pos": "K",
       "proj": 8.63,
       "slot": "K"
@@ -223,15 +223,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16003,
-      "points": 14.0,
+      "points": 4.0,
       "pos": "D/ST",
       "proj": 8.92,
       "slot": "D/ST"
      }
     ],
     "points": 0.0,
-    "pointsLive": 18.0,
-    "projected": 125.03118447,
+    "pointsLive": 34.4,
+    "projected": 130.31364575,
     "teamId": 3
    },
    "home": {
@@ -1005,7 +1005,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4259545,
-      "points": 1.1,
+      "points": 17.0,
       "pos": "RB",
       "proj": 14.86,
       "slot": "RB"
@@ -1166,8 +1166,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 1.1,
-    "projected": 127.02898752,
+    "pointsLive": 17.0,
+    "projected": 130.18264876,
     "teamId": 11
    },
    "home": {
@@ -1705,7 +1705,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431452,
-      "points": 1.15,
+      "points": 33.65,
       "pos": "QB",
       "proj": 24.24,
       "slot": "QB"
@@ -1719,7 +1719,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4432710,
-      "points": 3.0,
+      "points": 3.3,
       "pos": "RB",
       "proj": 6.67,
       "slot": "BE"
@@ -1733,7 +1733,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685278,
-      "points": 3.1,
+      "points": 21.7,
       "pos": "WR",
       "proj": 10.14,
       "slot": "FLEX"
@@ -1859,15 +1859,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426386,
-      "points": 0.0,
+      "points": 1.3,
       "pos": "RB",
       "proj": 8.41,
       "slot": "RB"
      }
     ],
     "points": 0.0,
-    "pointsLive": 4.25,
-    "projected": 119.48218465,
+    "pointsLive": 56.65,
+    "projected": 135.17953952,
     "teamId": 7
    },
    "week": 7,
@@ -2085,6 +2085,20 @@
       "pos": "QB",
       "proj": 17.93,
       "slot": "QB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Aaron Jones Sr.",
+      "nfl": "MIN",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 3042519,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 10.92,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
@@ -2159,7 +2173,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431299,
-      "points": 0.0,
+      "points": 8.9,
       "pos": "WR",
       "proj": 8.47,
       "slot": "BE"
@@ -2266,20 +2280,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Najee Harris",
-      "nfl": "FA",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4241457,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Tommy Tremble",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -2299,7 +2299,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4427095,
-      "points": 0.0,
+      "points": 3.8,
       "pos": "WR",
       "proj": 8.66,
       "slot": "WR"
@@ -2317,11 +2317,25 @@
       "pos": "RB",
       "proj": 5.2,
       "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Tyler Bass",
+      "nfl": "BUF",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 3917232,
+      "points": 0.0,
+      "pos": "K",
+      "proj": 0.0,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 97.39337314,
+    "pointsLive": 3.8,
+    "projected": 93.7618405,
     "teamId": 6
    },
    "week": 7,
@@ -2367,7 +2381,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4047646,
-      "points": 0.0,
+      "points": 6.3,
       "pos": "WR",
       "proj": 13.29,
       "slot": "WR"
@@ -2409,7 +2423,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4569173,
-      "points": 2.5,
+      "points": 20.0,
       "pos": "RB",
       "proj": 10.17,
       "slot": "RB"
@@ -2549,15 +2563,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3046439,
-      "points": 0.0,
+      "points": 10.6,
       "pos": "TE",
       "proj": 6.59,
       "slot": "TE"
      }
     ],
     "points": 0.0,
-    "pointsLive": 2.5,
-    "projected": 124.55511403,
+    "pointsLive": 36.9,
+    "projected": 133.17962626,
     "teamId": 9
    },
    "home": {
