@@ -791,8 +791,8 @@
      "injuryStatus": "QUESTIONABLE",
      "name": "DJ Moore",
      "nfl": "BUF",
-     "pctOwned": 89.8,
-     "pctStarted": 8.3,
+     "pctOwned": 89.7,
+     "pctStarted": 8.2,
      "playerId": 3915416,
      "pos": "WR",
      "slot": "BE"
@@ -804,7 +804,7 @@
      "name": "Dalton Kincaid",
      "nfl": "BUF",
      "pctOwned": 78.8,
-     "pctStarted": 7.5,
+     "pctStarted": 7.4,
      "playerId": 4385690,
      "pos": "TE",
      "slot": "BE"
@@ -815,7 +815,7 @@
      "injuryStatus": "ACTIVE",
      "name": "Daniel Jones",
      "nfl": "IND",
-     "pctOwned": 14.1,
+     "pctOwned": 14.0,
      "pctStarted": 2.9,
      "playerId": 3917792,
      "pos": "QB",
@@ -828,7 +828,7 @@
      "name": "Saquon Barkley",
      "nfl": "PHI",
      "pctOwned": 98.0,
-     "pctStarted": 55.5,
+     "pctStarted": 55.7,
      "playerId": 3929630,
      "pos": "RB",
      "slot": "BE"
@@ -888,7 +888,7 @@
      "name": "Davante Adams",
      "nfl": "LAR",
      "pctOwned": 93.1,
-     "pctStarted": 18.4,
+     "pctStarted": 18.2,
      "playerId": 16800,
      "pos": "WR",
      "slot": "IR"
@@ -900,7 +900,7 @@
      "name": "Chase McLaughlin",
      "nfl": "TB",
      "pctOwned": 24.6,
-     "pctStarted": 21.6,
+     "pctStarted": 21.7,
      "playerId": 3150744,
      "pos": "K",
      "slot": "K"
@@ -948,7 +948,7 @@
      "name": "Travis Kelce",
      "nfl": "KC",
      "pctOwned": 93.4,
-     "pctStarted": 57.1,
+     "pctStarted": 57.2,
      "playerId": 15847,
      "pos": "TE",
      "slot": "TE"
@@ -959,8 +959,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Chris Godwin Jr.",
      "nfl": "TB",
-     "pctOwned": 48.5,
-     "pctStarted": 9.7,
+     "pctOwned": 49.0,
+     "pctStarted": 10.3,
      "playerId": 3116165,
      "pos": "WR",
      "slot": "WR"
@@ -971,8 +971,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Malik Washington",
      "nfl": "MIA",
-     "pctOwned": 38.8,
-     "pctStarted": 15.0,
+     "pctOwned": 38.9,
+     "pctStarted": 15.1,
      "playerId": 4569603,
      "pos": "WR",
      "slot": "WR"
@@ -1010,7 +1010,7 @@
      "name": "Bo Nix",
      "nfl": "DEN",
      "pctOwned": 58.9,
-     "pctStarted": 21.9,
+     "pctStarted": 22.0,
      "playerId": 4426338,
      "pos": "QB",
      "slot": "BE"
@@ -1045,8 +1045,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Jordan Addison",
      "nfl": "MIN",
-     "pctOwned": 73.9,
-     "pctStarted": 19.5,
+     "pctOwned": 74.0,
+     "pctStarted": 19.8,
      "playerId": 4429205,
      "pos": "WR",
      "slot": "BE"
@@ -1057,7 +1057,7 @@
      "injuryStatus": "ACTIVE",
      "name": "Josh Downs",
      "nfl": "IND",
-     "pctOwned": 68.7,
+     "pctOwned": 68.6,
      "pctStarted": 14.3,
      "playerId": 4688813,
      "pos": "WR",
@@ -1070,7 +1070,7 @@
      "name": "Parker Washington",
      "nfl": "JAX",
      "pctOwned": 95.0,
-     "pctStarted": 9.6,
+     "pctStarted": 9.5,
      "playerId": 4432620,
      "pos": "WR",
      "slot": "BE"
@@ -1093,8 +1093,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Omar Cooper Jr.",
      "nfl": "NYJ",
-     "pctOwned": 35.4,
-     "pctStarted": 8.5,
+     "pctOwned": 35.3,
+     "pctStarted": 8.6,
      "playerId": 4723820,
      "pos": "WR",
      "slot": "FLEX"
@@ -1105,7 +1105,7 @@
      "injuryStatus": "INJURY_RESERVE",
      "name": "Jonathon Brooks",
      "nfl": "CAR",
-     "pctOwned": 36.5,
+     "pctOwned": 36.4,
      "pctStarted": 0.6,
      "playerId": 4678008,
      "pos": "RB",
@@ -1129,8 +1129,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Kyler Murray",
      "nfl": "MIN",
-     "pctOwned": 59.9,
-     "pctStarted": 29.1,
+     "pctOwned": 60.0,
+     "pctStarted": 29.2,
      "playerId": 3917315,
      "pos": "QB",
      "slot": "QB"
@@ -1154,7 +1154,7 @@
      "name": "Chase Brown",
      "nfl": "CIN",
      "pctOwned": 98.8,
-     "pctStarted": 78.0,
+     "pctStarted": 78.2,
      "playerId": 4362238,
      "pos": "RB",
      "slot": "RB"
@@ -1165,8 +1165,8 @@
      "injuryStatus": "ACTIVE",
      "name": "T.J. Hockenson",
      "nfl": "MIN",
-     "pctOwned": 61.2,
-     "pctStarted": 20.7,
+     "pctOwned": 61.3,
+     "pctStarted": 21.0,
      "playerId": 4036133,
      "pos": "TE",
      "slot": "TE"
@@ -1177,8 +1177,8 @@
      "injuryStatus": "QUESTIONABLE",
      "name": "DeVonta Smith",
      "nfl": "PHI",
-     "pctOwned": 98.2,
-     "pctStarted": 75.0,
+     "pctOwned": 98.1,
+     "pctStarted": 72.5,
      "playerId": 4241478,
      "pos": "WR",
      "slot": "WR"
@@ -1189,8 +1189,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Tee Higgins",
      "nfl": "CIN",
-     "pctOwned": 96.4,
-     "pctStarted": 66.2,
+     "pctOwned": 96.5,
+     "pctStarted": 66.4,
      "playerId": 4239993,
      "pos": "WR",
      "slot": "WR"
@@ -1239,8 +1239,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Bhayshul Tuten",
      "nfl": "JAX",
-     "pctOwned": 92.9,
-     "pctStarted": 13.6,
+     "pctOwned": 92.8,
+     "pctStarted": 13.4,
      "playerId": 4882093,
      "pos": "RB",
      "slot": "BE"
@@ -1264,7 +1264,7 @@
      "name": "Michael Wilson",
      "nfl": "ARI",
      "pctOwned": 90.3,
-     "pctStarted": 48.6,
+     "pctStarted": 48.8,
      "playerId": 4360761,
      "pos": "WR",
      "slot": "BE"
@@ -1287,7 +1287,7 @@
      "injuryStatus": "ACTIVE",
      "name": "Sam Darnold",
      "nfl": "SEA",
-     "pctOwned": 32.1,
+     "pctOwned": 32.0,
      "pctStarted": 9.1,
      "playerId": 3912547,
      "pos": "QB",
@@ -1347,8 +1347,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Jordan Love",
      "nfl": "GB",
-     "pctOwned": 90.1,
-     "pctStarted": 71.7,
+     "pctOwned": 90.2,
+     "pctStarted": 71.8,
      "playerId": 4036378,
      "pos": "QB",
      "slot": "QB"
@@ -1360,7 +1360,7 @@
      "name": "Jaylen Warren",
      "nfl": "PIT",
      "pctOwned": 96.1,
-     "pctStarted": 85.3,
+     "pctStarted": 85.4,
      "playerId": 4569987,
      "pos": "RB",
      "slot": "RB"
@@ -1371,8 +1371,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Woody Marks",
      "nfl": "HOU",
-     "pctOwned": 77.7,
-     "pctStarted": 46.4,
+     "pctOwned": 77.8,
+     "pctStarted": 46.7,
      "playerId": 4429059,
      "pos": "RB",
      "slot": "RB"
@@ -1408,7 +1408,7 @@
      "name": "Justin Jefferson",
      "nfl": "MIN",
      "pctOwned": 99.9,
-     "pctStarted": 85.7,
+     "pctStarted": 85.9,
      "playerId": 4262921,
      "pos": "WR",
      "slot": "WR"
@@ -1446,7 +1446,7 @@
      "name": "Adonai Mitchell",
      "nfl": "NYJ",
      "pctOwned": 15.1,
-     "pctStarted": 0.8,
+     "pctStarted": 0.9,
      "playerId": 4597500,
      "pos": "WR",
      "slot": "BE"
@@ -1458,7 +1458,7 @@
      "name": "Dallas Goedert",
      "nfl": "PHI",
      "pctOwned": 84.8,
-     "pctStarted": 52.3,
+     "pctStarted": 52.1,
      "playerId": 3121023,
      "pos": "TE",
      "slot": "BE"
@@ -1470,7 +1470,7 @@
      "name": "Jameson Williams",
      "nfl": "DET",
      "pctOwned": 90.3,
-     "pctStarted": 37.4,
+     "pctStarted": 37.6,
      "playerId": 4426388,
      "pos": "WR",
      "slot": "BE"
@@ -1493,8 +1493,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Rams D/ST",
      "nfl": "LAR",
-     "pctOwned": 74.0,
-     "pctStarted": 55.9,
+     "pctOwned": 73.9,
+     "pctStarted": 55.8,
      "playerId": -16014,
      "pos": "D/ST",
      "slot": "BE"
@@ -1505,8 +1505,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Xavier Worthy",
      "nfl": "KC",
-     "pctOwned": 77.6,
-     "pctStarted": 34.8,
+     "pctOwned": 77.7,
+     "pctStarted": 35.1,
      "playerId": 4683062,
      "pos": "WR",
      "slot": "BE"
@@ -1517,8 +1517,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Jets D/ST",
      "nfl": "NYJ",
-     "pctOwned": 66.1,
-     "pctStarted": 63.2,
+     "pctOwned": 66.2,
+     "pctStarted": 63.3,
      "playerId": -16020,
      "pos": "D/ST",
      "slot": "D/ST"
@@ -1530,7 +1530,7 @@
      "name": "Aaron Jones Sr.",
      "nfl": "MIN",
      "pctOwned": 93.2,
-     "pctStarted": 53.1,
+     "pctStarted": 53.2,
      "playerId": 3042519,
      "pos": "RB",
      "slot": "FLEX"
@@ -1601,8 +1601,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Pat Freiermuth",
      "nfl": "PIT",
-     "pctOwned": 59.8,
-     "pctStarted": 35.7,
+     "pctOwned": 59.9,
+     "pctStarted": 35.8,
      "playerId": 4361411,
      "pos": "TE",
      "slot": "TE"
@@ -1664,7 +1664,7 @@
      "name": "Jakobi Meyers",
      "nfl": "JAX",
      "pctOwned": 67.8,
-     "pctStarted": 3.2,
+     "pctStarted": 3.1,
      "playerId": 3916433,
      "pos": "WR",
      "slot": "BE"
@@ -1676,7 +1676,7 @@
      "name": "Jeremiyah Love",
      "nfl": "ARI",
      "pctOwned": 95.4,
-     "pctStarted": 25.9,
+     "pctStarted": 25.6,
      "playerId": 4870808,
      "pos": "RB",
      "slot": "BE"
@@ -1688,7 +1688,7 @@
      "name": "Josh Jacobs",
      "nfl": "GB",
      "pctOwned": 89.9,
-     "pctStarted": 36.9,
+     "pctStarted": 37.1,
      "playerId": 4047365,
      "pos": "RB",
      "slot": "BE"
@@ -1711,8 +1711,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Tre Tucker",
      "nfl": "LV",
-     "pctOwned": 58.4,
-     "pctStarted": 27.7,
+     "pctOwned": 58.5,
+     "pctStarted": 27.9,
      "playerId": 4428718,
      "pos": "WR",
      "slot": "BE"
@@ -1724,7 +1724,7 @@
      "name": "Vikings D/ST",
      "nfl": "MIN",
      "pctOwned": 92.5,
-     "pctStarted": 86.2,
+     "pctStarted": 86.3,
      "playerId": -16016,
      "pos": "D/ST",
      "slot": "BE"
@@ -1736,7 +1736,7 @@
      "name": "Seahawks D/ST",
      "nfl": "SEA",
      "pctOwned": 92.6,
-     "pctStarted": 71.7,
+     "pctStarted": 71.6,
      "playerId": -16026,
      "pos": "D/ST",
      "slot": "D/ST"
@@ -1747,8 +1747,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Emanuel Wilson",
      "nfl": "SEA",
-     "pctOwned": 67.9,
-     "pctStarted": 23.5,
+     "pctOwned": 68.0,
+     "pctStarted": 23.9,
      "playerId": 4887558,
      "pos": "RB",
      "slot": "FLEX"
@@ -1784,7 +1784,7 @@
      "name": "Jayden Daniels",
      "nfl": "WSH",
      "pctOwned": 92.2,
-     "pctStarted": 18.5,
+     "pctStarted": 18.4,
      "playerId": 4426348,
      "pos": "QB",
      "slot": "QB"
@@ -1796,7 +1796,7 @@
      "name": "Bucky Irving",
      "nfl": "TB",
      "pctOwned": 97.1,
-     "pctStarted": 80.6,
+     "pctStarted": 80.7,
      "playerId": 4596448,
      "pos": "RB",
      "slot": "RB"
@@ -1820,7 +1820,7 @@
      "name": "Harold Fannin Jr.",
      "nfl": "CLE",
      "pctOwned": 86.4,
-     "pctStarted": 54.6,
+     "pctStarted": 54.5,
      "playerId": 5083076,
      "pos": "TE",
      "slot": "TE"
@@ -1832,7 +1832,7 @@
      "name": "Carnell Tate",
      "nfl": "TEN",
      "pctOwned": 87.1,
-     "pctStarted": 41.5,
+     "pctStarted": 41.6,
      "playerId": 4871023,
      "pos": "WR",
      "slot": "WR"
@@ -1844,7 +1844,7 @@
      "name": "Puka Nacua",
      "nfl": "LAR",
      "pctOwned": 99.9,
-     "pctStarted": 93.8,
+     "pctStarted": 91.2,
      "playerId": 4426515,
      "pos": "WR",
      "slot": "WR"
@@ -1882,7 +1882,7 @@
      "name": "Josh Allen",
      "nfl": "BUF",
      "pctOwned": 99.9,
-     "pctStarted": 22.6,
+     "pctStarted": 22.3,
      "playerId": 3918298,
      "pos": "QB",
      "slot": "BE"
@@ -1906,7 +1906,7 @@
      "name": "Kyle Pitts Sr.",
      "nfl": "ATL",
      "pctOwned": 81.1,
-     "pctStarted": 52.8,
+     "pctStarted": 52.9,
      "playerId": 4360248,
      "pos": "TE",
      "slot": "BE"
@@ -1966,7 +1966,7 @@
      "name": "George Pickens",
      "nfl": "DAL",
      "pctOwned": 98.9,
-     "pctStarted": 81.9,
+     "pctStarted": 82.0,
      "playerId": 4426354,
      "pos": "WR",
      "slot": "FLEX"
@@ -1990,7 +1990,7 @@
      "name": "Brandon Aubrey",
      "nfl": "DAL",
      "pctOwned": 94.2,
-     "pctStarted": 87.4,
+     "pctStarted": 87.3,
      "playerId": 3953687,
      "pos": "K",
      "slot": "K"
@@ -2014,7 +2014,7 @@
      "name": "Cam Skattebo",
      "nfl": "NYG",
      "pctOwned": 91.8,
-     "pctStarted": 36.5,
+     "pctStarted": 36.4,
      "playerId": 4696981,
      "pos": "RB",
      "slot": "RB"
@@ -2061,8 +2061,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Jalen Coker",
      "nfl": "CAR",
-     "pctOwned": 90.2,
-     "pctStarted": 67.3,
+     "pctOwned": 90.3,
+     "pctStarted": 67.5,
      "playerId": 4695883,
      "pos": "WR",
      "slot": "WR"
@@ -2099,8 +2099,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Dameon Pierce",
      "nfl": "PHI",
-     "pctOwned": 44.7,
-     "pctStarted": 13.1,
+     "pctOwned": 44.6,
+     "pctStarted": 13.0,
      "playerId": 4360238,
      "pos": "RB",
      "slot": "BE"
@@ -2111,8 +2111,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Jaylin Noel",
      "nfl": "HOU",
-     "pctOwned": 22.8,
-     "pctStarted": 8.9,
+     "pctOwned": 22.9,
+     "pctStarted": 9.1,
      "playerId": 4586312,
      "pos": "WR",
      "slot": "BE"
@@ -2136,7 +2136,7 @@
      "name": "Rashee Rice",
      "nfl": "KC",
      "pctOwned": 94.8,
-     "pctStarted": 17.4,
+     "pctStarted": 17.3,
      "playerId": 4428331,
      "pos": "WR",
      "slot": "BE"
@@ -2159,8 +2159,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Tyler Allgeier",
      "nfl": "ARI",
-     "pctOwned": 53.6,
-     "pctStarted": 25.0,
+     "pctOwned": 53.8,
+     "pctStarted": 25.3,
      "playerId": 4373626,
      "pos": "RB",
      "slot": "BE"
@@ -2207,8 +2207,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Will Reichard",
      "nfl": "MIN",
-     "pctOwned": 87.1,
-     "pctStarted": 80.7,
+     "pctOwned": 87.2,
+     "pctStarted": 80.8,
      "playerId": 4567104,
      "pos": "K",
      "slot": "K"
@@ -2232,7 +2232,7 @@
      "name": "Quinshon Judkins",
      "nfl": "CLE",
      "pctOwned": 93.6,
-     "pctStarted": 55.0,
+     "pctStarted": 55.3,
      "playerId": 4685702,
      "pos": "RB",
      "slot": "RB"
@@ -2318,7 +2318,7 @@
      "name": "Courtland Sutton",
      "nfl": "DEN",
      "pctOwned": 66.0,
-     "pctStarted": 17.7,
+     "pctStarted": 17.8,
      "playerId": 3128429,
      "pos": "WR",
      "slot": "BE"
@@ -2330,7 +2330,7 @@
      "name": "Denzel Boston",
      "nfl": "CLE",
      "pctOwned": 80.0,
-     "pctStarted": 36.4,
+     "pctStarted": 36.7,
      "playerId": 4832800,
      "pos": "WR",
      "slot": "BE"
@@ -2341,8 +2341,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Devaughn Vele",
      "nfl": "NO",
-     "pctOwned": 64.0,
-     "pctStarted": 22.3,
+     "pctOwned": 63.9,
+     "pctStarted": 22.4,
      "playerId": 4569559,
      "pos": "WR",
      "slot": "BE"
@@ -2354,7 +2354,7 @@
      "name": "Lamar Jackson",
      "nfl": "BAL",
      "pctOwned": 98.6,
-     "pctStarted": 34.7,
+     "pctStarted": 34.9,
      "playerId": 3916387,
      "pos": "QB",
      "slot": "BE"
@@ -2389,7 +2389,7 @@
      "injuryStatus": "ACTIVE",
      "name": "Ravens D/ST",
      "nfl": "BAL",
-     "pctOwned": 73.6,
+     "pctOwned": 73.5,
      "pctStarted": 59.6,
      "playerId": -16033,
      "pos": "D/ST",
@@ -2402,7 +2402,7 @@
      "name": "Chuba Hubbard",
      "nfl": "CAR",
      "pctOwned": 95.2,
-     "pctStarted": 77.2,
+     "pctStarted": 77.3,
      "playerId": 4241416,
      "pos": "RB",
      "slot": "FLEX"
@@ -2413,8 +2413,8 @@
      "injuryStatus": "OUT",
      "name": "Zach Charbonnet",
      "nfl": "SEA",
-     "pctOwned": 67.3,
-     "pctStarted": 5.7,
+     "pctOwned": 67.2,
+     "pctStarted": 5.0,
      "playerId": 4426385,
      "pos": "RB",
      "slot": "IR"
@@ -2474,7 +2474,7 @@
      "name": "Sam LaPorta",
      "nfl": "DET",
      "pctOwned": 96.5,
-     "pctStarted": 72.7,
+     "pctStarted": 72.8,
      "playerId": 4430027,
      "pos": "TE",
      "slot": "TE"
@@ -2486,7 +2486,7 @@
      "name": "Emeka Egbuka",
      "nfl": "TB",
      "pctOwned": 95.0,
-     "pctStarted": 48.7,
+     "pctStarted": 47.0,
      "playerId": 4567750,
      "pos": "WR",
      "slot": "WR"
@@ -2548,7 +2548,7 @@
      "name": "Ladd McConkey",
      "nfl": "LAC",
      "pctOwned": 85.8,
-     "pctStarted": 10.8,
+     "pctStarted": 10.7,
      "playerId": 4612826,
      "pos": "WR",
      "slot": "BE"
@@ -2560,7 +2560,7 @@
      "name": "Mike Evans",
      "nfl": "SF",
      "pctOwned": 93.6,
-     "pctStarted": 14.7,
+     "pctStarted": 14.3,
      "playerId": 16737,
      "pos": "WR",
      "slot": "BE"
@@ -2572,7 +2572,7 @@
      "name": "RJ Harvey",
      "nfl": "DEN",
      "pctOwned": 77.2,
-     "pctStarted": 36.1,
+     "pctStarted": 36.2,
      "playerId": 4568490,
      "pos": "RB",
      "slot": "BE"
@@ -2584,7 +2584,7 @@
      "name": "Rachaad White",
      "nfl": "WSH",
      "pctOwned": 57.6,
-     "pctStarted": 3.2,
+     "pctStarted": 3.1,
      "playerId": 4697815,
      "pos": "RB",
      "slot": "BE"
@@ -2596,7 +2596,7 @@
      "name": "Tyler Warren",
      "nfl": "IND",
      "pctOwned": 96.4,
-     "pctStarted": 30.3,
+     "pctStarted": 29.9,
      "playerId": 4431459,
      "pos": "TE",
      "slot": "BE"
@@ -2608,7 +2608,7 @@
      "name": "Browns D/ST",
      "nfl": "CLE",
      "pctOwned": 60.0,
-     "pctStarted": 55.2,
+     "pctStarted": 55.3,
      "playerId": -16005,
      "pos": "D/ST",
      "slot": "D/ST"
@@ -2620,7 +2620,7 @@
      "name": "Breece Hall",
      "nfl": "NYJ",
      "pctOwned": 96.4,
-     "pctStarted": 51.0,
+     "pctStarted": 51.1,
      "playerId": 4427366,
      "pos": "RB",
      "slot": "FLEX"
@@ -2643,8 +2643,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Chris Boswell",
      "nfl": "PIT",
-     "pctOwned": 67.1,
-     "pctStarted": 64.0,
+     "pctOwned": 67.2,
+     "pctStarted": 64.2,
      "playerId": 17372,
      "pos": "K",
      "slot": "K"
@@ -2656,7 +2656,7 @@
      "name": "Matthew Stafford",
      "nfl": "LAR",
      "pctOwned": 92.7,
-     "pctStarted": 65.8,
+     "pctStarted": 65.7,
      "playerId": 12483,
      "pos": "QB",
      "slot": "QB"
@@ -2668,7 +2668,7 @@
      "name": "Jahmyr Gibbs",
      "nfl": "DET",
      "pctOwned": 99.9,
-     "pctStarted": 92.1,
+     "pctStarted": 92.2,
      "playerId": 4429795,
      "pos": "RB",
      "slot": "RB"
@@ -2716,7 +2716,7 @@
      "name": "Matthew Golden",
      "nfl": "GB",
      "pctOwned": 93.8,
-     "pctStarted": 76.9,
+     "pctStarted": 77.1,
      "playerId": 4701936,
      "pos": "WR",
      "slot": "WR"
@@ -2753,8 +2753,8 @@
      "injuryStatus": "ACTIVE",
      "name": "C.J. Stroud",
      "nfl": "HOU",
-     "pctOwned": 76.2,
-     "pctStarted": 57.7,
+     "pctOwned": 76.3,
+     "pctStarted": 57.8,
      "playerId": 4432577,
      "pos": "QB",
      "slot": "BE"
@@ -2766,7 +2766,7 @@
      "name": "David Montgomery",
      "nfl": "HOU",
      "pctOwned": 83.7,
-     "pctStarted": 10.4,
+     "pctStarted": 10.3,
      "playerId": 4035538,
      "pos": "RB",
      "slot": "BE"
@@ -2777,7 +2777,7 @@
      "injuryStatus": "ACTIVE",
      "name": "Kenyon Sadiq",
      "nfl": "NYJ",
-     "pctOwned": 28.2,
+     "pctOwned": 28.1,
      "pctStarted": 4.3,
      "playerId": 5083315,
      "pos": "TE",
@@ -2790,7 +2790,7 @@
      "name": "Khalil Shakir",
      "nfl": "BUF",
      "pctOwned": 59.1,
-     "pctStarted": 3.1,
+     "pctStarted": 3.0,
      "playerId": 4373678,
      "pos": "WR",
      "slot": "BE"
@@ -2837,8 +2837,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Juwan Johnson",
      "nfl": "NO",
-     "pctOwned": 70.7,
-     "pctStarted": 30.0,
+     "pctOwned": 70.6,
+     "pctStarted": 29.9,
      "playerId": 3929645,
      "pos": "TE",
      "slot": "FLEX"
@@ -2874,7 +2874,7 @@
      "name": "Joe Burrow",
      "nfl": "CIN",
      "pctOwned": 98.0,
-     "pctStarted": 66.3,
+     "pctStarted": 66.5,
      "playerId": 3915511,
      "pos": "QB",
      "slot": "QB"
@@ -2885,7 +2885,7 @@
      "injuryStatus": "ACTIVE",
      "name": "Kendre Miller",
      "nfl": "NO",
-     "pctOwned": 42.4,
+     "pctOwned": 42.5,
      "pctStarted": 21.5,
      "playerId": 4599739,
      "pos": "RB",
@@ -2898,7 +2898,7 @@
      "name": "Ollie Gordon II",
      "nfl": "MIA",
      "pctOwned": 79.8,
-     "pctStarted": 51.1,
+     "pctStarted": 51.3,
      "playerId": 4711533,
      "pos": "RB",
      "slot": "RB"
@@ -2922,7 +2922,7 @@
      "name": "Amon-Ra St. Brown",
      "nfl": "DET",
      "pctOwned": 99.9,
-     "pctStarted": 90.5,
+     "pctStarted": 90.7,
      "playerId": 4374302,
      "pos": "WR",
      "slot": "WR"
@@ -2934,7 +2934,7 @@
      "name": "Garrett Wilson",
      "nfl": "NYJ",
      "pctOwned": 98.8,
-     "pctStarted": 87.2,
+     "pctStarted": 87.3,
      "playerId": 4569618,
      "pos": "WR",
      "slot": "WR"
@@ -2983,8 +2983,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Germie Bernard",
      "nfl": "PIT",
-     "pctOwned": 78.8,
-     "pctStarted": 55.3,
+     "pctOwned": 78.9,
+     "pctStarted": 55.6,
      "playerId": 4685261,
      "pos": "WR",
      "slot": "BE"
@@ -3056,7 +3056,7 @@
      "name": "DK Metcalf",
      "nfl": "PIT",
      "pctOwned": 90.9,
-     "pctStarted": 62.5,
+     "pctStarted": 62.6,
      "playerId": 4047650,
      "pos": "WR",
      "slot": "FLEX"
@@ -3080,7 +3080,7 @@
      "name": "Spencer Shrader",
      "nfl": "IND",
      "pctOwned": 86.5,
-     "pctStarted": 81.0,
+     "pctStarted": 80.9,
      "playerId": 4571557,
      "pos": "K",
      "slot": "K"
@@ -3092,7 +3092,7 @@
      "name": "Jared Goff",
      "nfl": "DET",
      "pctOwned": 90.6,
-     "pctStarted": 49.3,
+     "pctStarted": 49.4,
      "playerId": 3046779,
      "pos": "QB",
      "slot": "QB"
@@ -3140,7 +3140,7 @@
      "name": "Ja'Marr Chase",
      "nfl": "CIN",
      "pctOwned": 99.9,
-     "pctStarted": 89.7,
+     "pctStarted": 89.9,
      "playerId": 4362628,
      "pos": "WR",
      "slot": "WR"
@@ -3152,7 +3152,7 @@
      "name": "Tetairoa McMillan",
      "nfl": "CAR",
      "pctOwned": 98.6,
-     "pctStarted": 87.2,
+     "pctStarted": 87.3,
      "playerId": 4685472,
      "pos": "WR",
      "slot": "WR"
@@ -3202,7 +3202,7 @@
      "name": "James Cook III",
      "nfl": "BUF",
      "pctOwned": 99.9,
-     "pctStarted": 22.4,
+     "pctStarted": 22.2,
      "playerId": 4379399,
      "pos": "RB",
      "slot": "BE"
@@ -3213,8 +3213,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Marvin Harrison Jr.",
      "nfl": "HOU",
-     "pctOwned": 74.3,
-     "pctStarted": 13.4,
+     "pctOwned": 74.2,
+     "pctStarted": 13.5,
      "playerId": 4432708,
      "pos": "WR",
      "slot": "BE"
@@ -3226,7 +3226,7 @@
      "name": "Omarion Hampton",
      "nfl": "LAC",
      "pctOwned": 92.2,
-     "pctStarted": 19.7,
+     "pctStarted": 19.6,
      "playerId": 4685382,
      "pos": "RB",
      "slot": "BE"
@@ -3250,7 +3250,7 @@
      "name": "Trevor Lawrence",
      "nfl": "JAX",
      "pctOwned": 88.5,
-     "pctStarted": 12.2,
+     "pctStarted": 12.1,
      "playerId": 4360310,
      "pos": "QB",
      "slot": "BE"
@@ -3274,7 +3274,7 @@
      "name": "Jaylen Waddle",
      "nfl": "DEN",
      "pctOwned": 89.6,
-     "pctStarted": 40.1,
+     "pctStarted": 40.3,
      "playerId": 4372016,
      "pos": "WR",
      "slot": "FLEX"
@@ -3309,8 +3309,8 @@
      "injuryStatus": "ACTIVE",
      "name": "Aaron Rodgers",
      "nfl": "PIT",
-     "pctOwned": 54.0,
-     "pctStarted": 39.6,
+     "pctOwned": 54.1,
+     "pctStarted": 39.7,
      "playerId": 8439,
      "pos": "QB",
      "slot": "QB"
@@ -3322,7 +3322,7 @@
      "name": "Blake Corum",
      "nfl": "LAR",
      "pctOwned": 73.7,
-     "pctStarted": 29.2,
+     "pctStarted": 29.3,
      "playerId": 4429096,
      "pos": "RB",
      "slot": "RB"
@@ -3334,7 +3334,7 @@
      "name": "J.K. Dobbins",
      "nfl": "DEN",
      "pctOwned": 84.7,
-     "pctStarted": 53.8,
+     "pctStarted": 53.9,
      "playerId": 4241985,
      "pos": "RB",
      "slot": "RB"
@@ -3346,7 +3346,7 @@
      "name": "Tucker Kraft",
      "nfl": "GB",
      "pctOwned": 91.4,
-     "pctStarted": 72.4,
+     "pctStarted": 72.5,
      "playerId": 4572680,
      "pos": "TE",
      "slot": "TE"
@@ -3358,7 +3358,7 @@
      "name": "Christian Watson",
      "nfl": "GB",
      "pctOwned": 96.8,
-     "pctStarted": 82.1,
+     "pctStarted": 82.2,
      "playerId": 4248528,
      "pos": "WR",
      "slot": "WR"
