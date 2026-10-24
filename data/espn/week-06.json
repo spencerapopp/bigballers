@@ -434,8 +434,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "Tank Dell",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1740,8 +1740,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "Jordan Mason",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -1934,8 +1934,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Lamar Jackson",
       "nfl": "BAL",
       "pctOwned": 0,
@@ -2138,8 +2138,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "DeVonta Smith",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -2663,7 +2663,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Dallas Goedert",
       "nfl": "PHI",
       "pctOwned": 0,

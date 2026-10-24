@@ -43,7 +43,7 @@
       "playerId": 4361370,
       "points": 0.0,
       "pos": "WR",
-      "proj": 12.51,
+      "proj": 12.5,
       "slot": "WR"
      },
      {
@@ -127,7 +127,7 @@
       "playerId": 4429059,
       "points": 0.0,
       "pos": "RB",
-      "proj": 12.96,
+      "proj": 13.3,
       "slot": "RB"
      },
      {
@@ -155,7 +155,7 @@
       "playerId": -16017,
       "points": -1.0,
       "pos": "D/ST",
-      "proj": 7.26,
+      "proj": 7.07,
       "slot": "BE"
      },
      {
@@ -202,8 +202,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "Tank Dell",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -211,7 +211,7 @@
       "playerId": 4366031,
       "points": 0.0,
       "pos": "WR",
-      "proj": 1.42,
+      "proj": 1.89,
       "slot": "IR"
      },
      {
@@ -225,13 +225,13 @@
       "playerId": -16003,
       "points": 4.0,
       "pos": "D/ST",
-      "proj": 8.92,
+      "proj": 8.73,
       "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 34.4,
-    "projected": 130.28375712,
+    "projected": 130.62226742,
     "teamId": 3
    },
    "home": {
@@ -275,7 +275,7 @@
       "playerId": 4429615,
       "points": 0.0,
       "pos": "WR",
-      "proj": 13.24,
+      "proj": 11.88,
       "slot": "WR"
      },
      {
@@ -415,7 +415,7 @@
       "playerId": 4432708,
       "points": 0.0,
       "pos": "WR",
-      "proj": 6.22,
+      "proj": 6.2,
       "slot": "BE"
      },
      {
@@ -463,7 +463,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 113.87538182,
+    "projected": 112.51824861,
     "teamId": 13
    },
    "week": 7,
@@ -539,7 +539,7 @@
       "playerId": 3915511,
       "points": 0.0,
       "pos": "QB",
-      "proj": 23.53,
+      "proj": 23.41,
       "slot": "QB"
      },
      {
@@ -553,7 +553,7 @@
       "playerId": -16034,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 11.42,
+      "proj": 11.31,
       "slot": "D/ST"
      },
      {
@@ -623,7 +623,7 @@
       "playerId": 3929645,
       "points": 0.0,
       "pos": "TE",
-      "proj": 6.87,
+      "proj": 6.86,
       "slot": "FLEX"
      },
      {
@@ -637,7 +637,7 @@
       "playerId": 4432577,
       "points": 0.0,
       "pos": "QB",
-      "proj": 23.22,
+      "proj": 23.25,
       "slot": "BE"
      },
      {
@@ -699,7 +699,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 110.80555539,
+    "projected": 110.57017213,
     "teamId": 10
    },
    "home": {
@@ -729,7 +729,7 @@
       "playerId": 3929630,
       "points": 0.0,
       "pos": "RB",
-      "proj": 14.12,
+      "proj": 14.11,
       "slot": "BE"
      },
      {
@@ -771,7 +771,7 @@
       "playerId": 2577417,
       "points": 0.0,
       "pos": "QB",
-      "proj": 20.42,
+      "proj": 20.45,
       "slot": "QB"
      },
      {
@@ -869,7 +869,7 @@
       "playerId": -16011,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 6.65,
+      "proj": 6.45,
       "slot": "D/ST"
      },
      {
@@ -911,7 +911,7 @@
       "playerId": 3116165,
       "points": 0.0,
       "pos": "WR",
-      "proj": 8.51,
+      "proj": 8.53,
       "slot": "WR"
      },
      {
@@ -931,7 +931,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 92.48807331,
+    "projected": 92.34352302,
     "teamId": 1
    },
    "week": 7,
@@ -951,7 +951,7 @@
       "playerId": 4362628,
       "points": 0.0,
       "pos": "WR",
-      "proj": 17.98,
+      "proj": 17.76,
       "slot": "WR"
      },
      {
@@ -979,7 +979,7 @@
       "playerId": 4361579,
       "points": 0.0,
       "pos": "RB",
-      "proj": 15.57,
+      "proj": 15.77,
       "slot": "RB"
      },
      {
@@ -1040,8 +1040,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "Jordan Mason",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -1063,7 +1063,7 @@
       "playerId": 4371733,
       "points": 0.0,
       "pos": "RB",
-      "proj": 5.39,
+      "proj": 5.4,
       "slot": "BE"
      },
      {
@@ -1167,7 +1167,7 @@
     ],
     "points": 0.0,
     "pointsLive": 17.0,
-    "projected": 130.07972979,
+    "projected": 130.05892183,
     "teamId": 11
    },
    "home": {
@@ -1225,7 +1225,7 @@
       "playerId": 4596448,
       "points": 0.0,
       "pos": "RB",
-      "proj": 13.0,
+      "proj": 13.01,
       "slot": "RB"
      },
      {
@@ -1379,7 +1379,7 @@
       "playerId": -16026,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 8.09,
+      "proj": 7.99,
       "slot": "D/ST"
      },
      {
@@ -1399,7 +1399,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 59.07313773,
+    "projected": 58.97631399,
     "teamId": 5
    },
    "week": 7,
@@ -1433,13 +1433,13 @@
       "playerId": 4362238,
       "points": 0.0,
       "pos": "RB",
-      "proj": 12.51,
+      "proj": 12.69,
       "slot": "RB"
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "DeVonta Smith",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -1448,7 +1448,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1461,7 +1461,7 @@
       "playerId": 4239993,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.69,
+      "proj": 11.55,
       "slot": "WR"
      },
      {
@@ -1504,7 +1504,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 9.01,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1559,7 +1559,7 @@
       "playerId": -16025,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 7.78,
+      "proj": 7.68,
       "slot": "D/ST"
      },
      {
@@ -1602,7 +1602,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 6.07,
-      "slot": "FLEX"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1635,7 +1635,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 92.64651961,
+    "projected": 101.60158211,
     "teamId": 2
    },
    "home": {
@@ -1763,7 +1763,7 @@
       "playerId": -16023,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 10.78,
+      "proj": 10.94,
       "slot": "D/ST"
      },
      {
@@ -1819,7 +1819,7 @@
       "playerId": 4360238,
       "points": 0.0,
       "pos": "RB",
-      "proj": 5.82,
+      "proj": 5.81,
       "slot": "BE"
      },
      {
@@ -1833,7 +1833,7 @@
       "playerId": 4586312,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.14,
+      "proj": 7.13,
       "slot": "BE"
      },
      {
@@ -1867,7 +1867,7 @@
     ],
     "points": 0.0,
     "pointsLive": 56.65,
-    "projected": 135.08522109,
+    "projected": 135.24398108,
     "teamId": 7
    },
    "week": 7,
@@ -1887,7 +1887,7 @@
       "playerId": 4241389,
       "points": 0.0,
       "pos": "WR",
-      "proj": 14.89,
+      "proj": 14.95,
       "slot": "WR"
      },
      {
@@ -1949,7 +1949,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Dallas Goedert",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -1957,7 +1957,7 @@
       "playerId": 3121023,
       "points": 0.0,
       "pos": "TE",
-      "proj": 8.74,
+      "proj": 8.73,
       "slot": "BE"
      },
      {
@@ -1985,7 +1985,7 @@
       "playerId": -16014,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 7.76,
+      "proj": 7.57,
       "slot": "BE"
      },
      {
@@ -2041,7 +2041,7 @@
       "playerId": 4697745,
       "points": 0.0,
       "pos": "K",
-      "proj": 8.94,
+      "proj": 8.44,
       "slot": "K"
      },
      {
@@ -2103,7 +2103,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 125.12734219,
+    "projected": 124.69240753,
     "teamId": 4
    },
    "home": {
@@ -2133,7 +2133,7 @@
       "playerId": 3043078,
       "points": 0.0,
       "pos": "RB",
-      "proj": 19.9,
+      "proj": 17.83,
       "slot": "RB"
      },
      {
@@ -2147,7 +2147,7 @@
       "playerId": 4426354,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.54,
+      "proj": 10.59,
       "slot": "FLEX"
      },
      {
@@ -2315,7 +2315,7 @@
       "playerId": 4038441,
       "points": 0.0,
       "pos": "RB",
-      "proj": 5.2,
+      "proj": 4.88,
       "slot": "BE"
      },
      {
@@ -2335,7 +2335,7 @@
     ],
     "points": 0.0,
     "pointsLive": 3.8,
-    "projected": 93.60632441,
+    "projected": 91.57745927,
     "teamId": 6
    },
    "week": 7,
@@ -2571,7 +2571,7 @@
     ],
     "points": 0.0,
     "pointsLive": 36.9,
-    "projected": 133.15488356,
+    "projected": 133.15485994,
     "teamId": 9
    },
    "home": {
@@ -2615,7 +2615,7 @@
       "playerId": 4258173,
       "points": 0.0,
       "pos": "WR",
-      "proj": 13.97,
+      "proj": 13.93,
       "slot": "WR"
      },
      {
@@ -2634,8 +2634,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Lamar Jackson",
       "nfl": "BAL",
       "pctOwned": 0,
@@ -2643,7 +2643,7 @@
       "playerId": 3916387,
       "points": 0.0,
       "pos": "QB",
-      "proj": 23.01,
+      "proj": 0.0,
       "slot": "BE"
      },
      {
@@ -2671,7 +2671,7 @@
       "playerId": 4361741,
       "points": 0.0,
       "pos": "QB",
-      "proj": 24.6,
+      "proj": 24.61,
       "slot": "QB"
      },
      {
@@ -2685,7 +2685,7 @@
       "playerId": 3116365,
       "points": 0.0,
       "pos": "TE",
-      "proj": 6.96,
+      "proj": 6.26,
       "slot": "BE"
      },
      {
@@ -2769,7 +2769,7 @@
       "playerId": -16033,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 8.83,
+      "proj": 8.49,
       "slot": "D/ST"
      },
      {
@@ -2803,7 +2803,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 118.51260718,
+    "projected": 118.1420317,
     "teamId": 8
    },
    "week": 7,
