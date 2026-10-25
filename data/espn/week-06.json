@@ -174,8 +174,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Tyjae Spears",
       "nfl": "TEN",
       "pctOwned": 0,
@@ -475,7 +475,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Puka Nacua",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -1069,7 +1069,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Mike Washington Jr.",
       "nfl": "LV",
       "pctOwned": 0,
@@ -1453,7 +1453,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Cam Skattebo",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -1551,7 +1551,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Aaron Jones Sr.",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -1565,7 +1565,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Baker Mayfield",
       "nfl": "TB",
       "pctOwned": 0,
@@ -2360,8 +2360,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Breece Hall",
       "nfl": "NYJ",
       "pctOwned": 0,
