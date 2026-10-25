@@ -617,6 +617,27 @@
    ],
    "teamId": 1,
    "type": "TRADE_DECLINE"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-25T13:01:46.956000+00:00",
+   "id": "4d8b4b0e-fc11-4e30-8b9b-71f0cce6824f",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4427728,
+     "to": 2,
+     "type": "ADD"
+    },
+    {
+     "from": 2,
+     "playerId": 4688813,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 2,
+   "type": "FREEAGENT"
   }
  ],
  "week": 7
