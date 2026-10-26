@@ -43,7 +43,7 @@
    "name": "Cam Little",
    "nfl": "JAX",
    "pctOwned": 59.4,
-   "pctStarted": 18.7,
+   "pctStarted": 18.6,
    "playerId": 4686361,
    "pos": "K",
    "slot": null
@@ -247,7 +247,7 @@
    "name": "De'Von Achane",
    "nfl": "MIA",
    "pctOwned": 32.2,
-   "pctStarted": 10.9,
+   "pctStarted": 11.0,
    "playerId": 4429160,
    "pos": "RB",
    "slot": null
@@ -367,7 +367,7 @@
    "name": "Tyler Higbee",
    "nfl": "LAR",
    "pctOwned": 23.2,
-   "pctStarted": 13.7,
+   "pctStarted": 13.6,
    "playerId": 2573401,
    "pos": "TE",
    "slot": null
@@ -402,8 +402,8 @@
    "injuryStatus": "ACTIVE",
    "name": "Harrison Mevis",
    "nfl": "FA",
-   "pctOwned": 21.5,
-   "pctStarted": 16.9,
+   "pctOwned": 21.4,
+   "pctStarted": 16.8,
    "playerId": 4574716,
    "pos": "K",
    "slot": null
@@ -450,7 +450,7 @@
    "injuryStatus": "ACTIVE",
    "name": "Cowboys D/ST",
    "nfl": "DAL",
-   "pctOwned": 18.2,
+   "pctOwned": 18.3,
    "pctStarted": 14.9,
    "playerId": -16006,
    "pos": "D/ST",
@@ -546,8 +546,8 @@
    "injuryStatus": "ACTIVE",
    "name": "Darius Cooper",
    "nfl": "PHI",
-   "pctOwned": 14.5,
-   "pctStarted": 7.2,
+   "pctOwned": 14.7,
+   "pctStarted": 7.3,
    "playerId": 4715355,
    "pos": "WR",
    "slot": null
@@ -559,7 +559,7 @@
    "name": "Trey Smack",
    "nfl": "GB",
    "pctOwned": 14.4,
-   "pctStarted": 12.8,
+   "pctStarted": 12.7,
    "playerId": 4869461,
    "pos": "K",
    "slot": null
