@@ -628,7 +628,7 @@ regularSeasonWeeks: 14,
 tiebreaker: "Total points for",
 tradeDeadline: "Dec 4",
 currentWeek: 6,
-updated: "Sunday, Oct 25, 2026"
+updated: "Monday, Oct 26, 2026"
 },
 teams: {
 SAP:  { name: "Saquon my Dak",              manager: "Spencer Popp", abbr: "SAP", color: "#2F6BCB",     note: "League manager" },
@@ -2313,7 +2313,7 @@ game: { week: 6, index: 5 }
 /* ---------- Injury news, Tuesday Oct 20 (paraphrased from reports; see sources) ----------
 [player, NFL team, pos, fantasy owner, ESPN tag, Week 7 role, note, source #] */
 DATA.news = {
-asOf: "Sunday, Oct 25, 5:47 PM CT",
+asOf: "Monday, Oct 26, 5:48 PM CT",
 sources: [
 ["Tyler Warren", "https://sports.yahoo.com/fantasy/live/nfl-injury-tracker-week-7-latest-news-fantasy-implications-as-saquon-barkley-hamstring-back-at-practice-lamar-jackson-ankle-puka-nacua-calf-questionable-193729208.html"],
 ["Breece Hall", "https://www.nbcsports.com/fantasy/football/player-news/2026-10-25/breece-hall-quad-inactive-for-week-7-vs-miami"],
@@ -2331,7 +2331,9 @@ sources: [
 ["Josh Jacobs", "https://sports.yahoo.com/articles/rb-josh-jacobs-activated-packers-211055769.html"],
 ["Puka Nacua", "https://www.nfl.com/news/rams-wr-puka-nacua-calf-active-sunday-game-vs-raiders"],
 ["DeVonta Smith", "https://www.cbssports.com/fantasy/football/news/eagles-devonta-smith-ruled-out-for-monday-night-football/"],
-["Cam Skattebo", "https://www.rotowire.com/football/headlines/cam-skattebo-injury-suffers-hamstring-injury-644327"]
+["Cam Skattebo", "https://www.rotowire.com/football/headlines/cam-skattebo-injury-suffers-hamstring-injury-644327"],
+["Christian McCaffrey", "https://sicscore.com/news/2026-nfl-week-7-injury-roundup-latest-updates-player-statuses-and-key-injuries"],
+["Jaylen Waddle", "https://sicscore.com/news/2026-nfl-week-7-injury-roundup-latest-updates-player-statuses-and-key-injuries"]
 ],
 /* Expert and news links used in the copy (Oct 18-20) */
 experts: [
@@ -2359,24 +2361,26 @@ injuries: [
 ["Kyle Monangai","CHI","RB","DB","O","IR slot","Turf toe and a thumb injury. Ruled out for Thursday against New England.",11],
 ["Ladd McConkey","LAC","WR","ISA","Q","Bench","Concussion at Kansas City, separate from his foot injury. The Chargers are on bye in Week 7.",12],
 ["Josh Jacobs","GB","RB","MAGA","DTD","Starting","Not an injury: off the Commissioner's Exempt List. Green Bay activated him for Detroit. Still DTD on ESPN; Garrett finally started him over Pierre Strong Jr. (3.13).",13],
-["Cam Skattebo","NYG","RB","QSG","Q","Starting","Hamstring, hurt on the final play of the Giants' overtime game at Houston (Rotowire). His Week 7 is done, and the Giants are on bye in Week 8.",16]
+["Cam Skattebo","NYG","RB","QSG","Q","Starting","Hamstring, hurt on the final play of the Giants' overtime game at Houston (Rotowire). His Week 7 is done, and the Giants are on bye in Week 8.",16],
+["Christian McCaffrey","SF","RB","KRAM","Q","Starting","Thigh, hurt at Atlanta; returned in the second half and finished with 19.0 for Kramer. Looked like a bruise, not a strain (SICscore). The 49ers are on bye in Week 8.",17],
+["Jaylen Waddle","DEN","WR","LHC","Q","Starting","Chest. Fell on a botched fourth-quarter end-around against Arizona and didn't return (SICscore); 6.8 at Kyle's flex. He was limited in practice with the same chest injury last week. Broncos host Kansas City Sunday.",18]
 ],
 alsoTagged: [
-["Tyjae Spears", "SAP", "O", "Bench"], ["Tyrone Tracy Jr.", "SAP", "Q", "Bench"], ["Aaron Jones Sr.", "KRAM", "Q", "Bench"], ["Jaylin Noel", "V3K", "Q", "Bench"], ["Travis Etienne Jr.", "DDT", "IR", "Bench"], ["Zach Charbonnet", "BMD", "O", "IR"], ["Jordyn Tyson", "DDT", "IR", "IR"], ["Terrance Ferguson", "ISA", "IR", "IR"], ["Jacory Croskey-Merritt", "KRAM", "IR", "IR"], ["Jadarian Price", "LHC", "IR", "IR"], ["Alec Pierce", "MAGA", "IR", "IR"], ["Jonathon Brooks", "PNB", "IR", "IR"], ["Tyreek Hill", "V3K", "Q", "IR"]
+["Amon-Ra St. Brown", "DDT", "Q", "Starting"], ["Matthew Golden", "ISA", "Q", "Starting"], ["Jalen Coker", "QSG", "Q", "Starting"], ["Tyjae Spears", "SAP", "O", "Bench"], ["Tyrone Tracy Jr.", "SAP", "Q", "Bench"], ["Aaron Jones Sr.", "KRAM", "Q", "Bench"], ["Jaylin Noel", "V3K", "Q", "Bench"], ["Travis Etienne Jr.", "DDT", "IR", "Bench"], ["Zach Charbonnet", "BMD", "O", "IR"], ["Jordyn Tyson", "DDT", "IR", "IR"], ["Terrance Ferguson", "ISA", "IR", "IR"], ["Jacory Croskey-Merritt", "KRAM", "IR", "IR"], ["Jadarian Price", "LHC", "IR", "IR"], ["Alec Pierce", "MAGA", "IR", "IR"], ["Jonathon Brooks", "PNB", "IR", "IR"], ["Tyreek Hill", "V3K", "Q", "IR"]
 ]
 };
 /* Daily note: the critical flags of the day, top of the overview. Quick updates rewrite this.
    items: [level ("out" | "watch" | "info"), team key or null, text] */
 DATA.daily = {
-date: "Sunday, Oct 25",
-asOf: "ESPN 5:47 PM CT",
+date: "Monday, Oct 26",
+asOf: "ESPN 5:48 PM CT",
 items: [
-["watch", "SAP", "Saquon Barkley (Q, hamstring) is at Spencer's flex for Monday night against Dallas and expected to play, per Yahoo. Projected 106.16 to Darren's 110.58, and Dak is also in that game."],
-["info", "ISA", "Breece Hall was inactive; Bonifield swapped RJ Harvey (9.49) into the flex before noon, so no zero. Projection went from 113.02 to 122.59, against David's 128.52."],
-["info", "MAGA", "Garrett fixed the lineup: Patrick Mahomes over Jayden Daniels (bye), Josh Jacobs over Pierre Strong Jr., Vikings D/ST over Seahawks D/ST. Projection jumped from 77.65 to 109.31. Puka Nacua was active."],
-["info", "PNB", "Phil added Bam Knight for Josh Downs at 8:01 AM and started him at flex (7.52), moving Jordan Addison to receiver and benching Omar Cooper Jr. (6.56)."],
-["info", "QSG", "Cam Skattebo hurt his hamstring on the last play of the Giants' overtime game (Rotowire). The Giants are on bye in Week 8, so it's a Week 9 question. New Q tags from today: Aaron Jones Sr. (Kramer), Tyrone Tracy Jr. (Spencer), Jaylin Noel (Verber), all on benches."],
-["info", null, "Left to play: Chiefs at Seahawks tonight at 7:20, Cowboys at Eagles Monday at 7:15."]
+["watch", "SAP", "Saquon Barkley (Q, hamstring) is at Spencer's flex tonight against Dallas. Every report still says expected to play; the Eagles' inactives post about 90 minutes before the 7:15 kickoff (Rotowire). Projected 106.16 to Darren's 110.58, and Dak is in the same game."],
+["watch", "LHC", "Jaylen Waddle left Sunday's game with a chest injury and didn't return (SICscore). Now Q on ESPN; Kyle had him at flex for 6.8. Denver hosts Kansas City Sunday afternoon."],
+["watch", null, "Thursday: Carolina at Green Bay. Matthew Golden (Bonifield) and Jalen Coker (Bagwell) both picked up Q tags after Sunday, and that game locks first."],
+["info", "KRAM", "Christian McCaffrey (thigh) came back in the second half and still put up 19.0. Now Q, but the 49ers are on bye in Week 8, so he's out of Kramer's Week 8 lineup either way."],
+["info", "DDT", "Amon-Ra St. Brown is Q after his 19.7 on Sunday; no report yet on what happened. Detroit hosts Minnesota Sunday at noon."],
+["info", null, "No adds, drops or trades since Sunday afternoon. Waivers run Wednesday morning."]
 ]
 };
 
