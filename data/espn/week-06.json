@@ -1175,7 +1175,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Amon-Ra St. Brown",
       "nfl": "DET",
       "pctOwned": 0,
@@ -1593,7 +1593,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jalen Coker",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -2445,7 +2445,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Matthew Golden",
       "nfl": "GB",
       "pctOwned": 0,
@@ -2593,7 +2593,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Christian McCaffrey",
       "nfl": "SF",
       "pctOwned": 0,
