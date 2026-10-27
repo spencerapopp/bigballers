@@ -721,13 +721,13 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Saquon Barkley",
       "nfl": "PHI",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3929630,
-      "points": 0.0,
+      "points": 12.9,
       "pos": "RB",
       "proj": 14.12,
       "slot": "FLEX"
@@ -769,7 +769,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2577417,
-      "points": 0.0,
+      "points": 15.6,
       "pos": "QB",
       "proj": 20.45,
       "slot": "QB"
@@ -909,7 +909,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 5083754,
-      "points": 0.0,
+      "points": 5.1,
       "pos": "WR",
       "proj": 7.06,
       "slot": "BE"
@@ -930,8 +930,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 85.1,
-    "projected": 119.67275476,
+    "pointsLive": 113.6,
+    "projected": 132.04110739,
     "teamId": 1
    },
    "week": 7,
@@ -977,7 +977,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4361579,
-      "points": 0.0,
+      "points": 6.3,
       "pos": "RB",
       "proj": 15.77,
       "slot": "RB"
@@ -1166,8 +1166,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 99.25,
-    "projected": 115.01570172,
+    "pointsLive": 105.55,
+    "projected": 113.9594253,
     "teamId": 11
    },
    "home": {
@@ -1817,7 +1817,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4360238,
-      "points": 0.0,
+      "points": 9.6,
       "pos": "RB",
       "proj": 5.82,
       "slot": "BE"
@@ -1885,7 +1885,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4241389,
-      "points": 0.0,
+      "points": 8.4,
       "pos": "WR",
       "proj": 14.95,
       "slot": "WR"
@@ -1955,7 +1955,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3121023,
-      "points": 0.0,
+      "points": 1.0,
       "pos": "TE",
       "proj": 8.74,
       "slot": "BE"
@@ -2102,8 +2102,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 98.9,
-    "projected": 113.8543113,
+    "pointsLive": 107.3,
+    "projected": 115.27662965,
     "teamId": 4
    },
    "home": {
@@ -2145,7 +2145,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426354,
-      "points": 0.0,
+      "points": 10.0,
       "pos": "WR",
       "proj": 10.59,
       "slot": "FLEX"
@@ -2201,7 +2201,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3953687,
-      "points": 0.0,
+      "points": 7.0,
       "pos": "K",
       "proj": 8.09,
       "slot": "K"
@@ -2334,8 +2334,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 66.85,
-    "projected": 85.53083519,
+    "pointsLive": 83.85,
+    "projected": 93.81435749,
     "teamId": 6
    },
    "week": 7,
