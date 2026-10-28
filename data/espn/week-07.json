@@ -21,7 +21,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Brock Bowers",
       "nfl": "LV",
       "pctOwned": 0,
@@ -805,7 +805,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Stefon Diggs",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -819,7 +819,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -861,7 +861,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Malik Washington",
       "nfl": "MIA",
       "pctOwned": 0,
@@ -943,7 +943,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Ja'Marr Chase",
       "nfl": "CIN",
       "pctOwned": 0,
@@ -1055,7 +1055,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Kenny Gainwell",
       "nfl": "TB",
       "pctOwned": 0,
@@ -1287,7 +1287,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -1810,8 +1810,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Dameon Pierce",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -1824,8 +1824,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Jaylin Noel",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -2139,7 +2139,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "George Pickens",
       "nfl": "DAL",
       "pctOwned": 0,
@@ -2347,7 +2347,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jahmyr Gibbs",
       "nfl": "DET",
       "pctOwned": 0,
@@ -2375,7 +2375,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
