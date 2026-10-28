@@ -1097,7 +1097,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Braelon Allen",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1245,7 +1245,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Carnell Tate",
       "nfl": "TEN",
       "pctOwned": 0,

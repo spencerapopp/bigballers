@@ -463,7 +463,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 114.02345819,
+    "projected": 114.02864477,
     "teamId": 3
    },
    "week": 8,
@@ -567,7 +567,7 @@
       "playerId": 4360310,
       "points": 0.0,
       "pos": "QB",
-      "proj": 25.25,
+      "proj": 25.31,
       "slot": "QB"
      },
      {
@@ -699,7 +699,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 107.62440171,
+    "projected": 107.67914707,
     "teamId": 13
    },
    "home": {
@@ -715,7 +715,7 @@
       "playerId": 4362628,
       "points": 0.0,
       "pos": "WR",
-      "proj": 18.04,
+      "proj": 17.89,
       "slot": "WR"
      },
      {
@@ -799,7 +799,7 @@
       "playerId": 4038815,
       "points": 0.0,
       "pos": "RB",
-      "proj": 8.08,
+      "proj": 8.07,
       "slot": "BE"
      },
      {
@@ -861,7 +861,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Braelon Allen",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -925,13 +925,13 @@
       "playerId": -16030,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 11.45,
+      "proj": 11.46,
       "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 127.69653642,
+    "projected": 127.55362811,
     "teamId": 11
    },
    "week": 8,
@@ -1167,7 +1167,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 110.65122514,
+    "projected": 110.65126305,
     "teamId": 1
    },
    "home": {
@@ -1197,7 +1197,7 @@
       "playerId": 4362238,
       "points": 0.0,
       "pos": "RB",
-      "proj": 14.87,
+      "proj": 14.85,
       "slot": "RB"
      },
      {
@@ -1225,7 +1225,7 @@
       "playerId": 4239993,
       "points": 0.0,
       "pos": "WR",
-      "proj": 12.74,
+      "proj": 12.65,
       "slot": "WR"
      },
      {
@@ -1253,7 +1253,7 @@
       "playerId": 4432620,
       "points": 0.0,
       "pos": "WR",
-      "proj": 14.0,
+      "proj": 14.01,
       "slot": "WR"
      },
      {
@@ -1399,7 +1399,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 112.41739998,
+    "projected": 112.31756201,
     "teamId": 2
    },
    "week": 8,
@@ -1433,7 +1433,7 @@
       "playerId": 4870808,
       "points": 0.0,
       "pos": "RB",
-      "proj": 10.61,
+      "proj": 10.49,
       "slot": "BE"
      },
      {
@@ -1481,7 +1481,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Carnell Tate",
       "nfl": "TEN",
       "pctOwned": 0,
@@ -1635,7 +1635,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 107.42774144,
+    "projected": 107.42760755,
     "teamId": 5
    },
    "home": {
@@ -1867,7 +1867,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 86.1562193,
+    "projected": 86.15621207,
     "teamId": 4
    },
    "week": 8,
@@ -1943,7 +1943,7 @@
       "playerId": 4431452,
       "points": 0.0,
       "pos": "QB",
-      "proj": 28.12,
+      "proj": 28.15,
       "slot": "QB"
      },
      {
@@ -1957,7 +1957,7 @@
       "playerId": 4432710,
       "points": 0.0,
       "pos": "RB",
-      "proj": 5.96,
+      "proj": 5.97,
       "slot": "BE"
      },
      {
@@ -2083,7 +2083,7 @@
       "playerId": 4373626,
       "points": 0.0,
       "pos": "RB",
-      "proj": 7.22,
+      "proj": 7.23,
       "slot": "BE"
      },
      {
@@ -2097,13 +2097,13 @@
       "playerId": 4430539,
       "points": 0.0,
       "pos": "TE",
-      "proj": 7.82,
+      "proj": 7.83,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 105.82299905,
+    "projected": 105.84546152,
     "teamId": 7
    },
    "home": {
@@ -2189,7 +2189,7 @@
       "playerId": 4569173,
       "points": 0.0,
       "pos": "RB",
-      "proj": 11.62,
+      "proj": 11.65,
       "slot": "RB"
      },
      {
@@ -2335,7 +2335,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 125.47533829,
+    "projected": 125.50645569,
     "teamId": 9
    },
    "week": 8,
@@ -2482,7 +2482,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 18.26,
-      "slot": "IR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2497,20 +2497,6 @@
       "pos": "WR",
       "proj": 11.8,
       "slot": "WR"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Geno Smith",
-      "nfl": "NYJ",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 15864,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 21.9,
-      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2544,20 +2530,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Justice Hill",
-      "nfl": "BAL",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4038441,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 5.51,
-      "slot": "RB"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Tyler Bass",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -2567,11 +2539,25 @@
       "pos": "K",
       "proj": 10.3,
       "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Samaje Perine",
+      "nfl": "CIN",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 3116389,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 6.62,
+      "slot": "RB"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 108.91530097,
+    "projected": 110.02779401,
     "teamId": 6
    },
    "home": {
@@ -2803,7 +2789,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 84.77104367,
+    "projected": 84.77102417,
     "teamId": 8
    },
    "week": 8,
