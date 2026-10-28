@@ -846,8 +846,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Tyrone Tracy Jr.",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -2251,7 +2251,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jalen Coker",
       "nfl": "CAR",
       "pctOwned": 0,
