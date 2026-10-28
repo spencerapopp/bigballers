@@ -388,7 +388,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 9.32,
-      "slot": "BE"
+      "slot": "D/ST"
      },
      {
       "acquisitionType": null,
@@ -458,12 +458,12 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 9.27,
-      "slot": "D/ST"
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 113.97704068,
+    "projected": 114.02345819,
     "teamId": 3
    },
    "week": 8,
@@ -672,20 +672,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Aaron Rodgers",
-      "nfl": "PIT",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 8439,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 17.92,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Seth McGowan",
       "nfl": "IND",
       "pctOwned": 0,
@@ -694,6 +680,20 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 3.34,
+      "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Jonah Coleman",
+      "nfl": "DEN",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4702555,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 6.99,
       "slot": "BE"
      }
     ],
@@ -904,20 +904,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Panthers D/ST",
-      "nfl": "CAR",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": -16029,
-      "points": 0.0,
-      "pos": "D/ST",
-      "proj": 8.04,
-      "slot": "D/ST"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Kirk Cousins",
       "nfl": "LV",
       "pctOwned": 0,
@@ -927,11 +913,25 @@
       "pos": "QB",
       "proj": 20.47,
       "slot": "QB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Jaguars D/ST",
+      "nfl": "JAX",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": -16030,
+      "points": 0.0,
+      "pos": "D/ST",
+      "proj": 11.45,
+      "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 124.27878687,
+    "projected": 127.69653642,
     "teamId": 11
    },
    "week": 8,
@@ -1082,20 +1082,6 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
-      "name": "Tyrone Tracy Jr.",
-      "nfl": "NYG",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4360516,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Malik Washington",
@@ -1154,20 +1140,34 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Titans D/ST",
-      "nfl": "TEN",
+      "name": "Lions D/ST",
+      "nfl": "DET",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": -16010,
+      "playerId": -16008,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 5.98,
+      "proj": 9.23,
       "slot": "D/ST"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Michael Penix Jr.",
+      "nfl": "ATL",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4360423,
+      "points": 0.0,
+      "pos": "QB",
+      "proj": 18.81,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 107.397502,
+    "projected": 110.65122514,
     "teamId": 1
    },
    "home": {
@@ -1254,7 +1254,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 14.0,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1268,7 +1268,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 8.04,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1310,7 +1310,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 0.0,
-      "slot": "D/ST"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1352,7 +1352,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 8.74,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1386,20 +1386,20 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Bam Knight",
-      "nfl": "ARI",
+      "name": "Bengals D/ST",
+      "nfl": "CIN",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": 4427728,
+      "playerId": -16004,
       "points": 0.0,
-      "pos": "RB",
-      "proj": 0.0,
-      "slot": "FLEX"
+      "pos": "D/ST",
+      "proj": 9.97,
+      "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 87.74040431,
+    "projected": 112.41739998,
     "teamId": 2
    },
    "week": 8,
@@ -1680,7 +1680,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1778,7 +1778,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 6.37,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1867,7 +1867,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 79.78348423,
+    "projected": 86.1562193,
     "teamId": 4
    },
    "week": 8,
@@ -2061,20 +2061,6 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
-      "name": "Jaylin Noel",
-      "nfl": "HOU",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4586312,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Roschon Johnson",
       "nfl": "CHI",
@@ -2098,6 +2084,20 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 7.22,
+      "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Brenton Strange",
+      "nfl": "JAX",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4430539,
+      "points": 0.0,
+      "pos": "TE",
+      "proj": 7.82,
       "slot": "BE"
      }
     ],
