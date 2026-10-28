@@ -628,7 +628,7 @@ regularSeasonWeeks: 14,
 tiebreaker: "Total points for",
 tradeDeadline: "Dec 4",
 currentWeek: 7,
-updated: "Tuesday, Oct 27, 2026"
+updated: "Wednesday, Oct 28, 2026"
 },
 teams: {
 SAP:  { name: "Saquon my Dak",              manager: "Spencer Popp", abbr: "SAP", color: "#2F6BCB",     note: "League manager" },
@@ -2255,9 +2255,9 @@ Win chances are an estimate from those projections (normal model, SD 21.15 per t
 Lineups can change before kickoff. [slot, name, team, pos, status, kickoff, ESPN proj] */
 preview: {
 week: 8,
-/* Waiver claim order for Wednesday's run (ESPN waiverRank, Tue morning). Rolling order; no FAAB. */
+/* Waiver claim order after Wednesday's run (ESPN waiverRank, Wed morning). Rolling order; no FAAB. */
 availableBy: "owned",
-waiverOrder: ["ISA", "CHQ", "SAP", "MAGA", "DB", "DDT", "V3K", "BMD", "LHC", "PNB", "QSG", "KRAM"],
+waiverOrder: ["ISA", "CHQ", "MAGA", "DDT", "BMD", "QSG", "KRAM", "DB", "V3K", "LHC", "PNB", "SAP"],
 /* Best available by ESPN ownership (data/espn/free-agents.json; projections for free agents aren't in the feed; Week 8 bye teams left out): [name, NFL team, pos, % rostered in ESPN leagues, tag] */
 available: [
 ["Justin Herbert", "LAC", "QB", 38.4, ""],["Deshaun Watson", "CLE", "QB", 14.8, ""],["MarShawn Lloyd", "GB", "RB", 44.5, ""],["Jonah Coleman", "DEN", "RB", 24.2, ""],["Josh Downs", "IND", "WR", 67.1, ""],["Keenan Allen", "IND", "WR", 43.7, ""],["KC Concepcion", "CLE", "WR", 42.9, ""],["Makai Lemon", "PHI", "WR", 37.4, ""],["Jake Ferguson", "DAL", "TE", 53.5, ""],["Brenton Strange", "JAX", "TE", 36.0, ""],["Cam Little", "JAX", "K", 59.2, ""],["Cameron Dicker", "LAC", "K", 45.9, ""],["Eagles D/ST", "PHI", "D/ST", 40.8, ""],["Jaguars D/ST", "JAX", "D/ST", 27.9, ""]
@@ -2265,42 +2265,42 @@ available: [
 /* NFL bye weeks ahead (ESPN pro schedule) */
 byes: { 9: ["PIT","TEN"], 10: ["PHI","TB","CHI","DEN"], 11: ["LAR","NE","SEA","ATL","CLE","GB"] },
 
-asOf: "ESPN, Tue 10/27, 6:49 AM",
+asOf: "ESPN, Wed 10/28, 7:52 AM",
 winNote: "Win chances are this page's estimate from those projections, using how far team scores have landed from their ESPN projections this season (standard deviation 21.15 points); ESPN's own odds aren't in the data feed.",
 games: [
-{ away: "DDT", home: "CHQ", proj: [76.5, 89.14], win: [34, 66],
+{ away: "DDT", home: "CHQ", proj: [76.5, 114.02], win: [10, 90],
 lineups: {
-DDT: [["QB", "Joe Burrow", "CIN", "QB", "", "vs TEN Sun 12:00", 27.03], ["RB", "Ollie Gordon II", "MIA", "RB", "", "vs NE Sun 3:25", 13.87], ["RB", "Kendre Miller", "NO", "RB", "BYE", "Bye", 0], ["WR", "Amon-Ra St. Brown", "DET", "WR", "Q", "vs MIN Sun 12:00", 14.35], ["WR", "Garrett Wilson", "NYJ", "WR", "", "vs LV Sun 12:00", 11.3], ["TE", "Isaiah Likely", "NYG", "TE", "BYE", "Bye", 0], ["FLEX", "Juwan Johnson", "NO", "TE", "BYE", "Bye", 0], ["D/ST", "Texans D/ST", "HOU", "D/ST", "BYE", "Bye", 0], ["K", "Matt Gay", "LV", "K", "", "@ NYJ Sun 12:00", 9.95]],
-CHQ: [["QB", "Jordan Love", "GB", "QB", "", "vs CAR Thu 7:15", 20.71], ["RB", "Jaylen Warren", "PIT", "RB", "", "vs CLE Sun 12:00", 14.62], ["RB", "Woody Marks", "HOU", "RB", "BYE", "Bye", 0], ["WR", "Justin Jefferson", "MIN", "WR", "", "@ DET Sun 12:00", 13.95], ["WR", "Chris Olave", "NO", "WR", "BYE", "Bye", 0], ["TE", "Brock Bowers", "LV", "TE", "", "@ NYJ Sun 12:00", 13.03], ["FLEX", "Colston Loveland", "CHI", "TE", "", "@ SEA Mon 7:15", 9.39], ["D/ST", "Bears D/ST", "CHI", "D/ST", "", "@ SEA Mon 7:15", 9.08], ["K", "Cairo Santos", "CHI", "K", "", "@ SEA Mon 7:15", 8.36]]
+DDT: [["QB", "Joe Burrow", "CIN", "QB", "", "vs TEN Sun 12:00", 27.03], ["RB", "Ollie Gordon II", "MIA", "RB", "", "vs NE Sun 3:25", 13.87], ["RB", "Kendre Miller", "NO", "RB", "BYE", "Bye", 0], ["WR", "Amon-Ra St. Brown", "DET", "WR", "Q", "vs MIN Sun 12:00", 14.34], ["WR", "Garrett Wilson", "NYJ", "WR", "", "vs LV Sun 12:00", 11.31], ["TE", "Isaiah Likely", "NYG", "TE", "BYE", "Bye", 0], ["FLEX", "Juwan Johnson", "NO", "TE", "BYE", "Bye", 0], ["D/ST", "Texans D/ST", "HOU", "D/ST", "BYE", "Bye", 0], ["K", "Matt Gay", "LV", "K", "", "@ NYJ Sun 12:00", 9.95]],
+CHQ: [["QB", "Jordan Love", "GB", "QB", "", "vs CAR Thu 7:15", 20.7], ["RB", "Bhayshul Tuten", "JAX", "RB", "", "vs IND Sun 12:00", 13.84], ["RB", "Jaylen Warren", "PIT", "RB", "", "vs CLE Sun 12:00", 14.61], ["WR", "Justin Jefferson", "MIN", "WR", "", "@ DET Sun 12:00", 14.45], ["WR", "Michael Wilson", "ARI", "WR", "", "@ DAL Sun 12:00", 10.32], ["TE", "Brock Bowers", "LV", "TE", "", "@ NYJ Sun 12:00", 13.03], ["FLEX", "Colston Loveland", "CHI", "TE", "", "@ SEA Mon 7:15", 9.39], ["D/ST", "Patriots D/ST", "NE", "D/ST", "", "@ MIA Sun 3:25", 9.32], ["K", "Cairo Santos", "CHI", "K", "", "@ SEA Mon 7:15", 8.36]]
 } },
-{ away: "LHC", home: "DB", proj: [89.46, 120.95], win: [15, 85],
+{ away: "LHC", home: "DB", proj: [107.62, 127.68], win: [25, 75],
 lineups: {
-LHC: [["QB", "Aaron Rodgers", "PIT", "QB", "", "vs CLE Sun 12:00", 17.93], ["RB", "Blake Corum", "LAR", "RB", "", "vs LAC Sun 3:05", 10.92], ["RB", "J.K. Dobbins", "DEN", "RB", "", "vs KC Sun 3:25", 6.48], ["WR", "Zay Flowers", "BAL", "WR", "", "@ BUF Sun 12:00", 16.57], ["WR", "Christian Watson", "GB", "WR", "", "vs CAR Thu 7:15", 12.03], ["TE", "Tucker Kraft", "GB", "TE", "", "vs CAR Thu 7:15", 8.49], ["FLEX", "Jaylen Waddle", "DEN", "WR", "Q", "vs KC Sun 3:25", 8.33], ["D/ST", "Chiefs D/ST", "KC", "D/ST", "", "@ DEN Sun 3:25", 8.71], ["K", "Ka'imi Fairbairn", "HOU", "K", "BYE", "Bye", 0]],
-DB: [["QB", "Jared Goff", "DET", "QB", "", "vs MIN Sun 12:00", 19.22], ["RB", "Javonte Williams", "DAL", "RB", "", "vs ARI Sun 12:00", 18.38], ["RB", "D'Andre Swift", "CHI", "RB", "", "@ SEA Mon 7:15", 11.62], ["WR", "Ja'Marr Chase", "CIN", "WR", "", "vs TEN Sun 12:00", 18.03], ["WR", "Tetairoa McMillan", "CAR", "WR", "", "@ GB Thu 7:15", 12.76], ["TE", "Trey McBride", "ARI", "TE", "", "@ DAL Sun 12:00", 13.51], ["FLEX", "Braelon Allen", "NYJ", "RB", "", "vs LV Sun 12:00", 9.19], ["D/ST", "Panthers D/ST", "CAR", "D/ST", "", "@ GB Thu 7:15", 8.04], ["K", "Spencer Shrader", "IND", "K", "", "@ JAX Sun 12:00", 10.2]]
+LHC: [["QB", "Trevor Lawrence", "JAX", "QB", "", "vs IND Sun 12:00", 25.25], ["RB", "James Cook III", "BUF", "RB", "", "vs BAL Sun 12:00", 18.15], ["RB", "Blake Corum", "LAR", "RB", "", "vs LAC Sun 3:05", 10.92], ["WR", "Zay Flowers", "BAL", "WR", "", "@ BUF Sun 12:00", 16.57], ["WR", "Christian Watson", "GB", "WR", "", "vs CAR Thu 7:15", 12.02], ["TE", "Tucker Kraft", "GB", "TE", "", "vs CAR Thu 7:15", 8.49], ["FLEX", "Omarion Hampton", "LAC", "RB", "", "@ LAR Sun 3:05", 7.51], ["D/ST", "Chiefs D/ST", "KC", "D/ST", "", "@ DEN Sun 3:25", 8.71], ["K", "Ka'imi Fairbairn", "HOU", "K", "BYE", "Bye", 0]],
+DB: [["QB", "Kirk Cousins", "LV", "QB", "", "@ NYJ Sun 12:00", 20.47], ["RB", "Javonte Williams", "DAL", "RB", "", "vs ARI Sun 12:00", 19.26], ["RB", "D'Andre Swift", "CHI", "RB", "", "@ SEA Mon 7:15", 11.61], ["WR", "Ja'Marr Chase", "CIN", "WR", "", "vs TEN Sun 12:00", 18.04], ["WR", "Tetairoa McMillan", "CAR", "WR", "", "@ GB Thu 7:15", 12.76], ["TE", "Trey McBride", "ARI", "TE", "", "@ DAL Sun 12:00", 13.71], ["FLEX", "DK Metcalf", "PIT", "WR", "", "vs CLE Sun 12:00", 10.18], ["D/ST", "Jaguars D/ST", "JAX", "D/ST", "", "vs IND Sun 12:00", 11.45], ["K", "Spencer Shrader", "IND", "K", "", "@ JAX Sun 12:00", 10.2]]
 } },
-{ away: "SAP", home: "PNB", proj: [108.23, 88.21], win: [75, 25],
+{ away: "SAP", home: "PNB", proj: [110.65, 112.4], win: [48, 52],
 lineups: {
-SAP: [["QB", "Dak Prescott", "DAL", "QB", "", "vs ARI Sun 12:00", 23.01], ["RB", "Jonathan Taylor", "IND", "RB", "", "@ JAX Sun 12:00", 14.76], ["RB", "Tony Pollard", "TEN", "RB", "", "@ CIN Sun 12:00", 13.36], ["WR", "DJ Moore", "BUF", "WR", "Q", "vs BAL Sun 12:00", 11.39], ["WR", "Stefon Diggs", "WSH", "WR", "", "vs PHI Sun 7:20", 9.8], ["TE", "Travis Kelce", "KC", "TE", "", "@ DEN Sun 3:25", 7.39], ["FLEX", "Saquon Barkley", "PHI", "RB", "Q", "@ WSH Sun 7:20", 13.15], ["D/ST", "Titans D/ST", "TEN", "D/ST", "", "@ CIN Sun 12:00", 5.89], ["K", "Chase McLaughlin", "TB", "K", "", "vs ATL Sun 12:00", 9.48]],
-PNB: [["QB", "Kyler Murray", "MIN", "QB", "", "@ DET Sun 12:00", 19.97], ["RB", "Ashton Jeanty", "LV", "RB", "", "@ NYJ Sun 12:00", 14.7], ["RB", "Chase Brown", "CIN", "RB", "", "vs TEN Sun 12:00", 14.88], ["WR", "Tee Higgins", "CIN", "WR", "", "vs TEN Sun 12:00", 12.74], ["WR", "Jordan Addison", "MIN", "WR", "", "@ DET Sun 12:00", 8.05], ["TE", "T.J. Hockenson", "MIN", "TE", "", "@ DET Sun 12:00", 9.1], ["FLEX", "Bam Knight", "ARI", "RB", "", "@ DAL Sun 12:00", 0], ["D/ST", "49ers D/ST", "SF", "D/ST", "BYE", "Bye", 0], ["K", "Harrison Butker", "KC", "K", "", "@ DEN Sun 3:25", 8.77]]
+SAP: [["QB", "Dak Prescott", "DAL", "QB", "", "vs ARI Sun 12:00", 23.99], ["RB", "Jonathan Taylor", "IND", "RB", "", "@ JAX Sun 12:00", 14.73], ["RB", "Tony Pollard", "TEN", "RB", "", "@ CIN Sun 12:00", 13.35], ["WR", "DJ Moore", "BUF", "WR", "Q", "vs BAL Sun 12:00", 11.39], ["WR", "Stefon Diggs", "WSH", "WR", "", "vs PHI Sun 7:20", 10.2], ["TE", "Travis Kelce", "KC", "TE", "", "@ DEN Sun 3:25", 7.39], ["FLEX", "Saquon Barkley", "PHI", "RB", "Q", "@ WSH Sun 7:20", 10.89], ["D/ST", "Lions D/ST", "DET", "D/ST", "", "vs MIN Sun 12:00", 9.23], ["K", "Chase McLaughlin", "TB", "K", "", "vs ATL Sun 12:00", 9.48]],
+PNB: [["QB", "Kyler Murray", "MIN", "QB", "", "@ DET Sun 12:00", 19.97], ["RB", "Ashton Jeanty", "LV", "RB", "", "@ NYJ Sun 12:00", 14.69], ["RB", "Chase Brown", "CIN", "RB", "", "vs TEN Sun 12:00", 14.87], ["WR", "Tee Higgins", "CIN", "WR", "", "vs TEN Sun 12:00", 12.74], ["WR", "Parker Washington", "JAX", "WR", "", "vs IND Sun 12:00", 14.0], ["TE", "T.J. Hockenson", "MIN", "TE", "", "@ DET Sun 12:00", 8.65], ["FLEX", "Omar Cooper Jr.", "NYJ", "WR", "", "vs LV Sun 12:00", 8.74], ["D/ST", "Bengals D/ST", "CIN", "D/ST", "", "vs TEN Sun 12:00", 9.97], ["K", "Harrison Butker", "KC", "K", "", "@ DEN Sun 3:25", 8.77]]
 } },
-{ away: "MAGA", home: "KRAM", proj: [107.25, 66.01], win: [92, 8],
+{ away: "MAGA", home: "KRAM", proj: [107.42, 86.15], win: [76, 24],
 lineups: {
-MAGA: [["QB", "Patrick Mahomes", "KC", "QB", "", "@ DEN Sun 3:25", 16.84], ["RB", "Josh Jacobs", "GB", "RB", "DTD", "vs CAR Thu 7:15", 13.74], ["RB", "Bucky Irving", "TB", "RB", "", "vs ATL Sun 12:00", 16.32], ["WR", "Puka Nacua", "LAR", "WR", "", "vs LAC Sun 3:05", 18.58], ["WR", "Carnell Tate", "TEN", "WR", "", "@ CIN Sun 12:00", 9.21], ["TE", "Harold Fannin Jr.", "CLE", "TE", "", "@ PIT Sun 12:00", 6.88], ["FLEX", "Emanuel Wilson", "SEA", "RB", "", "vs CHI Mon 7:15", 8.51], ["D/ST", "Vikings D/ST", "MIN", "D/ST", "", "@ DET Sun 12:00", 7.69], ["K", "Chad Ryland", "ARI", "K", "", "@ DAL Sun 12:00", 9.48]],
-KRAM: [["QB", "Tyler Shough", "NO", "QB", "BYE", "Bye", 0], ["RB", "Christian McCaffrey", "SF", "RB", "BYE", "Bye", 0], ["RB", "Kyren Williams", "LAR", "RB", "", "vs LAC Sun 3:05", 16.29], ["WR", "CeeDee Lamb", "DAL", "WR", "", "vs ARI Sun 12:00", 15.86], ["WR", "Malik Nabers", "NYG", "WR", "BYE", "Bye", 0], ["TE", "Pat Freiermuth", "PIT", "TE", "", "vs CLE Sun 12:00", 6.93], ["FLEX", "Jameson Williams", "DET", "WR", "", "vs MIN Sun 12:00", 9.28], ["D/ST", "Jets D/ST", "NYJ", "D/ST", "", "vs LV Sun 12:00", 8.93], ["K", "Tyler Loop", "BAL", "K", "", "@ BUF Sun 12:00", 8.72]]
+MAGA: [["QB", "Patrick Mahomes", "KC", "QB", "", "@ DEN Sun 3:25", 16.84], ["RB", "Josh Jacobs", "GB", "RB", "", "vs CAR Thu 7:15", 13.73], ["RB", "Bucky Irving", "TB", "RB", "", "vs ATL Sun 12:00", 16.32], ["WR", "Puka Nacua", "LAR", "WR", "", "vs LAC Sun 3:05", 18.58], ["WR", "Carnell Tate", "TEN", "WR", "", "@ CIN Sun 12:00", 9.21], ["TE", "Harold Fannin Jr.", "CLE", "TE", "", "@ PIT Sun 12:00", 6.88], ["FLEX", "Emanuel Wilson", "SEA", "RB", "", "vs CHI Mon 7:15", 8.5], ["D/ST", "Vikings D/ST", "MIN", "D/ST", "", "@ DET Sun 12:00", 7.88], ["K", "Chad Ryland", "ARI", "K", "", "@ DAL Sun 12:00", 9.48]],
+KRAM: [["QB", "Tyler Shough", "NO", "QB", "BYE", "Bye", 0], ["RB", "Kyren Williams", "LAR", "RB", "", "vs LAC Sun 3:05", 16.28], ["RB", "Aaron Jones Sr.", "MIN", "RB", "Q", "@ DET Sun 12:00", 9.07], ["WR", "CeeDee Lamb", "DAL", "WR", "", "vs ARI Sun 12:00", 16.72], ["WR", "Adonai Mitchell", "NYJ", "WR", "", "vs LV Sun 12:00", 6.37], ["TE", "Dallas Goedert", "PHI", "TE", "", "@ WSH Sun 7:20", 7.56], ["FLEX", "Jameson Williams", "DET", "WR", "", "vs MIN Sun 12:00", 9.27], ["D/ST", "Rams D/ST", "LAR", "D/ST", "", "vs LAC Sun 3:05", 12.16], ["K", "Tyler Loop", "BAL", "K", "", "@ BUF Sun 12:00", 8.72]]
 } },
 { away: "V3K", home: "ISA", proj: [105.83, 125.47], win: [26, 74],
 lineups: {
-V3K: [["QB", "Drake Maye", "NE", "QB", "", "@ MIA Sun 3:25", 28.12], ["RB", "Quinshon Judkins", "CLE", "RB", "", "@ PIT Sun 12:00", 10.29], ["RB", "Roschon Johnson", "CHI", "RB", "", "@ SEA Mon 7:15", 0], ["WR", "Jaxon Smith-Njigba", "SEA", "WR", "", "vs CHI Mon 7:15", 18.14], ["WR", "Drake London", "ATL", "WR", "", "@ TB Sun 12:00", 14.85], ["TE", "George Kittle", "SF", "TE", "BYE", "Bye", 0], ["FLEX", "Luther Burden III", "CHI", "WR", "", "@ SEA Mon 7:15", 10.74], ["D/ST", "Steelers D/ST", "PIT", "D/ST", "", "vs CLE Sun 12:00", 12.5], ["K", "Will Reichard", "MIN", "K", "", "@ DET Sun 12:00", 11.19]],
-ISA: [["QB", "Matthew Stafford", "LAR", "QB", "", "vs LAC Sun 3:05", 21.07], ["RB", "Jahmyr Gibbs", "DET", "RB", "", "vs MIN Sun 12:00", 22.82], ["RB", "Rhamondre Stevenson", "NE", "RB", "", "@ MIA Sun 3:25", 11.62], ["WR", "A.J. Brown", "NE", "WR", "", "@ MIA Sun 3:25", 13.47], ["WR", "Matthew Golden", "GB", "WR", "Q", "vs CAR Thu 7:15", 12.7], ["TE", "Tyler Warren", "IND", "TE", "O", "@ JAX Sun 12:00", 8.79], ["FLEX", "Breece Hall", "NYJ", "RB", "O", "vs LV Sun 12:00", 14.38], ["D/ST", "Browns D/ST", "CLE", "D/ST", "", "@ PIT Sun 12:00", 10.26], ["K", "Chris Boswell", "PIT", "K", "", "vs CLE Sun 12:00", 10.36]]
+V3K: [["QB", "Drake Maye", "NE", "QB", "", "@ MIA Sun 3:25", 28.12], ["RB", "Quinshon Judkins", "CLE", "RB", "", "@ PIT Sun 12:00", 10.28], ["RB", "Roschon Johnson", "CHI", "RB", "", "@ SEA Mon 7:15", 0], ["WR", "Jaxon Smith-Njigba", "SEA", "WR", "", "vs CHI Mon 7:15", 18.15], ["WR", "Drake London", "ATL", "WR", "", "@ TB Sun 12:00", 14.85], ["TE", "George Kittle", "SF", "TE", "BYE", "Bye", 0], ["FLEX", "Luther Burden III", "CHI", "WR", "", "@ SEA Mon 7:15", 10.74], ["D/ST", "Steelers D/ST", "PIT", "D/ST", "", "vs CLE Sun 12:00", 12.5], ["K", "Will Reichard", "MIN", "K", "", "@ DET Sun 12:00", 11.19]],
+ISA: [["QB", "Matthew Stafford", "LAR", "QB", "", "vs LAC Sun 3:05", 21.07], ["RB", "Jahmyr Gibbs", "DET", "RB", "", "vs MIN Sun 12:00", 22.81], ["RB", "Rhamondre Stevenson", "NE", "RB", "", "@ MIA Sun 3:25", 11.62], ["WR", "A.J. Brown", "NE", "WR", "", "@ MIA Sun 3:25", 13.47], ["WR", "Matthew Golden", "GB", "WR", "Q", "vs CAR Thu 7:15", 12.7], ["TE", "Tyler Warren", "IND", "TE", "Q", "@ JAX Sun 12:00", 8.79], ["FLEX", "Breece Hall", "NYJ", "RB", "Q", "vs LV Sun 12:00", 14.38], ["D/ST", "Browns D/ST", "CLE", "D/ST", "", "@ PIT Sun 12:00", 10.26], ["K", "Chris Boswell", "PIT", "K", "", "vs CLE Sun 12:00", 10.37]]
 } },
-{ away: "QSG", home: "BMD", proj: [107.83, 84.65], win: [78, 22],
+{ away: "QSG", home: "BMD", proj: [108.92, 84.77], win: [79, 21],
 lineups: {
-QSG: [["QB", "Josh Allen", "BUF", "QB", "", "vs BAL Sun 12:00", 27.22], ["RB", "Derrick Henry", "BAL", "RB", "", "@ BUF Sun 12:00", 18.46], ["RB", "Justice Hill", "BAL", "RB", "", "@ BUF Sun 12:00", 5.51], ["WR", "Rome Odunze", "CHI", "WR", "", "@ SEA Mon 7:15", 7.6], ["WR", "Jalen Coker", "CAR", "WR", "Q", "@ GB Thu 7:15", 11.8], ["TE", "Kyle Pitts Sr.", "ATL", "TE", "", "@ TB Sun 12:00", 8.28], ["FLEX", "George Pickens", "DAL", "WR", "", "vs ARI Sun 12:00", 11.28], ["D/ST", "Broncos D/ST", "DEN", "D/ST", "", "vs KC Sun 3:25", 8.7], ["K", "Brandon Aubrey", "DAL", "K", "", "vs ARI Sun 12:00", 8.98]],
-BMD: [["QB", "Brock Purdy", "SF", "QB", "BYE", "Bye", 0], ["RB", "Bijan Robinson", "ATL", "RB", "", "@ TB Sun 12:00", 17.62], ["RB", "Kenneth Walker III", "KC", "RB", "", "@ DEN Sun 3:25", 18.8], ["WR", "Nico Collins", "HOU", "WR", "BYE", "Bye", 0], ["WR", "Denzel Boston", "CLE", "WR", "", "@ PIT Sun 12:00", 9.62], ["TE", "Sam LaPorta", "DET", "TE", "", "vs MIN Sun 12:00", 8.67], ["FLEX", "Chuba Hubbard", "CAR", "RB", "", "@ GB Thu 7:15", 14.39], ["D/ST", "Ravens D/ST", "BAL", "D/ST", "", "@ BUF Sun 12:00", 5.96], ["K", "Jason Myers", "SEA", "K", "", "vs CHI Mon 7:15", 9.59]]
+QSG: [["QB", "Josh Allen", "BUF", "QB", "", "vs BAL Sun 12:00", 27.21], ["RB", "Derrick Henry", "BAL", "RB", "", "@ BUF Sun 12:00", 18.45], ["RB", "Justice Hill", "BAL", "RB", "", "@ BUF Sun 12:00", 5.51], ["WR", "Rome Odunze", "CHI", "WR", "", "@ SEA Mon 7:15", 7.59], ["WR", "Jalen Coker", "CAR", "WR", "", "@ GB Thu 7:15", 11.8], ["TE", "Kyle Pitts Sr.", "ATL", "TE", "", "@ TB Sun 12:00", 8.28], ["FLEX", "George Pickens", "DAL", "WR", "", "vs ARI Sun 12:00", 11.46], ["D/ST", "Broncos D/ST", "DEN", "D/ST", "", "vs KC Sun 3:25", 8.7], ["K", "Brandon Aubrey", "DAL", "K", "", "vs ARI Sun 12:00", 9.92]],
+BMD: [["QB", "Brock Purdy", "SF", "QB", "BYE", "Bye", 0], ["RB", "Bijan Robinson", "ATL", "RB", "", "@ TB Sun 12:00", 17.59], ["RB", "Kenneth Walker III", "KC", "RB", "", "@ DEN Sun 3:25", 18.79], ["WR", "Nico Collins", "HOU", "WR", "BYE", "Bye", 0], ["WR", "Denzel Boston", "CLE", "WR", "", "@ PIT Sun 12:00", 9.62], ["TE", "Sam LaPorta", "DET", "TE", "", "vs MIN Sun 12:00", 8.66], ["FLEX", "Chuba Hubbard", "CAR", "RB", "", "@ GB Thu 7:15", 14.37], ["D/ST", "Ravens D/ST", "BAL", "D/ST", "", "@ BUF Sun 12:00", 6.15], ["K", "Jason Myers", "SEA", "K", "", "vs CHI Mon 7:15", 9.59]]
 } }
 ],
 /* Bench players ESPN projects higher than the weakest starter they could replace (healthy, not on bye; top 3 by projection) */
-benchNotes: {"DDT": ["Khalil Shakir (BUF WR, 7.57 proj) vs BAL Sun 12:00", "Kimani Vidal (LAC RB, 6.98 proj) @ LAR Sun 3:05", "Kenyon Sadiq (NYJ TE, 3.89 proj) vs LV Sun 12:00"], "CHQ": ["Bhayshul Tuten (JAX RB, 13.84 proj) vs IND Sun 12:00", "Michael Wilson (ARI WR, 10.14 proj) @ DAL Sun 12:00", "Patriots D/ST (NE D/ST, 9.4 proj) @ MIA Sun 3:25"], "LHC": ["Trevor Lawrence (JAX QB, 25.25 proj) vs IND Sun 12:00", "James Cook III (BUF RB, 18.18 proj) vs BAL Sun 12:00", "Omarion Hampton (LAC RB, 7.52 proj) @ LAR Sun 3:05"], "DB": ["Kirk Cousins (LV QB, 20.47 proj) @ NYJ Sun 12:00", "DK Metcalf (PIT WR, 10.19 proj) vs CLE Sun 12:00"], "PNB": ["Parker Washington (JAX WR, 14 proj) vs IND Sun 12:00", "Omar Cooper Jr. (NYJ WR, 8.74 proj) vs LV Sun 12:00", "Emmett Johnson (KC RB, 4.1 proj) @ DEN Sun 3:25"], "MAGA": ["Jayden Daniels (WSH QB, 24.59 proj) vs PHI Sun 7:20", "Seahawks D/ST (SEA D/ST, 9.27 proj) vs CHI Mon 7:15", "Jakobi Meyers (JAX WR, 9.05 proj) vs IND Sun 12:00"], "KRAM": ["Rams D/ST (LAR D/ST, 12.16 proj) vs LAC Sun 3:05", "Aaron Jones Sr. (MIN RB, 9.08 proj) @ DET Sun 12:00", "Dallas Goedert (PHI TE, 8.21 proj) @ WSH Sun 7:20"], "V3K": ["Mike Washington Jr. (LV RB, 6.55 proj) @ NYJ Sun 12:00", "Tyler Allgeier (ARI RB, 6.46 proj) @ DAL Sun 12:00", "TreVeyon Henderson (NE RB, 5.96 proj) @ MIA Sun 3:25"], "QSG": ["Tyler Bass (BUF K, 10.3 proj) vs BAL Sun 12:00", "DeMario Douglas (NE WR, 8.77 proj) @ MIA Sun 3:25"], "BMD": ["Courtland Sutton (DEN WR, 7.3 proj) vs KC Sun 3:25", "Wan'Dale Robinson (TEN WR, 6.61 proj) @ CIN Sun 12:00"]}
+benchNotes: {"DDT": ["Khalil Shakir (BUF WR, 7.57 proj) vs BAL Sun 12:00", "Kimani Vidal (LAC RB, 6.97 proj) @ LAR Sun 3:05", "Kenyon Sadiq (NYJ TE, 3.89 proj) vs LV Sun 12:00"], "CHQ": [], "LHC": ["Jaylen Waddle (DEN WR, 8.33 proj) vs KC Sun 3:25"], "DB": [], "SAP": [], "PNB": ["DeVonta Smith (PHI WR, 11.91 proj) @ WSH Sun 7:20"], "MAGA": ["Jayden Daniels (WSH QB, 26.3 proj) vs PHI Sun 7:20", "Jeremiyah Love (ARI RB, 10.61 proj) @ DAL Sun 12:00", "Seahawks D/ST (SEA D/ST, 9.26 proj) vs CHI Mon 7:15"], "KRAM": ["Xavier Worthy (KC WR, 6.46 proj) @ DEN Sun 3:25"], "V3K": ["Dameon Pierce (PHI RB, 8.12 proj) @ WSH Sun 7:20", "Brenton Strange (JAX TE, 7.82 proj) vs IND Sun 12:00", "Tyler Allgeier (ARI RB, 7.22 proj) @ DAL Sun 12:00"], "ISA": [], "QSG": ["Tyler Bass (BUF K, 10.3 proj) vs BAL Sun 12:00", "DeMario Douglas (NE WR, 8.77 proj) @ MIA Sun 3:25"], "BMD": ["Lamar Jackson (BAL QB, 25.79 proj) @ BUF Sun 12:00", "Emeka Egbuka (TB WR, 10.82 proj) vs ATL Sun 12:00", "Courtland Sutton (DEN WR, 7.3 proj) vs KC Sun 3:25"]}
 },
 /* League history from ESPN History + season standings pages.
 Records are regular season. 2017–2020 seasons were 13 games; 14 since 2021. */
@@ -2449,14 +2449,14 @@ DDT:  "Perfect lineup, 92.10, a loss. 26-51 in all-play, second-worst. Week 8: f
 PNB:  "Four straight losses, 16-61 in all-play, fewest points (684.15). Benched 37.9 at quarterback. Week 8: the 49ers D/ST is on bye and there's no other D/ST."
 },
 preview: [
-"Darren has four starters on bye as of Tuesday morning: Kendre Miller, Isaiah Likely, Juwan Johnson and the Texans D/ST. C.J. Stroud and David Montgomery are on bye on his bench too. Kimani Vidal (6.98), Khalil Shakir (7.57) and Kenyon Sadiq (3.89) can cover running back, flex and tight end; the roster has no other D/ST. ESPN: 76.50 with the holes, and Joe Burrow (27.03) is most of it. Rodrick has Woody Marks and Chris Olave on bye with Bhayshul Tuten (13.84) and Michael Wilson (10.14) on the bench, and Jordan Love starts Thursday at Green Bay with Sam Darnold (17.84) and Caleb Williams (17.74) behind him. Estimate: 66% Rodrick. Darren claims sixth.",
-"Kyle has Ka'imi Fairbairn (bye) at kicker with no other kicker on the roster, and Jaylen Waddle (Q, chest) at flex. Trevor Lawrence (25.25) and James Cook III (18.18) are back from bye and on his bench behind Aaron Rodgers (17.93) and J.K. Dobbins (6.48). ESPN: 89.46 as set. Rohan's lineup is full at 120.95, with Kirk Cousins (20.47) on the bench behind Jared Goff (19.22) after outscoring him by 3.80 last week. Estimate: 85% Rohan. Kyle claims ninth.",
-"Spencer's lineup is full: Saquon Barkley (Q) is at flex after leaving Monday night with a back injury, and his status for Sunday night at Washington is in considerable doubt per RotoWire. The other running backs are Tyjae Spears (out) and Tyrone Tracy Jr. (bye, hamstring), so a Barkley scratch means a receiver or Dalton Kincaid (7.12) at flex. DJ Moore (Q) is expected at full strength after the bye. Phil has the 49ers D/ST on bye with no other D/ST and Bam Knight (0.00) at flex with Parker Washington (14.00) on the bench. ESPN: 108.23 to 88.21. Estimate: 75% Spencer. Spencer claims third, Phil 10th.",
-"Kramer has Tyler Shough, Christian McCaffrey and Malik Nabers on bye, and Shough is the only quarterback on the roster. Aaron Jones Sr. (Q, aggravated MCL, 9.08) is the only healthy-ish running back on the bench, and Kramer claims 12th. Justin Herbert (38.4% rostered across ESPN) is available. Garrett starts Patrick Mahomes (16.84) with Jayden Daniels (24.59) on the bench, the reverse of last week's problem, and Josh Jacobs (DTD) plays Thursday. ESPN: 107.25 to 66.01. Estimate: 92% Garrett, with Shough counted at 0.",
-"Verber has George Kittle (bye) at tight end and no other tight end on the roster, and Roschon Johnson (0.00) at running back with Mike Washington Jr. (6.55) and Tyler Allgeier (6.46) on the bench. Bonifield has Tyler Warren (out) at tight end with Hunter Henry (8.52) on the bench and Breece Hall (out) at flex with Rachaad White (10.59) and RJ Harvey (7.58) behind him; Yahoo expects Hall back against Las Vegas. Matthew Golden (Q, DNP Monday) plays Thursday. ESPN: 105.83 to 125.47. Estimate: 74% Bonifield. Bonifield claims first, Verber seventh.",
-"David has Brock Purdy and Nico Collins on bye in his lineup. Lamar Jackson is on his bench with an O tag on ESPN, but Jesse Minter says he's in a decent spot to play at Buffalo and CBS reported he will. Courtland Sutton (7.30) and Wan'Dale Robinson (6.61) can cover receiver. Bagwell's lineup is full, with Josh Allen (27.22) back from bye and Geno Smith (21.90) and Baker Mayfield (18.26) on the bench. ESPN: 107.83 to 84.65 with Purdy at 0. Estimate: 78% Bagwell. David claims eighth, Bagwell 11th."
+"Darren had the sixth claim and didn't use it. Kendre Miller, Isaiah Likely, Juwan Johnson and the Texans D/ST are still in the lineup on bye, with Khalil Shakir (7.57), Kimani Vidal (6.97) and Kenyon Sadiq (3.89) on the bench and no other D/ST. ESPN: 76.50, and Joe Burrow (27.03) is over a third of it. Rodrick has fixed his byes since Tuesday: Bhayshul Tuten and Michael Wilson in for Woody Marks and Chris Olave, Patriots D/ST in for the Bears. Jordan Love starts Thursday at Green Bay. ESPN: 76.50 to 114.02. Estimate: 90% Rodrick.",
+"Kyle claimed Jonah Coleman and cut Aaron Rodgers, then moved Trevor Lawrence (25.25) and James Cook III (18.15) into the lineup and benched Jaylen Waddle (Q) for Omarion Hampton. Ka'imi Fairbairn (bye) is still his kicker, with no other kicker on the roster; Cam Little is available. Rohan claimed the Jaguars D/ST for the Panthers D/ST, flipped Kirk Cousins (20.47) in over Jared Goff (19.22), and has DK Metcalf at flex. ESPN: 107.62 to 127.68. Estimate: 75% Rohan.",
+"Spencer claimed Michael Penix Jr. for Tyrone Tracy Jr. and the Lions D/ST for the Titans D/ST. Saquon Barkley (Q) is still at flex and told reporters he plans to play through the back at Washington (RotoWire, Tue). Phil claimed the Bengals D/ST for Bam Knight, which fixes the 49ers bye, and moved Parker Washington and Omar Cooper Jr. into the lineup over Jordan Addison. ESPN: 110.65 to 112.40, and Phil is now the favorite. Estimate: 52% Phil.",
+"Kramer had the last claim and still has no quarterback: Tyler Shough is in the lineup on bye. Justin Herbert is unowned, and Aaron Rodgers, whom Kyle cut Wednesday, is available. Kramer did reshuffle: Aaron Jones Sr. (Q), Dallas Goedert, Adonai Mitchell and the Rams D/ST in. ESPN: 86.15 with Shough at 0. Garrett still has Patrick Mahomes (16.84) starting with Jayden Daniels (26.30) on the bench, and Josh Jacobs' tag is gone for Thursday. ESPN: 107.42 to 86.15. Estimate: 76% Garrett.",
+"Verber claimed Brenton Strange for Jaylin Noel and left him on the bench (7.82). George Kittle is still at tight end on bye, and Roschon Johnson (0.00) is still at running back with Dameon Pierce (8.12) and Tyler Allgeier (7.22) behind him. Bonifield's Tyler Warren and Breece Hall are back to Q on ESPN, both still in the lineup, with Hunter Henry and Rachaad White on the bench. Matthew Golden (Q) missed Monday and Tuesday practice and plays Thursday. ESPN: 105.83 to 125.47. Estimate: 74% Bonifield.",
+"David didn't claim anyone. Brock Purdy and Nico Collins are still in his lineup on bye. Lamar Jackson is now Q on ESPN, on the bench, with NBC reporting Tuesday night that he's expected to play at Buffalo. Courtland Sutton (7.30) and Emeka Egbuka (Q, 10.82) can cover receiver. Bagwell's lineup is full with Josh Allen (27.21). ESPN: 108.92 to 84.77 with Purdy at 0. Estimate: 79% Bagwell."
 ],
-thursday: "Week 8 starts Thursday at 7:15 PM Central, Panthers at Packers: Jordan Love (Roddy Riccchh), Christian Watson and Tucker Kraft (Let HIM Cook), Tetairoa McMillan and Panthers D/ST (Delhi Belly), Josh Jacobs (Make Arlington Great Again), Matthew Golden (I suck again, Q), Jalen Coker (Quarterback Sackgood, Q) and Chuba Hubbard (Honey Bijan Chicken). No Sunday morning game this week, and clocks fall back Sunday: noon kickoffs are 12:00 PM CST. Bears at Seahawks closes the week Monday night. Byes: Saints, Giants, 49ers, Texans.",
+thursday: "Week 8 starts Thursday at 7:15 PM Central, Panthers at Packers: Jordan Love (Roddy Riccchh), Christian Watson and Tucker Kraft (Let HIM Cook), Tetairoa McMillan (Delhi Belly), Josh Jacobs (Make Arlington Great Again), Matthew Golden (I suck again, Q, no practice Monday or Tuesday), Jalen Coker (Quarterback Sackgood) and Chuba Hubbard (Honey Bijan Chicken). No Sunday morning game this week, and clocks fall back Sunday: noon kickoffs are 12:00 PM CST. Bears at Seahawks closes the week Monday night. Byes: Saints, Giants, 49ers, Texans.",
 week: {
 kicker: "Week 7 in Review",
 headline: "Kyle Lost by a Tenth, David Scored 60, and Rohan Still Can't Win With the Most Points",
@@ -2526,12 +2526,11 @@ call: "22% (estimate) vs Bagwell. As of Tuesday morning Purdy and Collins are on
 },
 /* Wednesday's waiver run: who has a Week 8 hole the bench can't fill [team, need, detail] */
 needs: [
-["KRAM", "QB", "Tyler Shough is on bye and is the only quarterback on the roster. McCaffrey and Nabers are on bye too; Aaron Jones Sr. (Q) is the only bench running back."],
-["LHC", "K", "Ka'imi Fairbairn is on bye; no other kicker."],
-["V3K", "TE", "George Kittle is on bye; no other tight end."],
-["PNB", "D/ST", "49ers D/ST on bye; no other D/ST."],
-["DDT", "D/ST", "Texans D/ST on bye; no other D/ST. Three other starters are on bye, covered by the bench."],
-["BMD", "QB?", "Brock Purdy is on bye. Lamar Jackson (O on ESPN) is the backup; reports say he plays at Buffalo."]
+["KRAM", "QB", "Tyler Shough is on bye and is the only quarterback on the roster; no claim Wednesday. Justin Herbert and Aaron Rodgers are available."],
+["LHC", "K", "Ka'imi Fairbairn is on bye; no other kicker. Claimed Jonah Coleman instead."],
+["DDT", "D/ST", "Texans D/ST on bye; no other D/ST and no claim. Three other starters on bye, covered by the bench."],
+["V3K", "TE", "George Kittle is on bye at tight end. Brenton Strange, claimed Wednesday, is on the bench."],
+["BMD", "QB?", "Brock Purdy is on bye. Lamar Jackson (Q) is the backup and is expected to play at Buffalo."]
 ],
 receipts: [
 ["MAGA", "No moves. Started Mahomes (6.15) over Daniels (bye) and Jacobs (17.6) over Pierre Strong Jr. after a week of not doing either, and won."],
@@ -2556,13 +2555,13 @@ game: { week: 7, index: 0 }
 /* ---------- Injury news, Tuesday Oct 27 (paraphrased from reports; see sources) ----------
 [player, NFL team, pos, fantasy owner, ESPN tag, Week 8 role, note, source #] */
 DATA.news = {
-asOf: "Tuesday, Oct 27, 6:49 AM CT",
+asOf: "Wednesday, Oct 28, 7:52 AM CT",
 sources: [
-["Saquon Barkley", "https://www.cbssports.com/fantasy/football/news/eagles-saquon-barkley-suffers-compensatory-back-injury/"],
+["Saquon Barkley", "https://www.rotowire.com/football/headlines/saquon-barkley-injury-plans-to-play-through-back-issue-644640"],
 ["Lamar Jackson", "https://www.nbcsports.com/fantasy/football/player-news/2026-10-26/jackson-in-a-decent-spot-to-play-vs-bills"],
 ["DJ Moore", "https://sports.yahoo.com/articles/bills-week-8-injury-outlook-195203081.html"],
 ["Jaylen Waddle", "https://athlonsports.com/nfl/denver-broncos/jaylen-waddle-chest-injury-broncos-fan-questions-chiefs"],
-["Matthew Golden", "https://www.nbcsports.com/fantasy/football/player-news/2026-10-26/golden-shoulder-foot-listed-as-dnp-on-monday"],
+["Matthew Golden", "https://sports.yahoo.com/articles/packers-injury-report-lafleur-hopes-230409088.html"],
 ["Breece Hall", "https://sports.yahoo.com/fantasy/article/nfl-injury-report-week-8-latest-news-updates-on-lamar-jackson-breece-hall-more-players-for-fantasy-football-170704038.html"],
 ["Tyler Warren", "https://www.nbcsports.com/fantasy/football/player-news/2026-10-25/tyler-warren-groin-headlines-colts-inactives"],
 ["Emeka Egbuka", "https://www.rotoballer.com/player-news/emeka-egbuka-questionable-to-play-in-week-8/1976262"],
@@ -2571,9 +2570,7 @@ sources: [
 ["Christian McCaffrey", "https://www.forbes.com/sites/bryantoporek/2026/10/27/week-8-fantasy-football-injury-roundup-christian-mccaffrey-saquon-barkley-cam-skattebo-and-more/"],
 ["Mike Evans", "https://rotowire.com/football/headlines/mike-evans-injury-expected-back-after-bye-week-644521"],
 ["Ladd McConkey", "https://www.cbssports.com/fantasy/football/news/chargers-ladd-mcconkey-spotted-practicing-monday/"],
-["Jaylin Noel", "https://www.fantasypros.com/2026/10/fantasy-football-injury-report-updates-week-8-2026/"],
 ["Rashee Rice", "https://sports.yahoo.com/fantasy/article/nfl-injury-report-week-8-latest-news-updates-on-lamar-jackson-breece-hall-more-players-for-fantasy-football-170704038.html"],
-["Tyrone Tracy Jr.", "https://www.forbes.com/sites/bryantoporek/2026/10/27/week-8-fantasy-football-injury-roundup-christian-mccaffrey-saquon-barkley-cam-skattebo-and-more/"],
 ["Cam Skattebo", "https://www.phillyvoice.com/fantasy-football-injuries-jahmyr-gibbs-christian-mccaffrey-aaron-jones-cam-skattebo-news-tips-advice/"],
 ["Davante Adams", "https://www.fantasypros.com/2026/10/fantasy-football-injury-report-updates-week-8-2026/"],
 ["Jahmyr Gibbs", "https://www.phillyvoice.com/fantasy-football-injuries-jahmyr-gibbs-christian-mccaffrey-aaron-jones-cam-skattebo-news-tips-advice/"],
@@ -2592,46 +2589,43 @@ experts: [
 ["Week 8 injury roundup: McCaffrey, Barkley, Skattebo (Bryan Toporek, Forbes)", "https://www.forbes.com/sites/bryantoporek/2026/10/27/week-8-fantasy-football-injury-roundup-christian-mccaffrey-saquon-barkley-cam-skattebo-and-more/"]
 ],
 injuries: [
-["Saquon Barkley","PHI","RB","SAP","Q","Starting","Back and hamstring. Tweaked the hamstring on his first carry Monday night, scored a touchdown, then left with what he called a compensatory back injury. RotoWire calls his Sunday-night status at Washington in considerable doubt. At Spencer's flex.",0],
-["Lamar Jackson","BAL","QB","BMD","O","Bench","High ankle sprain, three straight missed games. Jesse Minter says he's in a decent spot to play at Buffalo, and CBS reported he will. First practice report comes Wednesday. On David's bench with Purdy on bye.",1],
+["Saquon Barkley","PHI","RB","SAP","Q","Starting","Back and hamstring. Tweaked the hamstring on his first carry Monday night, scored a touchdown, then left with what he called a compensatory back injury. Barkley said the hamstring came out fine and he plans to play through the back at Washington, per RotoWire Tuesday; practice is the tell. At Spencer's flex.",0],
+["Lamar Jackson","BAL","QB","BMD","Q","Bench","High ankle sprain, three straight missed games. Jesse Minter says he's in a decent spot to play at Buffalo, and CBS reported he will. First practice report comes Wednesday. On David's bench with Purdy on bye.",1],
 ["DJ Moore","BUF","WR","SAP","Q","Starting","Shoulder (AC joint). Sat two games plus the bye and says the rest helped; expected at full strength against Baltimore.",2],
-["Jaylen Waddle","DEN","WR","LHC","Q","Starting","Chest and shoulder, hurt on a late reverse at Arizona; didn't return. No timeline for Kansas City on Sunday. At Kyle's flex.",3],
-["Matthew Golden","GB","WR","ISA","Q","Starting","Shoulder and foot. Listed as a non-participant on Monday's estimated report, and Green Bay plays Thursday.",4],
-["Breece Hall","NYJ","RB","ISA","O","Starting","Quad, four straight missed games. Yahoo expects him back against Las Vegas, pending practice. Still at Bonifield's flex with the O tag.",5],
-["Tyler Warren","IND","TE","ISA","O","Starting","Groin, inactive in Week 7 for a second straight game. Could play at Jacksonville, expectations tempered. Still at Bonifield's tight end, with Hunter Henry on the bench.",6],
-["Emeka Egbuka","TB","WR","BMD","O","Bench","Concussion and foot. Missed Week 7; Todd Bowles called him questionable for Atlanta.",7],
-["Jeremiyah Love","ARI","RB","MAGA","O","Bench","Ankle, two straight missed games. Expected to practice Wednesday with a chance to play at Dallas.",8],
-["Aaron Jones Sr.","MIN","RB","KRAM","Q","Bench","Aggravated a sprained left MCL against Indianapolis. Avoided a serious injury and is day-to-day, but could miss Detroit. Kramer's only healthy bench running back.",9],
-["Christian McCaffrey","SF","RB","KRAM","Q","Starting","Mild hamstring strain, first called a thigh injury; played through it for 19.0. The 49ers are on bye, and Kyle Shanahan is optimistic for Week 9.",10],
-["Mike Evans","SF","WR","ISA","O","Bench","Achilles. Missed Week 7; the 49ers are on bye and he's expected back in Week 9 against Las Vegas.",11],
+["Jaylen Waddle","DEN","WR","LHC","Q","Bench","Chest and shoulder, hurt on a late reverse at Arizona; didn't return. No timeline for Kansas City on Sunday. Kyle has since benched him for Omarion Hampton.",3],
+["Matthew Golden","GB","WR","ISA","Q","Starting","Shoulder and foot. Didn't practice Monday or Tuesday. Matt LaFleur says he hopes Golden plays Thursday and they're still working through it; Isaiah Neyor could be elevated if not.",4],
+["Breece Hall","NYJ","RB","ISA","Q","Starting","Quad, four straight missed games. Yahoo expects him back against Las Vegas, pending practice. ESPN tag is back to Q; still at Bonifield's flex.",5],
+["Tyler Warren","IND","TE","ISA","Q","Starting","Groin, inactive in Week 7 for a second straight game. Could play at Jacksonville, expectations tempered. Still at Bonifield's tight end, with Hunter Henry on the bench.",6],
+["Emeka Egbuka","TB","WR","BMD","Q","Bench","Concussion and foot. Missed Week 7; Todd Bowles called him questionable for Atlanta.",7],
+["Jeremiyah Love","ARI","RB","MAGA","Q","Bench","Ankle, two straight missed games. Expected to practice Wednesday with a chance to play at Dallas.",8],
+["Aaron Jones Sr.","MIN","RB","KRAM","Q","Starting","Aggravated a sprained left MCL against Indianapolis. Avoided a serious injury and is day-to-day, but could miss Detroit. Kramer has since moved him into the lineup.",9],
+["Christian McCaffrey","SF","RB","KRAM","Q","Bench","Mild hamstring strain, first called a thigh injury; played through it for 19.0. The 49ers are on bye, and Kyle Shanahan is optimistic for Week 9.",10],
+["Mike Evans","SF","WR","ISA","Q","Bench","Achilles. Missed Week 7; the 49ers are on bye and he's expected back in Week 9 against Las Vegas.",11],
 ["Ladd McConkey","LAC","WR","ISA","Q","Bench","Concussion. Practiced Monday in a no-contact jersey; needs a full practice and an independent neurologist's clearance for the Rams game.",12],
-["Jaylin Noel","HOU","WR","V3K","Q","Bench","Turf toe, seen in a walking boot. Houston is on bye; Week 9 is uncertain.",13],
-["Rashee Rice","KC","WR","V3K","O","Bench","Hamstring. Out again in Week 7; Yahoo lists Week 8 at Denver as a possible return.",14],
-["Tyrone Tracy Jr.","NYG","RB","SAP","Q","Bench","Hamstring, pulled up in Week 7 and didn't return. No prognosis; the Giants are on bye.",15],
-["Cam Skattebo","NYG","RB","QSG","Q","Bench","Felt his hamstring on a 42-yard overtime run; Ian Garafolo says he should be fine. The Giants are on bye.",16],
-["Davante Adams","LAR","WR","SAP","IR","IR slot","Ruptured hamstring, on IR. Sean McVay's estimate is 6 to 10 weeks.",17],
-["Jahmyr Gibbs","DET","RB","ISA","Active","Starting","Ankle, hurt sliding late against Green Bay. Dan Campbell says he should be good after a re-evaluation. No ESPN tag.",18],
-["Zach Charbonnet","SEA","RB","BMD","O","IR slot","Coming back from ACL surgery and expected to practice fully; Mike Macdonald wouldn't commit to him playing Monday against Chicago.",19],
-["DeVonta Smith","PHI","WR","PNB","O","Bench","Hamstring. Missed Monday night and is still on the injury report. On Phil's bench.",20],
-["Tyjae Spears","TEN","RB","SAP","O","Bench","Knee. Inactive against Cleveland and still on the report.",21],
-["David Montgomery","HOU","RB","DDT","O","Bench","Groin. Missed Week 7, and Houston is on bye.",22]
+["Rashee Rice","KC","WR","V3K","Q","Bench","Hamstring. Out again in Week 7; Yahoo lists Week 8 at Denver as a possible return.",13],
+["Cam Skattebo","NYG","RB","QSG","Q","Bench","Felt his hamstring on a 42-yard overtime run; Ian Garafolo says he should be fine. The Giants are on bye.",14],
+["Davante Adams","LAR","WR","SAP","IR","IR slot","Ruptured hamstring, on IR. Sean McVay's estimate is 6 to 10 weeks.",15],
+["Jahmyr Gibbs","DET","RB","ISA","Active","Starting","Ankle, hurt sliding late against Green Bay. Dan Campbell says he should be good after a re-evaluation. No ESPN tag.",16],
+["Zach Charbonnet","SEA","RB","BMD","Q","IR slot","Coming back from ACL surgery and expected to practice fully; Mike Macdonald wouldn't commit to him playing Monday against Chicago.",17],
+["DeVonta Smith","PHI","WR","PNB","Q","Bench","Hamstring. Missed Monday night and is still on the injury report. On Phil's bench.",18],
+["Tyjae Spears","TEN","RB","SAP","Q","Bench","Knee. Inactive against Cleveland and still on the report.",19],
+["David Montgomery","HOU","RB","DDT","Q","Bench","Groin. Missed Week 7, and Houston is on bye.",20]
 ],
 alsoTagged: [
-["Amon-Ra St. Brown", "DDT", "Q", "Starting"], ["Jalen Coker", "QSG", "Q", "Starting"], ["Josh Jacobs", "MAGA", "DTD", "Starting"], ["Kyle Monangai", "DB", "O", "IR"], ["Travis Etienne Jr.", "DDT", "IR", "Bench"], ["Jordyn Tyson", "DDT", "IR", "IR"], ["Terrance Ferguson", "ISA", "IR", "IR"], ["Jacory Croskey-Merritt", "KRAM", "IR", "IR"], ["Jadarian Price", "LHC", "IR", "IR"], ["Alec Pierce", "MAGA", "IR", "IR"], ["Jonathon Brooks", "PNB", "IR", "IR"], ["Tyreek Hill", "V3K", "Q", "IR"]
+["Amon-Ra St. Brown", "DDT", "Q", "Starting"], ["Kyle Monangai", "DB", "Q", "IR"], ["Travis Etienne Jr.", "DDT", "IR", "Bench"], ["Jordyn Tyson", "DDT", "IR", "IR"], ["Terrance Ferguson", "ISA", "IR", "IR"], ["Jacory Croskey-Merritt", "KRAM", "IR", "IR"], ["Jadarian Price", "LHC", "IR", "IR"], ["Alec Pierce", "MAGA", "IR", "IR"], ["Jonathon Brooks", "PNB", "IR", "IR"], ["Tyreek Hill", "V3K", "Q", "IR"]
 ]
 };
 /* Daily note: the critical flags of the day, top of the overview. Quick updates rewrite this.
    items: [level ("out" | "watch" | "info"), team key or null, text] */
 DATA.daily = {
-date: "Tuesday, Oct 27",
-asOf: "ESPN 6:49 AM CT",
+date: "Wednesday, Oct 28",
+asOf: "ESPN 7:52 AM CT",
 items: [
-["out", "KRAM", "No quarterback for Week 8: Tyler Shough (Saints) is on bye and is the only one on the roster. McCaffrey and Nabers are on bye too, ESPN projects 66.01, and Kramer has the last waiver claim. Justin Herbert is available."],
-["out", null, "Bye holes the bench can't fill: Kyle's kicker (Fairbairn), Verber's tight end (Kittle), and the D/ST for both Phil (49ers) and Darren (Texans)."],
-["watch", "SAP", "Saquon Barkley left Monday night with a back injury; RotoWire calls Sunday night at Washington in considerable doubt. Spencer's other running backs are Spears (out) and Tracy (bye)."],
-["watch", "BMD", "Brock Purdy and Nico Collins are on bye in David's lineup. Lamar Jackson is still tagged O on ESPN, but Baltimore's coach and CBS both point to him playing at Buffalo."],
-["watch", "ISA", "Tyler Warren (O) and Breece Hall (O) are still in Bonifield's lineup; Hunter Henry and Rachaad White are on the bench. Matthew Golden (Q) didn't practice Monday and plays Thursday."],
-["info", null, "Waivers run Wednesday morning. Order: Bonifield, Rodrick, Spencer, Garrett, Rohan, Darren, Verber, David, Kyle, Phil, Bagwell, Kramer."]
+["out", "KRAM", "Kramer had the last waiver claim and didn't take a quarterback. Tyler Shough is on bye at QB. Justin Herbert is a free agent, and Aaron Rodgers is available after Kyle cut him."],
+["out", null, "Still unfilled after waivers: Kyle's kicker (Fairbairn, bye), Darren's D/ST (Texans, bye) plus three more of his starters on bye, and David's Purdy and Nico Collins. Verber claimed Brenton Strange and left Kittle (bye) at tight end."],
+["watch", "SAP", "Spencer vs Phil flipped: Phil claimed the Bengals D/ST and ESPN now has him 112.40 to 110.65. Saquon Barkley (Q) says he'll play through the back at Washington."],
+["watch", "ISA", "Matthew Golden (Q) missed Monday and Tuesday practice; Green Bay plays Thursday. Tyler Warren and Breece Hall are Q, still in Bonifield's lineup."],
+["info", null, "Wednesday claims: Spencer took Michael Penix Jr. and Lions D/ST, Rohan Jaguars D/ST, Phil Bengals D/ST, Verber Brenton Strange, Kyle Jonah Coleman. Next order starts Bonifield, Rodrick, Garrett; Spencer is last."]
 ]
 };
 
