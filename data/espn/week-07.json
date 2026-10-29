@@ -21,7 +21,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Brock Bowers",
       "nfl": "LV",
       "pctOwned": 0,
@@ -475,7 +475,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Amon-Ra St. Brown",
       "nfl": "DET",
       "pctOwned": 0,
@@ -791,7 +791,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Travis Kelce",
       "nfl": "KC",
       "pctOwned": 0,
@@ -805,7 +805,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Stefon Diggs",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -943,7 +943,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Ja'Marr Chase",
       "nfl": "CIN",
       "pctOwned": 0,
@@ -1097,7 +1097,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Braelon Allen",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1713,7 +1713,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "TreVeyon Henderson",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2347,7 +2347,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jahmyr Gibbs",
       "nfl": "DET",
       "pctOwned": 0,
@@ -2487,7 +2487,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "RJ Harvey",
       "nfl": "DEN",
       "pctOwned": 0,
