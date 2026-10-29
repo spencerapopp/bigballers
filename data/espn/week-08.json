@@ -337,7 +337,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Michael Wilson",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -2061,7 +2061,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Tyler Allgeier",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -2588,7 +2588,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2602,7 +2602,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 10.82,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -2616,7 +2616,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 25.79,
-      "slot": "BE"
+      "slot": "QB"
      },
      {
       "acquisitionType": null,
@@ -2644,7 +2644,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 0.0,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2775,7 +2775,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 84.77083081,
+    "projected": 121.37878608,
     "teamId": 8
    },
    "week": 8,
