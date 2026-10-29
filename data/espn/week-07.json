@@ -1543,7 +1543,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16025,
-      "points": 1.0,
+      "points": 2.0,
       "pos": "D/ST",
       "proj": 7.68,
       "slot": "D/ST"
@@ -1633,7 +1633,7 @@
       "slot": "FLEX"
      }
     ],
-    "points": 91.2,
+    "points": 92.2,
     "pointsLive": null,
     "projected": null,
     "teamId": 2
