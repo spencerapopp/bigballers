@@ -2389,7 +2389,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Tyler Warren",
       "nfl": "IND",
       "pctOwned": 0,
@@ -2620,8 +2620,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Emeka Egbuka",
       "nfl": "TB",
       "pctOwned": 0,
