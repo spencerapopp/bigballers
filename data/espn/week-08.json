@@ -399,7 +399,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4036378,
-      "points": 0.0,
+      "points": 19.45,
       "pos": "QB",
       "proj": 20.73,
       "slot": "QB"
@@ -448,8 +448,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 114.03024106,
+    "pointsLive": 19.45,
+    "projected": 123.113105,
     "teamId": 3
    },
    "week": 8,
@@ -531,13 +531,13 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Christian Watson",
       "nfl": "GB",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4248528,
-      "points": 0.0,
+      "points": 10.0,
       "pos": "WR",
       "proj": 12.03,
       "slot": "WR"
@@ -565,7 +565,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4572680,
-      "points": 0.0,
+      "points": 9.7,
       "pos": "TE",
       "proj": 8.49,
       "slot": "TE"
@@ -684,8 +684,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 103.75600961,
+    "pointsLive": 19.7,
+    "projected": 113.19787866,
     "teamId": 13
    },
    "home": {
@@ -741,7 +741,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685472,
-      "points": 0.0,
+      "points": 1.5,
       "pos": "WR",
       "proj": 12.76,
       "slot": "WR"
@@ -916,8 +916,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 127.90767482,
+    "pointsLive": 1.5,
+    "projected": 123.02673693,
     "teamId": 11
    },
    "week": 8,
@@ -1431,7 +1431,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4047365,
-      "points": 0.0,
+      "points": 9.8,
       "pos": "RB",
       "proj": 13.74,
       "slot": "RB"
@@ -1620,8 +1620,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 107.0476831,
+    "pointsLive": 9.8,
+    "projected": 109.98008343,
     "teamId": 5
    },
    "home": {
@@ -2195,13 +2195,13 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Matthew Golden",
       "nfl": "GB",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4701936,
-      "points": 0.0,
+      "points": 12.4,
       "pos": "WR",
       "proj": 12.7,
       "slot": "WR"
@@ -2271,7 +2271,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685720,
-      "points": 0.0,
+      "points": 0.25,
       "pos": "QB",
       "proj": 20.21,
       "slot": "BE"
@@ -2320,8 +2320,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 125.53088451,
+    "pointsLive": 12.4,
+    "projected": 131.58012128,
     "teamId": 9
    },
    "week": 8,
@@ -2479,7 +2479,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4695883,
-      "points": 0.0,
+      "points": 0.5,
       "pos": "WR",
       "proj": 11.8,
       "slot": "WR"
@@ -2493,7 +2493,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4372780,
-      "points": 0.0,
+      "points": 2.4,
       "pos": "TE",
       "proj": 3.28,
       "slot": "BE"
@@ -2542,8 +2542,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 110.18863051,
+    "pointsLive": 0.5,
+    "projected": 104.78996736,
     "teamId": 6
    },
    "home": {
@@ -2669,7 +2669,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4241416,
-      "points": 0.0,
+      "points": 14.3,
       "pos": "RB",
       "proj": 14.36,
       "slot": "FLEX"
@@ -2774,8 +2774,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 122.53455128,
+    "pointsLive": 14.3,
+    "projected": 129.65243361,
     "teamId": 8
    },
    "week": 8,

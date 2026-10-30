@@ -309,7 +309,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Christian Watson",
       "nfl": "GB",
       "pctOwned": 0,
@@ -2445,7 +2445,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Matthew Golden",
       "nfl": "GB",
       "pctOwned": 0,
