@@ -175,6 +175,69 @@
    ],
    "teamId": 13,
    "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-30T03:48:42.960000+00:00",
+   "id": "4c39ea8e-dd3d-4df2-af2e-de5c3972540f",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4870653,
+     "to": 1,
+     "type": "ADD"
+    },
+    {
+     "from": 1,
+     "playerId": 4569603,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 1,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-30T03:51:50.744000+00:00",
+   "id": "1dc89bd1-a627-4ae4-b2dc-0fbe1958849a",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4362619,
+     "to": 1,
+     "type": "ADD"
+    },
+    {
+     "from": 1,
+     "playerId": 4428557,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 1,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-10-30T08:03:11.689000+00:00",
+   "id": "40fd8db7-6d9c-411d-b4fe-fc911c97fd68",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 15864,
+     "to": 4,
+     "type": "ADD"
+    },
+    {
+     "from": 4,
+     "playerId": 4360689,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 4,
+   "type": "WAIVER"
   }
  ],
  "week": 8

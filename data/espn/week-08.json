@@ -399,7 +399,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4036378,
-      "points": 19.45,
+      "points": 27.4,
       "pos": "QB",
       "proj": 20.73,
       "slot": "QB"
@@ -448,8 +448,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 19.45,
-    "projected": 123.113105,
+    "pointsLive": 27.4,
+    "projected": 120.69596895,
     "teamId": 3
    },
    "week": 8,
@@ -537,7 +537,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4248528,
-      "points": 10.0,
+      "points": 12.3,
       "pos": "WR",
       "proj": 12.03,
       "slot": "WR"
@@ -565,7 +565,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4572680,
-      "points": 9.7,
+      "points": 14.3,
       "pos": "TE",
       "proj": 8.49,
       "slot": "TE"
@@ -684,8 +684,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 19.7,
-    "projected": 113.19787866,
+    "pointsLive": 26.6,
+    "projected": 109.83974772,
     "teamId": 13
    },
    "home": {
@@ -741,7 +741,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685472,
-      "points": 1.5,
+      "points": 8.8,
       "pos": "WR",
       "proj": 12.76,
       "slot": "WR"
@@ -916,8 +916,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 1.5,
-    "projected": 123.02673693,
+    "pointsLive": 8.8,
+    "projected": 123.94579905,
     "teamId": 11
    },
    "week": 8,
@@ -1055,34 +1055,6 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
-      "name": "Tyjae Spears",
-      "nfl": "TEN",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4428557,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 5.58,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
-      "name": "Malik Washington",
-      "nfl": "MIA",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4569603,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 8.45,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Chris Godwin Jr.",
       "nfl": "TB",
@@ -1148,6 +1120,34 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 18.98,
+      "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "KC Concepcion",
+      "nfl": "CLE",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4870653,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 7.85,
+      "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Chris Rodriguez Jr.",
+      "nfl": "JAX",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4362619,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 6.19,
       "slot": "BE"
      }
     ],
@@ -1431,7 +1431,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4047365,
-      "points": 9.8,
+      "points": 20.2,
       "pos": "RB",
       "proj": 13.74,
       "slot": "RB"
@@ -1613,15 +1613,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4249836,
-      "points": 0.0,
+      "points": 0.7,
       "pos": "RB",
       "proj": 0.0,
       "slot": "BE"
      }
     ],
     "points": 0.0,
-    "pointsLive": 9.8,
-    "projected": 109.98008343,
+    "pointsLive": 20.2,
+    "projected": 113.51248376,
     "teamId": 5
    },
    "home": {
@@ -1825,20 +1825,6 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Tyler Shough",
-      "nfl": "NO",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4360689,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 0.0,
-      "slot": "QB"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
       "injuryStatus": "QUESTIONABLE",
       "name": "Aaron Jones Sr.",
       "nfl": "MIN",
@@ -1849,11 +1835,25 @@
       "pos": "RB",
       "proj": 9.07,
       "slot": "RB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Geno Smith",
+      "nfl": "NYJ",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 15864,
+      "points": 0.0,
+      "pos": "QB",
+      "proj": 21.9,
+      "slot": "QB"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 86.12191594,
+    "projected": 108.02454826,
     "teamId": 4
    },
    "week": 8,
@@ -2201,7 +2201,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4701936,
-      "points": 12.4,
+      "points": 17.4,
       "pos": "WR",
       "proj": 12.7,
       "slot": "WR"
@@ -2271,7 +2271,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685720,
-      "points": 0.25,
+      "points": 10.95,
       "pos": "QB",
       "proj": 20.21,
       "slot": "BE"
@@ -2320,8 +2320,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 12.4,
-    "projected": 131.58012128,
+    "pointsLive": 17.4,
+    "projected": 130.22935805,
     "teamId": 9
    },
    "week": 8,
@@ -2479,7 +2479,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4695883,
-      "points": 0.5,
+      "points": 8.1,
       "pos": "WR",
       "proj": 11.8,
       "slot": "WR"
@@ -2542,8 +2542,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.5,
-    "projected": 104.78996736,
+    "pointsLive": 8.1,
+    "projected": 106.49130421,
     "teamId": 6
    },
    "home": {
@@ -2669,7 +2669,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4241416,
-      "points": 14.3,
+      "points": 21.4,
       "pos": "RB",
       "proj": 14.36,
       "slot": "FLEX"
@@ -2774,8 +2774,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 14.3,
-    "projected": 129.65243361,
+    "pointsLive": 21.4,
+    "projected": 129.57031594,
     "teamId": 8
    },
    "week": 8,
