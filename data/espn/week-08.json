@@ -86,7 +86,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 0.0,
-      "slot": "D/ST"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -190,20 +190,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Kendre Miller",
-      "nfl": "NO",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4599739,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Kimani Vidal",
       "nfl": "LAC",
       "pctOwned": 0,
@@ -211,7 +197,7 @@
       "playerId": 4430968,
       "points": 0.0,
       "pos": "RB",
-      "proj": 6.97,
+      "proj": 6.98,
       "slot": "RB"
      },
      {
@@ -227,11 +213,25 @@
       "pos": "K",
       "proj": 9.95,
       "slot": "K"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Commanders D/ST",
+      "nfl": "WSH",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": -16028,
+      "points": 0.0,
+      "pos": "D/ST",
+      "proj": 11.37,
+      "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 95.93936403,
+    "projected": 107.3111236,
     "teamId": 10
    },
    "home": {
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 27.4,
-    "projected": 120.71416159,
+    "projected": 120.71159674,
     "teamId": 3
    },
    "week": 8,
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 26.6,
-    "projected": 111.6455574,
+    "projected": 111.64643631,
     "teamId": 13
    },
    "home": {
@@ -729,7 +729,7 @@
       "playerId": 4361579,
       "points": 0.0,
       "pos": "RB",
-      "proj": 19.53,
+      "proj": 19.52,
       "slot": "RB"
      },
      {
@@ -917,7 +917,7 @@
     ],
     "points": 0.0,
     "pointsLive": 8.8,
-    "projected": 125.923481,
+    "projected": 125.91765404,
     "teamId": 11
    },
    "week": 8,
@@ -1153,7 +1153,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 113.61944329,
+    "projected": 113.62116933,
     "teamId": 1
    },
    "home": {
@@ -1309,7 +1309,7 @@
       "playerId": 2578570,
       "points": 0.0,
       "pos": "QB",
-      "proj": 18.64,
+      "proj": 18.65,
       "slot": "BE"
      },
      {
@@ -1385,7 +1385,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 112.94202935,
+    "projected": 112.94170777,
     "teamId": 2
    },
    "week": 8,
@@ -1531,7 +1531,7 @@
       "playerId": 3139477,
       "points": 0.0,
       "pos": "QB",
-      "proj": 16.84,
+      "proj": 16.87,
       "slot": "QB"
      },
      {
@@ -1621,7 +1621,7 @@
     ],
     "points": 0.0,
     "pointsLive": 20.2,
-    "projected": 104.19916889,
+    "projected": 104.23011805,
     "teamId": 5
    },
    "home": {
@@ -1853,7 +1853,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 108.82911679,
+    "projected": 108.83040239,
     "teamId": 4
    },
    "week": 8,
@@ -2089,7 +2089,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 119.24076177,
+    "projected": 119.24112943,
     "teamId": 7
    },
    "home": {
@@ -2161,7 +2161,7 @@
       "playerId": 4612826,
       "points": 0.0,
       "pos": "WR",
-      "proj": 8.2,
+      "proj": 8.21,
       "slot": "WR"
      },
      {
@@ -2321,7 +2321,7 @@
     ],
     "points": 0.0,
     "pointsLive": 17.4,
-    "projected": 124.78012109,
+    "projected": 124.78838598,
     "teamId": 9
    },
    "week": 8,
@@ -2439,7 +2439,7 @@
       "playerId": -16007,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 8.7,
+      "proj": 8.51,
       "slot": "D/ST"
      },
      {
@@ -2543,7 +2543,7 @@
     ],
     "points": 0.0,
     "pointsLive": 8.1,
-    "projected": 106.50218388,
+    "projected": 106.31578949,
     "teamId": 6
    },
    "home": {
@@ -2775,7 +2775,7 @@
     ],
     "points": 0.0,
     "pointsLive": 21.4,
-    "projected": 118.80704357,
+    "projected": 118.80777923,
     "teamId": 8
    },
    "week": 8,
