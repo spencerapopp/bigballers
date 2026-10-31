@@ -71,7 +71,7 @@
       "playerId": 3915511,
       "points": 0.0,
       "pos": "QB",
-      "proj": 28.04,
+      "proj": 28.03,
       "slot": "QB"
      },
      {
@@ -225,13 +225,13 @@
       "playerId": -16028,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 11.37,
+      "proj": 11.23,
       "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 107.3111236,
+    "projected": 107.16675969,
     "teamId": 10
    },
    "home": {
@@ -261,7 +261,7 @@
       "playerId": 4432665,
       "points": 0.0,
       "pos": "TE",
-      "proj": 13.05,
+      "proj": 13.12,
       "slot": "TE"
      },
      {
@@ -281,7 +281,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Colston Loveland",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -415,7 +415,7 @@
       "playerId": 3912547,
       "points": 0.0,
       "pos": "QB",
-      "proj": 17.42,
+      "proj": 17.43,
       "slot": "BE"
      },
      {
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 27.4,
-    "projected": 120.71159674,
+    "projected": 120.78093678,
     "teamId": 3
    },
    "week": 8,
@@ -511,7 +511,7 @@
       "playerId": 4372016,
       "points": 0.0,
       "pos": "WR",
-      "proj": 8.41,
+      "proj": 8.45,
       "slot": "BE"
      },
      {
@@ -525,7 +525,7 @@
       "playerId": 4685512,
       "points": 0.0,
       "pos": "RB",
-      "proj": 0.0,
+      "proj": 7.25,
       "slot": "IR"
      },
      {
@@ -581,7 +581,7 @@
       "playerId": 4429096,
       "points": 0.0,
       "pos": "RB",
-      "proj": 10.92,
+      "proj": 10.94,
       "slot": "BE"
      },
      {
@@ -637,7 +637,7 @@
       "playerId": -16012,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 8.79,
+      "proj": 8.49,
       "slot": "D/ST"
      },
      {
@@ -665,7 +665,7 @@
       "playerId": 4702555,
       "points": 0.0,
       "pos": "RB",
-      "proj": 8.7,
+      "proj": 8.37,
       "slot": "RB"
      },
      {
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 26.6,
-    "projected": 111.64643631,
+    "projected": 111.01374213,
     "teamId": 13
    },
    "home": {
@@ -772,7 +772,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 10.18,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -818,8 +818,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kyle Monangai",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -856,21 +856,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 10.14,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Spencer Shrader",
-      "nfl": "IND",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4571557,
-      "points": 0.0,
-      "pos": "K",
-      "proj": 10.2,
-      "slot": "K"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -913,11 +899,25 @@
       "pos": "D/ST",
       "proj": 11.51,
       "slot": "D/ST"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Cam Little",
+      "nfl": "JAX",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4686361,
+      "points": 0.0,
+      "pos": "K",
+      "proj": 9.07,
+      "slot": "K"
      }
     ],
     "points": 0.0,
     "pointsLive": 8.8,
-    "projected": 125.91765404,
+    "projected": 124.7322186,
     "teamId": 11
    },
    "week": 8,
@@ -1153,7 +1153,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 113.62116933,
+    "projected": 113.62371232,
     "teamId": 1
    },
    "home": {
@@ -1169,7 +1169,7 @@
       "playerId": 4890973,
       "points": 0.0,
       "pos": "RB",
-      "proj": 14.7,
+      "proj": 14.73,
       "slot": "RB"
      },
      {
@@ -1267,7 +1267,7 @@
       "playerId": 4426338,
       "points": 0.0,
       "pos": "QB",
-      "proj": 16.26,
+      "proj": 16.3,
       "slot": "BE"
      },
      {
@@ -1309,7 +1309,7 @@
       "playerId": 2578570,
       "points": 0.0,
       "pos": "QB",
-      "proj": 18.65,
+      "proj": 18.66,
       "slot": "BE"
      },
      {
@@ -1385,7 +1385,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 112.94170777,
+    "projected": 112.96835817,
     "teamId": 2
    },
    "week": 8,
@@ -1405,7 +1405,7 @@
       "playerId": 4426515,
       "points": 0.0,
       "pos": "WR",
-      "proj": 18.59,
+      "proj": 18.95,
       "slot": "WR"
      },
      {
@@ -1545,7 +1545,7 @@
       "playerId": 4428718,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.02,
+      "proj": 9.07,
       "slot": "BE"
      },
      {
@@ -1573,7 +1573,7 @@
       "playerId": 4887558,
       "points": 0.0,
       "pos": "RB",
-      "proj": 8.18,
+      "proj": 6.41,
       "slot": "FLEX"
      },
      {
@@ -1601,7 +1601,7 @@
       "playerId": -16026,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 9.25,
+      "proj": 9.22,
       "slot": "BE"
      },
      {
@@ -1621,7 +1621,7 @@
     ],
     "points": 0.0,
     "pointsLive": 20.2,
-    "projected": 104.23011805,
+    "projected": 102.83506638,
     "teamId": 5
    },
    "home": {
@@ -1679,7 +1679,7 @@
       "playerId": 4430737,
       "points": 0.0,
       "pos": "RB",
-      "proj": 16.29,
+      "proj": 16.4,
       "slot": "RB"
      },
      {
@@ -1707,7 +1707,7 @@
       "playerId": 3121023,
       "points": 0.0,
       "pos": "TE",
-      "proj": 8.26,
+      "proj": 8.27,
       "slot": "TE"
      },
      {
@@ -1853,7 +1853,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 108.83040239,
+    "projected": 108.95434741,
     "teamId": 4
    },
    "week": 8,
@@ -1873,7 +1873,7 @@
       "playerId": 4430878,
       "points": 0.0,
       "pos": "WR",
-      "proj": 17.96,
+      "proj": 17.66,
       "slot": "WR"
      },
      {
@@ -1929,13 +1929,13 @@
       "playerId": 4431452,
       "points": 0.0,
       "pos": "QB",
-      "proj": 26.66,
+      "proj": 26.63,
       "slot": "QB"
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "TreVeyon Henderson",
       "nfl": "NE",
       "pctOwned": 0,
@@ -1943,7 +1943,7 @@
       "playerId": 4432710,
       "points": 0.0,
       "pos": "RB",
-      "proj": 6.83,
+      "proj": 0.0,
       "slot": "BE"
      },
      {
@@ -1999,7 +1999,7 @@
       "playerId": 4686658,
       "points": 0.0,
       "pos": "RB",
-      "proj": 6.54,
+      "proj": 6.55,
       "slot": "BE"
      },
      {
@@ -2089,7 +2089,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 119.24112943,
+    "projected": 118.91083002,
     "teamId": 7
    },
    "home": {
@@ -2124,8 +2124,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2175,7 +2175,7 @@
       "playerId": 4569173,
       "points": 0.0,
       "pos": "RB",
-      "proj": 12.42,
+      "proj": 14.37,
       "slot": "RB"
      },
      {
@@ -2237,7 +2237,7 @@
      {
       "acquisitionType": null,
       "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "INJURY_RESERVE",
       "name": "RJ Harvey",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -2315,13 +2315,13 @@
       "playerId": 3046439,
       "points": 0.0,
       "pos": "TE",
-      "proj": 8.45,
+      "proj": 8.4,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 17.4,
-    "projected": 124.78838598,
+    "projected": 126.74095156,
     "teamId": 9
    },
    "week": 8,
@@ -2509,7 +2509,7 @@
       "playerId": 4427095,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.3,
+      "proj": 9.24,
       "slot": "BE"
      },
      {
@@ -2543,7 +2543,7 @@
     ],
     "points": 0.0,
     "pointsLive": 8.1,
-    "projected": 106.31578949,
+    "projected": 106.31485986,
     "teamId": 6
    },
    "home": {
@@ -2685,13 +2685,13 @@
       "playerId": 2473037,
       "points": 0.0,
       "pos": "K",
-      "proj": 9.49,
+      "proj": 9.48,
       "slot": "K"
      },
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Zach Charbonnet",
       "nfl": "SEA",
       "pctOwned": 0,
@@ -2699,7 +2699,7 @@
       "playerId": 4426385,
       "points": 0.0,
       "pos": "RB",
-      "proj": 10.11,
+      "proj": 9.99,
       "slot": "IR"
      },
      {
@@ -2769,13 +2769,13 @@
       "playerId": 3128429,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.96,
+      "proj": 8.01,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 21.4,
-    "projected": 118.80777923,
+    "projected": 118.80191345,
     "teamId": 8
    },
    "week": 8,

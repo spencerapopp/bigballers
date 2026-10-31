@@ -49,7 +49,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Colston Loveland",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -1068,8 +1068,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kyle Monangai",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -1712,8 +1712,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "TreVeyon Henderson",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2374,8 +2374,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2487,7 +2487,7 @@
      {
       "acquisitionType": null,
       "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "INJURY_RESERVE",
       "name": "RJ Harvey",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -2719,7 +2719,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Zach Charbonnet",
       "nfl": "SEA",
       "pctOwned": 0,
