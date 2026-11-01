@@ -749,7 +749,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "DJ Moore",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -819,7 +819,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -1055,7 +1055,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Kenny Gainwell",
       "nfl": "TB",
       "pctOwned": 0,
@@ -1287,7 +1287,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -2139,7 +2139,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "George Pickens",
       "nfl": "DAL",
       "pctOwned": 0,
@@ -2360,8 +2360,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Breece Hall",
       "nfl": "NYJ",
       "pctOwned": 0,

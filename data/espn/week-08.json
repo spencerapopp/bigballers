@@ -484,7 +484,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 7.51,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -582,7 +582,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 10.94,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 26.6,
-    "projected": 119.30198354,
+    "projected": 122.73276057,
     "teamId": 13
    },
    "home": {
@@ -758,7 +758,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 13.21,
-      "slot": "RB"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -805,7 +805,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Kenny Gainwell",
       "nfl": "TB",
       "pctOwned": 0,
@@ -856,7 +856,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 16.24,
-      "slot": "FLEX"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -971,7 +971,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "DJ Moore",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -1041,7 +1041,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -1476,7 +1476,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1509,7 +1509,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -1546,7 +1546,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 9.08,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1621,7 +1621,7 @@
     ],
     "points": 0.0,
     "pointsLive": 20.2,
-    "projected": 102.83368397,
+    "projected": 111.91535358,
     "teamId": 5
    },
    "home": {
@@ -2110,8 +2110,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Breece Hall",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -2361,7 +2361,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "George Pickens",
       "nfl": "DAL",
       "pctOwned": 0,
@@ -2742,20 +2742,6 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 6.38,
-      "slot": "D/ST"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Courtland Sutton",
-      "nfl": "DEN",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3128429,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 7.98,
       "slot": "BE"
      },
      {
@@ -2771,11 +2757,25 @@
       "pos": "WR",
       "proj": 7.6,
       "slot": "WR"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Buccaneers D/ST",
+      "nfl": "TB",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": -16027,
+      "points": 0.0,
+      "pos": "D/ST",
+      "proj": 7.25,
+      "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 21.4,
-    "projected": 126.39847941,
+    "projected": 127.27228211,
     "teamId": 8
    },
    "week": 8,
