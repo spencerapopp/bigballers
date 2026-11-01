@@ -231,7 +231,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 107.16675969,
+    "projected": 107.16633608,
     "teamId": 10
    },
    "home": {
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 27.4,
-    "projected": 120.78093678,
+    "projected": 120.78116014,
     "teamId": 3
    },
    "week": 8,
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 26.6,
-    "projected": 111.01374213,
+    "projected": 111.0136845,
     "teamId": 13
    },
    "home": {
@@ -917,7 +917,7 @@
     ],
     "points": 0.0,
     "pointsLive": 8.8,
-    "projected": 124.7322186,
+    "projected": 124.73139244,
     "teamId": 11
    },
    "week": 8,
@@ -1153,7 +1153,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 113.62371232,
+    "projected": 113.62267568,
     "teamId": 1
    },
    "home": {
@@ -1211,7 +1211,7 @@
       "playerId": 4239993,
       "points": 0.0,
       "pos": "WR",
-      "proj": 12.93,
+      "proj": 12.92,
       "slot": "WR"
      },
      {
@@ -1379,13 +1379,13 @@
       "playerId": -16004,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 9.99,
+      "proj": 10.01,
       "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 112.96835817,
+    "projected": 112.98449368,
     "teamId": 2
    },
    "week": 8,
@@ -1601,7 +1601,7 @@
       "playerId": -16026,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 9.22,
+      "proj": 9.26,
       "slot": "BE"
      },
      {
@@ -1621,7 +1621,7 @@
     ],
     "points": 0.0,
     "pointsLive": 20.2,
-    "projected": 102.83506638,
+    "projected": 102.83610112,
     "teamId": 5
    },
    "home": {
@@ -2089,7 +2089,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 118.91083002,
+    "projected": 118.91128287,
     "teamId": 7
    },
    "home": {
@@ -2321,7 +2321,7 @@
     ],
     "points": 0.0,
     "pointsLive": 17.4,
-    "projected": 126.74095156,
+    "projected": 126.7408204,
     "teamId": 9
    },
    "week": 8,
@@ -2467,7 +2467,7 @@
       "playerId": 3052587,
       "points": 0.0,
       "pos": "QB",
-      "proj": 18.27,
+      "proj": 18.28,
       "slot": "BE"
      },
      {
@@ -2543,7 +2543,7 @@
     ],
     "points": 0.0,
     "pointsLive": 8.1,
-    "projected": 106.31485986,
+    "projected": 106.31564434,
     "teamId": 6
    },
    "home": {
@@ -2602,7 +2602,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "IR"
      },
      {
       "acquisitionType": null,
@@ -2700,7 +2700,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 9.99,
-      "slot": "IR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2748,20 +2748,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Wan'Dale Robinson",
-      "nfl": "TEN",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4569587,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 7.41,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Courtland Sutton",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -2771,11 +2757,25 @@
       "pos": "WR",
       "proj": 8.01,
       "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Makai Lemon",
+      "nfl": "PHI",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4870795,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 7.6,
+      "slot": "WR"
      }
     ],
     "points": 0.0,
     "pointsLive": 21.4,
-    "projected": 118.80191345,
+    "projected": 126.39847941,
     "teamId": 8
    },
    "week": 8,
