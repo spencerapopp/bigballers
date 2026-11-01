@@ -105,7 +105,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Michael Wilson",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -281,7 +281,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jaylen Waddle",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -749,7 +749,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "DJ Moore",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -1189,7 +1189,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jeremiyah Love",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -1607,7 +1607,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Kyler Murray",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -1621,7 +1621,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Bam Knight",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -2557,7 +2557,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Hunter Henry",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2634,8 +2634,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Lamar Jackson",
       "nfl": "BAL",
       "pctOwned": 0,
