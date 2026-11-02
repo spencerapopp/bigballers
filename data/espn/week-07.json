@@ -2556,8 +2556,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Hunter Henry",
       "nfl": "NE",
       "pctOwned": 0,
