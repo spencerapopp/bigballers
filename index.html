@@ -628,7 +628,7 @@ regularSeasonWeeks: 14,
 tiebreaker: "Total points for",
 tradeDeadline: "Dec 4",
 currentWeek: 7,
-updated: "Sunday, Nov 1, 2026"
+updated: "Monday, Nov 2, 2026"
 },
 teams: {
 SAP:  { name: "Saquon my Dak",              manager: "Spencer Popp", abbr: "SAP", color: "#2F6BCB",     note: "League manager" },
@@ -2549,7 +2549,7 @@ game: { week: 7, index: 0 }
 /* ---------- Injury news, Tuesday Oct 27 (paraphrased from reports; see sources) ----------
 [player, NFL team, pos, fantasy owner, ESPN tag, Week 8 role, note, source #] */
 DATA.news = {
-asOf: "Sunday, Nov 1, 5:47 PM CT",
+asOf: "Monday, Nov 2, 5:46 PM CT",
 sources: [
 ["Emeka Egbuka", "https://www.nbcsports.com/fantasy/football/player-news/2026-10-30/emeka-egbuka-foot-will-not-play-vs-falcons"],
 ["Carnell Tate", "https://www.nbcsports.com/fantasy/football/player-news/2026-10-30/carnell-tate-ruled-out-for-week-8-vs-bengals"],
@@ -2567,7 +2567,10 @@ sources: [
 ["Christian Watson", "https://sports.yahoo.com/nfl/breaking-news/article/packers-wr-christian-watson-returns-vs-panthers-after-leaving-game-in-ambulance-coughing-up-blood-with-broken-rib-043320762.html"],
 ["Lamar Jackson", "https://sports.yahoo.com/nfl/breaking-news/article/lamar-jackson-ruled-out-of-bills-ravens-game-with-thumb-injury-sustained-on-baltimores-first-offensive-play-183609044.html"],
 ["Kyler Murray", "https://www.cbssports.com/fantasy/football/news/vikings-kyler-murray-navigates-hamstring-issue-in-loss/"],
-["Michael Wilson", "https://dknetwork.draftkings.com/2026/11/01/will-michael-wilson-bets-be-refunded-after-injury-during-cardinals-vs-cowboys-nfl-week-8/"]
+["Michael Wilson", "https://dknetwork.draftkings.com/2026/11/01/will-michael-wilson-bets-be-refunded-after-injury-during-cardinals-vs-cowboys-nfl-week-8/"],
+["Matthew Stafford", "https://www.rotowire.com/football/headlines/matthew-stafford-injury-managing-arm-soreness-645624"],
+["Tyler Loop", "https://www.nbcsports.com/fantasy/football/player-news/2026-11-02/minter-tyler-loop-may-go-on-injured-reserve"],
+["Jadarian Price", "https://www.cbssports.com/fantasy/football/news/seahawks-jadarian-price-activated-for-monday-night-game/"]
 ],
 /* Expert and news links used in the copy (Oct 25-27) */
 experts: [
@@ -2582,6 +2585,8 @@ injuries: [
 ["Lamar Jackson", "BAL", "QB", "BMD", "O", "Starting", "Right thumb. Hurt on Baltimore's first offensive play at Buffalo and ruled out (Yahoo). He was David's starting QB; Brock Purdy is on the bench and back from the 49ers' bye in Week 9.", 14],
 ["Kyler Murray", "MIN", "QB", "PNB", "Q", "Starting", "Played through a tight hamstring in the loss at Detroit (CBS Sports). ESPN now lists him questionable; it matters for Phil's Week 9 lineup.", 15],
 ["Michael Wilson", "ARI", "WR", "CHQ", "Q", "Starting", "Got hurt during the Dallas game (DraftKings Network) and ESPN now lists him questionable. His Week 8 is done; the tag matters for Week 9.", 16],
+["Matthew Stafford", "LAR", "QB", "ISA", "Q", "Starting", "Throwing-arm soreness; left Sunday's win over the Chargers with ice on his right arm and Sean McVay confirmed it Monday (RotoWire). Questionable on ESPN. Bonifield's Week 9 QB at Washington hangs on Wednesday's practice report.", 17],
+["Tyler Loop", "BAL", "K", "KRAM", "Q", "Starting", "Undisclosed injury. Jesse Minter said Loop may go on injured reserve (NBC Sports). Kramer may need a new kicker for Week 9.", 18],
 ["Emeka Egbuka", "TB", "WR", "BMD", "O", "IR slot", "Foot. Ruled out Friday for the Falcons game (NBC). David moved him to IR Sunday, started Makai Lemon, then cut Courtland Sutton for the Buccaneers D/ST an hour before kickoff.", 0],
 ["Carnell Tate", "TEN", "WR", "MAGA", "O", "Bench", "Shoulder. Ruled out Friday for Cincinnati (NBC). Garrett benched him for Tre Tucker before kickoff.", 1],
 ["DJ Moore", "BUF", "WR", "SAP", "Q", "Starting", "Shoulder (AC joint). Sat two games plus the bye; officially questionable for Baltimore after Friday's report (NBC). Still starting for Spencer.", 2],
@@ -2598,21 +2603,19 @@ injuries: [
 ["David Montgomery", "HOU", "RB", "DDT", "Q", "Bench", "Groin. Missed Week 7, and Houston is on bye.", 12]
 ],
 alsoTagged: [
-["Kyle Monangai", "DB", "O", "IR"], ["Travis Etienne Jr.", "DDT", "IR", "Bench"], ["Jordyn Tyson", "DDT", "IR", "IR"], ["Terrance Ferguson", "ISA", "IR", "IR"], ["Jacory Croskey-Merritt", "KRAM", "IR", "IR"], ["Jadarian Price", "LHC", "IR", "IR"], ["Alec Pierce", "MAGA", "IR", "IR"], ["Jonathon Brooks", "PNB", "IR", "IR"], ["Tyreek Hill", "V3K", "Q", "IR"], ["Dameon Pierce", "V3K", "IR", "Bench"], ["Jeremiyah Love", "MAGA", "Q", "Bench"], ["Hunter Henry", "ISA", "Q", "Bench"]
+["Kyle Monangai", "DB", "O", "IR"], ["Travis Etienne Jr.", "DDT", "IR", "Bench"], ["Jordyn Tyson", "DDT", "IR", "IR"], ["Terrance Ferguson", "ISA", "IR", "IR"], ["Jacory Croskey-Merritt", "KRAM", "IR", "IR"], ["Alec Pierce", "MAGA", "IR", "IR"], ["Jonathon Brooks", "PNB", "IR", "IR"], ["Tyreek Hill", "V3K", "Q", "IR"], ["Dameon Pierce", "V3K", "IR", "Bench"], ["Jeremiyah Love", "MAGA", "Q", "Bench"], ["Hunter Henry", "ISA", "Q", "Bench"]
 ]
 };
 /* Daily note: the critical flags of the day, top of the overview. Quick updates rewrite this.
    items: [level ("out" | "watch" | "info"), team key or null, text] */
 DATA.daily = {
-date: "Sunday, Nov 1",
-asOf: "ESPN 5:47 PM CT",
+date: "Monday, Nov 2",
+asOf: "ESPN 5:46 PM CT",
 items: [
-["out", "BMD", "Lamar Jackson hurt his right thumb on Baltimore's first offensive play and was ruled out (Yahoo). He was David's starting QB, and his Week 8 is done. Brock Purdy sat on the bench through the 49ers' bye and is the Week 9 fallback."],
-["info", "BMD", "David also cut Courtland Sutton for the Buccaneers D/ST at 10:41 AM and benched the Ravens D/ST. Sutton is a free agent."],
-["watch", "PNB", "Kyler Murray played through a tight hamstring in the loss at Detroit (CBS Sports) and ESPN now lists him questionable. Phil's Week 9 QB is a question."],
-["watch", "CHQ", "Michael Wilson got hurt against Dallas (DraftKings Network); ESPN moved him to questionable. Matters for Rodrick's Week 9 lineup."],
-["info", "ISA", "Lineup holes got fixed before noon: Bonifield benched Breece Hall (out) for Rachaad White, who plays tonight, and Garrett benched Carnell Tate (out) for Tre Tucker. Pregame ESPN: Verber 118.63, Bonifield 119.65."],
-["info", null, "Still to play: Eagles at Commanders tonight at 7:20 and Bears at Seahawks Monday at 7:15. Final results wait for Tuesday."]
+["watch", "ISA", "Matthew Stafford is questionable on ESPN with a sore throwing arm; he walked out of Sunday's win with ice on it and McVay confirmed the soreness Monday (RotoWire). Bonifield's Week 9 QB waits on Wednesday's practice report."],
+["watch", "KRAM", "Tyler Loop is questionable and Jesse Minter says he may go on IR (NBC Sports). Kramer may be shopping for a kicker before Week 9."],
+["watch", "LHC", "Seattle activated Jadarian Price off IR (chest) for tonight (CBS Sports), with Zach Charbonnet cleared to debut. ESPN lists Price active, but he's still parked in Kyle's IR slot, which blocks Kyle's roster moves until he's moved out."],
+["info", null, "Still to play: Bears at Seahawks at 7:15 tonight. Kyle Monangai is out, so D'Andre Swift starts for Chicago (Sports Betting Dime). Final results wait for Tuesday."]
 ]
 };
 
