@@ -373,6 +373,90 @@
    ],
    "teamId": 10,
    "type": "FUTURE_ROSTER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-03T04:30:05.137000+00:00",
+   "id": "2afec40e-2db8-455f-84ed-825b65b7787e",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4372780,
+     "to": 0,
+     "type": "LINEUP"
+    },
+    {
+     "from": 0,
+     "playerId": 4360248,
+     "to": 0,
+     "type": "LINEUP"
+    }
+   ],
+   "teamId": 6,
+   "type": "FUTURE_ROSTER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-03T04:30:44.334000+00:00",
+   "id": "68fb6ed0-c3a6-498b-a035-a0135c2a11bb",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4696981,
+     "to": 0,
+     "type": "LINEUP"
+    },
+    {
+     "from": 0,
+     "playerId": 3116389,
+     "to": 0,
+     "type": "LINEUP"
+    }
+   ],
+   "teamId": 6,
+   "type": "FUTURE_ROSTER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-03T04:34:11.919000+00:00",
+   "id": "76a16410-a3ff-4b61-a845-51569962be1a",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 3917232,
+     "to": 0,
+     "type": "LINEUP"
+    },
+    {
+     "from": 0,
+     "playerId": 3953687,
+     "to": 0,
+     "type": "LINEUP"
+    }
+   ],
+   "teamId": 6,
+   "type": "FUTURE_ROSTER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-03T04:35:43.152000+00:00",
+   "id": "c64280ec-f080-429c-b800-870408d72bdf",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4427095,
+     "to": 0,
+     "type": "LINEUP"
+    },
+    {
+     "from": 0,
+     "playerId": 4431299,
+     "to": 0,
+     "type": "LINEUP"
+    }
+   ],
+   "teamId": 6,
+   "type": "FUTURE_ROSTER"
   }
  ],
  "week": 8

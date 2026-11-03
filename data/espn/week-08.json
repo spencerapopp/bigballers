@@ -1,5 +1,5 @@
 {
- "complete": false,
+ "complete": true,
  "games": [
   {
    "away": {
@@ -229,9 +229,9 @@
       "slot": "D/ST"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 120.5,
-    "projected": 120.5,
+    "points": 120.5,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 10
    },
    "home": {
@@ -315,7 +315,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431611,
-      "points": 16.55,
+      "points": 16.95,
       "pos": "QB",
       "proj": 17.62,
       "slot": "BE"
@@ -385,7 +385,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 17427,
-      "points": 9.0,
+      "points": 11.0,
       "pos": "K",
       "proj": 8.36,
       "slot": "K"
@@ -413,7 +413,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3912547,
-      "points": 12.3,
+      "points": 21.9,
       "pos": "QB",
       "proj": 17.43,
       "slot": "BE"
@@ -441,19 +441,19 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16003,
-      "points": 12.0,
+      "points": 15.0,
       "pos": "D/ST",
       "proj": 9.84,
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 166.4,
-    "projected": 170.83102182,
+    "points": 168.4,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 3
    },
    "week": 8,
-   "winner": "UNDECIDED"
+   "winner": "HOME"
   },
   {
    "away": {
@@ -523,7 +523,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685512,
-      "points": 2.0,
+      "points": 4.7,
       "pos": "RB",
       "proj": 7.24,
       "slot": "IR"
@@ -683,9 +683,9 @@
       "slot": "K"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 105.4,
-    "projected": 105.4,
+    "points": 105.4,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 13
    },
    "home": {
@@ -755,7 +755,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4259545,
-      "points": 11.9,
+      "points": 26.9,
       "pos": "RB",
       "proj": 13.21,
       "slot": "FLEX"
@@ -915,13 +915,13 @@
       "slot": "K"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 158.15,
-    "projected": 161.4521368,
+    "points": 173.15,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 11
    },
    "week": 8,
-   "winner": "UNDECIDED"
+   "winner": "HOME"
   },
   {
    "away": {
@@ -1151,9 +1151,9 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 124.65,
-    "projected": 124.65,
+    "points": 124.65,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 1
    },
    "home": {
@@ -1383,13 +1383,13 @@
       "slot": "D/ST"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 105.3,
-    "projected": 105.3,
+    "points": 105.3,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 2
    },
    "week": 8,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   },
   {
    "away": {
@@ -1599,7 +1599,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16026,
-      "points": 5.0,
+      "points": 3.0,
       "pos": "D/ST",
       "proj": 9.26,
       "slot": "BE"
@@ -1619,9 +1619,9 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 131.75,
-    "projected": 133.3512588,
+    "points": 131.75,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 5
    },
    "home": {
@@ -1851,13 +1851,13 @@
       "slot": "QB"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 98.9,
-    "projected": 98.9,
+    "points": 98.9,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 4
    },
    "week": 8,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   },
   {
    "away": {
@@ -1871,7 +1871,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4430878,
-      "points": 17.2,
+      "points": 20.8,
       "pos": "WR",
       "proj": 18.13,
       "slot": "WR"
@@ -2087,9 +2087,9 @@
       "slot": "TE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 137.55,
-    "projected": 144.75814777,
+    "points": 141.15,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 7
    },
    "home": {
@@ -2319,13 +2319,13 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 103.45,
-    "projected": 103.45,
+    "points": 103.45,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 9
    },
    "week": 8,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   },
   {
    "away": {
@@ -2541,9 +2541,9 @@
       "slot": "RB"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 85.55,
-    "projected": 87.4449634,
+    "points": 85.55,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 6
    },
    "home": {
@@ -2683,7 +2683,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2473037,
-      "points": 2.0,
+      "points": 0.0,
       "pos": "K",
       "proj": 9.48,
       "slot": "K"
@@ -2697,7 +2697,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426385,
-      "points": 3.3,
+      "points": 4.4,
       "pos": "RB",
       "proj": 9.98,
       "slot": "BE"
@@ -2773,13 +2773,13 @@
       "slot": "D/ST"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 83.8,
-    "projected": 86.17107885,
+    "points": 81.8,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 8
    },
    "week": 8,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   }
  ],
  "week": 8
