@@ -287,7 +287,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4723086,
-      "points": 0.0,
+      "points": 7.0,
       "pos": "TE",
       "proj": 9.36,
       "slot": "FLEX"
@@ -295,7 +295,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Bhayshul Tuten",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -315,7 +315,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431611,
-      "points": 0.0,
+      "points": 16.55,
       "pos": "QB",
       "proj": 17.62,
       "slot": "BE"
@@ -385,7 +385,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 17427,
-      "points": 0.0,
+      "points": 9.0,
       "pos": "K",
       "proj": 8.36,
       "slot": "K"
@@ -413,7 +413,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3912547,
-      "points": 0.0,
+      "points": 12.3,
       "pos": "QB",
       "proj": 17.43,
       "slot": "BE"
@@ -441,15 +441,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16003,
-      "points": 0.0,
+      "points": 12.0,
       "pos": "D/ST",
       "proj": 9.84,
       "slot": "BE"
      }
     ],
     "points": 0.0,
-    "pointsLive": 150.4,
-    "projected": 168.12408726,
+    "pointsLive": 166.4,
+    "projected": 170.83102182,
     "teamId": 3
    },
    "week": 8,
@@ -523,7 +523,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685512,
-      "points": 0.0,
+      "points": 2.0,
       "pos": "RB",
       "proj": 7.24,
       "slot": "IR"
@@ -755,7 +755,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4259545,
-      "points": 0.0,
+      "points": 11.9,
       "pos": "RB",
       "proj": 13.21,
       "slot": "FLEX"
@@ -916,8 +916,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 146.25,
-    "projected": 159.45854721,
+    "pointsLive": 158.15,
+    "projected": 161.4521368,
     "teamId": 11
    },
    "week": 8,
@@ -1139,7 +1139,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Chris Rodriguez Jr.",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -1509,7 +1509,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -1599,7 +1599,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16026,
-      "points": 0.0,
+      "points": 5.0,
       "pos": "D/ST",
       "proj": 9.26,
       "slot": "BE"
@@ -1621,7 +1621,7 @@
     ],
     "points": 0.0,
     "pointsLive": 131.75,
-    "projected": 138.15503521,
+    "projected": 133.3512588,
     "teamId": 5
    },
    "home": {
@@ -1871,7 +1871,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4430878,
-      "points": 0.0,
+      "points": 17.2,
       "pos": "WR",
       "proj": 18.13,
       "slot": "WR"
@@ -1955,7 +1955,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685278,
-      "points": 0.0,
+      "points": 15.1,
       "pos": "WR",
       "proj": 10.71,
       "slot": "FLEX"
@@ -2053,7 +2053,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426386,
-      "points": 0.0,
+      "points": 3.3,
       "pos": "RB",
       "proj": 6.09,
       "slot": "BE"
@@ -2088,8 +2088,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 105.25,
-    "projected": 134.08259109,
+    "pointsLive": 137.55,
+    "projected": 144.75814777,
     "teamId": 7
    },
    "home": {
@@ -2395,7 +2395,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431299,
-      "points": 0.0,
+      "points": 10.7,
       "pos": "WR",
       "proj": 7.58,
       "slot": "WR"
@@ -2542,8 +2542,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 74.85,
-    "projected": 82.42985359,
+    "pointsLive": 85.55,
+    "projected": 87.4449634,
     "teamId": 6
    },
    "home": {
@@ -2683,7 +2683,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2473037,
-      "points": 0.0,
+      "points": 2.0,
       "pos": "K",
       "proj": 9.48,
       "slot": "K"
@@ -2697,7 +2697,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426385,
-      "points": 0.0,
+      "points": 3.3,
       "pos": "RB",
       "proj": 9.98,
       "slot": "BE"
@@ -2774,8 +2774,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 81.8,
-    "projected": 91.28431539,
+    "pointsLive": 83.8,
+    "projected": 86.17107885,
     "teamId": 8
    },
    "week": 8,
