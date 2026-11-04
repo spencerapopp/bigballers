@@ -707,7 +707,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Garrett Wilson",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -772,7 +772,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 12.19,
-      "slot": "BE"
+      "slot": "D/ST"
      },
      {
       "acquisitionType": null,
@@ -800,7 +800,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 7.25,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -890,20 +890,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Commanders D/ST",
-      "nfl": "WSH",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": -16028,
-      "points": 0.0,
-      "pos": "D/ST",
-      "proj": 8.29,
-      "slot": "D/ST"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "J.K. Dobbins",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -913,11 +899,25 @@
       "pos": "RB",
       "proj": 7.69,
       "slot": "RB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Devin Singletary",
+      "nfl": "NYG",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4040761,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 7.39,
+      "slot": "FLEX"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 111.57381603,
+    "projected": 115.61160086,
     "teamId": 10
    },
    "week": 9,
