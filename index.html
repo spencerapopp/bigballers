@@ -221,6 +221,8 @@ tr.playoffline td span{position:relative;background:var(--chalk);padding:0 8px 0
 .dv .v{text-align:right;font-weight:700;font-size:14px;white-space:nowrap}
 .dv .v small{display:block;font-weight:500;color:var(--muted);font-size:12px}
 @media (max-width:560px){.dv{grid-template-columns:1fr 70px}.dv .bar{grid-column:1/-1;grid-row:2}}
+.dv.wide{grid-template-columns:minmax(150px,1.2fr) 2fr 104px}
+@media (max-width:560px){.dv.wide{grid-template-columns:1fr 104px}}
 .bigstat{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);line-height:1}
 .statrow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 28px;margin:6px 0 20px}
 @media (max-width:640px){.statrow{grid-template-columns:1fr}}
@@ -496,7 +498,8 @@ header.top::after{background:radial-gradient(closest-side,rgba(255,255,255,.22),
 /* surfaces */
 .panelbox,.game,.pv,.tile,.injcard,.treport,.call,.mapwrap,.season-card{background:var(--panel);border-color:var(--line)}
 .daily{background:var(--panel);border-color:var(--line);border-left-color:var(--brand)}.daily li{border-top-color:var(--line)}
-.switch{background:var(--panel);border-color:var(--line)}
+.switch{background:var(--panel);border-color:var(--line);flex-wrap:wrap;max-width:100%}
+.switch button.season{border-left:1px solid var(--line)}
 .switch button{color:var(--muted)}
 .switch button[aria-pressed="true"]{background:var(--brand);color:#0A1629}
 .tile .v{color:var(--ink)}.tile .k{color:var(--ink-2)}
@@ -3095,6 +3098,47 @@ S[a][b] = { W, L };
 return S;
 }
 if (typeof module !== "undefined") Object.assign(module.exports, { h2hMatrix, scheduleSwap });
+/* ---------- Insights rolled up across every week played (Season toggle) ---------- */
+function seasonInsights() {
+const ws = weekNums(), ids = Object.keys(DATA.teams), tm = {}, calls = [], qb = {}, pl = {}, pos = {};
+ids.forEach(id => {
+tm[id] = { id, weeks: 0, score: 0, optimal: 0, left: 0, W: 0, L: 0, T: 0, winnable: 0, topBench: null, worst: null };
+qb[id] = { id, weeks: 0, wrong: 0, cost: 0, worst: null };
+pos[id] = { id, total: 0 }; POS.forEach(k => pos[id][k] = 0);
+});
+let partial = 0;
+ws.forEach(w => {
+lineupAudit(w).forEach(a => {
+if (!a.full) { partial++; return; }
+const t = tm[a.id];
+t.weeks++; t.score = r2(t.score + a.score); t.optimal = r2(t.optimal + a.optimal); t.left = r2(t.left + a.left);
+if (a.won) t.W++; else if (a.score < a.opp) t.L++; else t.T++;
+if (a.couldHaveWon) { t.winnable++; calls.push({ w, ...a }); }
+if (!t.topBench || a.topBench.pts > t.topBench.pts) t.topBench = { ...a.topBench, w };
+if (!t.worst || a.left > t.worst.left) t.worst = { w, left: a.left };
+});
+qbRoom(w).forEach(q => {
+const r = qb[q.id]; r.weeks++;
+if (!q.right) { r.wrong++; r.cost = r2(r.cost + q.cost); if (!r.worst || q.cost > r.worst.cost) r.worst = { ...q, w }; }
+});
+projMovers(w).forEach(m => {
+const k = m.id + '|' + m.name, p = pl[k] || (pl[k] = { id: m.id, name: m.name, pos: m.pos, starts: 0, proj: 0, pts: 0, diff: 0 });
+p.starts++; p.proj = r2(p.proj + m.proj); p.pts = r2(p.pts + m.pts); p.diff = r2(p.diff + m.diff);
+});
+positionTable(w).forEach(row => { const r = pos[row.id]; r.total = r2(r.total + row.total); POS.forEach(k => r[k] = r2(r[k] + row[k])); });
+});
+const teams = Object.values(tm).filter(t => t.weeks);
+teams.forEach(t => t.efficiency = t.optimal ? t.score / t.optimal : 0);
+return {
+weeks: ws, partial,
+teams: teams.sort((a, b) => b.efficiency - a.efficiency),
+calls: calls.sort((a, b) => r2(b.optimal - b.opp) - r2(a.optimal - a.opp)),
+qb: Object.values(qb).filter(q => q.weeks).sort((a, b) => b.cost - a.cost || b.wrong - a.wrong),
+movers: Object.values(pl).sort((a, b) => b.diff - a.diff),
+pos: Object.values(pos).filter(r => tm[r.id].weeks).sort((a, b) => b.total - a.total)
+};
+}
+if (typeof module !== "undefined") Object.assign(module.exports, { seasonInsights });
 </script>
 <script>
 /* ============================================================
@@ -3485,9 +3529,10 @@ ${standingsMini()}
 drawOverviewCharts();
 }
 /* ---------- Scores ---------- */
-function weekSwitch(key, render) {
+function weekSwitch(key, render, season) {
 return `<div class="switch" role="group" aria-label="Choose week">` + weekNums().map(w =>
-`<button aria-pressed="${state[key] === w}" data-w="${w}" data-key="${key}">Week ${w}</button>`).join('') + `</div>`;
+`<button aria-pressed="${state[key] === w}" data-w="${w}" data-key="${key}">Week ${w}</button>`).join('') +
+(season ? `<button class="season" aria-pressed="${state[key] === 0}" data-w="0" data-key="${key}">Season</button>` : '') + `</div>`;
 }
 function boxTable(team) {
 const row = (p, bench) => `<tr class="${bench ? 'bench' : ''}"><td>${esc(bench ? 'BN' : p[0])}</td><td>${esc(p[1])}${tag(p[6])} <span class="sub">${esc(p[2])} ${esc(p[3])}</span></td><td class="num">${P1(p[4])}</td><td class="num"><b>${bench ? '' : ''}${P(p[5])}</b></td></tr>`;
@@ -3596,6 +3641,7 @@ const a = 0.08 + 0.82 * t * t;
 return { bg: `rgba(95,147,219,${(a * 0.85).toFixed(3)})`, fg: 'var(--ink)' };
 }
 function renderInsights() {
+if (state.insightsWeek === 0) return renderInsightsSeason();
 const w = state.insightsWeek, audit = lineupAudit(w);
 const full = audit.filter(a => a.full).sort((a, b) => b.efficiency - a.efficiency);
 const partial = audit.filter(a => !a.full);
@@ -3612,7 +3658,7 @@ const dvRow = m => `<div class="dv"><div class="n"><b>${esc(m.name)}</b><span>${
 $('insights').innerHTML = `
 <h2>Insights</h2>
 <p class="lede">Where the week was won and lost: lineup decisions, quarterback calls, ESPN's projections, and where each team's points came from.</p>
-${weekSwitch('insightsWeek')}
+${weekSwitch('insightsWeek', null, true)}
 <div class="statrow">
 <div><div class="bigstat">${left.toFixed(2)}</div><p>points left on benches across ${full.length} teams.</p></div>
 <div><div class="bigstat">${calls.length} of ${full.filter(a => !a.won).length}</div><p>losses a better lineup from the same roster would have won.</p></div>
@@ -3652,6 +3698,64 @@ ${(w === CUR && DATA.copy.receipts) ? `<div class="section"><h3 style="margin-bo
 <div class="scroll"><table class="heat"><thead><tr><th>Team</th>${POS.map(k => `<th class="num">${k}</th>`).join('')}<th class="num">Total</th></tr></thead><tbody>
 ${pos.map(row => `<tr><td>${teamCell(row.id, w)}</td>${POS.map(k => {
 const rank = pos.filter(o => o[k] > row[k]).length + 1, c = heatColor(rank, pos.length);
+return `<td class="h" style="background:${c.bg};color:${c.fg}">${P1(row[k])}</td>`; }).join('')}<td class="h">${row.total.toFixed(2)}</td></tr>`).join('')}
+</tbody></table></div>
+</div>`;
+}
+function renderInsightsSeason() {
+const S = seasonInsights(), ws = S.weeks, span = ws.length > 1 ? `Weeks ${ws[0]}–${ws[ws.length - 1]}` : `Week ${ws[0]}`;
+const left = r2(S.teams.reduce((s, t) => s + t.left, 0)), losses = S.teams.reduce((s, t) => s + t.L, 0);
+const qbWeeks = S.qb.reduce((s, q) => s + q.weeks, 0), qbWrong = S.qb.reduce((s, q) => s + q.wrong, 0), qbCost = r2(S.qb.reduce((s, q) => s + q.cost, 0));
+const topM = S.movers.slice(0, 8), botM = S.movers.slice(-8).reverse();
+const maxAbs = Math.max(...topM.concat(botM).map(m => Math.abs(m.diff)), 1);
+const rec = t => `${t.W}-${t.L}${t.T ? `-${t.T}` : ''}`;
+const dvRow = m => `<div class="dv wide"><div class="n"><b>${esc(m.name)}</b><span>${esc(m.pos)}, ${esc(teamName(m.id))}, ${m.starts} start${m.starts === 1 ? '' : 's'}</span></div>
+<div class="bar">${m.diff >= 0 ? `<i class="p" style="width:${(100 * m.diff / maxAbs).toFixed(1)}%"></i>` : `<i class="m" style="width:${(100 * -m.diff / maxAbs).toFixed(1)}%"></i>`}</div>
+<div class="v">${m.diff >= 0 ? '+' : '−'}${Math.abs(m.diff).toFixed(2)}<small>${P1(m.proj)} → ${P(m.pts)}</small></div></div>`;
+$('insights').innerHTML = `
+<h2>Insights</h2>
+<p class="lede">The season so far, ${span}: lineup decisions, quarterback calls, ESPN's projections, and where each team's points came from, added up across every week.</p>
+${weekSwitch('insightsWeek', null, true)}
+<div class="statrow">
+<div><div class="bigstat">${left.toFixed(2)}</div><p>points left on benches across ${S.teams.length} teams and ${ws.length} weeks.</p></div>
+<div><div class="bigstat">${S.calls.length} of ${losses}</div><p>losses a better lineup from the same roster would have won.</p></div>
+<div><div class="bigstat">${qbWrong} of ${qbWeeks}</div><p>times a manager with two QBs started the lower-scoring one${qbWrong ? `, costing ${qbCost.toFixed(2)} points` : ''}.</p></div>
+</div>
+<div class="section" style="margin-top:10px">
+<h3 style="margin-bottom:10px">Lineup Efficiency, Season</h3>
+<div class="scroll"><table>
+<thead><tr><th>Team</th><th class="num">Record</th><th class="num">Scored</th><th class="num">Best Possible</th><th class="num">Left on Bench</th><th style="min-width:130px">Efficiency</th><th class="num">Winnable Losses</th><th>Worst Week</th><th>Biggest Bench Score</th></tr></thead>
+<tbody>${S.teams.map(t => `<tr><td>${teamCell(t.id)}</td><td class="num">${rec(t)}</td><td class="num">${t.score.toFixed(2)}</td><td class="num">${t.optimal.toFixed(2)}</td>
+<td class="num">${t.left.toFixed(2)}</td>
+<td><div class="pbar"><i style="width:${(t.efficiency * 100).toFixed(1)}%"></i></div><span class="sub">${(t.efficiency * 100).toFixed(1)}%</span></td>
+<td class="num">${t.winnable || '<span class="sub">0</span>'}</td>
+<td>Week ${t.worst.w} <span class="sub">${t.worst.left.toFixed(2)} left</span></td>
+<td>${esc(t.topBench.name)} <span class="sub">${P(t.topBench.pts)}, Week ${t.topBench.w}</span></td></tr>`).join('')}
+</tbody></table></div>
+<p class="note">Season totals of each week's numbers. Best possible = the highest score each week's roster could have produced (QB, 2 RB, 2 WR, TE, flex, D/ST, K), added up.${S.partial ? ` ${S.partial} team-week${S.partial === 1 ? '' : 's'} without a full box score left out.` : ''}</p>
+</div>
+${S.calls.length ? `<div class="section"><h3 style="margin-bottom:10px">Losses a Better Lineup Would Have Won</h3>
+<p class="lede" style="margin-bottom:12px">Every one this season, biggest self-inflicted margin first.</p>
+<div class="scroll"><table><thead><tr><th class="num">Week</th><th>Team</th><th class="num">Scored</th><th class="num">Opponent</th><th class="num">Best Lineup</th><th>Should Have Started</th><th>Instead Of</th></tr></thead><tbody>
+${S.calls.map(a => `<tr><td class="num">${a.w}</td><td>${teamCell(a.id, a.w)}</td><td class="num">${a.score.toFixed(2)}</td><td class="num">${a.opp.toFixed(2)}</td><td class="num"><b>${a.optimal.toFixed(2)}</b></td>
+<td class="sub">${a.shouldHaveStarted.map(p => `${esc(p.name)} (${P(p.pts)})`).join(', ')}</td><td class="sub">${a.shouldHaveSat.map(p => `${esc(p.name)} (${P(p.pts)})`).join(', ')}</td></tr>`).join('')}
+</tbody></table></div></div>` : ''}
+${S.qb.length ? `<div class="section"><h3 style="margin-bottom:10px">The QB Room, Season</h3>
+<p class="lede" style="margin-bottom:12px">Every team that has carried two quarterbacks, how often it started the wrong one, and what that cost.</p>
+<div class="scroll"><table><thead><tr><th>Team</th><th class="num">Two-QB Weeks</th><th class="num">Wrong Calls</th><th class="num">Points Lost</th><th>Worst Call</th></tr></thead><tbody>
+${S.qb.map(q => `<tr><td>${teamCell(q.id)}</td><td class="num">${q.weeks}</td><td class="num">${q.wrong ? `<span class="neg">${q.wrong}</span>` : '<span class="pos">0</span>'}</td><td class="num">${q.cost ? q.cost.toFixed(2) : ''}</td>
+<td class="sub">${q.worst ? `Week ${q.worst.w}: ${esc(q.worst.starter)} (${P(q.worst.sPts)}) over ${esc(q.worst.bench)} (${P(q.worst.bPts)})` : ''}</td></tr>`).join('')}
+</tbody></table></div></div>` : ''}
+<div class="section grid2" style="gap:36px">
+<div><h3 style="margin-bottom:6px">Beat ESPN's Projection</h3><p class="sub" style="margin-bottom:10px">Total points above projection in weeks started, per player and team.</p><div class="diverge">${topM.map(dvRow).join('')}</div></div>
+<div><h3 style="margin-bottom:6px">Missed It</h3><p class="sub" style="margin-bottom:10px">Total points below projection in weeks started.</p><div class="diverge">${botM.map(dvRow).join('')}</div></div>
+</div>
+<div class="section">
+<h3 style="margin-bottom:10px">Where the Points Came From, Season</h3>
+<p class="lede" style="margin-bottom:12px">Season starting points by position. Darker cells rank higher; flex players count at their own position. Total is points for.</p>
+<div class="scroll"><table class="heat"><thead><tr><th>Team</th>${POS.map(k => `<th class="num">${k}</th>`).join('')}<th class="num">Total</th></tr></thead><tbody>
+${S.pos.map(row => `<tr><td>${teamCell(row.id)}</td>${POS.map(k => {
+const rank = S.pos.filter(o => o[k] > row[k]).length + 1, c = heatColor(rank, S.pos.length);
 return `<td class="h" style="background:${c.bg};color:${c.fg}">${P1(row[k])}</td>`; }).join('')}<td class="h">${row.total.toFixed(2)}</td></tr>`).join('')}
 </tbody></table></div>
 </div>`;

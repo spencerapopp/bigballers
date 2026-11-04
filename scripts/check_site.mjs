@@ -113,6 +113,10 @@ else {
     await page.waitForTimeout(800);
     const tabs = await page.$$eval(".tab", bs => bs.map(b => b.dataset.tab));
     for (const t of tabs) { await page.click(`.tab[data-tab="${t}"]`); await page.waitForTimeout(150); }
+    // Season-total toggle on Insights renders a different view; open it too.
+    if (tabs.includes("insights") && await page.$("#insights .switch button.season")) {
+      await page.click(`.tab[data-tab="insights"]`); await page.click("#insights .switch button.season"); await page.waitForTimeout(150);
+    }
     const broken = await page.$$eval("p.note", ps => ps.filter(p => /couldn.t be drawn/.test(p.textContent)).map(p => (p.closest("[id]")?.id || "?") + ": " + p.textContent));
     broken.forEach(b => errors.push(`render: ${b}`));
     pageErrors.forEach(e => errors.push(`render: page error: ${e}`));
