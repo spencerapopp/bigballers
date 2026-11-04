@@ -1410,8 +1410,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Jeremiyah Love",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -1782,8 +1782,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injured": true,
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Tyler Loop",
       "nfl": "BAL",
       "pctOwned": 0,
