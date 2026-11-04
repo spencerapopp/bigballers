@@ -7,7 +7,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Amon-Ra St. Brown",
       "nfl": "DET",
       "pctOwned": 0,
@@ -48,8 +48,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "David Montgomery",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -406,8 +406,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Sam Darnold",
       "nfl": "SEA",
       "pctOwned": 0,
@@ -943,7 +943,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Saquon Barkley",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -1013,7 +1013,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Travis Kelce",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1139,7 +1139,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Chris Rodriguez Jr.",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -1509,7 +1509,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -1893,7 +1893,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Rashee Rice",
       "nfl": "KC",
       "pctOwned": 0,
@@ -2361,7 +2361,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "George Pickens",
       "nfl": "DAL",
       "pctOwned": 0,
@@ -2719,7 +2719,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Denzel Boston",
       "nfl": "CLE",
       "pctOwned": 0,
