@@ -217,7 +217,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 98.56714902,
+    "projected": 98.56710327,
     "teamId": 3
    },
    "home": {
@@ -261,7 +261,7 @@
       "playerId": 4361579,
       "points": 0.0,
       "pos": "RB",
-      "proj": 16.75,
+      "proj": 16.78,
       "slot": "RB"
      },
      {
@@ -323,7 +323,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Kenny Gainwell",
       "nfl": "TB",
       "pctOwned": 0,
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 127.91911962,
+    "projected": 127.94215545,
     "teamId": 11
    },
    "week": 9,
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 103.04082978,
+    "projected": 103.04071993,
     "teamId": 2
    },
    "home": {
@@ -917,7 +917,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 115.54019592,
+    "projected": 115.54021749,
     "teamId": 10
    },
    "week": 9,
@@ -937,7 +937,7 @@
       "playerId": 4241389,
       "points": 0.0,
       "pos": "WR",
-      "proj": 16.81,
+      "proj": 17.02,
       "slot": "WR"
      },
      {
@@ -951,13 +951,13 @@
       "playerId": 3117251,
       "points": 0.0,
       "pos": "RB",
-      "proj": 21.5,
+      "proj": 19.78,
       "slot": "RB"
      },
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Malik Nabers",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -1035,7 +1035,7 @@
       "playerId": -16014,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 8.94,
+      "proj": 9.16,
       "slot": "D/ST"
      },
      {
@@ -1049,7 +1049,7 @@
       "playerId": 4696044,
       "points": 0.0,
       "pos": "RB",
-      "proj": 8.36,
+      "proj": 9.97,
       "slot": "BE"
      },
      {
@@ -1153,7 +1153,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 125.22069111,
+    "projected": 123.93244345,
     "teamId": 4
    },
    "home": {
@@ -1371,7 +1371,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 114.70420751,
+    "projected": 114.7041293,
     "teamId": 13
    },
    "week": 9,
@@ -1397,7 +1397,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Breece Hall",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1448,7 +1448,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 8.77,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1461,7 +1461,7 @@
       "playerId": 4569173,
       "points": 0.0,
       "pos": "RB",
-      "proj": 10.39,
+      "proj": 13.19,
       "slot": "RB"
      },
      {
@@ -1476,7 +1476,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1517,7 +1517,7 @@
       "playerId": 4697815,
       "points": 0.0,
       "pos": "RB",
-      "proj": 10.55,
+      "proj": 10.54,
       "slot": "FLEX"
      },
      {
@@ -1587,7 +1587,7 @@
       "playerId": 3046439,
       "points": 0.0,
       "pos": "TE",
-      "proj": 7.61,
+      "proj": 0.0,
       "slot": "BE"
      },
      {
@@ -1607,7 +1607,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 110.42328374,
+    "projected": 121.97719809,
     "teamId": 9
    },
    "home": {
@@ -1699,7 +1699,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Travis Kelce",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1721,13 +1721,13 @@
       "playerId": 2976212,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.8,
+      "proj": 9.79,
       "slot": "WR"
      },
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -1777,7 +1777,7 @@
       "playerId": 5083754,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.2,
+      "proj": 7.29,
       "slot": "FLEX"
      },
      {
@@ -1839,7 +1839,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 108.06111825,
+    "projected": 108.13859443,
     "teamId": 1
    },
    "week": 9,
@@ -1893,7 +1893,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Emeka Egbuka",
       "nfl": "TB",
       "pctOwned": 0,
@@ -1907,7 +1907,7 @@
      {
       "acquisitionType": null,
       "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Lamar Jackson",
       "nfl": "BAL",
       "pctOwned": 0,
@@ -1943,7 +1943,7 @@
       "playerId": 4361741,
       "points": 0.0,
       "pos": "QB",
-      "proj": 26.8,
+      "proj": 26.84,
       "slot": "QB"
      },
      {
@@ -2075,7 +2075,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 132.0018912,
+    "projected": 132.04743944,
     "teamId": 8
    },
    "home": {
@@ -2147,7 +2147,7 @@
       "playerId": 4426348,
       "points": 0.0,
       "pos": "QB",
-      "proj": 22.85,
+      "proj": 22.78,
       "slot": "BE"
      },
      {
@@ -2167,7 +2167,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Harold Fannin Jr.",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -2307,7 +2307,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 104.58868481,
+    "projected": 104.5885517,
     "teamId": 5
    },
    "week": 9,
@@ -2355,7 +2355,7 @@
       "playerId": 4426354,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.77,
+      "proj": 10.88,
       "slot": "FLEX"
      },
      {
@@ -2495,7 +2495,7 @@
       "playerId": 4427095,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.25,
+      "proj": 9.19,
       "slot": "WR"
      },
      {
@@ -2529,7 +2529,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 103.64116306,
+    "projected": 103.68931983,
     "teamId": 6
    },
    "home": {
@@ -2565,7 +2565,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Rashee Rice",
       "nfl": "KC",
       "pctOwned": 0,
@@ -2601,7 +2601,7 @@
       "playerId": 4431452,
       "points": 0.0,
       "pos": "QB",
-      "proj": 24.66,
+      "proj": 24.63,
       "slot": "QB"
      },
      {
@@ -2615,7 +2615,7 @@
       "playerId": 4432710,
       "points": 0.0,
       "pos": "RB",
-      "proj": 5.47,
+      "proj": 0.0,
       "slot": "BE"
      },
      {
@@ -2761,7 +2761,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 108.02291821,
+    "projected": 107.98782474,
     "teamId": 7
    },
    "week": 9,
