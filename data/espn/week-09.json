@@ -323,7 +323,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Kenny Gainwell",
       "nfl": "TB",
       "pctOwned": 0,
@@ -1495,7 +1495,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Matthew Stafford",
       "nfl": "LAR",
       "pctOwned": 0,
