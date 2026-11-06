@@ -43,7 +43,7 @@
       "playerId": 4361370,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.27,
+      "proj": 11.28,
       "slot": "WR"
      },
      {
@@ -57,7 +57,7 @@
       "playerId": 4723086,
       "points": 0.0,
       "pos": "TE",
-      "proj": 9.75,
+      "proj": 9.76,
       "slot": "FLEX"
      },
      {
@@ -85,7 +85,7 @@
       "playerId": 4431611,
       "points": 0.0,
       "pos": "QB",
-      "proj": 19.39,
+      "proj": 19.46,
       "slot": "QB"
      },
      {
@@ -105,7 +105,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Michael Wilson",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -113,7 +113,7 @@
       "playerId": 4360761,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.63,
+      "proj": 10.61,
       "slot": "BE"
      },
      {
@@ -217,7 +217,7 @@
     ],
     "points": 0.0,
     "pointsLive": 8.9,
-    "projected": 112.36549481,
+    "projected": 112.44463354,
     "teamId": 3
    },
    "home": {
@@ -247,7 +247,7 @@
       "playerId": 4361307,
       "points": 0.0,
       "pos": "TE",
-      "proj": 10.75,
+      "proj": 10.73,
       "slot": "TE"
      },
      {
@@ -261,7 +261,7 @@
       "playerId": 4361579,
       "points": 0.0,
       "pos": "RB",
-      "proj": 16.78,
+      "proj": 16.8,
       "slot": "RB"
      },
      {
@@ -289,7 +289,7 @@
       "playerId": 4259545,
       "points": 0.0,
       "pos": "RB",
-      "proj": 17.43,
+      "proj": 15.77,
       "slot": "RB"
      },
      {
@@ -345,7 +345,7 @@
       "playerId": 4608686,
       "points": 0.0,
       "pos": "RB",
-      "proj": 0.0,
+      "proj": 6.83,
       "slot": "IR"
      },
      {
@@ -434,8 +434,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Deebo Samuel Sr.",
       "nfl": "SF",
       "pctOwned": 0,
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 36.0,
-    "projected": 142.7412765,
+    "projected": 141.08387164,
     "teamId": 11
    },
    "week": 9,
@@ -488,8 +488,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "DeVonta Smith",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -567,7 +567,7 @@
       "playerId": 4426338,
       "points": 0.0,
       "pos": "QB",
-      "proj": 18.39,
+      "proj": 18.48,
       "slot": "QB"
      },
      {
@@ -637,7 +637,7 @@
       "playerId": 4723820,
       "points": 0.0,
       "pos": "WR",
-      "proj": 8.87,
+      "proj": 8.88,
       "slot": "FLEX"
      },
      {
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 13.1,
-    "projected": 106.57073804,
+    "projected": 106.66126924,
     "teamId": 2
    },
    "home": {
@@ -716,7 +716,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -785,7 +785,7 @@
       "playerId": 4361050,
       "points": 0.0,
       "pos": "TE",
-      "proj": 10.42,
+      "proj": 10.41,
       "slot": "TE"
      },
      {
@@ -800,20 +800,6 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 7.25,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Kenyon Sadiq",
-      "nfl": "NYJ",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 5083315,
-      "points": 0.0,
-      "pos": "TE",
-      "proj": 3.09,
       "slot": "BE"
      },
      {
@@ -911,13 +897,27 @@
       "playerId": 4040761,
       "points": 0.0,
       "pos": "RB",
-      "proj": 7.39,
+      "proj": 12.64,
       "slot": "FLEX"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Caleb Douglas",
+      "nfl": "MIA",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4869645,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 7.94,
+      "slot": "WR"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 105.54143001,
+    "projected": 118.72845616,
     "teamId": 10
    },
    "week": 9,
@@ -937,13 +937,13 @@
       "playerId": 4241389,
       "points": 0.0,
       "pos": "WR",
-      "proj": 17.02,
+      "proj": 17.08,
       "slot": "WR"
      },
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Christian McCaffrey",
       "nfl": "SF",
       "pctOwned": 0,
@@ -957,7 +957,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Malik Nabers",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -965,7 +965,7 @@
       "playerId": 4595348,
       "points": 0.0,
       "pos": "WR",
-      "proj": 14.21,
+      "proj": 14.19,
       "slot": "WR"
      },
      {
@@ -1119,7 +1119,7 @@
       "playerId": 15864,
       "points": 0.0,
       "pos": "QB",
-      "proj": 16.54,
+      "proj": 16.58,
       "slot": "BE"
      },
      {
@@ -1153,7 +1153,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 124.00182758,
+    "projected": 124.05160643,
     "teamId": 4
    },
    "home": {
@@ -1211,7 +1211,7 @@
       "playerId": 4372016,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.13,
+      "proj": 9.14,
       "slot": "WR"
      },
      {
@@ -1231,7 +1231,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Christian Watson",
       "nfl": "GB",
       "pctOwned": 0,
@@ -1337,7 +1337,7 @@
       "playerId": -16012,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 9.71,
+      "proj": 9.58,
       "slot": "D/ST"
      },
      {
@@ -1371,7 +1371,7 @@
     ],
     "points": 0.0,
     "pointsLive": 22.0,
-    "projected": 112.07562322,
+    "projected": 111.95995746,
     "teamId": 13
    },
    "week": 9,
@@ -1410,8 +1410,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -1466,8 +1466,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Mike Evans",
       "nfl": "SF",
       "pctOwned": 0,
@@ -1545,7 +1545,7 @@
       "playerId": 4570037,
       "points": 0.0,
       "pos": "TE",
-      "proj": 0.0,
+      "proj": 5.01,
       "slot": "IR"
      },
      {
@@ -1573,7 +1573,7 @@
       "playerId": -16005,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 10.76,
+      "proj": 10.75,
       "slot": "D/ST"
      },
      {
@@ -1607,7 +1607,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 122.15029641,
+    "projected": 122.13779225,
     "teamId": 9
    },
    "home": {
@@ -1623,13 +1623,13 @@
       "playerId": 4242335,
       "points": 0.0,
       "pos": "RB",
-      "proj": 18.54,
+      "proj": 18.55,
       "slot": "RB"
      },
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Saquon Barkley",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -1637,7 +1637,7 @@
       "playerId": 3929630,
       "points": 0.0,
       "pos": "RB",
-      "proj": 11.99,
+      "proj": 12.0,
       "slot": "RB"
      },
      {
@@ -1727,7 +1727,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -1777,7 +1777,7 @@
       "playerId": 5083754,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.29,
+      "proj": 7.55,
       "slot": "FLEX"
      },
      {
@@ -1839,7 +1839,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 110.79757285,
+    "projected": 111.06137684,
     "teamId": 1
    },
    "week": 9,
@@ -2013,13 +2013,13 @@
       "playerId": 4569559,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.91,
+      "proj": 7.92,
       "slot": "BE"
      },
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Denzel Boston",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -2075,7 +2075,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 133.17669584,
+    "projected": 133.17600031,
     "teamId": 8
    },
    "home": {
@@ -2091,7 +2091,7 @@
       "playerId": 4426515,
       "points": 0.0,
       "pos": "WR",
-      "proj": 19.79,
+      "proj": 19.78,
       "slot": "WR"
      },
      {
@@ -2167,7 +2167,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Harold Fannin Jr.",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -2245,7 +2245,7 @@
       "playerId": -16016,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 7.52,
+      "proj": 7.43,
       "slot": "D/ST"
      },
      {
@@ -2307,7 +2307,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 104.58857333,
+    "projected": 104.49759586,
     "teamId": 5
    },
    "week": 9,
@@ -2355,13 +2355,13 @@
       "playerId": 4426354,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.88,
+      "proj": 10.92,
       "slot": "FLEX"
      },
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "DOUBTFUL",
       "name": "Cam Skattebo",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -2369,7 +2369,7 @@
       "playerId": 4696981,
       "points": 0.0,
       "pos": "RB",
-      "proj": 13.1,
+      "proj": 0.0,
       "slot": "RB"
      },
      {
@@ -2529,7 +2529,7 @@
     ],
     "points": 0.0,
     "pointsLive": 5.55,
-    "projected": 95.66448994,
+    "projected": 82.60006959,
     "teamId": 6
    },
    "home": {
@@ -2601,13 +2601,13 @@
       "playerId": 4431452,
       "points": 0.0,
       "pos": "QB",
-      "proj": 24.63,
+      "proj": 24.59,
       "slot": "QB"
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "TreVeyon Henderson",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2629,7 +2629,7 @@
       "playerId": 4685278,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.28,
+      "proj": 11.29,
       "slot": "FLEX"
      },
      {
@@ -2704,20 +2704,6 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
-      "name": "Dameon Pierce",
-      "nfl": "PHI",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4360238,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Roschon Johnson",
@@ -2727,7 +2713,7 @@
       "playerId": 4426386,
       "points": 0.0,
       "pos": "RB",
-      "proj": 4.9,
+      "proj": 0.0,
       "slot": "BE"
      },
      {
@@ -2741,7 +2727,7 @@
       "playerId": 4373626,
       "points": 0.0,
       "pos": "RB",
-      "proj": 8.34,
+      "proj": 12.0,
       "slot": "RB"
      },
      {
@@ -2757,11 +2743,25 @@
       "pos": "TE",
       "proj": 7.45,
       "slot": "TE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Alvin Kamara",
+      "nfl": "NO",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 3054850,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 9.64,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 3.2,
-    "projected": 103.7827093,
+    "projected": 107.41839602,
     "teamId": 7
    },
    "week": 9,
