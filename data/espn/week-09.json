@@ -217,7 +217,7 @@
     ],
     "points": 0.0,
     "pointsLive": 8.9,
-    "projected": 112.36551399,
+    "projected": 112.36549481,
     "teamId": 3
    },
    "home": {
@@ -373,7 +373,7 @@
       "playerId": 4685247,
       "points": 0.0,
       "pos": "RB",
-      "proj": 8.22,
+      "proj": 8.21,
       "slot": "FLEX"
      },
      {
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 36.0,
-    "projected": 142.74752951,
+    "projected": 142.7412765,
     "teamId": 11
    },
    "week": 9,
@@ -603,7 +603,7 @@
       "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Jacoby Brissett",
-      "nfl": "ARI",
+      "nfl": "BAL",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2578570,
@@ -637,7 +637,7 @@
       "playerId": 4723820,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.45,
+      "proj": 8.87,
       "slot": "FLEX"
      },
      {
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 13.1,
-    "projected": 105.14775755,
+    "projected": 106.57073804,
     "teamId": 2
    },
    "home": {
@@ -706,8 +706,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Garrett Wilson",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -715,7 +715,7 @@
       "playerId": 4569618,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.0,
+      "proj": 0.0,
       "slot": "WR"
      },
      {
@@ -813,7 +813,7 @@
       "playerId": 5083315,
       "points": 0.0,
       "pos": "TE",
-      "proj": 2.71,
+      "proj": 3.09,
       "slot": "BE"
      },
      {
@@ -917,7 +917,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 115.54021749,
+    "projected": 105.54143001,
     "teamId": 10
    },
    "week": 9,
@@ -1063,7 +1063,7 @@
       "playerId": 4597500,
       "points": 0.0,
       "pos": "WR",
-      "proj": 8.05,
+      "proj": 9.34,
       "slot": "BE"
      },
      {
@@ -1147,13 +1147,13 @@
       "playerId": 4242512,
       "points": 0.0,
       "pos": "QB",
-      "proj": 19.33,
+      "proj": 19.4,
       "slot": "QB"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 123.93244345,
+    "projected": 124.00182758,
     "teamId": 4
    },
    "home": {
@@ -1253,7 +1253,7 @@
       "playerId": 4360310,
       "points": 22.0,
       "pos": "QB",
-      "proj": 24.63,
+      "proj": 24.6,
       "slot": "QB"
      },
      {
@@ -1371,7 +1371,7 @@
     ],
     "points": 0.0,
     "pointsLive": 22.0,
-    "projected": 112.07556209,
+    "projected": 112.07562322,
     "teamId": 13
    },
    "week": 9,
@@ -1405,7 +1405,7 @@
       "playerId": 4427366,
       "points": 0.0,
       "pos": "RB",
-      "proj": 9.68,
+      "proj": 9.66,
       "slot": "BE"
      },
      {
@@ -1517,7 +1517,7 @@
       "playerId": 4697815,
       "points": 0.0,
       "pos": "RB",
-      "proj": 10.54,
+      "proj": 10.71,
       "slot": "FLEX"
      },
      {
@@ -1587,7 +1587,7 @@
       "playerId": 3046439,
       "points": 0.0,
       "pos": "TE",
-      "proj": 0.0,
+      "proj": 7.62,
       "slot": "BE"
      },
      {
@@ -1607,7 +1607,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 121.97719809,
+    "projected": 122.15029641,
     "teamId": 9
    },
    "home": {
@@ -1721,7 +1721,7 @@
       "playerId": 2976212,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.79,
+      "proj": 10.21,
       "slot": "WR"
      },
      {
@@ -1839,7 +1839,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 110.37137049,
+    "projected": 110.79757285,
     "teamId": 1
    },
    "week": 9,
@@ -1859,7 +1859,7 @@
       "playerId": 4430807,
       "points": 0.0,
       "pos": "RB",
-      "proj": 17.22,
+      "proj": 18.35,
       "slot": "RB"
      },
      {
@@ -1893,7 +1893,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Emeka Egbuka",
       "nfl": "TB",
       "pctOwned": 0,
@@ -2041,7 +2041,7 @@
       "playerId": -16033,
       "points": 3.0,
       "pos": "D/ST",
-      "proj": 6.71,
+      "proj": 6.83,
       "slot": "BE"
      },
      {
@@ -2075,7 +2075,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 132.04743944,
+    "projected": 133.17669584,
     "teamId": 8
    },
    "home": {
@@ -2203,7 +2203,7 @@
       "playerId": 3916433,
       "points": 8.5,
       "pos": "WR",
-      "proj": 9.04,
+      "proj": 9.03,
       "slot": "BE"
      },
      {
@@ -2307,7 +2307,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 104.5885517,
+    "projected": 104.58857333,
     "teamId": 5
    },
    "week": 9,
@@ -2397,7 +2397,7 @@
       "playerId": 4360248,
       "points": 0.0,
       "pos": "TE",
-      "proj": 8.13,
+      "proj": 8.17,
       "slot": "BE"
      },
      {
@@ -2495,7 +2495,7 @@
       "playerId": 4427095,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.19,
+      "proj": 9.26,
       "slot": "WR"
      },
      {
@@ -2529,7 +2529,7 @@
     ],
     "points": 0.0,
     "pointsLive": 5.55,
-    "projected": 95.58917558,
+    "projected": 95.66448994,
     "teamId": 6
    },
    "home": {
@@ -2559,7 +2559,7 @@
       "playerId": 4426502,
       "points": 0.0,
       "pos": "WR",
-      "proj": 13.55,
+      "proj": 13.6,
       "slot": "WR"
      },
      {
@@ -2761,7 +2761,7 @@
     ],
     "points": 0.0,
     "pointsLive": 3.2,
-    "projected": 103.73348837,
+    "projected": 103.7827093,
     "teamId": 7
    },
    "week": 9,

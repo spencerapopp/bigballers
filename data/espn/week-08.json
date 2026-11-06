@@ -20,8 +20,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Garrett Wilson",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1303,7 +1303,7 @@
       "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Jacoby Brissett",
-      "nfl": "ARI",
+      "nfl": "BAL",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2578570,
@@ -2593,7 +2593,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Emeka Egbuka",
       "nfl": "TB",
       "pctOwned": 0,
