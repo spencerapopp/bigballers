@@ -15,7 +15,7 @@
       "playerId": 4262921,
       "points": 0.0,
       "pos": "WR",
-      "proj": 14.95,
+      "proj": 15.01,
       "slot": "WR"
      },
      {
@@ -43,7 +43,7 @@
       "playerId": 4361370,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.27,
+      "proj": 11.12,
       "slot": "WR"
      },
      {
@@ -217,7 +217,7 @@
     ],
     "points": 0.0,
     "pointsLive": 8.9,
-    "projected": 112.36174678,
+    "projected": 112.27020321,
     "teamId": 3
    },
    "home": {
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 36.0,
-    "projected": 142.7386107,
+    "projected": 142.73873956,
     "teamId": 11
    },
    "week": 9,
@@ -553,7 +553,7 @@
       "playerId": 4429205,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.16,
+      "proj": 9.18,
       "slot": "BE"
      },
      {
@@ -581,7 +581,7 @@
       "playerId": 4832955,
       "points": 0.0,
       "pos": "RB",
-      "proj": 6.27,
+      "proj": 6.26,
       "slot": "BE"
      },
      {
@@ -651,13 +651,13 @@
       "playerId": 4036133,
       "points": 0.0,
       "pos": "TE",
-      "proj": 8.3,
+      "proj": 8.33,
       "slot": "TE"
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kyler Murray",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 13.1,
-    "projected": 106.65318345,
+    "projected": 106.68436447,
     "teamId": 2
    },
    "home": {
@@ -702,7 +702,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 16.66,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -804,8 +804,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jordyn Tyson",
       "nfl": "NO",
       "pctOwned": 0,
@@ -813,22 +813,8 @@
       "playerId": 4880281,
       "points": 0.0,
       "pos": "WR",
-      "proj": 0.0,
+      "proj": 4.77,
       "slot": "IR"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Juwan Johnson",
-      "nfl": "NO",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3929645,
-      "points": 0.0,
-      "pos": "TE",
-      "proj": 5.76,
-      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -913,11 +899,25 @@
       "pos": "WR",
       "proj": 7.94,
       "slot": "WR"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Demarcus Robinson",
+      "nfl": "SF",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 3043116,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 8.31,
+      "slot": "WR"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 118.55175047,
+    "projected": 110.19791559,
     "teamId": 10
    },
    "week": 9,
@@ -1035,7 +1035,7 @@
       "playerId": -16014,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 9.16,
+      "proj": 9.18,
       "slot": "D/ST"
      },
      {
@@ -1105,7 +1105,7 @@
       "playerId": 3042519,
       "points": 0.0,
       "pos": "RB",
-      "proj": 7.32,
+      "proj": 7.33,
       "slot": "BE"
      },
      {
@@ -1153,7 +1153,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 124.06044727,
+    "projected": 124.07452301,
     "teamId": 4
    },
    "home": {
@@ -1282,7 +1282,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 9.34,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1324,7 +1324,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 6.3,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1371,7 +1371,7 @@
     ],
     "points": 0.0,
     "pointsLive": 22.0,
-    "projected": 111.96225749,
+    "projected": 108.91968021,
     "teamId": 13
    },
    "week": 9,
@@ -1573,7 +1573,7 @@
       "playerId": -16005,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 10.75,
+      "proj": 10.66,
       "slot": "D/ST"
      },
      {
@@ -1607,7 +1607,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 122.12410789,
+    "projected": 122.03857771,
     "teamId": 9
    },
    "home": {
@@ -1657,7 +1657,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "DJ Moore",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -1679,7 +1679,7 @@
       "playerId": 2577417,
       "points": 0.0,
       "pos": "QB",
-      "proj": 23.29,
+      "proj": 23.3,
       "slot": "QB"
      },
      {
@@ -1721,7 +1721,7 @@
       "playerId": 2976212,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.19,
+      "proj": 10.18,
       "slot": "WR"
      },
      {
@@ -1839,7 +1839,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 111.0350205,
+    "projected": 111.03563765,
     "teamId": 1
    },
    "week": 9,
@@ -2013,7 +2013,7 @@
       "playerId": 4569559,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.91,
+      "proj": 6.88,
       "slot": "BE"
      },
      {
@@ -2075,7 +2075,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 133.1053733,
+    "projected": 133.10260048,
     "teamId": 8
    },
    "home": {
@@ -2217,7 +2217,7 @@
       "playerId": 3139477,
       "points": 0.0,
       "pos": "QB",
-      "proj": 21.98,
+      "proj": 21.96,
       "slot": "QB"
      },
      {
@@ -2307,7 +2307,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 104.59226183,
+    "projected": 104.56724569,
     "teamId": 5
    },
    "week": 9,
@@ -2425,7 +2425,7 @@
       "playerId": -16007,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 10.28,
+      "proj": 10.36,
       "slot": "D/ST"
      },
      {
@@ -2529,7 +2529,7 @@
     ],
     "points": 0.0,
     "pointsLive": 5.55,
-    "projected": 82.64505635,
+    "projected": 82.73026303,
     "teamId": 6
    },
    "home": {
@@ -2755,13 +2755,13 @@
       "playerId": 3054850,
       "points": 0.0,
       "pos": "RB",
-      "proj": 9.57,
+      "proj": 10.56,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 3.2,
-    "projected": 107.66442529,
+    "projected": 107.66435741,
     "teamId": 7
    },
    "week": 9,

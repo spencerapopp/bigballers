@@ -132,8 +132,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jordyn Tyson",
       "nfl": "NO",
       "pctOwned": 0,
@@ -971,7 +971,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "DJ Moore",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -1356,8 +1356,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kyler Murray",
       "nfl": "MIN",
       "pctOwned": 0,

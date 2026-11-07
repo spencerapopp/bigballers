@@ -267,6 +267,27 @@
    ],
    "teamId": 7,
    "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-07T22:18:07.202000+00:00",
+   "id": "8ef94b7b-810d-4d57-a0ae-0308eca98e7e",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 3043116,
+     "to": 10,
+     "type": "ADD"
+    },
+    {
+     "from": 10,
+     "playerId": 3929645,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 10,
+   "type": "FREEAGENT"
   }
  ],
  "week": 9
