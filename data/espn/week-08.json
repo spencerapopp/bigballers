@@ -2032,8 +2032,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Dameon Pierce",
       "nfl": "PHI",
       "pctOwned": 0,
