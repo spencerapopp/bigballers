@@ -503,7 +503,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jaylen Waddle",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -1397,7 +1397,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Puka Nacua",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -1425,7 +1425,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Josh Jacobs",
       "nfl": "GB",
       "pctOwned": 0,
@@ -1523,7 +1523,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Patrick Mahomes",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1713,7 +1713,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Xavier Worthy",
       "nfl": "KC",
       "pctOwned": 0,
@@ -2153,7 +2153,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Ladd McConkey",
       "nfl": "LAC",
       "pctOwned": 0,
@@ -2307,7 +2307,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Hunter Henry",
       "nfl": "NE",
       "pctOwned": 0,
