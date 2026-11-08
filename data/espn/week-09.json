@@ -184,7 +184,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 0.0,
-      "slot": "BE"
+      "slot": "IR"
      },
      {
       "acquisitionType": null,
@@ -213,6 +213,20 @@
       "pos": "D/ST",
       "proj": 10.65,
       "slot": "D/ST"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Antonio Williams",
+      "nfl": "WSH",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 5081432,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 8.04,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
@@ -1282,7 +1296,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 9.34,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1324,7 +1338,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 6.3,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1371,7 +1385,7 @@
     ],
     "points": 0.0,
     "pointsLive": 22.0,
-    "projected": 108.91968021,
+    "projected": 111.96129316,
     "teamId": 13
    },
    "week": 9,
@@ -1406,7 +1420,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 9.66,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1518,7 +1532,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 10.7,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1607,7 +1621,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 122.03857771,
+    "projected": 120.99881798,
     "teamId": 9
    },
    "home": {
