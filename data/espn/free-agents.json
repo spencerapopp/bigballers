@@ -102,8 +102,8 @@
    "injuryStatus": "ACTIVE",
    "name": "Chris Boswell",
    "nfl": "PIT",
-   "pctOwned": 43.5,
-   "pctStarted": 10.6,
+   "pctOwned": 43.4,
+   "pctStarted": 10.5,
    "playerId": 17372,
    "pos": "K",
    "slot": null
@@ -243,7 +243,7 @@
   {
    "acquisitionType": null,
    "injured": false,
-   "injuryStatus": "ACTIVE",
+   "injuryStatus": "QUESTIONABLE",
    "name": "Justin Herbert",
    "nfl": "LAC",
    "pctOwned": 32.1,
@@ -426,8 +426,8 @@
    "injuryStatus": "ACTIVE",
    "name": "Kendre Miller",
    "nfl": "FA",
-   "pctOwned": 20.4,
-   "pctStarted": 2.8,
+   "pctOwned": 20.3,
+   "pctStarted": 2.7,
    "playerId": 4599739,
    "pos": "RB",
    "slot": null
