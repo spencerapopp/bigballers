@@ -55,7 +55,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4723086,
-      "points": 0.0,
+      "points": 7.4,
       "pos": "TE",
       "proj": 9.75,
       "slot": "FLEX"
@@ -83,7 +83,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431611,
-      "points": 8.55,
+      "points": 22.05,
       "pos": "QB",
       "proj": 19.39,
       "slot": "QB"
@@ -153,7 +153,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 17427,
-      "points": 1.0,
+      "points": 9.0,
       "pos": "K",
       "proj": 9.14,
       "slot": "K"
@@ -209,7 +209,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16003,
-      "points": 13.0,
+      "points": 16.0,
       "pos": "D/ST",
       "proj": 10.65,
       "slot": "D/ST"
@@ -230,8 +230,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 70.45,
-    "projected": 116.48933184,
+    "pointsLive": 102.35,
+    "projected": 117.35676784,
     "teamId": 3
    },
    "home": {
@@ -301,7 +301,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4259545,
-      "points": 1.0,
+      "points": 3.1,
       "pos": "RB",
       "proj": 17.43,
       "slot": "RB"
@@ -343,7 +343,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4371733,
-      "points": 0.0,
+      "points": 9.1,
       "pos": "RB",
       "proj": 7.34,
       "slot": "BE"
@@ -462,8 +462,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 115.3,
-    "projected": 130.35550497,
+    "pointsLive": 117.4,
+    "projected": 117.4,
     "teamId": 11
    },
    "week": 9,
@@ -1153,7 +1153,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Malik Willis",
       "nfl": "MIA",
       "pctOwned": 0,
@@ -1761,7 +1761,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3150744,
-      "points": 0.0,
+      "points": 10.0,
       "pos": "K",
       "proj": 8.74,
       "slot": "K"
@@ -1852,8 +1852,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 85.65,
-    "projected": 103.64759661,
+    "pointsLive": 95.65,
+    "projected": 106.10114734,
     "teamId": 1
    },
    "week": 9,
@@ -1913,7 +1913,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4567750,
-      "points": 0.0,
+      "points": 5.4,
       "pos": "WR",
       "proj": 9.35,
       "slot": "BE"
@@ -2081,15 +2081,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16027,
-      "points": 11.0,
+      "points": 20.0,
       "pos": "D/ST",
       "proj": 7.46,
       "slot": "D/ST"
      }
     ],
     "points": 0.0,
-    "pointsLive": 147.2,
-    "projected": 144.14376361,
+    "pointsLive": 156.2,
+    "projected": 156.2,
     "teamId": 8
    },
    "home": {
@@ -2145,7 +2145,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4596448,
-      "points": 1.1,
+      "points": 25.5,
       "pos": "RB",
       "proj": 14.54,
       "slot": "RB"
@@ -2320,8 +2320,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 68.2,
-    "projected": 88.19294827,
+    "pointsLive": 92.6,
+    "projected": 100.03249868,
     "teamId": 5
    },
    "week": 9,
@@ -2395,7 +2395,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431299,
-      "points": 10.2,
+      "points": 14.0,
       "pos": "WR",
       "proj": 8.38,
       "slot": "BE"
@@ -2465,7 +2465,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3052587,
-      "points": 0.15,
+      "points": 8.15,
       "pos": "QB",
       "proj": 14.22,
       "slot": "BE"
@@ -2635,13 +2635,13 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Luther Burden III",
       "nfl": "CHI",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685278,
-      "points": 0.4,
+      "points": 16.7,
       "pos": "WR",
       "proj": 11.28,
       "slot": "FLEX"
@@ -2711,7 +2711,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426386,
-      "points": 0.0,
+      "points": 1.0,
       "pos": "RB",
       "proj": 4.9,
       "slot": "BE"
@@ -2774,8 +2774,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 65.35,
-    "projected": 85.77815643,
+    "pointsLive": 81.65,
+    "projected": 92.33515911,
     "teamId": 7
    },
    "week": 9,
