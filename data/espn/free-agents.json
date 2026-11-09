@@ -174,8 +174,8 @@
    "injuryStatus": "ACTIVE",
    "name": "Dominic Zvada",
    "nfl": "NYG",
-   "pctOwned": 37.3,
-   "pctStarted": 30.6,
+   "pctOwned": 37.2,
+   "pctStarted": 30.5,
    "playerId": 5082424,
    "pos": "K",
    "slot": null
@@ -207,7 +207,7 @@
   {
    "acquisitionType": null,
    "injured": false,
-   "injuryStatus": "ACTIVE",
+   "injuryStatus": "QUESTIONABLE",
    "name": "J.J. McCarthy",
    "nfl": "NYG",
    "pctOwned": 34.0,
@@ -271,7 +271,7 @@
    "name": "Jalen Hurts",
    "nfl": "PHI",
    "pctOwned": 30.7,
-   "pctStarted": 9.8,
+   "pctStarted": 9.9,
    "playerId": 4040715,
    "pos": "QB",
    "slot": null
@@ -306,7 +306,7 @@
    "injuryStatus": "ACTIVE",
    "name": "Mike Gesicki",
    "nfl": "CIN",
-   "pctOwned": 26.6,
+   "pctOwned": 26.5,
    "pctStarted": 12.6,
    "playerId": 3116164,
    "pos": "TE",
@@ -426,8 +426,8 @@
    "injuryStatus": "ACTIVE",
    "name": "Kendre Miller",
    "nfl": "FA",
-   "pctOwned": 19.9,
-   "pctStarted": 2.5,
+   "pctOwned": 19.8,
+   "pctStarted": 2.4,
    "playerId": 4599739,
    "pos": "RB",
    "slot": null
@@ -535,7 +535,7 @@
    "name": "Commanders D/ST",
    "nfl": "WSH",
    "pctOwned": 16.1,
-   "pctStarted": 9.7,
+   "pctStarted": 9.6,
    "playerId": -16028,
    "pos": "D/ST",
    "slot": null
