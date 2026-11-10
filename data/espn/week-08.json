@@ -336,8 +336,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Michael Wilson",
       "nfl": "ARI",
       "pctOwned": 0,
@@ -1397,7 +1397,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "DOUBTFUL",
       "name": "Puka Nacua",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -1424,8 +1424,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Josh Jacobs",
       "nfl": "GB",
       "pctOwned": 0,
