@@ -98,6 +98,63 @@
    ],
    "teamId": 3,
    "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-12T15:01:51.200000+00:00",
+   "id": "eea9e581-cfc2-4e73-acb2-f13a86fde0b5",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4870653,
+     "to": 6,
+     "type": "ADD"
+    },
+    {
+     "from": 6,
+     "playerId": 4426354,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 6,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-12T15:04:41.285000+00:00",
+   "id": "63ae651a-4d0b-4e12-b501-12abd2d16308",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4686468,
+     "to": 6,
+     "type": "ADD"
+    }
+   ],
+   "teamId": 6,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-12T15:06:57.225000+00:00",
+   "id": "584a79ba-7544-4cdb-a860-ae4eed085c5d",
+   "items": [
+    {
+     "from": 0,
+     "playerId": -16009,
+     "to": 6,
+     "type": "ADD"
+    },
+    {
+     "from": 6,
+     "playerId": 4685415,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 6,
+   "type": "FREEAGENT"
   }
  ],
  "week": 10

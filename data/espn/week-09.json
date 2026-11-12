@@ -2374,8 +2374,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "Cam Skattebo",
       "nfl": "NYG",
       "pctOwned": 0,

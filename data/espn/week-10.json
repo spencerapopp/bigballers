@@ -568,7 +568,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 8.44,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -694,12 +694,12 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 9.96,
-      "slot": "FLEX"
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 115.97234412,
+    "projected": 114.45886218,
     "teamId": 11
    },
    "home": {
@@ -1820,7 +1820,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 12.15,
-      "slot": "BE"
+      "slot": "D/ST"
      },
      {
       "acquisitionType": null,
@@ -1848,12 +1848,12 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 0.0,
-      "slot": "D/ST"
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 125.34821732,
+    "projected": 137.49866209,
     "teamId": 8
    },
    "week": 10,
@@ -2125,21 +2125,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
-      "name": "George Pickens",
-      "nfl": "DAL",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4426354,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 9.81,
-      "slot": "FLEX"
-     },
-     {
-      "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "ACTIVE",
       "name": "Cam Skattebo",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -2148,7 +2134,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 10.99,
-      "slot": "RB"
+      "slot": "IR"
      },
      {
       "acquisitionType": null,
@@ -2204,20 +2190,6 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 0.0,
-      "slot": "D/ST"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Travis Hunter",
-      "nfl": "JAX",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4685415,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 7.28,
       "slot": "BE"
      },
      {
@@ -2303,11 +2275,53 @@
       "pos": "RB",
       "proj": 5.21,
       "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "KC Concepcion",
+      "nfl": "CLE",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4870653,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 8.31,
+      "slot": "FLEX"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Seth McGowan",
+      "nfl": "IND",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4686468,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 5.2,
+      "slot": "RB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Packers D/ST",
+      "nfl": "GB",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": -16009,
+      "points": 0.0,
+      "pos": "D/ST",
+      "proj": 9.63,
+      "slot": "D/ST"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 91.54301727,
+    "projected": 104.86764128,
     "teamId": 6
    },
    "week": 10,
