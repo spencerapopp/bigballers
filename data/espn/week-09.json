@@ -189,7 +189,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Tank Dell",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -365,7 +365,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jared Goff",
       "nfl": "DET",
       "pctOwned": 0,
@@ -1027,7 +1027,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Xavier Worthy",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1467,7 +1467,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Rhamondre Stevenson",
       "nfl": "NE",
       "pctOwned": 0,
@@ -1699,7 +1699,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Tony Pollard",
       "nfl": "TEN",
       "pctOwned": 0,
@@ -2223,7 +2223,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Patrick Mahomes",
       "nfl": "KC",
       "pctOwned": 0,
@@ -2747,7 +2747,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Alvin Kamara",
       "nfl": "NO",
       "pctOwned": 0,
