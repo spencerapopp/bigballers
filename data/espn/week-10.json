@@ -455,15 +455,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 5082424,
-      "points": 0.0,
+      "points": -1.0,
       "pos": "K",
       "proj": 8.09,
       "slot": "K"
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 117.2984772,
+    "pointsLive": -1.0,
+    "projected": 112.25570714,
     "teamId": 3
    },
    "week": 10,
@@ -741,7 +741,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4595348,
-      "points": 0.0,
+      "points": 2.3,
       "pos": "WR",
       "proj": 12.97,
       "slot": "WR"
@@ -930,8 +930,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 124.44930226,
+    "pointsLive": 2.3,
+    "projected": 120.26338229,
     "teamId": 4
    },
    "week": 10,
@@ -1033,7 +1033,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4361050,
-      "points": 0.0,
+      "points": 6.4,
       "pos": "TE",
       "proj": 9.71,
       "slot": "TE"
@@ -1131,7 +1131,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4040761,
-      "points": 0.0,
+      "points": 0.3,
       "pos": "RB",
       "proj": 6.27,
       "slot": "FLEX"
@@ -1166,8 +1166,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 108.19586716,
+    "pointsLive": 6.7,
+    "projected": 106.90511199,
     "teamId": 10
    },
    "home": {
@@ -1307,7 +1307,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4697815,
-      "points": 0.0,
+      "points": 2.0,
       "pos": "RB",
       "proj": 9.73,
       "slot": "RB"
@@ -1398,8 +1398,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 110.51368912,
+    "pointsLive": 2.0,
+    "projected": 107.64645488,
     "teamId": 9
    },
    "week": 10,
@@ -1969,7 +1969,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2976212,
-      "points": 0.0,
+      "points": 4.4,
       "pos": "WR",
       "proj": 8.21,
       "slot": "WR"
@@ -2039,7 +2039,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16019,
-      "points": 0.0,
+      "points": 9.0,
       "pos": "D/ST",
       "proj": 9.02,
       "slot": "BE"
@@ -2088,8 +2088,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 97.03250931,
+    "pointsLive": 4.4,
+    "projected": 97.32567249,
     "teamId": 1
    },
    "home": {
@@ -2131,7 +2131,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4696981,
-      "points": 0.0,
+      "points": 14.2,
       "pos": "RB",
       "proj": 10.96,
       "slot": "IR"
@@ -2333,7 +2333,7 @@
      {
       "acquisitionType": null,
       "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Puka Nacua",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -2395,7 +2395,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426348,
-      "points": 0.0,
+      "points": 10.9,
       "pos": "QB",
       "proj": 20.09,
       "slot": "BE"
