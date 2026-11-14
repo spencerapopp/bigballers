@@ -734,8 +734,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Travis Etienne Jr.",
       "nfl": "NO",
       "pctOwned": 0,
@@ -748,8 +748,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "David Montgomery",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1097,7 +1097,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Pat Freiermuth",
       "nfl": "PIT",
       "pctOwned": 0,
@@ -2621,7 +2621,7 @@
      {
       "acquisitionType": null,
       "injured": true,
-      "injuryStatus": "OUT",
+      "injuryStatus": "INJURY_RESERVE",
       "name": "TreVeyon Henderson",
       "nfl": "NE",
       "pctOwned": 0,
