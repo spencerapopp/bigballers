@@ -1878,8 +1878,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kenneth Walker III",
       "nfl": "KC",
       "pctOwned": 0,

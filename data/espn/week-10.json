@@ -127,7 +127,7 @@
       "playerId": 4832955,
       "points": 0.0,
       "pos": "RB",
-      "proj": 5.52,
+      "proj": 15.61,
       "slot": "BE"
      },
      {
@@ -231,7 +231,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 101.34717268,
+    "projected": 101.35499722,
     "teamId": 2
    },
    "home": {
@@ -261,7 +261,7 @@
       "playerId": 4432665,
       "points": 0.0,
       "pos": "TE",
-      "proj": 12.36,
+      "proj": 12.37,
       "slot": "TE"
      },
      {
@@ -359,7 +359,7 @@
       "playerId": -16017,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 6.39,
+      "proj": 6.31,
       "slot": "D/ST"
      },
      {
@@ -373,7 +373,7 @@
       "playerId": 4036378,
       "points": 0.0,
       "pos": "QB",
-      "proj": 19.28,
+      "proj": 19.37,
       "slot": "QB"
      },
      {
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 1.0,
-    "projected": 105.49198251,
+    "projected": 105.51472239,
     "teamId": 3
    },
    "week": 10,
@@ -497,7 +497,7 @@
       "playerId": 4361579,
       "points": 0.0,
       "pos": "RB",
-      "proj": 13.75,
+      "proj": 13.74,
       "slot": "RB"
      },
      {
@@ -685,7 +685,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 113.86359824,
+    "projected": 113.85961009,
     "teamId": 11
    },
    "home": {
@@ -701,7 +701,7 @@
       "playerId": 4241389,
       "points": 0.0,
       "pos": "WR",
-      "proj": 16.91,
+      "proj": 16.89,
       "slot": "WR"
      },
      {
@@ -743,7 +743,7 @@
       "playerId": 4430737,
       "points": 0.0,
       "pos": "RB",
-      "proj": 17.14,
+      "proj": 17.15,
       "slot": "RB"
      },
      {
@@ -785,7 +785,7 @@
       "playerId": 4683062,
       "points": 0.0,
       "pos": "WR",
-      "proj": 6.72,
+      "proj": 7.7,
       "slot": "BE"
      },
      {
@@ -917,7 +917,7 @@
     ],
     "points": 0.0,
     "pointsLive": 4.4,
-    "projected": 116.27859925,
+    "projected": 116.25865812,
     "teamId": 4
    },
    "week": 10,
@@ -1153,7 +1153,7 @@
     ],
     "points": 0.0,
     "pointsLive": 22.5,
-    "projected": 108.56715511,
+    "projected": 108.56713615,
     "teamId": 10
    },
    "home": {
@@ -1267,7 +1267,7 @@
       "playerId": 4701936,
       "points": 0.0,
       "pos": "WR",
-      "proj": 14.3,
+      "proj": 14.31,
       "slot": "WR"
      },
      {
@@ -1385,7 +1385,7 @@
     ],
     "points": 0.0,
     "pointsLive": 5.7,
-    "projected": 106.51231857,
+    "projected": 106.52227849,
     "teamId": 9
    },
    "week": 10,
@@ -1475,7 +1475,7 @@
       "playerId": 4248528,
       "points": 0.0,
       "pos": "WR",
-      "proj": 12.74,
+      "proj": 12.75,
       "slot": "WR"
      },
      {
@@ -1607,7 +1607,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 117.36075171,
+    "projected": 117.37943878,
     "teamId": 13
    },
    "home": {
@@ -1628,8 +1628,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kenneth Walker III",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1637,7 +1637,7 @@
       "playerId": 4567048,
       "points": 0.0,
       "pos": "RB",
-      "proj": 25.01,
+      "proj": 0.0,
       "slot": "RB"
      },
      {
@@ -1707,7 +1707,7 @@
       "playerId": 4361741,
       "points": 0.0,
       "pos": "QB",
-      "proj": 24.96,
+      "proj": 24.95,
       "slot": "QB"
      },
      {
@@ -1839,7 +1839,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 137.93246681,
+    "projected": 112.91295724,
     "teamId": 8
    },
    "week": 10,
@@ -1943,7 +1943,7 @@
       "playerId": 15847,
       "points": 0.0,
       "pos": "TE",
-      "proj": 8.99,
+      "proj": 9.44,
       "slot": "TE"
      },
      {
@@ -2055,7 +2055,7 @@
       "playerId": 4688813,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.42,
+      "proj": 8.4,
       "slot": "BE"
      },
      {
@@ -2075,7 +2075,7 @@
     ],
     "points": 0.0,
     "pointsLive": 17.3,
-    "projected": 113.36983909,
+    "projected": 113.82263206,
     "teamId": 1
    },
    "home": {
@@ -2307,7 +2307,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 103.12057322,
+    "projected": 103.12060312,
     "teamId": 6
    },
    "week": 10,
@@ -2453,7 +2453,7 @@
       "playerId": 3139477,
       "points": 0.0,
       "pos": "QB",
-      "proj": 21.04,
+      "proj": 22.45,
       "slot": "QB"
      },
      {
@@ -2481,7 +2481,7 @@
       "playerId": -16016,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 8.7,
+      "proj": 8.52,
       "slot": "BE"
      },
      {
@@ -2523,7 +2523,7 @@
       "playerId": -16026,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 10.79,
+      "proj": 10.77,
       "slot": "D/ST"
      },
      {
@@ -2543,7 +2543,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 64.07957381,
+    "projected": 65.47061938,
     "teamId": 5
    },
    "home": {
@@ -2587,7 +2587,7 @@
       "playerId": 4428331,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.99,
+      "proj": 10.57,
       "slot": "FLEX"
      },
      {
@@ -2671,7 +2671,7 @@
       "playerId": -16023,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 9.44,
+      "proj": 9.53,
       "slot": "D/ST"
      },
      {
@@ -2769,13 +2769,13 @@
       "playerId": 4426354,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.81,
+      "proj": 9.79,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 117.01092599,
+    "projected": 117.67126828,
     "teamId": 7
    },
    "week": 10,
