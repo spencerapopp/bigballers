@@ -148,20 +148,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Jacoby Brissett",
-      "nfl": "BAL",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 2578570,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 16.53,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Harrison Butker",
       "nfl": "KC",
       "pctOwned": 0,
@@ -198,7 +184,7 @@
       "points": 0.0,
       "pos": "TE",
       "proj": 0.0,
-      "slot": "TE"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -227,11 +213,25 @@
       "pos": "QB",
       "proj": 20.44,
       "slot": "QB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Darren Waller",
+      "nfl": "CAR",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 2576925,
+      "points": 0.0,
+      "pos": "TE",
+      "proj": 6.99,
+      "slot": "TE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 94.3567018,
+    "projected": 101.34717268,
     "teamId": 2
    },
    "home": {
@@ -361,20 +361,6 @@
       "pos": "D/ST",
       "proj": 6.39,
       "slot": "D/ST"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Cairo Santos",
-      "nfl": "CHI",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 17427,
-      "points": 0.0,
-      "pos": "K",
-      "proj": 0.0,
-      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2734,20 +2720,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Brenton Strange",
-      "nfl": "JAX",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4430539,
-      "points": 0.0,
-      "pos": "TE",
-      "proj": 7.63,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Alvin Kamara",
       "nfl": "NO",
       "pctOwned": 0,
@@ -2784,6 +2756,20 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 6.13,
+      "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "George Pickens",
+      "nfl": "DAL",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4426354,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 9.81,
       "slot": "BE"
      }
     ],

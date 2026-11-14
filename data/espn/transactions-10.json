@@ -218,6 +218,48 @@
    ],
    "teamId": 1,
    "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-14T08:27:01.621000+00:00",
+   "id": "76517a18-fc1c-447f-a2eb-ef23604a6f07",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4426354,
+     "to": 7,
+     "type": "ADD"
+    },
+    {
+     "from": 7,
+     "playerId": 4430539,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 7,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-14T11:43:27.837000+00:00",
+   "id": "1440b9aa-e1cd-4fe1-919a-f742df1f6ae8",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 2576925,
+     "to": 2,
+     "type": "ADD"
+    },
+    {
+     "from": 2,
+     "playerId": 2578570,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 2,
+   "type": "FREEAGENT"
   }
  ],
  "week": 10
