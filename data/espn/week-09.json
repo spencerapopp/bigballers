@@ -20,8 +20,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Brock Bowers",
       "nfl": "LV",
       "pctOwned": 0,
@@ -119,7 +119,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "DOUBTFUL",
       "name": "Woody Marks",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -643,7 +643,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Omar Cooper Jr.",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1125,7 +1125,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Geno Smith",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1452,8 +1452,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Ladd McConkey",
       "nfl": "LAC",
       "pctOwned": 0,
@@ -2264,8 +2264,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Emanuel Wilson",
       "nfl": "SEA",
       "pctOwned": 0,
@@ -2565,7 +2565,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Drake London",
       "nfl": "ATL",
       "pctOwned": 0,
