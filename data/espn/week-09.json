@@ -558,8 +558,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Jordan Addison",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -643,7 +643,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Omar Cooper Jr.",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -721,7 +721,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Garrett Wilson",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -735,7 +735,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Travis Etienne Jr.",
       "nfl": "NO",
       "pctOwned": 0,
@@ -1069,7 +1069,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Adonai Mitchell",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1425,7 +1425,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2033,7 +2033,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Denzel Boston",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -2306,8 +2306,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Pierre Strong Jr.",
       "nfl": "GB",
       "pctOwned": 0,
@@ -2459,7 +2459,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Baker Mayfield",
       "nfl": "TB",
       "pctOwned": 0,
@@ -2607,7 +2607,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Drake Maye",
       "nfl": "NE",
       "pctOwned": 0,
