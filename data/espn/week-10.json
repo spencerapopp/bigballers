@@ -445,6 +445,20 @@
       "pos": "K",
       "proj": 8.09,
       "slot": "K"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Fernando Mendoza",
+      "nfl": "LV",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4837248,
+      "points": 0.0,
+      "pos": "QB",
+      "proj": 15.6,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
