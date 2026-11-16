@@ -2472,8 +2472,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "Emanuel Wilson",
       "nfl": "SEA",
       "pctOwned": 0,
@@ -2579,7 +2579,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Drake London",
       "nfl": "ATL",
       "pctOwned": 0,
