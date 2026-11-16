@@ -2607,7 +2607,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "DOUBTFUL",
       "name": "Drake Maye",
       "nfl": "NE",
       "pctOwned": 0,

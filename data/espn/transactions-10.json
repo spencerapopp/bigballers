@@ -380,6 +380,27 @@
    ],
    "teamId": 5,
    "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-16T04:51:18.941000+00:00",
+   "id": "ab8c6581-b9f7-42bd-8bb6-367c408d3f74",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4360234,
+     "to": 0,
+     "type": "LINEUP"
+    },
+    {
+     "from": 0,
+     "playerId": 3150744,
+     "to": 0,
+     "type": "LINEUP"
+    }
+   ],
+   "teamId": 1,
+   "type": "FUTURE_ROSTER"
   }
  ],
  "week": 10
