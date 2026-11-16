@@ -20,8 +20,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Brock Bowers",
       "nfl": "LV",
       "pctOwned": 0,
@@ -1097,7 +1097,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Pat Freiermuth",
       "nfl": "PIT",
       "pctOwned": 0,
