@@ -1,5 +1,5 @@
 {
- "complete": false,
+ "complete": true,
  "games": [
   {
    "away": {
@@ -34,8 +34,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "DeVonta Smith",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -174,8 +174,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "T.J. Hockenson",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -229,9 +229,9 @@
       "slot": "TE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 126.35,
-    "projected": 126.35,
+    "points": 126.35,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 2
    },
    "home": {
@@ -461,13 +461,13 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 61.6,
-    "projected": 61.6,
+    "points": 61.6,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 3
    },
    "week": 10,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   },
   {
    "away": {
@@ -586,8 +586,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Kyle Monangai",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -697,9 +697,9 @@
       "slot": "FLEX"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 132.25,
-    "projected": 132.25,
+    "points": 132.25,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 11
    },
    "home": {
@@ -929,13 +929,13 @@
       "slot": "TE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 121.4,
-    "projected": 121.4,
+    "points": 121.4,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 4
    },
    "week": 10,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   },
   {
    "away": {
@@ -1165,9 +1165,9 @@
       "slot": "RB"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 125.15,
-    "projected": 125.15,
+    "points": 125.15,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 10
    },
    "home": {
@@ -1230,8 +1230,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Ladd McConkey",
       "nfl": "LAC",
       "pctOwned": 0,
@@ -1258,8 +1258,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Mike Evans",
       "nfl": "SF",
       "pctOwned": 0,
@@ -1397,13 +1397,13 @@
       "slot": "WR"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 115.45,
-    "projected": 115.45,
+    "points": 115.45,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 9
    },
    "week": 10,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   },
   {
    "away": {
@@ -1564,8 +1564,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Marvin Harrison Jr.",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1619,9 +1619,9 @@
       "slot": "FLEX"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 120.4,
-    "projected": 120.4,
+    "points": 120.4,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 13
    },
    "home": {
@@ -1642,8 +1642,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Kenneth Walker III",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1851,13 +1851,13 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 134.95,
-    "projected": 134.95,
+    "points": 134.95,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 8
    },
    "week": 10,
-   "winner": "UNDECIDED"
+   "winner": "HOME"
   },
   {
    "away": {
@@ -2087,9 +2087,9 @@
       "slot": "K"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 148.65,
-    "projected": 148.65,
+    "points": 148.65,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 1
    },
    "home": {
@@ -2319,13 +2319,13 @@
       "slot": "D/ST"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 88.2,
-    "projected": 88.2,
+    "points": 88.2,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 6
    },
    "week": 10,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   },
   {
    "away": {
@@ -2388,8 +2388,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Carnell Tate",
       "nfl": "TEN",
       "pctOwned": 0,
@@ -2555,9 +2555,9 @@
       "slot": "WR"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 93.3,
-    "projected": 93.3,
+    "points": 93.3,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 5
    },
    "home": {
@@ -2787,13 +2787,13 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 89.9,
-    "projected": 89.9,
+    "points": 89.9,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 7
    },
    "week": 10,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   }
  ],
  "week": 10
