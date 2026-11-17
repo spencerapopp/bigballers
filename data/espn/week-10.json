@@ -984,8 +984,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "David Montgomery",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1431,7 +1431,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685382,
-      "points": 0.0,
+      "points": 17.0,
       "pos": "RB",
       "proj": 7.3,
       "slot": "BE"
@@ -1445,7 +1445,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4429615,
-      "points": 0.0,
+      "points": 7.4,
       "pos": "WR",
       "proj": 11.8,
       "slot": "WR"
@@ -1620,8 +1620,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 113.0,
-    "projected": 124.79580241,
+    "pointsLive": 120.4,
+    "projected": 120.4,
     "teamId": 13
    },
    "home": {
@@ -1733,7 +1733,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3116365,
-      "points": 0.0,
+      "points": 12.2,
       "pos": "TE",
       "proj": 5.39,
       "slot": "BE"
@@ -1817,7 +1817,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16033,
-      "points": 0.0,
+      "points": 6.0,
       "pos": "D/ST",
       "proj": 12.25,
       "slot": "D/ST"
@@ -1852,8 +1852,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 128.95,
-    "projected": 141.20131871,
+    "pointsLive": 134.95,
+    "projected": 134.95,
     "teamId": 8
    },
    "week": 10,
@@ -2117,7 +2117,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3043078,
-      "points": 0.0,
+      "points": 16.5,
       "pos": "RB",
       "proj": 18.09,
       "slot": "RB"
@@ -2320,8 +2320,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 71.7,
-    "projected": 89.78729003,
+    "pointsLive": 88.2,
+    "projected": 88.2,
     "teamId": 6
    },
    "week": 10,
@@ -2521,7 +2521,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4430968,
-      "points": 0.0,
+      "points": 2.9,
       "pos": "RB",
       "proj": 6.83,
       "slot": "RB"
@@ -2556,8 +2556,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 90.4,
-    "projected": 97.23310677,
+    "pointsLive": 93.3,
+    "projected": 93.3,
     "teamId": 5
    },
    "home": {

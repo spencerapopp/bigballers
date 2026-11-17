@@ -103,7 +103,7 @@
    "name": "Chris Godwin Jr.",
    "nfl": "TB",
    "pctOwned": 41.7,
-   "pctStarted": 2.1,
+   "pctStarted": 2.0,
    "playerId": 3116165,
    "pos": "WR",
    "slot": null
@@ -258,8 +258,8 @@
    "injuryStatus": "ACTIVE",
    "name": "Commanders D/ST",
    "nfl": "WSH",
-   "pctOwned": 28.3,
-   "pctStarted": 23.5,
+   "pctOwned": 28.2,
+   "pctStarted": 23.4,
    "playerId": -16028,
    "pos": "D/ST",
    "slot": null
@@ -354,8 +354,8 @@
    "injuryStatus": "ACTIVE",
    "name": "Quentin Johnston",
    "nfl": "LAC",
-   "pctOwned": 23.9,
-   "pctStarted": 4.1,
+   "pctOwned": 24.0,
+   "pctStarted": 4.2,
    "playerId": 4429025,
    "pos": "WR",
    "slot": null
@@ -583,7 +583,7 @@
    "name": "Jacoby Brissett",
    "nfl": "BAL",
    "pctOwned": 16.2,
-   "pctStarted": 6.1,
+   "pctStarted": 6.2,
    "playerId": 2578570,
    "pos": "QB",
    "slot": null
@@ -631,7 +631,7 @@
    "name": "AJ Barner",
    "nfl": "SEA",
    "pctOwned": 13.6,
-   "pctStarted": 9.1,
+   "pctStarted": 9.0,
    "playerId": 4576297,
    "pos": "TE",
    "slot": null
@@ -654,7 +654,7 @@
    "injuryStatus": "OUT",
    "name": "Dontayvion Wicks",
    "nfl": "PHI",
-   "pctOwned": 13.0,
+   "pctOwned": 12.9,
    "pctStarted": 0.5,
    "playerId": 4428850,
    "pos": "WR",

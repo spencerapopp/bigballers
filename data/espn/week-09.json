@@ -748,8 +748,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "David Montgomery",
       "nfl": "HOU",
       "pctOwned": 0,
