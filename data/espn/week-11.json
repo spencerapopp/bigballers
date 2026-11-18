@@ -407,20 +407,6 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
-      "name": "Geno Smith",
-      "nfl": "NYJ",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 15864,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 16.74,
-      "slot": "QB"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Spencer Shrader",
       "nfl": "IND",
@@ -459,11 +445,25 @@
       "pos": "TE",
       "proj": 6.33,
       "slot": "TE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Aaron Rodgers",
+      "nfl": "PIT",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 8439,
+      "points": 0.0,
+      "pos": "QB",
+      "proj": 18.13,
+      "slot": "QB"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 108.54201241,
+    "projected": 109.93035047,
     "teamId": 4
    },
    "week": 11,
@@ -658,20 +658,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Hunter Henry",
-      "nfl": "NE",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3046439,
-      "points": 0.0,
-      "pos": "TE",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Jake Bates",
       "nfl": "DET",
       "pctOwned": 0,
@@ -695,6 +681,20 @@
       "pos": "WR",
       "proj": 5.65,
       "slot": "WR"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Lions D/ST",
+      "nfl": "DET",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": -16008,
+      "points": 0.0,
+      "pos": "D/ST",
+      "proj": 9.35,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
@@ -1050,7 +1050,7 @@
       "points": 0.0,
       "pos": "TE",
       "proj": 5.63,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1078,7 +1078,7 @@
       "points": 0.0,
       "pos": "K",
       "proj": 0.0,
-      "slot": "K"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1092,20 +1092,6 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
-      "name": "Devaughn Vele",
-      "nfl": "NO",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4569559,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 4.76,
       "slot": "BE"
      },
      {
@@ -1154,20 +1140,34 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Buccaneers D/ST",
-      "nfl": "TB",
+      "name": "Ryan Flournoy",
+      "nfl": "DAL",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": -16027,
+      "playerId": 5083754,
       "points": 0.0,
-      "pos": "D/ST",
-      "proj": 7.86,
-      "slot": "BE"
+      "pos": "WR",
+      "proj": 7.93,
+      "slot": "FLEX"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Chris Boswell",
+      "nfl": "PIT",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 17372,
+      "points": 0.0,
+      "pos": "K",
+      "proj": 10.09,
+      "slot": "K"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 108.36044193,
+    "projected": 120.75394609,
     "teamId": 8
    },
    "home": {
@@ -1330,20 +1330,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Germie Bernard",
-      "nfl": "PIT",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4685261,
-      "points": 0.0,
-      "pos": "WR",
-      "proj": 2.47,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Kirk Cousins",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -1395,6 +1381,20 @@
       "pos": "WR",
       "proj": 8.7,
       "slot": "FLEX"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Xavier Hutchinson",
+      "nfl": "HOU",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4686422,
+      "points": 0.0,
+      "pos": "WR",
+      "proj": 9.35,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
@@ -2062,20 +2062,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Kaleb Johnson",
-      "nfl": "GB",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4819231,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 0.0,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "George Pickens",
       "nfl": "DAL",
       "pctOwned": 0,
@@ -2085,6 +2071,20 @@
       "pos": "WR",
       "proj": 13.09,
       "slot": "WR"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Cam Ward",
+      "nfl": "TEN",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4688380,
+      "points": 0.0,
+      "pos": "QB",
+      "proj": 20.07,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
@@ -2204,7 +2204,7 @@
       "points": 0.0,
       "pos": "TE",
       "proj": 0.0,
-      "slot": "TE"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2294,20 +2294,20 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Corey Kiner",
-      "nfl": "NE",
+      "name": "Chig Okonkwo",
+      "nfl": "WSH",
       "pctOwned": 0,
       "pctStarted": 0,
-      "playerId": 4431431,
+      "playerId": 4360635,
       "points": 0.0,
-      "pos": "RB",
-      "proj": 0.0,
-      "slot": "BE"
+      "pos": "TE",
+      "proj": 7.73,
+      "slot": "TE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 118.49196921,
+    "projected": 126.22143062,
     "teamId": 13
    },
    "week": 11,
