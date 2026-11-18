@@ -2542,8 +2542,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Wan'Dale Robinson",
       "nfl": "TEN",
       "pctOwned": 0,

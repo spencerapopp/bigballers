@@ -197,7 +197,7 @@
       "playerId": 5081432,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.05,
+      "proj": 7.07,
       "slot": "BE"
      },
      {
@@ -231,7 +231,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 118.85224416,
+    "projected": 118.85195474,
     "teamId": 3
    },
    "home": {
@@ -373,7 +373,7 @@
       "playerId": 4575131,
       "points": 0.0,
       "pos": "RB",
-      "proj": 0.0,
+      "proj": 7.18,
       "slot": "IR"
      },
      {
@@ -463,7 +463,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 108.54210582,
+    "projected": 108.54201241,
     "teamId": 4
    },
    "week": 11,
@@ -498,7 +498,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 11.54,
-      "slot": "FLEX"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -540,7 +540,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 8.91,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -568,7 +568,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 9.91,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -582,7 +582,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -596,7 +596,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 0.0,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -609,8 +609,8 @@
       "playerId": 4697815,
       "points": 0.0,
       "pos": "RB",
-      "proj": 9.68,
-      "slot": "RB"
+      "proj": 6.75,
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -638,7 +638,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 20.79,
-      "slot": "BE"
+      "slot": "QB"
      },
      {
       "acquisitionType": null,
@@ -699,7 +699,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 62.72990339,
+    "projected": 92.65640492,
     "teamId": 9
    },
    "home": {
@@ -814,7 +814,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 24.77,
-      "slot": "BE"
+      "slot": "QB"
      },
      {
       "acquisitionType": null,
@@ -912,7 +912,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 17.25,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -931,7 +931,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 102.3068312,
+    "projected": 109.82481986,
     "teamId": 2
    },
    "week": 11,
@@ -952,7 +952,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -966,7 +966,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 24.69,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -979,7 +979,7 @@
       "playerId": 4258173,
       "points": 0.0,
       "pos": "WR",
-      "proj": 13.38,
+      "proj": 13.37,
       "slot": "WR"
      },
      {
@@ -994,7 +994,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 9.18,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1050,7 +1050,7 @@
       "points": 0.0,
       "pos": "TE",
       "proj": 5.63,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1064,7 +1064,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 18.65,
-      "slot": "FLEX"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -1092,7 +1092,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1120,7 +1120,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1167,7 +1167,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 68.86114576,
+    "projected": 108.36044193,
     "teamId": 8
    },
    "home": {
@@ -1240,7 +1240,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 15.77,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -1254,7 +1254,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 8.21,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1310,7 +1310,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 17.79,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1352,7 +1352,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 18.05,
-      "slot": "BE"
+      "slot": "QB"
      },
      {
       "acquisitionType": null,
@@ -1399,7 +1399,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 116.99804264,
+    "projected": 124.81599943,
     "teamId": 11
    },
    "week": 11,
@@ -1419,7 +1419,7 @@
       "playerId": 3918298,
       "points": 0.0,
       "pos": "QB",
-      "proj": 26.96,
+      "proj": 26.93,
       "slot": "QB"
      },
      {
@@ -1635,7 +1635,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 69.47729296,
+    "projected": 69.45017187,
     "teamId": 6
    },
    "home": {
@@ -1666,7 +1666,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 11.09,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1680,7 +1680,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 9.87,
-      "slot": "IR"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1694,7 +1694,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 13.04,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -1750,7 +1750,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 7.67,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1826,20 +1826,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Devin Singletary",
-      "nfl": "NYG",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4040761,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 3.13,
-      "slot": "FLEX"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Caleb Douglas",
       "nfl": "MIA",
       "pctOwned": 0,
@@ -1862,12 +1848,12 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 4.21,
-      "slot": "RB"
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 99.31452087,
+    "projected": 118.29990373,
     "teamId": 10
    },
    "week": 11,
@@ -1888,7 +1874,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1902,7 +1888,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 0.0,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1930,7 +1916,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1972,7 +1958,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 12.29,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -2042,7 +2028,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 6.21,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -2056,7 +2042,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 6.38,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -2084,7 +2070,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2098,12 +2084,12 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 13.09,
-      "slot": "BE"
+      "slot": "WR"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 44.47567802,
+    "projected": 82.45262439,
     "teamId": 7
    },
    "home": {
@@ -2321,7 +2307,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 118.49596256,
+    "projected": 118.49196921,
     "teamId": 13
    },
    "week": 11,
@@ -2383,7 +2369,7 @@
       "playerId": 4426348,
       "points": 0.0,
       "pos": "QB",
-      "proj": 22.6,
+      "proj": 22.56,
       "slot": "BE"
      },
      {
@@ -2397,7 +2383,7 @@
       "playerId": 4871023,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.64,
+      "proj": 10.49,
       "slot": "BE"
      },
      {
@@ -2542,8 +2528,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "INJURY_RESERVE",
       "name": "Wan'Dale Robinson",
       "nfl": "TEN",
       "pctOwned": 0,
@@ -2551,13 +2537,13 @@
       "playerId": 4569587,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.75,
+      "proj": 0.0,
       "slot": "WR"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 63.56274644,
+    "projected": 55.81077177,
     "teamId": 5
    },
    "home": {
@@ -2615,7 +2601,7 @@
       "playerId": 3915416,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.65,
+      "proj": 11.64,
       "slot": "WR"
      },
      {
@@ -2643,7 +2629,7 @@
       "playerId": 3916148,
       "points": 0.0,
       "pos": "RB",
-      "proj": 17.37,
+      "proj": 17.34,
       "slot": "RB"
      },
      {
@@ -2671,7 +2657,7 @@
       "playerId": 2976212,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.42,
+      "proj": 10.46,
       "slot": "WR"
      },
      {
@@ -2789,7 +2775,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 121.20362822,
+    "projected": 121.20252122,
     "teamId": 1
    },
    "week": 11,
