@@ -637,7 +637,7 @@
       "playerId": 4685720,
       "points": 0.0,
       "pos": "QB",
-      "proj": 20.79,
+      "proj": 20.81,
       "slot": "QB"
      },
      {
@@ -699,7 +699,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 84.46159334,
+    "projected": 84.4835674,
     "teamId": 9
    },
    "home": {
@@ -735,7 +735,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "DeVonta Smith",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -931,7 +931,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 120.59421198,
+    "projected": 120.59295644,
     "teamId": 2
    },
    "week": 11,
@@ -1119,7 +1119,7 @@
       "playerId": -16033,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 8.41,
+      "proj": 8.08,
       "slot": "D/ST"
      },
      {
@@ -1167,7 +1167,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 95.08860809,
+    "projected": 94.76278728,
     "teamId": 8
    },
    "home": {
@@ -1385,7 +1385,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 125.28290813,
+    "projected": 125.2806662,
     "teamId": 11
    },
    "week": 11,
@@ -1503,7 +1503,7 @@
       "playerId": 4695883,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.37,
+      "proj": 7.36,
       "slot": "WR"
      },
      {
@@ -1607,7 +1607,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 104.35312331,
+    "projected": 104.35181046,
     "teamId": 6
    },
    "home": {
