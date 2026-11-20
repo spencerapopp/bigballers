@@ -43,7 +43,7 @@
       "playerId": 4361370,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.16,
+      "proj": 11.17,
       "slot": "WR"
      },
      {
@@ -63,7 +63,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Bhayshul Tuten",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -169,7 +169,7 @@
       "playerId": -16003,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 10.21,
+      "proj": 10.03,
       "slot": "D/ST"
      },
      {
@@ -231,7 +231,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 122.8351061,
+    "projected": 122.6754848,
     "teamId": 3
    },
    "home": {
@@ -387,7 +387,7 @@
       "playerId": 4361411,
       "points": 0.0,
       "pos": "TE",
-      "proj": 6.23,
+      "proj": 6.24,
       "slot": "BE"
      },
      {
@@ -457,13 +457,13 @@
       "playerId": 8439,
       "points": 0.0,
       "pos": "QB",
-      "proj": 18.13,
+      "proj": 18.17,
       "slot": "QB"
      }
     ],
     "points": 0.0,
     "pointsLive": 1.0,
-    "projected": 101.55737558,
+    "projected": 101.6005518,
     "teamId": 4
    },
    "week": 11,
@@ -503,7 +503,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "DOUBTFUL",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -601,7 +601,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Rachaad White",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -637,7 +637,7 @@
       "playerId": 4685720,
       "points": 0.0,
       "pos": "QB",
-      "proj": 20.81,
+      "proj": 20.8,
       "slot": "QB"
      },
      {
@@ -699,7 +699,7 @@
     ],
     "points": 0.0,
     "pointsLive": 2.7,
-    "projected": 95.32402691,
+    "projected": 95.31894072,
     "teamId": 9
    },
    "home": {
@@ -743,7 +743,7 @@
       "playerId": 4241478,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.23,
+      "proj": 10.48,
       "slot": "BE"
      },
      {
@@ -875,7 +875,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "T.J. Hockenson",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -911,7 +911,7 @@
       "playerId": 4360689,
       "points": 0.0,
       "pos": "QB",
-      "proj": 17.25,
+      "proj": 17.27,
       "slot": "BE"
      },
      {
@@ -931,7 +931,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 120.59293275,
+    "projected": 120.59482724,
     "teamId": 2
    },
    "week": 11,
@@ -956,8 +956,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kenneth Walker III",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1119,7 +1119,7 @@
       "playerId": -16033,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 8.08,
+      "proj": 8.21,
       "slot": "D/ST"
      },
      {
@@ -1167,7 +1167,7 @@
     ],
     "points": 0.0,
     "pointsLive": 13.3,
-    "projected": 95.45352436,
+    "projected": 95.58521118,
     "teamId": 8
    },
    "home": {
@@ -1225,7 +1225,7 @@
       "playerId": 4685472,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.57,
+      "proj": 11.58,
       "slot": "WR"
      },
      {
@@ -1385,7 +1385,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 124.99773872,
+    "projected": 125.0012082,
     "teamId": 11
    },
    "week": 11,
@@ -1503,7 +1503,7 @@
       "playerId": 4695883,
       "points": 0.0,
       "pos": "WR",
-      "proj": 7.36,
+      "proj": 7.37,
       "slot": "WR"
      },
      {
@@ -1607,7 +1607,7 @@
     ],
     "points": 0.0,
     "pointsLive": 2.9,
-    "projected": 95.14979576,
+    "projected": 95.1541323,
     "teamId": 6
    },
    "home": {
@@ -1699,7 +1699,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Isaiah Likely",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -1727,7 +1727,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jordyn Tyson",
       "nfl": "NO",
       "pctOwned": 0,
@@ -1735,7 +1735,7 @@
       "playerId": 4880281,
       "points": 0.0,
       "pos": "WR",
-      "proj": 8.98,
+      "proj": 8.99,
       "slot": "BE"
      },
      {
@@ -1797,7 +1797,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Caleb Douglas",
       "nfl": "MIA",
       "pctOwned": 0,
@@ -1825,7 +1825,7 @@
     ],
     "points": 0.0,
     "pointsLive": 33.9,
-    "projected": 128.26388183,
+    "projected": 128.26843777,
     "teamId": 10
    },
    "week": 11,
@@ -1892,8 +1892,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Drake Maye",
       "nfl": "NE",
       "pctOwned": 0,
@@ -2013,7 +2013,7 @@
       "playerId": 3054850,
       "points": 0.0,
       "pos": "RB",
-      "proj": 6.38,
+      "proj": 6.39,
       "slot": "RB"
      },
      {
@@ -2061,7 +2061,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 102.25021587,
+    "projected": 102.25525048,
     "teamId": 7
    },
    "home": {
@@ -2105,13 +2105,13 @@
       "playerId": 4429615,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.91,
+      "proj": 10.92,
       "slot": "WR"
      },
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jaylen Waddle",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -2279,7 +2279,7 @@
     ],
     "points": 0.0,
     "pointsLive": 6.0,
-    "projected": 121.10318954,
+    "projected": 121.11050726,
     "teamId": 13
    },
    "week": 11,
@@ -2375,7 +2375,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -2515,7 +2515,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 90.04610395,
+    "projected": 90.0461747,
     "teamId": 5
    },
    "home": {
@@ -2545,7 +2545,7 @@
       "playerId": 3929630,
       "points": 0.0,
       "pos": "RB",
-      "proj": 11.12,
+      "proj": 11.17,
       "slot": "BE"
      },
      {
@@ -2663,7 +2663,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Chris Rodriguez Jr.",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -2713,7 +2713,7 @@
       "playerId": 4047650,
       "points": 0.0,
       "pos": "WR",
-      "proj": 9.53,
+      "proj": 9.54,
       "slot": "FLEX"
      },
      {
@@ -2747,7 +2747,7 @@
     ],
     "points": 0.0,
     "pointsLive": 4.7,
-    "projected": 110.90217223,
+    "projected": 110.90430471,
     "teamId": 1
    },
    "week": 11,

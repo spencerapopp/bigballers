@@ -175,7 +175,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "T.J. Hockenson",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -295,7 +295,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Bhayshul Tuten",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -875,7 +875,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Geno Smith",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -1027,7 +1027,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Isaiah Likely",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -1055,7 +1055,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jordyn Tyson",
       "nfl": "NO",
       "pctOwned": 0,
@@ -1139,7 +1139,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Caleb Douglas",
       "nfl": "MIA",
       "pctOwned": 0,
@@ -1203,7 +1203,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "DOUBTFUL",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -1301,7 +1301,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Rachaad White",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -1453,7 +1453,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jaylen Waddle",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -1642,8 +1642,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kenneth Walker III",
       "nfl": "KC",
       "pctOwned": 0,
@@ -2005,7 +2005,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Chris Rodriguez Jr.",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -2417,7 +2417,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -2620,8 +2620,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Drake Maye",
       "nfl": "NE",
       "pctOwned": 0,
