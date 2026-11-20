@@ -266,6 +266,14 @@
    ],
    "teamId": 11,
    "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-20T01:35:57.711000+00:00",
+   "id": "bb097bb4-1f07-4339-95bd-f091edbd405d",
+   "items": [],
+   "teamId": 11,
+   "type": "TRADE_DECLINE"
   }
  ],
  "week": 11
