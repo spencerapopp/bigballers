@@ -153,7 +153,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4366031,
-      "points": 0.5,
+      "points": 4.7,
       "pos": "WR",
       "proj": 8.95,
       "slot": "BE"
@@ -463,7 +463,7 @@
     ],
     "points": 0.0,
     "pointsLive": 1.0,
-    "projected": 105.70702839,
+    "projected": 101.63012244,
     "teamId": 4
    },
    "week": 11,
@@ -699,7 +699,7 @@
     ],
     "points": 0.0,
     "pointsLive": 2.7,
-    "projected": 100.57077812,
+    "projected": 97.69581012,
     "teamId": 9
    },
    "home": {
@@ -977,7 +977,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4258173,
-      "points": 11.8,
+      "points": 13.3,
       "pos": "WR",
       "proj": 13.37,
       "slot": "WR"
@@ -1166,8 +1166,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 11.8,
-    "projected": 99.03709034,
+    "pointsLive": 13.3,
+    "projected": 94.69565239,
     "teamId": 8
    },
    "home": {
@@ -1607,7 +1607,7 @@
     ],
     "points": 0.0,
     "pointsLive": 2.9,
-    "projected": 100.39853201,
+    "projected": 95.07902458,
     "teamId": 6
    },
    "home": {
@@ -1663,7 +1663,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4035538,
-      "points": 8.6,
+      "points": 14.9,
       "pos": "RB",
       "proj": 13.04,
       "slot": "RB"
@@ -1691,7 +1691,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16034,
-      "points": 16.0,
+      "points": 19.0,
       "pos": "D/ST",
       "proj": 10.72,
       "slot": "D/ST"
@@ -1747,7 +1747,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4432577,
-      "points": 16.95,
+      "points": 26.9,
       "pos": "QB",
       "proj": 26.66,
       "slot": "BE"
@@ -1824,8 +1824,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 24.6,
-    "projected": 122.37307012,
+    "pointsLive": 33.9,
+    "projected": 128.28047707,
     "teamId": 10
    },
    "week": 11,
@@ -2201,7 +2201,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2971573,
-      "points": 5.0,
+      "points": 6.0,
       "pos": "K",
       "proj": 10.57,
       "slot": "K"
@@ -2278,8 +2278,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 5.0,
-    "projected": 126.05256161,
+    "pointsLive": 6.0,
+    "projected": 122.43146977,
     "teamId": 13
    },
    "week": 11,
@@ -2529,7 +2529,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4242335,
-      "points": 2.8,
+      "points": 4.7,
       "pos": "RB",
       "proj": 15.32,
       "slot": "RB"
@@ -2746,8 +2746,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 2.8,
-    "projected": 115.67605697,
+    "pointsLive": 4.7,
+    "projected": 110.87907434,
     "teamId": 1
    },
    "week": 11,
