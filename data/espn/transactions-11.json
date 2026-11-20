@@ -274,6 +274,14 @@
    "items": [],
    "teamId": 11,
    "type": "TRADE_DECLINE"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-20T16:48:56.044000+00:00",
+   "id": "dde693ac-3ee0-4b75-b23f-e8da9bd4456d",
+   "items": [],
+   "teamId": 3,
+   "type": "TRADE_DECLINE"
   }
  ],
  "week": 11
