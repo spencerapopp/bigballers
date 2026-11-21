@@ -281,7 +281,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Kyren Williams",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -966,7 +966,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1162,12 +1162,12 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 6.85,
-      "slot": "BE"
+      "slot": "RB"
      }
     ],
     "points": 0.0,
     "pointsLive": 13.3,
-    "projected": 95.58639999,
+    "projected": 102.43888702,
     "teamId": 8
    },
    "home": {
@@ -1778,7 +1778,7 @@
       "points": 0.0,
       "pos": "K",
       "proj": 7.92,
-      "slot": "K"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1820,12 +1820,12 @@
       "points": 0.0,
       "pos": "K",
       "proj": 10.86,
-      "slot": "BE"
+      "slot": "K"
      }
     ],
     "points": 0.0,
     "pointsLive": 33.9,
-    "projected": 128.2704659,
+    "projected": 131.21132401,
     "teamId": 10
    },
    "week": 11,
