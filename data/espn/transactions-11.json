@@ -282,6 +282,48 @@
    "items": [],
    "teamId": 3,
    "type": "TRADE_DECLINE"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-21T09:12:39.475000+00:00",
+   "id": "5ac1ff58-db5b-4d06-96c6-a01d3163a4f4",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 3917232,
+     "to": 10,
+     "type": "ADD"
+    },
+    {
+     "from": 10,
+     "playerId": 4569682,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 10,
+   "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-21T09:12:39.476000+00:00",
+   "id": "d9b9a0f4-e1a5-41e5-81cf-55dbb4d5c116",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4371733,
+     "to": 7,
+     "type": "ADD"
+    },
+    {
+     "from": 7,
+     "playerId": 5081397,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 7,
+   "type": "WAIVER"
   }
  ],
  "week": 11
