@@ -252,8 +252,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Brock Bowers",
       "nfl": "LV",
       "pctOwned": 0,
@@ -1097,7 +1097,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Matt Gay",
       "nfl": "LV",
       "pctOwned": 0,
@@ -1231,7 +1231,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Ladd McConkey",
       "nfl": "LAC",
       "pctOwned": 0,
@@ -1879,7 +1879,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Saquon Barkley",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -2209,7 +2209,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jalen Coker",
       "nfl": "CAR",
       "pctOwned": 0,
