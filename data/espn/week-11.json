@@ -2000,7 +2000,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 6.23,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2056,12 +2056,12 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 7.77,
-      "slot": "BE"
+      "slot": "RB"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 102.257869,
+    "projected": 103.80646853,
     "teamId": 7
    },
    "home": {
