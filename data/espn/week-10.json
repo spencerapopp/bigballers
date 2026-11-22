@@ -217,7 +217,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Darren Waller",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -1152,8 +1152,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Audric Estime",
       "nfl": "NO",
       "pctOwned": 0,
@@ -1976,8 +1976,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -2195,7 +2195,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Baker Mayfield",
       "nfl": "TB",
       "pctOwned": 0,
@@ -2223,7 +2223,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Tommy Tremble",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -2389,7 +2389,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Carnell Tate",
       "nfl": "TEN",
       "pctOwned": 0,
