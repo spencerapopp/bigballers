@@ -13,7 +13,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4262921,
-      "points": 4.7,
+      "points": 9.2,
       "pos": "WR",
       "proj": 16.27,
       "slot": "WR"
@@ -63,7 +63,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Bhayshul Tuten",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -230,8 +230,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 86.15,
-    "projected": 94.59330616,
+    "pointsLive": 90.65,
+    "projected": 90.65,
     "teamId": 3
    },
    "home": {
@@ -259,7 +259,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3117251,
-      "points": 3.0,
+      "points": 13.2,
       "pos": "RB",
       "proj": 17.8,
       "slot": "RB"
@@ -343,7 +343,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4696044,
-      "points": 0.4,
+      "points": 2.0,
       "pos": "RB",
       "proj": 6.02,
       "slot": "BE"
@@ -399,7 +399,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3042519,
-      "points": 9.7,
+      "points": 10.8,
       "pos": "RB",
       "proj": 7.31,
       "slot": "RB"
@@ -462,8 +462,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 100.55,
-    "projected": 113.57710713,
+    "pointsLive": 111.85,
+    "projected": 111.85,
     "teamId": 4
    },
    "week": 11,
@@ -565,7 +565,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 16737,
-      "points": 16.1,
+      "points": 19.9,
       "pos": "WR",
       "proj": 9.42,
       "slot": "WR"
@@ -677,7 +677,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 15818,
-      "points": 2.2,
+      "points": 5.3,
       "pos": "WR",
       "proj": 6.08,
       "slot": "WR"
@@ -698,8 +698,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 101.3,
-    "projected": 116.09175754,
+    "pointsLive": 108.2,
+    "projected": 114.9469451,
     "teamId": 9
    },
    "home": {
@@ -839,7 +839,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16025,
-      "points": 19.0,
+      "points": 20.0,
       "pos": "D/ST",
       "proj": 9.3,
       "slot": "BE"
@@ -881,7 +881,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4036133,
-      "points": 6.0,
+      "points": 8.5,
       "pos": "TE",
       "proj": 8.94,
       "slot": "TE"
@@ -930,8 +930,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 95.75,
-    "projected": 136.10126885,
+    "pointsLive": 98.25,
+    "projected": 133.96134164,
     "teamId": 2
    },
    "week": 11,
@@ -1033,7 +1033,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4361741,
-      "points": 22.8,
+      "points": 27.25,
       "pos": "QB",
       "proj": 20.72,
       "slot": "QB"
@@ -1166,8 +1166,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 112.8,
-    "projected": 123.55038909,
+    "pointsLive": 117.25,
+    "projected": 117.25,
     "teamId": 8
    },
    "home": {
@@ -1265,7 +1265,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4360569,
-      "points": 1.7,
+      "points": 4.2,
       "pos": "RB",
       "proj": 7.99,
       "slot": "BE"
@@ -1321,7 +1321,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 14880,
-      "points": 2.55,
+      "points": 8.25,
       "pos": "QB",
       "proj": 18.06,
       "slot": "QB"
@@ -1343,7 +1343,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Cam Little",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -1363,7 +1363,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3126486,
-      "points": 3.0,
+      "points": 6.2,
       "pos": "WR",
       "proj": 8.71,
       "slot": "BE"
@@ -1384,8 +1384,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 83.25,
-    "projected": 113.51361666,
+    "pointsLive": 88.95,
+    "projected": 109.84340562,
     "teamId": 11
    },
    "week": 11,
@@ -1941,7 +1941,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3040151,
-      "points": 15.5,
+      "points": 16.9,
       "pos": "TE",
       "proj": 10.62,
       "slot": "TE"
@@ -1983,7 +1983,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4567104,
-      "points": 4.0,
+      "points": 3.0,
       "pos": "K",
       "proj": 10.02,
       "slot": "K"
@@ -2060,8 +2060,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 106.7,
-    "projected": 117.40715236,
+    "pointsLive": 107.1,
+    "projected": 107.1,
     "teamId": 7
    },
    "home": {
@@ -2423,7 +2423,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16016,
-      "points": 3.0,
+      "points": 0.0,
       "pos": "D/ST",
       "proj": 7.92,
       "slot": "D/ST"
@@ -2514,8 +2514,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 88.9,
-    "projected": 91.45257501,
+    "pointsLive": 85.9,
+    "projected": 85.9,
     "teamId": 5
    },
    "home": {

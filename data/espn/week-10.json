@@ -295,7 +295,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Bhayshul Tuten",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -671,7 +671,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Cam Little",
       "nfl": "JAX",
       "pctOwned": 0,
