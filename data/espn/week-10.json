@@ -671,7 +671,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Cam Little",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -749,7 +749,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Kyren Williams",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -832,8 +832,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "Jacory Croskey-Merritt",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -1152,8 +1152,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "ACTIVE",
       "name": "Audric Estime",
       "nfl": "NO",
       "pctOwned": 0,
@@ -2209,7 +2209,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jalen Coker",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -2292,8 +2292,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Seth McGowan",
       "nfl": "IND",
       "pctOwned": 0,
