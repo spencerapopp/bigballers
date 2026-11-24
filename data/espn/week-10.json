@@ -1301,7 +1301,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Rachaad White",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -1699,7 +1699,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Sam LaPorta",
       "nfl": "DET",
       "pctOwned": 0,
