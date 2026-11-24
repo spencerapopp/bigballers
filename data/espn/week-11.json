@@ -1,5 +1,5 @@
 {
- "complete": false,
+ "complete": true,
  "games": [
   {
    "away": {
@@ -20,8 +20,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Brock Bowers",
       "nfl": "LV",
       "pctOwned": 0,
@@ -104,8 +104,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Woody Marks",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -229,9 +229,9 @@
       "slot": "FLEX"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 90.65,
-    "projected": 90.65,
+    "points": 90.65,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 3
    },
    "home": {
@@ -461,13 +461,13 @@
       "slot": "QB"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 111.85,
-    "projected": 111.85,
+    "points": 111.85,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 4
    },
    "week": 11,
-   "winner": "UNDECIDED"
+   "winner": "HOME"
   },
   {
    "away": {
@@ -697,9 +697,9 @@
       "slot": "D/ST"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 108.2,
-    "projected": 108.2,
+    "points": 108.2,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 9
    },
    "home": {
@@ -790,8 +790,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "DOUBTFUL",
       "name": "Jordan Addison",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -860,8 +860,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Omar Cooper Jr.",
       "nfl": "NYJ",
       "pctOwned": 0,
@@ -929,13 +929,13 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 115.65,
-    "projected": 115.65,
+    "points": 115.65,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 2
    },
    "week": 11,
-   "winner": "UNDECIDED"
+   "winner": "HOME"
   },
   {
    "away": {
@@ -956,8 +956,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Kenneth Walker III",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1165,9 +1165,9 @@
       "slot": "RB"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 117.25,
-    "projected": 117.25,
+    "points": 117.25,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 8
    },
    "home": {
@@ -1383,13 +1383,13 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 94.55,
-    "projected": 94.55,
+    "points": 94.55,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 11
    },
    "week": 11,
-   "winner": "UNDECIDED"
+   "winner": "AWAY"
   },
   {
    "away": {
@@ -1605,9 +1605,9 @@
       "slot": "TE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 74.2,
-    "projected": 74.2,
+    "points": 74.2,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 6
    },
    "home": {
@@ -1823,13 +1823,13 @@
       "slot": "K"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 111.2,
-    "projected": 111.2,
+    "points": 111.2,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 10
    },
    "week": 11,
-   "winner": "UNDECIDED"
+   "winner": "HOME"
   },
   {
    "away": {
@@ -2059,9 +2059,9 @@
       "slot": "RB"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 107.1,
-    "projected": 107.1,
+    "points": 107.1,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 7
    },
    "home": {
@@ -2222,8 +2222,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Marvin Harrison Jr.",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -2277,13 +2277,13 @@
       "slot": "TE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 119.75,
-    "projected": 119.75,
+    "points": 119.75,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 13
    },
    "week": 11,
-   "winner": "UNDECIDED"
+   "winner": "HOME"
   },
   {
    "away": {
@@ -2304,8 +2304,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Josh Jacobs",
       "nfl": "GB",
       "pctOwned": 0,
@@ -2513,9 +2513,9 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 85.9,
-    "projected": 85.9,
+    "points": 85.9,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 5
    },
    "home": {
@@ -2634,8 +2634,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
@@ -2745,13 +2745,13 @@
       "slot": "BE"
      }
     ],
-    "points": 0.0,
-    "pointsLive": 138.35,
-    "projected": 138.35,
+    "points": 138.35,
+    "pointsLive": null,
+    "projected": null,
     "teamId": 1
    },
    "week": 11,
-   "winner": "UNDECIDED"
+   "winner": "HOME"
   }
  ],
  "week": 11
