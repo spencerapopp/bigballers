@@ -156,6 +156,35 @@
    "items": [],
    "teamId": 10,
    "type": "TRADE_DECLINE"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-25T21:39:02.335000+00:00",
+   "id": "c25337d3-978b-445b-bcc8-10b312165135",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4431431,
+     "to": 7,
+     "type": "ADD"
+    },
+    {
+     "from": 7,
+     "playerId": 4373626,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 7,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-25T21:51:07.824000+00:00",
+   "id": "87087756-0e8c-4e3c-b3a1-3218bf64ad40",
+   "items": [],
+   "teamId": 4,
+   "type": "TRADE_DECLINE"
   }
  ],
  "week": 12

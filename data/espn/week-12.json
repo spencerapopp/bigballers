@@ -1282,7 +1282,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 7.2,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1324,7 +1324,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1357,7 +1357,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 92.36327106,
+    "projected": 99.56083993,
     "teamId": 6
    },
    "week": 12,
@@ -1587,7 +1587,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jaxon Smith-Njigba",
       "nfl": "SEA",
       "pctOwned": 0,
@@ -1596,7 +1596,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 17.48,
-      "slot": "BE"
+      "slot": "WR"
      },
      {
       "acquisitionType": null,
@@ -1610,7 +1610,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 11.14,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1624,7 +1624,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 8.63,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1638,7 +1638,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 14.82,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -1680,7 +1680,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 10.34,
-      "slot": "WR"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1742,20 +1742,6 @@
       "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
-      "name": "Tyler Allgeier",
-      "nfl": "ARI",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 4373626,
-      "points": 0.0,
-      "pos": "RB",
-      "proj": 7.58,
-      "slot": "BE"
-     },
-     {
-      "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
       "name": "Alvin Kamara",
       "nfl": "NO",
       "pctOwned": 0,
@@ -1764,7 +1750,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 4.17,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1807,11 +1793,25 @@
       "pos": "RB",
       "proj": 8.04,
       "slot": "RB"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Corey Kiner",
+      "nfl": "NE",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4431431,
+      "points": 0.0,
+      "pos": "RB",
+      "proj": 5.89,
+      "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 89.81648441,
+    "projected": 110.11558809,
     "teamId": 7
    },
    "week": 12,
@@ -1907,7 +1907,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Isaiah Likely",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -1990,8 +1990,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "SUSPENSION",
       "name": "J.K. Dobbins",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -2111,7 +2111,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Harold Fannin Jr.",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -2125,7 +2125,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -2305,7 +2305,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Zay Flowers",
       "nfl": "BAL",
       "pctOwned": 0,
