@@ -1013,7 +1013,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Sam LaPorta",
       "nfl": "DET",
       "pctOwned": 0,
@@ -1782,8 +1782,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "J.K. Dobbins",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -2537,7 +2537,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Saquon Barkley",
       "nfl": "PHI",
       "pctOwned": 0,

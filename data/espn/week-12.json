@@ -763,7 +763,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Sam LaPorta",
       "nfl": "DET",
       "pctOwned": 0,
@@ -966,7 +966,7 @@
       "points": 0.0,
       "pos": "WR",
       "proj": 11.59,
-      "slot": "BE"
+      "slot": "FLEX"
      },
      {
       "acquisitionType": null,
@@ -1050,7 +1050,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 6.53,
-      "slot": "FLEX"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1064,7 +1064,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 11.98,
-      "slot": "BE"
+      "slot": "D/ST"
      },
      {
       "acquisitionType": null,
@@ -1120,7 +1120,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 10.92,
-      "slot": "D/ST"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1153,7 +1153,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 105.58947364,
+    "projected": 111.71859193,
     "teamId": 2
    },
    "home": {
@@ -2004,8 +2004,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "J.K. Dobbins",
       "nfl": "DEN",
       "pctOwned": 0,
@@ -2523,7 +2523,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Saquon Barkley",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -2672,7 +2672,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 11.48,
-      "slot": "BE"
+      "slot": "D/ST"
      },
      {
       "acquisitionType": null,
@@ -2686,7 +2686,7 @@
       "points": 0.0,
       "pos": "D/ST",
       "proj": 7.04,
-      "slot": "D/ST"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -2733,7 +2733,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 110.31561079,
+    "projected": 114.74675036,
     "teamId": 1
    },
    "week": 12,
