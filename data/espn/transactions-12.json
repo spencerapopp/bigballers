@@ -104,6 +104,58 @@
    ],
    "teamId": 8,
    "type": "WAIVER"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-25T16:25:08.756000+00:00",
+   "id": "c592e40d-5023-4712-a58c-8951486e3765",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 5081397,
+     "to": 3,
+     "type": "ADD"
+    }
+   ],
+   "teamId": 3,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-25T17:25:34.804000+00:00",
+   "id": "104da482-f42c-443d-9481-b75fbdb1514e",
+   "items": [],
+   "teamId": 3,
+   "type": "TRADE_ACCEPT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-25T17:31:22.399000+00:00",
+   "id": "5ff0dabd-a216-49b5-ab51-4955750f6f82",
+   "items": [
+    {
+     "from": 0,
+     "playerId": 4433970,
+     "to": 4,
+     "type": "ADD"
+    },
+    {
+     "from": 4,
+     "playerId": 8439,
+     "to": 0,
+     "type": "DROP"
+    }
+   ],
+   "teamId": 4,
+   "type": "FREEAGENT"
+  },
+  {
+   "bid": 0,
+   "date": "2026-11-25T19:42:13.288000+00:00",
+   "id": "99d30d44-06a8-4267-bc5b-df35a003fd2a",
+   "items": [],
+   "teamId": 10,
+   "type": "TRADE_DECLINE"
   }
  ],
  "week": 12

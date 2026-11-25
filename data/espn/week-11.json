@@ -559,7 +559,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Mike Evans",
       "nfl": "SF",
       "pctOwned": 0,
@@ -956,8 +956,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Kenneth Walker III",
       "nfl": "KC",
       "pctOwned": 0,
@@ -1027,7 +1027,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Brock Purdy",
       "nfl": "SF",
       "pctOwned": 0,
@@ -1217,7 +1217,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Tetairoa McMillan",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -1411,7 +1411,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Derrick Henry",
       "nfl": "BAL",
       "pctOwned": 0,
@@ -2621,7 +2621,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Stefon Diggs",
       "nfl": "WSH",
       "pctOwned": 0,
