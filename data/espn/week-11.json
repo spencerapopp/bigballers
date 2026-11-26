@@ -48,8 +48,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Colston Loveland",
       "nfl": "CHI",
       "pctOwned": 0,
