@@ -13,7 +13,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4429795,
-      "points": 17.8,
+      "points": 52.7,
       "pos": "RB",
       "proj": 23.89,
       "slot": "RB"
@@ -195,7 +195,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4689936,
-      "points": 5.0,
+      "points": 9.0,
       "pos": "K",
       "proj": 9.43,
       "slot": "K"
@@ -223,15 +223,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16008,
-      "points": 17.0,
+      "points": 3.0,
       "pos": "D/ST",
       "proj": 8.99,
       "slot": "BE"
      }
     ],
     "points": 0.0,
-    "pointsLive": 30.7,
-    "projected": 96.49670345,
+    "pointsLive": 69.6,
+    "projected": 121.14086722,
     "teamId": 9
    },
    "home": {
@@ -280,8 +280,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Colston Loveland",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -309,13 +309,13 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Caleb Williams",
       "nfl": "CHI",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431611,
-      "points": 6.75,
+      "points": 29.75,
       "pos": "QB",
       "proj": 18.6,
       "slot": "QB"
@@ -399,7 +399,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16003,
-      "points": 7.0,
+      "points": -3.0,
       "pos": "D/ST",
       "proj": 7.02,
       "slot": "BE"
@@ -441,15 +441,15 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 17427,
-      "points": 6.0,
+      "points": 8.0,
       "pos": "K",
       "proj": 8.7,
       "slot": "K"
      }
     ],
     "points": 0.0,
-    "pointsLive": 10.75,
-    "projected": 103.56484017,
+    "pointsLive": 35.75,
+    "projected": 116.88561132,
     "teamId": 3
    },
    "week": 12,
@@ -467,7 +467,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4241389,
-      "points": 0.0,
+      "points": 7.2,
       "pos": "WR",
       "proj": 16.87,
       "slot": "WR"
@@ -523,7 +523,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426388,
-      "points": 5.6,
+      "points": 11.0,
       "pos": "WR",
       "proj": 10.28,
       "slot": "FLEX"
@@ -670,8 +670,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 39.1,
-    "projected": 125.60952257,
+    "pointsLive": 51.7,
+    "projected": 125.37614353,
     "teamId": 4
    },
    "home": {
@@ -755,7 +755,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4430027,
-      "points": 7.6,
+      "points": 12.4,
       "pos": "TE",
       "proj": 8.85,
       "slot": "TE"
@@ -888,22 +888,22 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Dallas Goedert",
       "nfl": "PHI",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3121023,
-      "points": 0.0,
+      "points": 1.4,
       "pos": "TE",
       "proj": 6.3,
       "slot": "BE"
      }
     ],
     "points": 0.0,
-    "pointsLive": 7.6,
-    "projected": 119.64455514,
+    "pointsLive": 12.4,
+    "projected": 120.65823608,
     "teamId": 8
    },
    "week": 12,
@@ -949,7 +949,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4241478,
-      "points": 0.0,
+      "points": 17.5,
       "pos": "WR",
       "proj": 11.6,
       "slot": "BE"
@@ -985,7 +985,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Parker Washington",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -1195,7 +1195,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4431299,
-      "points": 1.4,
+      "points": 23.7,
       "pos": "WR",
       "proj": 8.93,
       "slot": "WR"
@@ -1209,7 +1209,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3953687,
-      "points": 0.0,
+      "points": 4.0,
       "pos": "K",
       "proj": 10.33,
       "slot": "K"
@@ -1259,7 +1259,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Tommy Tremble",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -1343,7 +1343,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Dalton Schultz",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1356,8 +1356,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 1.4,
-    "projected": 98.68495125,
+    "pointsLive": 27.7,
+    "projected": 115.99772439,
     "teamId": 6
    },
    "week": 12,
@@ -1403,7 +1403,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4361579,
-      "points": 0.0,
+      "points": 28.1,
       "pos": "RB",
       "proj": 16.21,
       "slot": "RB"
@@ -1431,7 +1431,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4259545,
-      "points": 8.9,
+      "points": 25.7,
       "pos": "RB",
       "proj": 12.79,
       "slot": "RB"
@@ -1473,7 +1473,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4608686,
-      "points": 15.8,
+      "points": 15.4,
       "pos": "RB",
       "proj": 7.28,
       "slot": "BE"
@@ -1487,7 +1487,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3046779,
-      "points": 13.85,
+      "points": 18.45,
       "pos": "QB",
       "proj": 20.44,
       "slot": "QB"
@@ -1578,8 +1578,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 22.75,
-    "projected": 130.96159194,
+    "pointsLive": 72.25,
+    "projected": 158.141007,
     "teamId": 11
    },
    "home": {
@@ -1677,7 +1677,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4685278,
-      "points": 4.0,
+      "points": 6.0,
       "pos": "WR",
       "proj": 10.34,
       "slot": "BE"
@@ -1761,7 +1761,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4426354,
-      "points": 0.0,
+      "points": 5.9,
       "pos": "WR",
       "proj": 12.48,
       "slot": "WR"
@@ -1810,8 +1810,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 110.1122885,
+    "pointsLive": 5.9,
+    "projected": 109.77362464,
     "teamId": 7
    },
    "week": 12,
@@ -1829,7 +1829,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4374302,
-      "points": 11.7,
+      "points": 18.1,
       "pos": "WR",
       "proj": 14.32,
       "slot": "WR"
@@ -2032,8 +2032,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 11.7,
-    "projected": 125.44241319,
+    "pointsLive": 18.1,
+    "projected": 125.71628542,
     "teamId": 10
    },
    "home": {
@@ -2111,7 +2111,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Harold Fannin Jr.",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -2305,7 +2305,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Zay Flowers",
       "nfl": "BAL",
       "pctOwned": 0,
@@ -2509,13 +2509,13 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Saquon Barkley",
       "nfl": "PHI",
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 3929630,
-      "points": 0.0,
+      "points": 0.7,
       "pos": "RB",
       "proj": 13.81,
       "slot": "RB"
@@ -2557,7 +2557,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 2577417,
-      "points": 0.0,
+      "points": 18.45,
       "pos": "QB",
       "proj": 23.76,
       "slot": "QB"
@@ -2593,7 +2593,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Stefon Diggs",
       "nfl": "WSH",
       "pctOwned": 0,
@@ -2718,8 +2718,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 0.0,
-    "projected": 114.65719744,
+    "pointsLive": 19.15,
+    "projected": 115.01997225,
     "teamId": 1
    },
    "week": 12,

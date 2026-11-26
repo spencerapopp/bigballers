@@ -48,8 +48,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Colston Loveland",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -77,7 +77,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Caleb Williams",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -777,7 +777,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Parker Washington",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -917,7 +917,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Darren Waller",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -1509,7 +1509,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Tommy Tremble",
       "nfl": "CAR",
       "pctOwned": 0,
@@ -1593,7 +1593,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Dalton Schultz",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -2097,7 +2097,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Zay Flowers",
       "nfl": "BAL",
       "pctOwned": 0,
@@ -2223,7 +2223,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Marvin Harrison Jr.",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -2361,7 +2361,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Harold Fannin Jr.",
       "nfl": "CLE",
       "pctOwned": 0,
@@ -2537,7 +2537,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Saquon Barkley",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -2621,7 +2621,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Stefon Diggs",
       "nfl": "WSH",
       "pctOwned": 0,
