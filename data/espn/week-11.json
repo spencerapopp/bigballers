@@ -1578,8 +1578,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Tyler Higbee",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -2138,8 +2138,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Christian Watson",
       "nfl": "GB",
       "pctOwned": 0,
@@ -2304,8 +2304,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Josh Jacobs",
       "nfl": "GB",
       "pctOwned": 0,
