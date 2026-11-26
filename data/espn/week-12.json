@@ -127,7 +127,7 @@
       "playerId": 12483,
       "points": 3.5,
       "pos": "QB",
-      "proj": 18.93,
+      "proj": 18.89,
       "slot": "QB"
      },
      {
@@ -231,7 +231,7 @@
     ],
     "points": 0.0,
     "pointsLive": 7.9,
-    "projected": 95.85972683,
+    "projected": 92.76446757,
     "teamId": 9
    },
    "home": {
@@ -371,9 +371,9 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4036378,
-      "points": 12.45,
+      "points": 11.1,
       "pos": "QB",
-      "proj": 16.01,
+      "proj": 15.98,
       "slot": "BE"
      },
      {
@@ -401,7 +401,7 @@
       "playerId": -16003,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 7.04,
+      "proj": 7.02,
       "slot": "BE"
      },
      {
@@ -449,7 +449,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 116.6898102,
+    "projected": 116.69058207,
     "teamId": 3
    },
    "week": 12,
@@ -469,7 +469,7 @@
       "playerId": 4241389,
       "points": 0.0,
       "pos": "WR",
-      "proj": 16.88,
+      "proj": 16.87,
       "slot": "WR"
      },
      {
@@ -509,9 +509,9 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4430737,
-      "points": 13.7,
+      "points": 14.5,
       "pos": "RB",
-      "proj": 15.25,
+      "proj": 15.24,
       "slot": "RB"
      },
      {
@@ -525,7 +525,7 @@
       "playerId": 4426388,
       "points": 0.0,
       "pos": "WR",
-      "proj": 10.27,
+      "proj": 10.28,
       "slot": "FLEX"
      },
      {
@@ -551,9 +551,9 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": -16014,
-      "points": 15.0,
+      "points": 19.0,
       "pos": "D/ST",
-      "proj": 12.39,
+      "proj": 12.5,
       "slot": "D/ST"
      },
      {
@@ -670,8 +670,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 28.7,
-    "projected": 122.29510209,
+    "pointsLive": 33.5,
+    "projected": 125.8894855,
     "teamId": 4
    },
    "home": {
@@ -702,7 +702,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 0.0,
-      "slot": "RB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -814,7 +814,7 @@
       "points": 0.0,
       "pos": "RB",
       "proj": 10.94,
-      "slot": "BE"
+      "slot": "RB"
      },
      {
       "acquisitionType": null,
@@ -897,13 +897,13 @@
       "playerId": 3121023,
       "points": 0.0,
       "pos": "TE",
-      "proj": 6.29,
+      "proj": 6.3,
       "slot": "BE"
      }
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 106.16956434,
+    "projected": 117.10891177,
     "teamId": 8
    },
    "week": 12,
@@ -951,7 +951,7 @@
       "playerId": 4241478,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.59,
+      "proj": 11.6,
       "slot": "BE"
      },
      {
@@ -1139,7 +1139,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 116.57912272,
+    "projected": 116.57918225,
     "teamId": 2
    },
    "home": {
@@ -1169,7 +1169,7 @@
       "playerId": 3043078,
       "points": 0.0,
       "pos": "RB",
-      "proj": 13.43,
+      "proj": 13.44,
       "slot": "RB"
      },
      {
@@ -1225,7 +1225,7 @@
       "playerId": -16007,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 9.41,
+      "proj": 9.45,
       "slot": "D/ST"
      },
      {
@@ -1328,8 +1328,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Tyler Higbee",
       "nfl": "LAR",
       "pctOwned": 0,
@@ -1357,7 +1357,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 102.34942731,
+    "projected": 102.39695205,
     "teamId": 6
    },
    "week": 12,
@@ -1490,7 +1490,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 20.44,
-      "slot": "BE"
+      "slot": "QB"
      },
      {
       "acquisitionType": null,
@@ -1518,7 +1518,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 21.45,
-      "slot": "QB"
+      "slot": "BE"
      },
      {
       "acquisitionType": null,
@@ -1579,7 +1579,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 128.23031913,
+    "projected": 127.2250607,
     "teamId": 11
    },
    "home": {
@@ -1811,7 +1811,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 110.11558809,
+    "projected": 110.1122885,
     "teamId": 7
    },
    "week": 12,
@@ -1901,7 +1901,7 @@
       "playerId": -16034,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 11.38,
+      "proj": 11.29,
       "slot": "D/ST"
      },
      {
@@ -2033,7 +2033,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 122.01955828,
+    "projected": 121.93635968,
     "teamId": 10
    },
    "home": {
@@ -2265,7 +2265,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 100.39793455,
+    "projected": 100.39785192,
     "teamId": 5
    },
    "week": 12,
@@ -2313,7 +2313,7 @@
       "playerId": 4429615,
       "points": 0.0,
       "pos": "WR",
-      "proj": 11.46,
+      "proj": 11.47,
       "slot": "WR"
      },
      {
@@ -2346,8 +2346,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "OUT",
+      "injured": false,
+      "injuryStatus": "QUESTIONABLE",
       "name": "Christian Watson",
       "nfl": "GB",
       "pctOwned": 0,
@@ -2395,7 +2395,7 @@
       "pctOwned": 0,
       "pctStarted": 0,
       "playerId": 4429096,
-      "points": 23.2,
+      "points": 28.5,
       "pos": "RB",
       "proj": 13.01,
       "slot": "FLEX"
@@ -2486,8 +2486,8 @@
      }
     ],
     "points": 0.0,
-    "pointsLive": 37.7,
-    "projected": 138.88743949,
+    "pointsLive": 43.0,
+    "projected": 142.96209014,
     "teamId": 13
    },
    "home": {
@@ -2559,7 +2559,7 @@
       "playerId": 2577417,
       "points": 0.0,
       "pos": "QB",
-      "proj": 23.77,
+      "proj": 23.76,
       "slot": "QB"
      },
      {
@@ -2657,7 +2657,7 @@
       "playerId": -16019,
       "points": 0.0,
       "pos": "D/ST",
-      "proj": 11.48,
+      "proj": 11.39,
       "slot": "D/ST"
      },
      {
@@ -2719,7 +2719,7 @@
     ],
     "points": 0.0,
     "pointsLive": 0.0,
-    "projected": 114.74684841,
+    "projected": 114.65719744,
     "teamId": 1
    },
    "week": 12,
