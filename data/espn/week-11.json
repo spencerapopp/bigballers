@@ -62,8 +62,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Bhayshul Tuten",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -105,7 +105,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Woody Marks",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -749,7 +749,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "Tee Higgins",
       "nfl": "CIN",
       "pctOwned": 0,
@@ -790,8 +790,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Jordan Addison",
       "nfl": "MIN",
       "pctOwned": 0,
@@ -1026,8 +1026,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Brock Purdy",
       "nfl": "SF",
       "pctOwned": 0,
@@ -1411,7 +1411,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Derrick Henry",
       "nfl": "BAL",
       "pctOwned": 0,
@@ -1593,7 +1593,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Dalton Schultz",
       "nfl": "HOU",
       "pctOwned": 0,
@@ -1699,7 +1699,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Isaiah Likely",
       "nfl": "NYG",
       "pctOwned": 0,
@@ -1837,7 +1837,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jaxon Smith-Njigba",
       "nfl": "SEA",
       "pctOwned": 0,
@@ -2375,7 +2375,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Jakobi Meyers",
       "nfl": "JAX",
       "pctOwned": 0,
