@@ -49,7 +49,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "DOUBTFUL",
       "name": "Colston Loveland",
       "nfl": "CHI",
       "pctOwned": 0,
@@ -502,8 +502,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "DOUBTFUL",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "A.J. Brown",
       "nfl": "NE",
       "pctOwned": 0,
@@ -776,8 +776,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Parker Washington",
       "nfl": "JAX",
       "pctOwned": 0,
@@ -860,8 +860,8 @@
      },
      {
       "acquisitionType": null,
-      "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injured": true,
+      "injuryStatus": "OUT",
       "name": "Omar Cooper Jr.",
       "nfl": "NYJ",
       "pctOwned": 0,
