@@ -735,7 +735,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "name": "DeVonta Smith",
       "nfl": "PHI",
       "pctOwned": 0,
@@ -2635,7 +2635,7 @@
      {
       "acquisitionType": null,
       "injured": false,
-      "injuryStatus": "QUESTIONABLE",
+      "injuryStatus": "ACTIVE",
       "name": "Dalton Kincaid",
       "nfl": "BUF",
       "pctOwned": 0,
