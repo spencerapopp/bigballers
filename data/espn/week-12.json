@@ -734,20 +734,6 @@
      },
      {
       "acquisitionType": null,
-      "injured": true,
-      "injuryStatus": "INJURY_RESERVE",
-      "name": "Lamar Jackson",
-      "nfl": "BAL",
-      "pctOwned": 0,
-      "pctStarted": 0,
-      "playerId": 3916387,
-      "points": 0.0,
-      "pos": "QB",
-      "proj": 0.0,
-      "slot": "IR"
-     },
-     {
-      "acquisitionType": null,
       "injured": false,
       "injuryStatus": "ACTIVE",
       "name": "Sam LaPorta",
@@ -772,7 +758,7 @@
       "points": 0.0,
       "pos": "QB",
       "proj": 0.0,
-      "slot": "QB"
+      "slot": "IR"
      },
      {
       "acquisitionType": null,
@@ -899,11 +885,25 @@
       "pos": "TE",
       "proj": 6.3,
       "slot": "BE"
+     },
+     {
+      "acquisitionType": null,
+      "injured": false,
+      "injuryStatus": "ACTIVE",
+      "name": "Mac Jones",
+      "nfl": "SF",
+      "pctOwned": 0,
+      "pctStarted": 0,
+      "playerId": 4241464,
+      "points": 0.0,
+      "pos": "QB",
+      "proj": 17.57,
+      "slot": "QB"
      }
     ],
     "points": 0.0,
     "pointsLive": 22.4,
-    "projected": 86.85731116,
+    "projected": 104.42237706,
     "teamId": 8
    },
    "week": 12,
